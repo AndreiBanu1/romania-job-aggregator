@@ -10,7 +10,7 @@ import time
 import random
 
 sys.path.append(str(Path(__file__).resolve().parent.parent))
-from location_normalizer import english_city
+from backend.scrappers.helpers.location_normalizer import english_city
 
 
 HEADERS = {

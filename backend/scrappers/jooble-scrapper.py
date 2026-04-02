@@ -9,7 +9,7 @@ from pathlib import Path
 import requests
 
 sys.path.append(str(Path(__file__).resolve().parent.parent))
-from location_normalizer import romanian_city, translate_location_with_city_scan
+from backend.scrappers.helpers.location_normalizer import romanian_city, translate_location_with_city_scan
 
 BASE_URL = "https://ro.jooble.org"
 INIT_ENDPOINT = f"{BASE_URL}/api/serp/init"
@@ -120,7 +120,7 @@ def _extract_job(job: dict) -> dict[str, str] | None:
     }
 
 
-def collect_all_jobs(title, location, page_size=25, max_pages=0, mode="loose") -> list[dict[str, str]]:
+def collect_all_jobs(title, location, page_size=25, max_pages=0, mode="loose", cookie=None) -> list[dict[str, str]]:
     location_ro = _to_jooble_romanian_spelling(romanian_city(location))
     session, cookie_header = _bootstrap_session(manual_cookie=cookie)
 

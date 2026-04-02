@@ -1,4 +1,5 @@
 import argparse
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -6,7 +7,12 @@ from pathlib import Path
 
 def _run_command(command: list[str], label: str) -> bool:
     print(f"\n[{label}] Running: {' '.join(command)}")
-    result = subprocess.run(command, capture_output=True, text=True)
+    
+    env = os.environ.copy()
+    project_root = str(Path(__file__).resolve().parent.parent.parent)
+    env["PYTHONPATH"] = project_root + os.pathsep + env.get("PYTHONPATH", "")
+    
+    result = subprocess.run(command, capture_output=True, text=True, env=env)
 
     if result.stdout.strip():
         print(result.stdout.strip())
@@ -52,7 +58,7 @@ def main() -> None:
     args = parser.parse_args()
 
     root_dir = Path(__file__).parent
-    backend_dir = root_dir / "backend" / "scrappers"
+    backend_dir = Path(__file__).resolve().parent
     output_dir = root_dir / args.output_dir
     output_dir.mkdir(parents=True, exist_ok=True)
 

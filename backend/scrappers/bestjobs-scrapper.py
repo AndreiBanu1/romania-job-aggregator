@@ -8,7 +8,7 @@ from pathlib import Path
 
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 
-from location_normalizer import romanian_city, translate_location_with_city_scan
+from backend.scrappers.helpers.location_normalizer import romanian_city, translate_location_with_city_scan
 
 BASE_URL = "https://www.bestjobs.eu"
 NEXT_DATA_PATH = "/_next/data/Vb1XvTC08mtPZ1rJ9l3Mj/locuri-de-munca-in-bucuresti/angular.json"

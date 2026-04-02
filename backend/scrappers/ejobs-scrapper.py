@@ -6,7 +6,7 @@ import sys
 from pathlib import Path
 
 sys.path.append(str(Path(__file__).resolve().parent.parent))
-from location_normalizer import alias_candidates, normalize_text, translate_location_to_english
+from backend.scrappers.helpers.location_normalizer import alias_candidates, normalize_text, translate_location_to_english
 
 BASE_URL = "https://api.ejobs.ro"
 
