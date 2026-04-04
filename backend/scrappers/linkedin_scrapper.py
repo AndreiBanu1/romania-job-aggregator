@@ -1,31 +1,63 @@
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+
+from concurrent.futures import ThreadPoolExecutor
+from backend.scrappers.helpers.location_normalizer import english_city
 import requests
 from bs4 import BeautifulSoup
 import re
 import argparse
 import json
-import sys
-from pathlib import Path
 from urllib.parse import quote_plus
 import time
 import random
-
-sys.path.append(str(Path(__file__).resolve().parent.parent))
-from backend.scrappers.helpers.location_normalizer import english_city
+from typing import Optional
 
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                  "(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.5",
+    "Accept-Encoding": "gzip, deflate",
     "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
 }
+
+RELATED_KEYWORDS = {
+    "react": ["react", "frontend", "javascript", "web developer", "ui"],
+    "angular": ["angular", "frontend", "typescript"],
+    "java": ["java", "spring", "backend"],
+    "python": ["python", "django", "flask"],
+    "software engineer": ["developer", "engineer", "programmer", "it"],
+}
+
+
+def is_relevant(job: dict, keyword: str, mode: str = "loose") -> bool:
+    job_title = job.get("title", "").lower()
+    keyword = keyword.lower()
+
+    if mode == "none":
+        return True
+
+    if mode == "strict":
+        return keyword in job_title
+
+    if mode == "loose":
+        related = RELATED_KEYWORDS.get(keyword, [])
+        return (
+            keyword in job_title
+            or any(term in job_title for term in related)
+        )
+
+    return True
 
 
 # -------------------------------
 # NETWORK LAYER
 # -------------------------------
-def get_listings_html(title: str, location: str, start: int = 0, retries: int = 3) -> str | None:
+def get_listings_html(title: str, location: str, start: int = 0, retries: int = 3):
     encoded_title = quote_plus(title)
     encoded_location = quote_plus(location)
 
@@ -53,7 +85,8 @@ def get_listings_html(title: str, location: str, start: int = 0, retries: int = 
 
         except requests.RequestException as e:
             wait = (attempt + 1) * random.uniform(1, 3)
-            print(f"[LinkedIn] Request failed ({e}). Retrying in {wait:.1f}s...")
+            print(
+                f"[LinkedIn] Request failed ({e}). Retrying in {wait:.1f}s...")
             time.sleep(wait)
 
     print("[LinkedIn] Failed after retries.")
@@ -67,7 +100,7 @@ def _clean_text(value: str) -> str:
     return re.sub(r"\s+", " ", value).strip()
 
 
-def _extract_job_id_from_href(href: str) -> str | None:
+def _extract_job_id_from_href(href: str):
     match = re.search(r"-(\d+)(?:\?|$)", href)
     return match.group(1) if match else None
 
@@ -93,9 +126,12 @@ def extract_jobs_from_html(html: str) -> list[dict[str, str]]:
             or card.select_one("h4.base-search-card__subtitle")
         location_element = card.select_one("span.job-search-card__location")
 
-        job_title = _clean_text(title_element.get_text(" ", strip=True)) if title_element else ""
-        company = _clean_text(company_element.get_text(" ", strip=True)) if company_element else ""
-        location = _clean_text(location_element.get_text(" ", strip=True)) if location_element else ""
+        job_title = _clean_text(title_element.get_text(
+            " ", strip=True)) if title_element else ""
+        company = _clean_text(company_element.get_text(
+            " ", strip=True)) if company_element else ""
+        location = _clean_text(location_element.get_text(
+            " ", strip=True)) if location_element else ""
 
         jobs.append({
             "id": job_id,
@@ -128,7 +164,7 @@ def get_job_description(href: str) -> str:
 # -------------------------------
 # COLLECTION LAYER (NO FILTERING)
 # -------------------------------
-def collect_all_jobs(title: str, location: str, page_size: int = 25, max_pages: int = 0) -> list[dict[str, str]]:
+def collect_all_jobs(title: str, location: str, page_size: int = 25, max_pages: int = 0, mode: str = "loose") -> list[dict[str, str]]:
     start = 0
     page = 0
     seen_ids: set[str] = set()
@@ -148,21 +184,36 @@ def collect_all_jobs(title: str, location: str, page_size: int = 25, max_pages: 
             print("[LinkedIn] No more jobs found.")
             break
 
-        new_jobs = 0
+        new_jobs_batch = []
 
+        # ✅ collect jobs first (NO network calls)
         for job in page_jobs:
             job_id = job["id"]
 
             if job_id in seen_ids:
                 continue
 
+            if not is_relevant(job, title, mode):
+                continue
+
             seen_ids.add(job_id)
 
-            # 🔥 OPTIONAL: enrich with description
-            job["description"] = get_job_description(job["href"])
+            job["description"] = ""  # placeholder
+            new_jobs_batch.append(job)
 
-            all_jobs.append(job)
-            new_jobs += 1
+        # ✅ parallel description fetch
+        def fetch_desc(job):
+            # 🔥 filter BEFORE fetching (huge speed gain)
+            if is_relevant(job, title, mode):
+                job["description"] = get_job_description(job["href"])
+            return job
+
+        with ThreadPoolExecutor(max_workers=5) as executor:
+            enriched_jobs = list(executor.map(fetch_desc, new_jobs_batch))
+
+        all_jobs.extend(enriched_jobs)
+
+        new_jobs = len(new_jobs_batch)
 
         print(f"[LinkedIn] Found {len(page_jobs)} jobs, {new_jobs} new")
 
@@ -171,8 +222,7 @@ def collect_all_jobs(title: str, location: str, page_size: int = 25, max_pages: 
             break
 
         # polite delay
-        sleep_time = random.uniform(1.5, 3.5)
-        time.sleep(sleep_time)
+        time.sleep(random.uniform(1.5, 3.5))
 
         start += page_size
         page += 1
@@ -184,12 +234,16 @@ def collect_all_jobs(title: str, location: str, page_size: int = 25, max_pages: 
 # MAIN
 # -------------------------------
 def main() -> None:
-    parser = argparse.ArgumentParser(description="LinkedIn job listings scraper (UNBIASED)")
-    parser.add_argument("--title", required=True, help="Job title, e.g. 'Software Engineer'")
-    parser.add_argument("--location", required=True, help="Location, e.g. 'Bucharest'")
+    parser = argparse.ArgumentParser(
+        description="LinkedIn job listings scraper (UNBIASED)")
+    parser.add_argument("--title", required=True,
+                        help="Job title, e.g. 'Software Engineer'")
+    parser.add_argument("--location", required=True,
+                        help="Location, e.g. 'Bucharest'")
     parser.add_argument("--page-size", type=int, default=25)
     parser.add_argument("--max-pages", type=int, default=0)
-    parser.add_argument("--output", default="job-results/linkedin-results.json")
+    parser.add_argument(
+        "--output", default="job-results/linkedin-results.json")
 
     args = parser.parse_args()
 

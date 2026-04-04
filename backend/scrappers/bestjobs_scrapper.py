@@ -1,17 +1,18 @@
 import argparse
 import json
+import re
 import time
 import urllib.parse
-import urllib.request
 import sys
 from pathlib import Path
 
-sys.path.append(str(Path(__file__).resolve().parent.parent))
+import requests
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from backend.scrappers.helpers.location_normalizer import romanian_city, translate_location_with_city_scan
 
 BASE_URL = "https://www.bestjobs.eu"
-NEXT_DATA_PATH = "/_next/data/Vb1XvTC08mtPZ1rJ9l3Mj/locuri-de-munca-in-bucuresti/angular.json"
 
 HEADERS = {
     "accept": "*/*",
@@ -29,22 +30,49 @@ def _fetch_jobs_page(
     page_size: int,
     cursor: str | None = None,
 ) -> tuple[list[dict], str | None]:
-    params: list[tuple[str, str]] = [
-        ("keyword", title),
-        ("location[]", location),
+    qs = [
+        ("location", location),
         ("limit", str(page_size)),
     ]
     if cursor:
-        params.append(("cursor", cursor))
+        qs.append(("cursor", cursor))
 
-    query = urllib.parse.urlencode(params, doseq=True)
-    url = f"{BASE_URL}{NEXT_DATA_PATH}?{query}"
+    encoded_title = urllib.parse.quote(title)
+    query = urllib.parse.urlencode(qs)
+    url = f"{BASE_URL}/locuri-de-munca/{encoded_title}?{query}"
 
-    request = urllib.request.Request(url=url, headers=HEADERS, method="GET")
-    with urllib.request.urlopen(request, timeout=30) as response:
-        payload = json.loads(response.read().decode("utf-8"))
+    response = requests.get(url, headers=HEADERS, timeout=30)
+    response.raise_for_status()
+    html = response.text
 
-    cards = payload.get("pageProps", {}).get("jobListCardsFromServer", {})
+    marker = '"jobListCardsFromServer":'
+    start = html.find(marker)
+    if start == -1:
+        return [], None
+
+    start = html.find('{', start)
+    if start == -1:
+        return [], None
+
+    depth = 0
+    end = None
+    for idx in range(start, len(html)):
+        if html[idx] == '{':
+            depth += 1
+        elif html[idx] == '}':
+            depth -= 1
+            if depth == 0:
+                end = idx + 1
+                break
+
+    if end is None:
+        return [], None
+
+    try:
+        cards = json.loads(html[start:end])
+    except json.JSONDecodeError:
+        return [], None
+
     items = cards.get("items", [])
     next_cursor = cards.get("nextCursor")
 

@@ -8,7 +8,7 @@ from pathlib import Path
 
 import requests
 
-sys.path.append(str(Path(__file__).resolve().parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from backend.scrappers.helpers.location_normalizer import romanian_city, translate_location_with_city_scan
 
 BASE_URL = "https://ro.jooble.org"

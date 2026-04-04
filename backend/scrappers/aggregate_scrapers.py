@@ -117,6 +117,23 @@ def count_keywords(jobs):
     return counts
 
 
+def aggregate_jobs(all_jobs_dict: dict[str, list[dict[str, str]]]) -> list[dict[str, str]]:
+    """Aggregate jobs from multiple sources into a single deduplicated list."""
+    all_jobs: list[dict[str, str]] = []
+    
+    for source_name, jobs in all_jobs_dict.items():
+        for job in jobs:
+            if not isinstance(job, dict):
+                continue
+            tagged_job = dict(job)
+            tagged_job["source"] = source_name
+            all_jobs.append(tagged_job)
+    
+    merged_jobs = _dedupe_jobs(all_jobs)
+    sorted_jobs = _sort_jobs(merged_jobs)
+    return sorted_jobs
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Aggregate jobs from multiple scrapers")
     parser.add_argument("--title", required=True, help="Job title, e.g. 'Angular Developer'")

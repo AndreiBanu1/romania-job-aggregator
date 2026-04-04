@@ -4,8 +4,9 @@ import json
 import time
 import sys
 from pathlib import Path
+from typing import Optional, Union
 
-sys.path.append(str(Path(__file__).resolve().parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from backend.scrappers.helpers.location_normalizer import alias_candidates, normalize_text, translate_location_to_english
 
 BASE_URL = "https://api.ejobs.ro"
@@ -22,6 +23,7 @@ RELATED_KEYWORDS = {
     "python": ["python", "django", "flask"],
     "software engineer": ["developer", "engineer", "programmer", "it"],
 }
+
 
 def is_relevant(job: dict, keyword: str, mode: str = "loose") -> bool:
     job_title = job.get("title", "").lower()
@@ -41,6 +43,7 @@ def is_relevant(job: dict, keyword: str, mode: str = "loose") -> bool:
         )
 
     return True
+
 
 def get_locations() -> list[dict]:
     url = f"{BASE_URL}/locations"
@@ -174,6 +177,26 @@ def get_jobs(
     return jobs
 
 
+def collect_all_jobs(title, location, page_size=25, max_pages=0, mode="loose") -> list[dict[str, str]]:
+    locations = get_locations()
+    city_id = _resolve_city_id(location, locations)
+    if city_id is None:
+        available = ", ".join(
+            sorted(location.get("name", "") for location in locations if location.get("name"))[:15]
+        )
+        raise ValueError(
+            f"Unknown location '{location}'. Example valid values: {available}"
+        )
+
+    return get_jobs(
+        city_id=city_id,
+        keyword=title,
+        page_size=page_size,
+        max_pages=max_pages,
+        mode=mode,
+    )
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="eJobs job listings scraper")
     parser.add_argument("--title", required=True, help="Job title, e.g. 'Angular Developer'")
@@ -182,18 +205,22 @@ if __name__ == "__main__":
     parser.add_argument("--max-pages", type=int, default=0, help="Max pages to fetch (0 = no limit)")
     parser.add_argument("--output", default="job-results/ejobs-results.json", help="Output JSON file path")
     parser.add_argument(
-    "--mode",
-    choices=["strict", "loose", "none"],
-    default="loose",
-    help="Filtering mode"
-)
+        "--mode",
+        choices=["strict", "loose", "none"],
+        default="loose",
+        help="Filtering mode"
+    )
     args = parser.parse_args()
 
     locations = get_locations()
     city_id = _resolve_city_id(args.location, locations)
     if city_id is None:
-        available = ", ".join(sorted(location.get("name", "") for location in locations if location.get("name"))[:15])
-        raise ValueError(f"Unknown location '{args.location}'. Example valid values: {available}")
+        available = ", ".join(
+            sorted(location.get("name", "") for location in locations if location.get("name"))[:15]
+        )
+        raise ValueError(
+            f"Unknown location '{args.location}'. Example valid values: {available}"
+        )
 
     jobs = get_jobs(
         city_id=city_id,

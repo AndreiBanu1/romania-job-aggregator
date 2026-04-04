@@ -1,28 +1,63 @@
 ```bash
-python run-all-scrapers.py --title Angular --location Bucharest --page-size 25 --max-pages 0 --prefix jobs-test
+source .venv/bin/activate
+python -m backend.scrappers.unified_scrapper --title "Angular" --location "Bucharest" --mode "strict" --output "job-results/jobs-angular.json"
 ```
 
-If Jooble returns `403`, pass your browser cookie:
+If `jooble` returns `403`, pass a valid browser cookie:
 
 ```bash
-python run-all-scrapers.py --title Angular --location Bucharest --page-size 25 --max-pages 0 --prefix jobs-test --jooble-cookie "<PASTE_BROWSER_COOKIE_HERE>"
+source .venv/bin/activate
+python -m backend.scrappers.jooble_scrapper \
+  --title "Angular" \
+  --location "Bucharest" \
+  --page-size 25 \
+  --max-pages 0 \
+  --cookie "<PASTE_BROWSER_COOKIE_HERE>" \
+  --output backend/scrappers/job-results/test-jooble.json
+```
+
+Individual scraper commands:
+
+```bash
+source .venv/bin/activate
+python -m backend.scrappers.linkedin_scrapper \
+  --title "Angular" \
+  --location "Bucharest" \
+  --page-size 25 \
+  --max-pages 0 \
+  --output backend/scrappers/job-results/test-linkedin.json
+
+python -m backend.scrappers.ejobs_scrapper \
+  --title "Angular" \
+  --location "Bucharest" \
+  --page-size 25 \
+  --max-pages 0 \
+  --output backend/scrappers/job-results/test-ejobs.json
+
+python -m backend.scrappers.bestjobs_scrapper \
+  --title "Angular" \
+  --location "Bucharest" \
+  --page-size 25 \
+  --max-pages 0 \
+  --output backend/scrappers/job-results/test-bestjobs.json
 ```
 
 Generated files:
-- `job-results/jobs-test-linkedin.json`
-- `job-results/jobs-test-ejobs.json`
-- `job-results/jobs-test-bestjobs.json`
-- `job-results/jobs-test-jooble.json`
-- `job-results/jobs-test-aggregated.json`
+- `backend/scrappers/job-results/jobs-test-unified.json`
+- `backend/scrappers/job-results/test-linkedin.json`
+- `backend/scrappers/job-results/test-ejobs.json`
+- `backend/scrappers/job-results/test-bestjobs.json`
+- `backend/scrappers/job-results/test-jooble.json`
 
-Update:
+Optional analysis flow:
 
-Run first: 
 ```bash
-python run-all-scrapers.py --title "Software Engineer" --location "Bucharest" --mode none
-```
+source .venv/bin/activate
+python -m backend.scrappers.unified_scrapper \
+  --title "Software Engineer" \
+  --location "Bucharest" \
+  --mode none \
+  --output backend/scrappers/job-results/jobs-aggregated.json
 
-then: 
-```bash
-python analyze_jobs.py --input job-results/jobs-aggregated.json
+python backend/scrappers/helpers/analyze_jobs.py --input backend/scrappers/job-results/jobs-aggregated.json
 ```
