@@ -1,5 +1,5 @@
 # ----------------------
-# Python
+# Python (unchanged)
 # ----------------------
 .venv/
 __pycache__/
@@ -24,28 +24,39 @@ dist/
 .pyre/
 .pytype/
 
-# VSCode / IDEs
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
 # ----------------------
-# Node / Frontend
+# Angular / Frontend
 # ----------------------
 node_modules/
-.next/
 dist/
-out/
+.angular/
+.cache/
+.tmp/
+temp/
+
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+
+# Environment files
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Angular environment configs (optional — only if you DON'T want them in repo)
+# src/environments/*.ts
+
+# ----------------------
+# IDEs / Editors
+# ----------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
 
 # ----------------------
 # Job Results / Generated data
