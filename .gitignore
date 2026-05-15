@@ -28,7 +28,6 @@ dist/
 # Angular / Frontend
 # ----------------------
 node_modules/
-dist/
 .angular/
 .cache/
 .tmp/

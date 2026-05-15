@@ -3,6 +3,7 @@ import json
 import subprocess
 import sys
 import tempfile
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 
@@ -145,33 +146,42 @@ def main() -> None:
 
     backend_dir = Path(__file__).parent
     scrapers = [
-        ("linkedin", backend_dir / "linkedin-scrapper.py"),
-        ("ejobs", backend_dir / "ejobs-scrapper.py"),
-        ("bestjobs", backend_dir / "bestjobs-scrapper.py"),
-        ("jooble", backend_dir / "jooble-scrapper.py"),
+        ("linkedin", backend_dir / "linkedin_scrapper.py"),
+        ("ejobs", backend_dir / "ejobs_scrapper.py"),
+        ("bestjobs", backend_dir / "bestjobs_scrapper.py"),
     ]
 
-    all_jobs: list[dict[str, str]] = []
-    for source_name, scraper_path in scrapers:
-        if not scraper_path.exists():
-            print(f"Skipping missing scraper: {scraper_path.name}")
-            continue
+    available_scrapers = [
+        (name, path) for name, path in scrapers if path.exists()
+    ]
+    for name, path in scrapers:
+        if not path.exists():
+            print(f"Skipping missing scraper: {path.name}")
 
-        try:
-            jobs = _run_scraper(
-                scraper_path=scraper_path,
-                source_name=source_name,
+    all_jobs: list[dict[str, str]] = []
+    with ThreadPoolExecutor(max_workers=len(available_scrapers) or 1) as executor:
+        future_to_source = {
+            executor.submit(
+                _run_scraper,
+                scraper_path=path,
+                source_name=name,
                 title=args.title,
                 location=args.location,
                 page_size=args.page_size,
                 max_pages=args.max_pages,
-            )
-            all_jobs.extend(jobs)
-        except subprocess.CalledProcessError as error:
-            stderr = error.stderr.strip() if error.stderr else ""
-            print(f"Scraper failed: {scraper_path.name}")
-            if stderr:
-                print(stderr)
+            ): (name, path)
+            for name, path in available_scrapers
+        }
+
+        for future in as_completed(future_to_source):
+            source_name, scraper_path = future_to_source[future]
+            try:
+                all_jobs.extend(future.result())
+            except subprocess.CalledProcessError as error:
+                stderr = error.stderr.strip() if error.stderr else ""
+                print(f"Scraper failed: {scraper_path.name}")
+                if stderr:
+                    print(stderr)
 
     merged_jobs = _dedupe_jobs(all_jobs)
     sorted_jobs = _sort_jobs(merged_jobs)

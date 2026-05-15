@@ -3,7 +3,6 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
-from concurrent.futures import ThreadPoolExecutor
 from backend.scrappers.helpers.location_normalizer import english_city
 import requests
 from bs4 import BeautifulSoup
@@ -13,7 +12,6 @@ import json
 from urllib.parse import quote_plus
 import time
 import random
-from typing import Optional
 
 
 HEADERS = {
@@ -146,22 +144,6 @@ def extract_jobs_from_html(html: str) -> list[dict[str, str]]:
 
 
 # -------------------------------
-# OPTIONAL: JOB DESCRIPTION (DISABLED FOR NOW)
-# -------------------------------
-# ⚠️ This is powerful but slower + more detectable
-# Enable later when needed
-
-def get_job_description(href: str) -> str:
-    try:
-        response = requests.get(href, headers=HEADERS, timeout=20)
-        soup = BeautifulSoup(response.text, "html.parser")
-        desc = soup.select_one(".description__text")
-        return desc.get_text(" ", strip=True) if desc else ""
-    except:
-        return ""
-
-
-# -------------------------------
 # COLLECTION LAYER (NO FILTERING)
 # -------------------------------
 def collect_all_jobs(title: str, location: str, page_size: int = 25, max_pages: int = 0, mode: str = "loose") -> list[dict[str, str]]:
@@ -186,7 +168,6 @@ def collect_all_jobs(title: str, location: str, page_size: int = 25, max_pages: 
 
         new_jobs_batch = []
 
-        # ✅ collect jobs first (NO network calls)
         for job in page_jobs:
             job_id = job["id"]
 
@@ -197,21 +178,9 @@ def collect_all_jobs(title: str, location: str, page_size: int = 25, max_pages: 
                 continue
 
             seen_ids.add(job_id)
-
-            job["description"] = ""  # placeholder
             new_jobs_batch.append(job)
 
-        # ✅ parallel description fetch
-        def fetch_desc(job):
-            # 🔥 filter BEFORE fetching (huge speed gain)
-            if is_relevant(job, title, mode):
-                job["description"] = get_job_description(job["href"])
-            return job
-
-        with ThreadPoolExecutor(max_workers=5) as executor:
-            enriched_jobs = list(executor.map(fetch_desc, new_jobs_batch))
-
-        all_jobs.extend(enriched_jobs)
+        all_jobs.extend(new_jobs_batch)
 
         new_jobs = len(new_jobs_batch)
 
