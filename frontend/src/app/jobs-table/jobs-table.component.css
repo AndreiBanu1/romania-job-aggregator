@@ -1,22 +1,70 @@
-.spinner {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    padding: 1rem;
-    font-style: italic;
-    color: #666;
-  }
+.table-wrapper {
+  margin: 1rem 2rem 2rem;
+  border-radius: 8px;
+  background: #fff;
+  overflow-x: auto;
+}
 
-  .spinner::before {
-    content: '';
-    width: 1.25rem;
-    height: 1.25rem;
-    border: 3px solid #ddd;
-    border-top-color: #3b82f6;
-    border-radius: 50%;
-    animation: spin 0.8s linear infinite;
-  }
+table {
+  width: auto !important; /* size to content */
+}
 
-  @keyframes spin {
-    to { transform: rotate(360deg); }
-  }
+.mat-column-href {
+  width: 100px;
+  padding-left: 0.5rem;
+}
+
+/* tighter cell spacing */
+th.mat-mdc-header-cell,
+td.mat-mdc-cell {
+  padding: 0.5rem 0.75rem;
+}
+
+/* header styling */
+th.mat-mdc-header-cell {
+  background: #f5f7fa;
+  color: #374151;
+  font-weight: 600;
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-bottom: 2px solid #e5e7eb;
+  white-space: nowrap;
+}
+
+/* row hover */
+tr.mat-mdc-row:hover {
+  background: #f9fafb;
+}
+
+/* shrink the source chip a bit */
+mat-chip {
+  font-size: 0.75rem !important;
+  min-height: 24px !important;
+  padding: 0 0.6rem !important;
+}
+
+/* state (loading / empty) */
+.state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 3rem 1rem;
+  color: #6b7280;
+}
+
+.state mat-icon {
+  font-size: 48px;
+  width: 48px;
+  height: 48px;
+  opacity: 0.5;
+}
+
+.link-icon {
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-left: 2px;
+}
