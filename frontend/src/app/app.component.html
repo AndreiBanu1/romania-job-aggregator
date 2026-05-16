@@ -1,11 +1,11 @@
-<h1>{{title}}</h1>
-<input type="text" placeholder="Search for jobs..." />
-<select>
+<h1>{{ title }}</h1>
+<input #titleInput type="text" placeholder="Search for jobs..." />
+<select #citySelect>
   @for (city of cities; track city) {
-    <option [value]="city">{{city}}</option>
+    <option [value]="city">{{ city }}</option>
   }
 </select>
-<button type="submit" (click)="onSearch()">Search</button>
-@if (showJobsTable) {
-  <app-jobs-table></app-jobs-table>
-}
+<button type="submit" (click)="onSearch(titleInput.value, citySelect.value)">
+  Search
+</button>
+<app-jobs-table />

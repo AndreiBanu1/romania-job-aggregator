@@ -1,22 +1,28 @@
-<table>
-    <thead>
-        <tr>
-        <th>Job Title</th>
-        <th>Company</th>
-        <th>Location</th>
-        <th>Posted Date</th>
-        <th>URL</th>
-        </tr>
-    </thead>
-    <tbody>
-        <!-- Example job listing -->
-        <tr>
-        <td>Software Engineer</td>
-        <td>Tech Company</td>
-        <td>Bucharest</td>
-        <td>2024-06-01</td>
-        <td><a href="https://example.com/job/1" target="_blank">View Job</a></td>
-        </tr>
-        <!-- More job listings will go here -->
-    </tbody>
-</table>
+@if (loading()) {
+    <div class="spinner">Searching...</div>
+} @else if (jobs().length === 0) {
+    <div class="no-results">No results found.</div>
+} @else {
+    <table>
+        <thead>
+            <tr>
+                <th>Job Title</th>
+                <th>Company</th>
+                <th>Location</th>
+                <th>Source</th>  
+                <th>URL</th>  
+            </tr>
+        </thead>
+        <tbody>
+            @for (job of jobs(); track job.href) {
+                <tr>
+                    <td>{{ job.title }}</td>
+                    <td>{{ job.company }}</td>
+                    <td>{{ job.location }}</td>
+                    <td>{{ job.source }}</td>
+                    <td><a href="{{ job.href }}" target="_blank">View Job</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

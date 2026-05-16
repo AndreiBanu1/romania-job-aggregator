@@ -6,23 +6,24 @@ const app = express()
 const PORT = 3000
 
 app.use(require('cors')())
+app.use(express.json())
 
 const path = require('path')
 const citiesPath = path.join(__dirname, 'scrappers', 'romanian_cities.json')
 const cities = JSON.parse(fs.readFileSync(citiesPath, 'utf8'))
 
-app.get('/jobs', (req, res) => {
-  const { title, location } = req.query
+app.post('/jobs', (req, res) => {
+  const { title, city } = req.body
+
+  const scriptPath = path.join(__dirname, 'scrappers', 'aggregate_scrappers.py')
+  const outputPath = path.join(__dirname, '..', 'job-results', 'temp-aggregated.json')
 
   exec(
-    `python3 backend/run-all-scrapers.py --title "${title}" --location "${location}" --page-size 25 --max-pages 0 --prefix temp`,
+    `python3 "${scriptPath}" --title "${title}" --location "${city}" --page-size 25 --max-pages 0 --output "${outputPath}"`,
     (err, stdout, stderr) => {
-      if (err) {
-        return res.status(500).json({ error: stderr })
-      }
+      if (err) return res.status(500).json({ error: stderr })
 
-      const filePath = path.join(__dirname, 'job-results', 'temp-aggregated.json')
-      fs.readFile(filePath, 'utf8', (err, data) => {
+      fs.readFile(outputPath, 'utf8', (err, data) => {
         if (err) return res.status(500).json({ error: 'Failed to read JSON' })
         res.json(JSON.parse(data))
       })

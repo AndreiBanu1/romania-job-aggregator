@@ -1,6 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { JobsTableComponent } from "./jobs-table/jobs-table.component";
 import { HttpClient } from "@angular/common/http";
+import { JobsService } from "./jobs.service";
 
 @Component({
   selector: "app-root",
@@ -11,9 +12,11 @@ import { HttpClient } from "@angular/common/http";
 export class AppComponent implements OnInit {
   title = "Find Your Job";
   cities: string[] = [];
-  showJobsTable = false;
 
-  constructor(private http: HttpClient) {}
+  constructor(
+    private http: HttpClient,
+    private jobsService: JobsService,
+  ) {}
 
   ngOnInit() {
     this.http
@@ -23,7 +26,7 @@ export class AppComponent implements OnInit {
       });
   }
 
-  onSearch() {
-    this.showJobsTable = true;
+  onSearch(title: string, city: string) {
+    this.jobsService.search(title, city);
   }
 }

@@ -9,7 +9,7 @@ from .linkedin_scrapper import collect_all_jobs as linkedin_jobs, is_relevant
 # from .ejobs_scrapper import collect_all_jobs as ejobs_jobs
 # from .bestjobs_scrapper import collect_all_jobs as bestjobs_jobs
 # from .jooble_scrapper import collect_all_jobs as jooble_jobs
-from .aggregate_scrapers import aggregate_jobs
+from .aggregate_scrappers import aggregate_jobs
 
 
 def fetch_descriptions(jobs, title_filter=None, max_workers=5, mode="loose"):

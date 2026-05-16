@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { JobsService } from '../jobs.service';
 
 @Component({
   selector: 'app-jobs-table',
@@ -7,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './jobs-table.component.css',
 })
 export class JobsTableComponent {
+  private jobsService = inject(JobsService);
 
+  jobs = this.jobsService.jobs;
+  loading = this.jobsService.loading;
 }
