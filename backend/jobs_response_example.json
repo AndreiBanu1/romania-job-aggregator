@@ -1,13 +1,125 @@
 {
-  "total_jobs_found": 38,
-  "sources_summary": { "bestjobs": 38 },
+  "total_jobs_found": 116,
+  "sources_summary": { "bestjobs": 107, "linkedin": 9 },
   "jobs": [
+    {
+      "id": "52003125",
+      "company": "EveryMatrix",
+      "title": ".NET developer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/net-developer-743/52003125",
+      "source": "bestjobs"
+    },
+    {
+      "id": "51917584",
+      "company": "Smart ID Technology",
+      "title": ".Net Full Stack Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/net-full-stack-developer-18/51917584",
+      "source": "bestjobs"
+    },
+    {
+      "id": "51853149",
+      "company": "Centrico Selir - Gruppo Banca Sella Italia",
+      "title": "Analist - Programator (junior / middle / senior)",
+      "location": "Remote",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/analist-programator-junior-middle-senior-48/51853149",
+      "source": "bestjobs"
+    },
     {
       "id": "52014527",
       "company": "Homefile.ro",
       "title": "Angular Nodejs web / mobile developer",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/angular-nodejs-web-mobile-developer-1/52014527",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52007466",
+      "company": "Black Square",
+      "title": "Automation Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/automation-developer-12/52007466",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52015991",
+      "company": "ORANGE SERVICES",
+      "title": "Automation Developer with UiPath RPA & Agentic AI",
+      "location": "Bucharest, Romania",
+      "href": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=b6ae24389f98440a9984eb04f7e90e3c",
+      "source": "bestjobs"
+    },
+    {
+      "id": "51997685",
+      "company": "UNIGENS",
+      "title": "Back-End Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/back-end-developer-106/51997685",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52013372",
+      "company": "THEFACTORY",
+      "title": "Back-end developer (PHP / Laravel)",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/back-end-developer-php-laravel-1/52013372",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52015847",
+      "company": "Global Hr Services",
+      "title": "Backend Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/backend-developer-139/52015847",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52012172",
+      "company": "Lundin Software",
+      "title": "C# Software Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/c-software-developer-174/52012172",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52014855",
+      "company": "Cegedim Service Center",
+      "title": "Consultant HRIS",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/consultant-hris-20/52014855",
+      "source": "bestjobs"
+    },
+    {
+      "id": "51887125",
+      "company": "WIZROM SOFTWARE",
+      "title": "Consultant tehnic suport",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/consultant-tehnic-suport/51887125",
+      "source": "bestjobs"
+    },
+    {
+      "id": "51863889",
+      "company": "NMC STIL DISTRIBUTION",
+      "title": "CTO-Chief Tehnology officer",
+      "location": "Remote",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/cto-chief-tehnology-officer/51863889",
+      "source": "bestjobs"
+    },
+    {
+      "id": "51997290",
+      "company": "Meet IT Solution",
+      "title": "Data Integration Engineer",
+      "location": "Remote",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/data-integration-engineer-4/51997290",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52016995",
+      "company": "CERTSIGN",
+      "title": "Dezv. Software Fullstack Senior (Java&Angular)",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/dezv-software-fullstack-senior-java-angular-1/52016995",
       "source": "bestjobs"
     },
     {
@@ -19,11 +131,35 @@
       "source": "bestjobs"
     },
     {
+      "id": "52007033",
+      "company": "Regia Autonoma RASIROM",
+      "title": "Dezvoltator Backend",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/dezvoltator-backend/52007033",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52007035",
+      "company": "Regia Autonoma RASIROM",
+      "title": "Dezvoltator Frontend",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/dezvoltator-frontend/52007035",
+      "source": "bestjobs"
+    },
+    {
       "id": "51992262",
       "company": "WIMMOV",
       "title": "Dezvoltator Fullstack TypeScript (NestJS / React)",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/dezvoltator-fullstack-typescript-nestjs-react/51992262",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52007281",
+      "company": "Regia Autonoma RASIROM",
+      "title": "Dezvoltator Mobile",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/dezvoltator-mobile/52007281",
       "source": "bestjobs"
     },
     {
@@ -51,6 +187,30 @@
       "source": "bestjobs"
     },
     {
+      "id": "52016470",
+      "company": "Wittmann",
+      "title": "Front-End .NET Software Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/front-end-net-software-developer-3/52016470",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52014578",
+      "company": "UNIGENS",
+      "title": "Front-End Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/front-end-developer-551/52014578",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52013371",
+      "company": "THEFACTORY",
+      "title": "Front-end developer (middle)",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/front-end-developer-middle-2/52013371",
+      "source": "bestjobs"
+    },
+    {
       "id": "52010048",
       "company": "C4Media",
       "title": "Frontend Developer",
@@ -64,6 +224,14 @@
       "title": "Frontend Developer",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/frontend-developer-384/52016005",
+      "source": "bestjobs"
+    },
+    {
+      "id": "51867518",
+      "company": "iRestore",
+      "title": "Frontend Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/frontend-developer-367/51867518",
       "source": "bestjobs"
     },
     {
@@ -91,6 +259,30 @@
       "source": "bestjobs"
     },
     {
+      "id": "52013439",
+      "company": "Procter Gamble / PG",
+      "title": "Frontend Software Engineer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/frontend-software-engineer-13/52013439",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52007150",
+      "company": "I-CEPA",
+      "title": "Full stack developer",
+      "location": "Strada Gara Herăstrău 2, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-software-engineer-cloud-ai/52007150",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52013720",
+      "company": "FAN COURIER EXPRESS",
+      "title": "Full Stack Developer (.NET Core & Windows Forms)",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-developer-net-core-windows-forms/52013720",
+      "source": "bestjobs"
+    },
+    {
       "id": "52009678",
       "company": "Societatea de Inforenergetic Centru Vest",
       "title": "Full Stack Developer (PHP)",
@@ -107,11 +299,59 @@
       "source": "bestjobs"
     },
     {
+      "id": "52010769",
+      "company": "Remote Marketing",
+      "title": "Full Stack PHP Developer (Senior)",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-php-developer-senior-1/52010769",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52012342",
+      "company": "FAN COURIER EXPRESS",
+      "title": "Full Stack Software Developer Android/.NET Core",
+      "location": "Şoseaua Fabrica de glucoza",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-software-developer-android-net-core-2/52012342",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52013448",
+      "company": "Aroa Agency",
+      "title": "Full-Stack AI Engineer (Automation & Systems)",
+      "location": "Bucharest",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-ai-engineer-automation-systems-1/52013448",
+      "source": "bestjobs"
+    },
+    {
       "id": "52004757",
       "company": "Gi Group Staffing Company",
       "title": "FULL-STACK DEVELOPER",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-developer-534/52004757",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52002923",
+      "company": "Knowledge Design Unit",
+      "title": "Full-Stack Developer (.NET & Angular)",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-developer-net-angular-5/52002923",
+      "source": "bestjobs"
+    },
+    {
+      "id": "51753188",
+      "company": "AVITECH",
+      "title": "Full-Stack Developer (C#/.NET and Angular)",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-developer-c-net-and-angular/51753188",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52013350",
+      "company": "I-Tom Solutions",
+      "title": "Fullstack Developer (React / Next.js + .NET)",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/fullstack-developer-react-next-js-net-1/52013350",
       "source": "bestjobs"
     },
     {
@@ -139,11 +379,43 @@
       "source": "bestjobs"
     },
     {
+      "id": "52013626",
+      "company": "VirtusLab",
+      "title": "IDE Engineer (Senior/Staff)",
+      "location": "Remote",
+      "href": "https://careers.virtuslab.com/job-offer/ide-engineer-senior/?source=bestjobs.eu",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52007519",
+      "company": "Regia Autonoma RASIROM",
+      "title": "IT Business Analyst",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/it-business-analyst-155/52007519",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52013444",
+      "company": "Procter Gamble / PG",
+      "title": "IT Software Engineer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/it-software-engineer-8/52013444",
+      "source": "bestjobs"
+    },
+    {
       "id": "51689137",
       "company": "NLIGHT MEDIA CREATIVE",
       "title": "Java developer",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/java-developer-1152/51689137",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52014692",
+      "company": "REPLAY DEVELOPMENT",
+      "title": "Java developer",
+      "location": "Remote",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/java-developer-1190/52014692",
       "source": "bestjobs"
     },
     {
@@ -155,6 +427,30 @@
       "source": "bestjobs"
     },
     {
+      "id": "52013659",
+      "company": "Moscu",
+      "title": "Java Developer / Integration Consultant",
+      "location": "Remote",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/java-developer-integration-consultant-2/52013659",
+      "source": "bestjobs"
+    },
+    {
+      "id": "51681943",
+      "company": "Neural Grader",
+      "title": "Java developer / Java programmer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/java-developer-java-programmer-3/51681943",
+      "source": "bestjobs"
+    },
+    {
+      "id": "51962428",
+      "company": "RAI Software",
+      "title": "Java, Golang or Rust Senior Software Developers",
+      "location": "Strada Traian 234, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/java-golang-or-rust-senior-software-developers-4/51962428",
+      "source": "bestjobs"
+    },
+    {
       "id": "52015902",
       "company": "Leap Tools . (Canada)",
       "title": "JavaScript Developer",
@@ -163,11 +459,51 @@
       "source": "bestjobs"
     },
     {
+      "id": "51838258",
+      "company": "GSH ONLINE MEDIA",
+      "title": "Junior Automation Specialist",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/junior-automation-specialist/51838258",
+      "source": "bestjobs"
+    },
+    {
+      "id": "51959367",
+      "company": "Syscom Digital",
+      "title": "Junior developer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/junior-developer-39/51959367",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52007410",
+      "company": "Porsche Group",
+      "title": "Junior RPA Developer (UiPath) (f/m/d)",
+      "location": "Voluntari, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/junior-rpa-developer-uipath-f-m-d/52007410",
+      "source": "bestjobs"
+    },
+    {
       "id": "51906465",
       "company": "Teambase",
       "title": "Junior/Middle Full Stack ASP.NET Developer",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/junior-middle-full-stack-asp-net-developer/51906465",
+      "source": "bestjobs"
+    },
+    {
+      "id": "51944834",
+      "company": "EveryMatrix",
+      "title": "Middle .NET Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/middle-net-developer-12/51944834",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52006646",
+      "company": "PEOPLE POINT",
+      "title": "Mobile App Developer - React Native",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/mobile-app-developer-react-native-2/52006646",
       "source": "bestjobs"
     },
     {
@@ -187,6 +523,38 @@
       "source": "bestjobs"
     },
     {
+      "id": "52008038",
+      "company": "Nova Industrial",
+      "title": "Programator C# / .NET",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/programator-c-net-8/52008038",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52012719",
+      "company": "Magister Software",
+      "title": "Programator Delphi Mid-Level",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/programator-delphi-mid-level-3/52012719",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52016091",
+      "company": "Cyber_Folks",
+      "title": "Programator PHP",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/programator-php-207/52016091",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52013131",
+      "company": "WIZROM SOFTWARE",
+      "title": "Programator PHP",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/programator-php-205/52013131",
+      "source": "bestjobs"
+    },
+    {
       "id": "52003738",
       "company": "BitAP IT Services",
       "title": "Programator React/NextJS și NestJS – B2B",
@@ -198,8 +566,48 @@
       "id": "52015938",
       "company": "SOCIETATEA DE TRANSFER DE FONDURI SI DECONTARI TRANSFOND",
       "title": "PROGRAMATOR SENIOR",
-      "location": "Brasov, Romania",
+      "location": "Bucharest",
       "href": "https://www.transfond.ro/pdf/NOT%C4%82%20DE%20INFORMARE%20PRIVIND%20DATELE%20CU%20CARACTER%20PERSONAL%20PROCES%20RECRUTARE.pdf",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52004323",
+      "company": "RADCOM",
+      "title": "Programator Senior Java",
+      "location": "Bucharest",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/programator-senior-java-1/52004323",
+      "source": "bestjobs"
+    },
+    {
+      "id": "51821751",
+      "company": "Ascendia",
+      "title": "Programator Senior NodeJS (BE)",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/programator-senior-nodejs-be/51821751",
+      "source": "bestjobs"
+    },
+    {
+      "id": "51782142",
+      "company": "RADCOM",
+      "title": "Programator Senior PHP & Full Stack Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/programator-senior-php-full-stack-developer/51782142",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52002570",
+      "company": "Swiro",
+      "title": "Programator software",
+      "location": "Bucharest",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/programator-software-6/52002570",
+      "source": "bestjobs"
+    },
+    {
+      "id": "51681374",
+      "company": "FINTECH IT C",
+      "title": "QA Software Engineer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/qa-software-engineer-13/51681374",
       "source": "bestjobs"
     },
     {
@@ -219,11 +627,35 @@
       "source": "bestjobs"
     },
     {
+      "id": "52016258",
+      "company": "INFINITY CLOUD TECHNOLOGIES",
+      "title": "Senior Backend JAVA Engineer – Fintech",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-backend-java-engineer-fintech/52016258",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52008837",
+      "company": "HORIZON TECHVISION",
+      "title": "Senior Full Stack Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-full-stack-developer-92/52008837",
+      "source": "bestjobs"
+    },
+    {
       "id": "51916478",
       "company": "Deploy Staff",
       "title": "Senior Full Stack Team Lead",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/senior-full-stack-team-lead/51916478",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52007843",
+      "company": "Ppc",
+      "title": "Senior Java Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://ppc.jobful.io/company/ppc-energy/jobs/senior-java-developer",
       "source": "bestjobs"
     },
     {
@@ -235,11 +667,51 @@
       "source": "bestjobs"
     },
     {
+      "id": "52012157",
+      "company": "PROPTECH INDUSTRY",
+      "title": "Senior Kotlin Engineer (Android Frontend)",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-kotlin-engineer-android-frontend-1/52012157",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52015179",
+      "company": "Orange",
+      "title": "Senior ServiceNow Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=cf71003265514b808e0fe8f450fb11cc",
+      "source": "bestjobs"
+    },
+    {
+      "id": "51716090",
+      "company": "BunnyShell",
+      "title": "Senior Software Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-software-developer-121/51716090",
+      "source": "bestjobs"
+    },
+    {
+      "id": "51713807",
+      "company": "BunnyShell (Bucuresti)",
+      "title": "Senior software developer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-software-developer-120/51713807",
+      "source": "bestjobs"
+    },
+    {
       "id": "51833820",
       "company": "SPD Technology",
       "title": "Senior software developer",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/senior-software-developer-129/51833820",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52015188",
+      "company": "Orange",
+      "title": "ServiceNow Solution Team Leader",
+      "location": "Bucharest, Romania",
+      "href": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=435d3def0a8040f8b638613277eaa3f6",
       "source": "bestjobs"
     },
     {
@@ -259,6 +731,22 @@
       "source": "bestjobs"
     },
     {
+      "id": "52011044",
+      "company": "Romflex Sistem",
+      "title": "Software Developer",
+      "location": "Bucharest",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/software-developer-858/52011044",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52003231",
+      "company": "SOLO.Fintech",
+      "title": "Software Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/software-developer-854/52003231",
+      "source": "bestjobs"
+    },
+    {
       "id": "51715804",
       "company": "StonikByte",
       "title": "Software Developer (React, Java, Node.js)",
@@ -267,11 +755,35 @@
       "source": "bestjobs"
     },
     {
+      "id": "52014859",
+      "company": "AMANO EUROPE NV, Genk - Bucharest Branch",
+      "title": "Software developer/C++/Linux",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/software-developer-c-web-3/52014859",
+      "source": "bestjobs"
+    },
+    {
       "id": "51683156",
       "company": "GDRomania",
       "title": "Software Development Intern",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/software-development-intern-3/51683156",
+      "source": "bestjobs"
+    },
+    {
+      "id": "51886473",
+      "company": "FINTECH IT C",
+      "title": "Software Engineer .net core, angular",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/software-engineer-net-core-angular-7/51886473",
+      "source": "bestjobs"
+    },
+    {
+      "id": "51983131",
+      "company": "Soft Net Consulting",
+      "title": "SQL Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/sql-developer-92/51983131",
       "source": "bestjobs"
     },
     {
@@ -291,11 +803,35 @@
       "source": "bestjobs"
     },
     {
+      "id": "52007616",
+      "company": "Regia Autonoma RASIROM",
+      "title": "Technical Lead Business Analyst",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/technical-lead-business-analyst/52007616",
+      "source": "bestjobs"
+    },
+    {
       "id": "52017733",
       "company": "Affinitext",
       "title": "Technical Product Lead — AI-Augmented Development",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/technical-product-lead-ai-augmented-development/52017733",
+      "source": "bestjobs"
+    },
+    {
+      "id": "52016991",
+      "company": "Devanda-Creativ",
+      "title": "Web Designer & Developer / Specialist WordPress",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/web-designer-developer-specialist-wordpress/52016991",
+      "source": "bestjobs"
+    },
+    {
+      "id": "51895818",
+      "company": "ADERA PRO DATA",
+      "title": "WEB Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/web-developer-799/51895818",
       "source": "bestjobs"
     },
     {
@@ -305,6 +841,94 @@
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/web-developer-php-18/52006953",
       "source": "bestjobs"
+    },
+    {
+      "id": "51740987",
+      "company": "Click2Leads.com",
+      "title": "Web Ops Specialist (All-rounder Wanted!)",
+      "location": "Bucharest",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/web-ops-specialist-all-rounder-wanted/51740987",
+      "source": "bestjobs"
+    },
+    {
+      "id": "51897560",
+      "company": "Swicon IT Services",
+      "title": "Workday Design & Implementation Specialist",
+      "location": "Remote",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/workday-design-implementation-specialist/51897560",
+      "source": "bestjobs"
+    },
+    {
+      "id": "4392515160",
+      "company": "OPEN",
+      "title": "Angular Developer with French",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/angular-developer-with-french-at-open-4392515160?position=3&pageNum=5&refId=PnfR4CY5nLFFtF%2FaeKLxdw%3D%3D&trackingId=P67%2FpLI66z7%2BO4N22YT19g%3D%3D",
+      "source": "linkedin"
+    },
+    {
+      "id": "4404815741",
+      "company": "Luxoft",
+      "title": "Regular-Senior Angular Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/regular-senior-angular-developer-at-luxoft-4404815741?position=5&pageNum=2&refId=L2cP6gMgF0gHCFBC3QFhAg%3D%3D&trackingId=66Gyd27bU26DSxdFT6u1kQ%3D%3D",
+      "source": "linkedin"
+    },
+    {
+      "id": "4359486407",
+      "company": "Luxoft",
+      "title": "Senior Angular Developer",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/senior-angular-developer-at-luxoft-4359486407?position=1&pageNum=5&refId=PnfR4CY5nLFFtF%2FaeKLxdw%3D%3D&trackingId=%2FjzZvy3BGD0LXAhnesLEQQ%3D%3D",
+      "source": "linkedin"
+    },
+    {
+      "id": "4404572472",
+      "company": "Luxoft",
+      "title": "Senior Angular Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-angular-developer-at-luxoft-4404572472?position=4&pageNum=5&refId=PnfR4CY5nLFFtF%2FaeKLxdw%3D%3D&trackingId=6TL5Ct0j7EkokVKGwjRWaQ%3D%3D",
+      "source": "linkedin"
+    },
+    {
+      "id": "4404813793",
+      "company": "Luxoft",
+      "title": "Senior Angular Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-angular-developer-at-luxoft-4404813793?position=8&pageNum=5&refId=PnfR4CY5nLFFtF%2FaeKLxdw%3D%3D&trackingId=zzJ7C7B%2FaSOaTTGimlm2mw%3D%3D",
+      "source": "linkedin"
+    },
+    {
+      "id": "4410045489",
+      "company": "Luxoft",
+      "title": "Senior Angular Developer",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/senior-angular-developer-at-luxoft-4410045489?position=10&pageNum=2&refId=L2cP6gMgF0gHCFBC3QFhAg%3D%3D&trackingId=%2F7Gzk3qNum3Y3AWQtT0eRQ%3D%3D",
+      "source": "linkedin"
+    },
+    {
+      "id": "4412722877",
+      "company": "Luxoft",
+      "title": "Senior Angular Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-angular-developer-at-luxoft-4412722877?position=2&pageNum=5&refId=PnfR4CY5nLFFtF%2FaeKLxdw%3D%3D&trackingId=W69HlKJU5cMPp95rK3BDTA%3D%3D",
+      "source": "linkedin"
+    },
+    {
+      "id": "4413286806",
+      "company": "Luxoft",
+      "title": "Senior Angular Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-angular-developer-at-luxoft-4413286806?position=9&pageNum=5&refId=PnfR4CY5nLFFtF%2FaeKLxdw%3D%3D&trackingId=%2BAD45wZF%2Biat%2BQV9lFo4MA%3D%3D",
+      "source": "linkedin"
+    },
+    {
+      "id": "4280881097",
+      "company": "LSEG",
+      "title": "Senior Front-End Angular Developer",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-front-end-angular-developer-at-lseg-4280881097?position=7&pageNum=0&refId=LCa7HNmuO8NtzIRne8h%2BFQ%3D%3D&trackingId=mz9ev7d9cthsfP%2BgafH0ZQ%3D%3D",
+      "source": "linkedin"
     }
   ]
 }

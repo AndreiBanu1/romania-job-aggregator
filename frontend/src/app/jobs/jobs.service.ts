@@ -11,7 +11,7 @@ export interface Job {
 
 export interface JobsResponse {
   total_jobs_found: number;
-  source_summary: Record<string, number>;
+  sources_summary: Record<string, number>;
   jobs: Job[];
 }
 
@@ -21,6 +21,8 @@ export interface JobsResponse {
 export class JobsService {
   jobs = signal<Job[]>([]);
   loading = signal(false);
+  total_jobs_found = signal(0);
+  sources_summary = signal<Record<string, number>>({});
 
   constructor(private http: HttpClient) {}
 
@@ -32,6 +34,8 @@ export class JobsService {
       .subscribe({
         next: (response) => {
           this.jobs.set(response.jobs);
+          this.total_jobs_found.set(response.total_jobs_found);
+          this.sources_summary.set(response.sources_summary);
           this.loading.set(false);
         },
         error: () => {

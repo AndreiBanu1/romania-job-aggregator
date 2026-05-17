@@ -9,6 +9,14 @@
     <p>No results yet. Try a search above.</p>
   </div>
 } @else {
+  <div class="summary">
+    <p>Total jobs found: {{ totalJobsFound() }}</p>
+    <div class="source-summary">
+      @for (entry of sourceSummary() | keyvalue; track entry.key) {
+        <span>{{ entry.key }}: {{ entry.value }}</span>
+      }
+    </div>
+  </div>
   <div class="table-wrapper mat-elevation-z2">
     <table mat-table [dataSource]="dataSource" matSort>
       <ng-container matColumnDef="title">
