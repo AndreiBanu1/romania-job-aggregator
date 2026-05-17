@@ -8,7 +8,11 @@
         matInput
         [formControl]="titleControl"
         placeholder="e.g. Angular developer"
+        required
       />
+      @if (titleControl.hasError("required")) {
+        <mat-error>Job title is required</mat-error>
+      }
     </mat-form-field>
 
     <mat-form-field appearance="outline">
@@ -18,7 +22,11 @@
         [formControl]="cityControl"
         [matAutocomplete]="cityAuto"
         placeholder="Start typing..."
+        required
       />
+      @if (cityControl.hasError("required")) {
+        <mat-error>City is required</mat-error>
+      }
       <mat-autocomplete #cityAuto="matAutocomplete">
         @for (city of filteredCities(); track city) {
           <mat-option [value]="city">{{ city }}</mat-option>
@@ -26,7 +34,7 @@
       </mat-autocomplete>
     </mat-form-field>
 
-    <button mat-flat-button color="primary" type="button" (click)="onSearch()">
+    <button mat-flat-button color="primary" type="button" (click)="onSearch()" [disabled]="titleControl.invalid || cityControl.invalid">
       <mat-icon>search</mat-icon>
       Search
     </button>

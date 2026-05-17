@@ -31,6 +31,14 @@ app.post('/jobs', (req, res) => {
   )
 })
 
+app.post('/jobs-mock', (req, res) => {
+  const mockPath = path.join(__dirname, 'jobs_response_example.json')
+  fs.readFile(mockPath, 'utf8', (err, data) => {
+    if (err) return res.status(500).json({ error: 'Failed to read mock JSON' })
+    res.json(JSON.parse(data))
+  })
+})
+
 app.get('/cities', (req, res) => {
   res.json(cities)
 })

@@ -1,8 +1,8 @@
-import { Component, OnInit, signal, computed } from "@angular/core";
-import { JobsTableComponent } from "./jobs-table/jobs-table.component";
-import { HttpClient } from "@angular/common/http";
-import { JobsService } from "./jobs.service";
-import { FormControl, ReactiveFormsModule } from "@angular/forms";
+import { Component, OnInit, signal, computed, effect } from "@angular/core";
+import { JobsTableComponent } from "./jobs/jobs-table/jobs-table.component";
+import { JobsService } from "./jobs/jobs.service";
+import { CitiesService } from "./cities.service";
+import { FormControl, ReactiveFormsModule, Validators } from "@angular/forms";
 import { toSignal } from "@angular/core/rxjs-interop";
 
 import { MatFormFieldModule } from "@angular/material/form-field";
@@ -27,10 +27,15 @@ import { MatIconModule } from "@angular/material/icon";
 })
 export class AppComponent implements OnInit {
   title = "Find Your Job";
-  cities = signal<string[]>([]);
 
-  titleControl = new FormControl("", { nonNullable: true });
-  cityControl = new FormControl("", { nonNullable: true });
+  titleControl = new FormControl("", {
+    nonNullable: true,
+    validators: [Validators.required],
+  });
+  cityControl = new FormControl("", {
+    nonNullable: true,
+    validators: [Validators.required],
+  });
 
   private cityQuery = toSignal(this.cityControl.valueChanges, {
     initialValue: "",
@@ -38,23 +43,26 @@ export class AppComponent implements OnInit {
 
   filteredCities = computed(() => {
     const q = this.normalize(this.cityQuery());
-    return this.cities().filter((c) => this.normalize(c).includes(q));
+    return this.citiesService
+      .cities()
+      .filter((c) => this.normalize(c).includes(q));
   });
 
   constructor(
-    private http: HttpClient,
     private jobsService: JobsService,
+    private citiesService: CitiesService,
   ) {}
 
   ngOnInit() {
-    this.http
-      .get<{ cities: string[] }>("http://localhost:3000/cities")
-      .subscribe((data) => {
-        this.cities.set(data.cities);
-      });
+    this.citiesService.getCities();
   }
 
   onSearch() {
+    if (this.titleControl.invalid || this.cityControl.invalid) {
+      this.titleControl.markAsTouched();
+      this.cityControl.markAsTouched();
+      return;
+    }
     this.jobsService.search(this.titleControl.value, this.cityControl.value);
   }
 
