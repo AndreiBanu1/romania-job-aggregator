@@ -10,6 +10,7 @@ import { MatInputModule } from "@angular/material/input";
 import { MatAutocompleteModule } from "@angular/material/autocomplete";
 import { MatButtonModule } from "@angular/material/button";
 import { MatIconModule } from "@angular/material/icon";
+import { LeftNavbarComponent } from "./left-navbar/left-navbar.component";
 
 @Component({
   selector: "app-root",
@@ -21,6 +22,7 @@ import { MatIconModule } from "@angular/material/icon";
     MatAutocompleteModule,
     MatButtonModule,
     MatIconModule,
+    LeftNavbarComponent,
   ],
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.css"],
@@ -32,6 +34,7 @@ export class AppComponent implements OnInit {
     nonNullable: true,
     validators: [Validators.required],
   });
+
   cityControl = new FormControl("", {
     nonNullable: true,
     validators: [Validators.required],

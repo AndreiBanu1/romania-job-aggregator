@@ -57,7 +57,7 @@ def _ascii_city_display(value: str) -> str:
 
 
 def _load_romanian_cities() -> list[str]:
-    data_path = Path(__file__).parent / "scrappers" / "romanian_cities.json"
+    data_path = Path(__file__).resolve().parents[1] / "romanian_cities.json"
     if not data_path.exists():
         return []
 

@@ -3,6 +3,11 @@
     <mat-spinner diameter="48"></mat-spinner>
     <p>Searching jobs...</p>
   </div>
+} @else if (error()) {
+  <div class="state state--error" role="alert">
+    <mat-icon>error_outline</mat-icon>
+    <p>{{ error() }}</p>
+  </div>
 } @else if (jobs().length === 0) {
   <div class="state">
     <mat-icon>inbox</mat-icon>
@@ -18,7 +23,31 @@
     </div>
   </div>
   <div class="table-wrapper mat-elevation-z2">
-    <table mat-table [dataSource]="dataSource" matSort>
+    <table mat-table [dataSource]="dataSource" matSort multiTemplateDataRows>
+      <ng-container matColumnDef="expand">
+        <th mat-header-cell *matHeaderCellDef>
+          <span class="sr-only">Show description</span>
+        </th>
+        <td mat-cell *matCellDef="let job">
+          <button
+            mat-icon-button
+            type="button"
+            class="expand-toggle"
+            [attr.aria-expanded]="isExpanded(job)"
+            [attr.aria-label]="
+              (isExpanded(job) ? 'Hide' : 'Show') +
+              ' description for ' +
+              job.title
+            "
+            (click)="toggle(job)"
+          >
+            <mat-icon>{{
+              isExpanded(job) ? "expand_less" : "expand_more"
+            }}</mat-icon>
+          </button>
+        </td>
+      </ng-container>
+
       <ng-container matColumnDef="title">
         <th mat-header-cell *matHeaderCellDef mat-sort-header>Job Title</th>
         <td mat-cell *matCellDef="let job">{{ job.title }}</td>
@@ -44,14 +73,55 @@
       <ng-container matColumnDef="href">
         <th mat-header-cell *matHeaderCellDef>URL</th>
         <td mat-cell *matCellDef="let job">
-          <a [href]="job.href" target="_blank" rel="noopener">
+          <a
+            [href]="job.href"
+            target="_blank"
+            rel="noopener"
+            [attr.aria-label]="'Open ' + job.title + ' on ' + job.source"
+          >
             View <mat-icon class="link-icon">open_in_new</mat-icon>
           </a>
         </td>
       </ng-container>
 
+      <!-- Detail row: only rendered for the open job, see isExpandedRow. -->
+      <ng-container matColumnDef="detail">
+        <td
+          mat-cell
+          *matCellDef="let job"
+          [attr.colspan]="displayedColumns.length"
+          class="detail-cell"
+        >
+          @if (isDescriptionLoading(job)) {
+            <div class="detail-state">
+              <mat-spinner diameter="20"></mat-spinner>
+              <span>Fetching description…</span>
+            </div>
+          } @else if (descriptionError(job); as message) {
+            <div class="detail-state detail-state--error" role="alert">
+              <mat-icon>error_outline</mat-icon>
+              <span>{{ message }}</span>
+              <button mat-button type="button" (click)="retry(job)">
+                Retry
+              </button>
+            </div>
+          } @else if (descriptionText(job); as text) {
+            <p class="description">{{ text }}</p>
+          }
+        </td>
+      </ng-container>
+
       <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-      <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+      <tr
+        mat-row
+        *matRowDef="let row; columns: displayedColumns"
+        [class.row--expanded]="isExpanded(row)"
+      ></tr>
+      <tr
+        mat-row
+        *matRowDef="let row; columns: ['detail']; when: isExpandedRow"
+        class="detail-row"
+      ></tr>
     </table>
 
     <mat-paginator

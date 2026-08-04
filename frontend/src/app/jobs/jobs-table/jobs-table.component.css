@@ -166,6 +166,70 @@ table.mat-mdc-table {
   height: 14px !important;
 }
 
+/* ---------- Expandable description row ---------- */
+.mat-column-expand {
+  width: 48px;
+  padding-right: 0 !important;
+}
+
+.expand-toggle {
+  color: var(--text-secondary);
+}
+.expand-toggle:hover {
+  color: var(--accent-strong);
+}
+
+.mat-mdc-row.row--expanded {
+  background: var(--accent-soft) !important;
+}
+.mat-mdc-row.row--expanded .mat-mdc-cell {
+  border-bottom: none !important;
+}
+
+/* Detail rows have no height of their own; the cell provides the padding. */
+tr.detail-row {
+  height: auto;
+}
+
+.detail-cell {
+  padding: 0 var(--space-4) var(--space-4) 56px !important;
+  background: var(--bg-surface-2);
+}
+
+.description {
+  margin: 0;
+  max-height: 320px;
+  overflow-y: auto;
+  padding: var(--space-3);
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  /* Descriptions arrive as newline-separated plain text. */
+  white-space: pre-wrap;
+}
+
+.detail-state {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) 0;
+  color: var(--text-secondary);
+  font-size: 0.8125rem;
+}
+
+.detail-state--error {
+  color: var(--text-primary);
+}
+
+.detail-state mat-icon {
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+}
+
 /* Paginator */
 .mat-mdc-paginator {
   background: var(--bg-surface-2) !important;
@@ -208,6 +272,12 @@ table.mat-mdc-table {
   color: var(--accent-strong);
   border-radius: var(--radius-pill);
   opacity: 1;
+}
+
+/* After the base rule: same specificity, so source order decides. */
+.state--error mat-icon {
+  background: rgba(239, 68, 68, 0.14);
+  color: #ef4444;
 }
 
 /* Loading skeleton — replaces empty space below the spinner */

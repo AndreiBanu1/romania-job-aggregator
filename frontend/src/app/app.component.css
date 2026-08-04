@@ -2,6 +2,15 @@
   display: block;
 }
 
+.layout {
+  display: flex;
+  height: 100%;
+}
+
+.main-content {
+  flex: 1;
+}
+
 /* ---------- Header ---------- */
 .app-header {
   position: sticky;
@@ -45,11 +54,15 @@
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
-  transition: box-shadow var(--transition), transform var(--transition);
+  transition:
+    box-shadow var(--transition),
+    transform var(--transition);
 }
 
 .search-bar:focus-within {
-  box-shadow: var(--shadow-lg), 0 0 0 4px var(--accent-ring);
+  box-shadow:
+    var(--shadow-lg),
+    0 0 0 4px var(--accent-ring);
 }
 
 .search-bar mat-form-field {

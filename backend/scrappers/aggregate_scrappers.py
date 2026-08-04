@@ -6,6 +6,10 @@ import tempfile
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+
+from backend.scrappers.helpers.descriptions import fetch_descriptions
+
 
 def _run_scraper(
     scraper_path: Path,
@@ -14,6 +18,8 @@ def _run_scraper(
     location: str,
     page_size: int,
     max_pages: int,
+    mode: str = "loose",
+    supports_mode: bool = False,
 ) -> list[dict[str, str]]:
     with tempfile.NamedTemporaryFile(suffix=".json", delete=False) as tmp_file:
         output_path = Path(tmp_file.name)
@@ -32,6 +38,10 @@ def _run_scraper(
         "--output",
         str(output_path),
     ]
+
+    # Not every scraper exposes --mode yet.
+    if supports_mode:
+        command.extend(["--mode", mode])
 
     try:
         result = subprocess.run(command, capture_output=True, text=True, check=True)
@@ -142,19 +152,30 @@ def main() -> None:
     parser.add_argument("--page-size", type=int, default=25, help="Page size passed to scrapers")
     parser.add_argument("--max-pages", type=int, default=0, help="Max pages passed to scrapers (0 = no limit)")
     parser.add_argument("--output", default="job-results/jobs-aggregated.json", help="Output JSON file path")
+    parser.add_argument("--mode", choices=["strict", "loose", "none"], default="loose",
+                        help="Job filtering mode")
+    parser.add_argument("--descriptions", action="store_true",
+                        help="Fetch full job descriptions (slow: requests are "
+                             "rate limited to roughly one per 1.5s per host)")
+    parser.add_argument("--desc-limit", type=int, default=25,
+                        help="Max descriptions to fetch when --descriptions is set "
+                             "(0 = no limit)")
+    parser.add_argument("--desc-workers", type=int, default=2,
+                        help="Concurrent description fetch threads")
     args = parser.parse_args()
 
     backend_dir = Path(__file__).parent
+    # (source name, script, accepts --mode)
     scrapers = [
-        ("linkedin", backend_dir / "linkedin_scrapper.py"),
-        ("ejobs", backend_dir / "ejobs_scrapper.py"),
-        ("bestjobs", backend_dir / "bestjobs_scrapper.py"),
+        ("linkedin", backend_dir / "linkedin_scrapper.py", True),
+        ("ejobs", backend_dir / "ejobs_scrapper.py", True),
+        ("bestjobs", backend_dir / "bestjobs_scrapper.py", False),
     ]
 
     available_scrapers = [
-        (name, path) for name, path in scrapers if path.exists()
+        (name, path, supports_mode) for name, path, supports_mode in scrapers if path.exists()
     ]
-    for name, path in scrapers:
+    for name, path, _ in scrapers:
         if not path.exists():
             print(f"Skipping missing scraper: {path.name}")
 
@@ -169,8 +190,10 @@ def main() -> None:
                 location=args.location,
                 page_size=args.page_size,
                 max_pages=args.max_pages,
+                mode=args.mode,
+                supports_mode=supports_mode,
             ): (name, path)
-            for name, path in available_scrapers
+            for name, path, supports_mode in available_scrapers
         }
 
         for future in as_completed(future_to_source):
@@ -185,6 +208,17 @@ def main() -> None:
 
     merged_jobs = _dedupe_jobs(all_jobs)
     sorted_jobs = _sort_jobs(merged_jobs)
+
+    # After dedupe, so we never fetch the same description twice.
+    if args.descriptions:
+        fetch_descriptions(
+            sorted_jobs,
+            title_filter=args.title,
+            max_workers=args.desc_workers,
+            mode=args.mode,
+            limit=args.desc_limit,
+        )
+
     sources_summary = _build_sources_summary(sorted_jobs)
     output_payload = {
         "total_jobs_found": len(sorted_jobs),

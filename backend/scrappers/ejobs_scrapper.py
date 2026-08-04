@@ -8,6 +8,7 @@ from typing import Optional, Union
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from backend.scrappers.helpers.location_normalizer import alias_candidates, normalize_text, translate_location_to_english
+from backend.scrappers.helpers.relevance import is_relevant
 
 BASE_URL = "https://api.ejobs.ro"
 
@@ -15,34 +16,6 @@ HEADERS = {
     "accept": "application/json, text/plain, */*",
     "user-agent": "Mozilla/5.0"
 }
-
-RELATED_KEYWORDS = {
-    "react": ["react", "frontend", "javascript", "web developer", "ui"],
-    "angular": ["angular", "frontend", "typescript"],
-    "java": ["java", "spring", "backend"],
-    "python": ["python", "django", "flask"],
-    "software engineer": ["developer", "engineer", "programmer", "it"],
-}
-
-
-def is_relevant(job: dict, keyword: str, mode: str = "loose") -> bool:
-    job_title = job.get("title", "").lower()
-    keyword = keyword.lower()
-
-    if mode == "none":
-        return True
-
-    if mode == "strict":
-        return keyword in job_title
-
-    if mode == "loose":
-        related = RELATED_KEYWORDS.get(keyword, [])
-        return (
-            keyword in job_title
-            or any(term in job_title for term in related)
-        )
-
-    return True
 
 
 def get_locations() -> list[dict]:
@@ -164,9 +137,6 @@ def get_jobs(
                 "href": href or "",
             }
 
-            if not is_relevant(job_data, keyword, mode="loose"):
-                continue
-
             jobs.append(job_data)
 
         print(f"Page {page} scraped")
@@ -174,7 +144,8 @@ def get_jobs(
         time.sleep(1)
         page += 1
 
-    return jobs
+    # Filter once, after collection, and honour the requested mode.
+    return [job for job in jobs if is_relevant(job, keyword, mode)]
 
 
 def collect_all_jobs(title, location, page_size=25, max_pages=0, mode="loose") -> list[dict[str, str]]:

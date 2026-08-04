@@ -4,6 +4,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from backend.scrappers.helpers.location_normalizer import english_city
+from backend.scrappers.helpers.relevance import is_relevant
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -23,33 +24,9 @@ HEADERS = {
     "Upgrade-Insecure-Requests": "1",
 }
 
-RELATED_KEYWORDS = {
-    "react": ["react", "frontend", "javascript", "web developer", "ui"],
-    "angular": ["angular", "frontend", "typescript"],
-    "java": ["java", "spring", "backend"],
-    "python": ["python", "django", "flask"],
-    "software engineer": ["developer", "engineer", "programmer", "it"],
-}
-
-
-def is_relevant(job: dict, keyword: str, mode: str = "loose") -> bool:
-    job_title = job.get("title", "").lower()
-    keyword = keyword.lower()
-
-    if mode == "none":
-        return True
-
-    if mode == "strict":
-        return keyword in job_title
-
-    if mode == "loose":
-        related = RELATED_KEYWORDS.get(keyword, [])
-        return (
-            keyword in job_title
-            or any(term in job_title for term in related)
-        )
-
-    return True
+# The LinkedIn guest endpoint ignores our page size and always returns 10
+# cards per call, so pagination advances by the number of cards actually seen.
+PAGE_SIZE = 10
 
 
 # -------------------------------
@@ -146,11 +123,16 @@ def extract_jobs_from_html(html: str) -> list[dict[str, str]]:
 # -------------------------------
 # COLLECTION LAYER (NO FILTERING)
 # -------------------------------
-def collect_all_jobs(title: str, location: str, page_size: int = 25, max_pages: int = 0, mode: str = "loose") -> list[dict[str, str]]:
+def collect_all_jobs(title: str, location: str, page_size: int = PAGE_SIZE, max_pages: int = 0, mode: str = "loose") -> list[dict[str, str]]:
+    """Page through the listings endpoint, then filter once at the end.
+
+    Relevance filtering must not happen inside the loop: a page of new but
+    irrelevant jobs would otherwise look like exhaustion and end the crawl.
+    """
     start = 0
     page = 0
     seen_ids: set[str] = set()
-    all_jobs: list[dict[str, str]] = []
+    collected: list[dict[str, str]] = []
 
     while max_pages <= 0 or page < max_pages:
         print(f"[LinkedIn] Fetching page {page + 1} (start={start})")
@@ -174,29 +156,33 @@ def collect_all_jobs(title: str, location: str, page_size: int = 25, max_pages: 
             if job_id in seen_ids:
                 continue
 
-            if not is_relevant(job, title, mode):
-                continue
-
             seen_ids.add(job_id)
             new_jobs_batch.append(job)
 
-        all_jobs.extend(new_jobs_batch)
+        collected.extend(new_jobs_batch)
 
-        new_jobs = len(new_jobs_batch)
+        print(f"[LinkedIn] Found {len(page_jobs)} jobs, {len(new_jobs_batch)} new")
 
-        print(f"[LinkedIn] Found {len(page_jobs)} jobs, {new_jobs} new")
-
-        if new_jobs == 0:
+        # Pages overlap, so a partial overlap is normal; zero new ids means the
+        # endpoint has stopped advancing and we are re-reading the same window.
+        if not new_jobs_batch:
             print("[LinkedIn] Only duplicates found, stopping.")
             break
 
         # polite delay
         time.sleep(random.uniform(1.5, 3.5))
 
-        start += page_size
+        # Advance by what the endpoint actually returned, not by the requested
+        # page size, which it ignores.
+        start += len(page_jobs)
         page += 1
 
-    return all_jobs
+    relevant = [job for job in collected if is_relevant(job, title, mode)]
+    print(
+        f"[LinkedIn] Collected {len(collected)} unique jobs, "
+        f"{len(relevant)} relevant (mode={mode})"
+    )
+    return relevant
 
 
 # -------------------------------
@@ -209,8 +195,12 @@ def main() -> None:
                         help="Job title, e.g. 'Software Engineer'")
     parser.add_argument("--location", required=True,
                         help="Location, e.g. 'Bucharest'")
-    parser.add_argument("--page-size", type=int, default=25)
+    parser.add_argument("--page-size", type=int, default=PAGE_SIZE,
+                        help="Accepted for compatibility; the guest endpoint "
+                             "always returns 10 cards per page")
     parser.add_argument("--max-pages", type=int, default=0)
+    parser.add_argument("--mode", choices=["strict", "loose", "none"], default="loose",
+                        help="Job filtering mode")
     parser.add_argument(
         "--output", default="job-results/linkedin-results.json")
 
@@ -221,6 +211,7 @@ def main() -> None:
         location=english_city(args.location),
         page_size=args.page_size,
         max_pages=args.max_pages,
+        mode=args.mode,
     )
 
     output_payload = {

@@ -1,33 +1,15 @@
 # backend/scrappers/unified_scrapper.py
 import argparse
 import json
-import time
-from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-from .linkedin_scrapper import collect_all_jobs as linkedin_jobs, is_relevant
+from .linkedin_scrapper import collect_all_jobs as linkedin_jobs
+from .helpers.descriptions import fetch_descriptions
+from .helpers.location_normalizer import english_city
 # from .ejobs_scrapper import collect_all_jobs as ejobs_jobs
 # from .bestjobs_scrapper import collect_all_jobs as bestjobs_jobs
 # from .jooble_scrapper import collect_all_jobs as jooble_jobs
 from .aggregate_scrappers import aggregate_jobs
-
-
-def fetch_descriptions(jobs, title_filter=None, max_workers=5, mode="loose"):
-    """Fetch job descriptions concurrently with optional title filter."""
-    if not jobs:
-        return []
-
-    def fetch(job):
-        if is_relevant(job, title_filter, mode):
-            if "href" in job and job["href"]:
-                from .helpers.job_desc_fetcher import get_job_description  # import per-thread safe
-                job["description"] = get_job_description(job["href"])
-        else:
-            job["description"] = ""
-        return job
-
-    with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        return list(executor.map(fetch, jobs))
 
 
 def _safe_fetch(source_name: str, fetcher):
@@ -49,8 +31,12 @@ def main():
     parser.add_argument("--max-pages", type=int, default=0)
     parser.add_argument("--output", required=True,
                         help="Output JSON file path")
-    parser.add_argument("--desc-workers", type=int, default=5,
-                        help="Concurrent description fetch threads")
+    parser.add_argument("--desc-workers", type=int, default=2,
+                        help="Concurrent description fetch threads (requests are "
+                             "rate limited per host regardless)")
+    parser.add_argument("--desc-limit", type=int, default=0,
+                        help="Max descriptions to fetch (0 = no limit). Pacing is "
+                             "roughly 1.5s per description")
     parser.add_argument("--mode", choices=["strict", "loose", "none"], default="loose",
                         help="Job filtering mode")
     args = parser.parse_args()
@@ -60,9 +46,15 @@ def main():
     print("[linkedin] Fetching jobs...")
     jobs = _safe_fetch(
         "linkedin",
-        lambda: linkedin_jobs(args.title, args.location, args.page_size, args.max_pages, mode=args.mode),
+        lambda: linkedin_jobs(args.title, english_city(args.location), args.page_size, args.max_pages, mode=args.mode),
     )
-    all_jobs["linkedin"] = fetch_descriptions(jobs, args.title, args.desc_workers, args.mode)
+    all_jobs["linkedin"] = fetch_descriptions(
+        jobs,
+        title_filter=args.title,
+        max_workers=args.desc_workers,
+        mode=args.mode,
+        limit=args.desc_limit,
+    )
     print(f"[linkedin] Fetched {len(all_jobs['linkedin'])} jobs.")
 
     # print("[ejobs] Fetching jobs...")
