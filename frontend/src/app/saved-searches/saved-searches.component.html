@@ -1,0 +1,65 @@
+@if (searches().length === 0) {
+  <div class="state">
+    <mat-icon>bookmark_border</mat-icon>
+    <p>No saved searches yet. Save a search to see it here.</p>
+  </div>
+} @else {
+  <div class="summary">
+    <p>Saved searches: {{ searches().length }}</p>
+  </div>
+  <div class="table-wrapper mat-elevation-z2">
+    <table mat-table [dataSource]="dataSource" matSort>
+      <ng-container matColumnDef="title">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Job Title</th>
+        <td mat-cell *matCellDef="let search">{{ search.title }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="city">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>City</th>
+        <td mat-cell *matCellDef="let search">{{ search.city }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="date">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Saved</th>
+        <td mat-cell *matCellDef="let search">
+          {{ search.date | date: "medium" }}
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="actions">
+        <th mat-header-cell *matHeaderCellDef>Actions</th>
+        <td mat-cell *matCellDef="let search">
+          <button
+            mat-icon-button
+            type="button"
+            class="action-run"
+            matTooltip="Run search"
+            [attr.aria-label]="'Run saved search ' + search.title"
+            (click)="run(search)"
+          >
+            <mat-icon>play_arrow</mat-icon>
+          </button>
+          <button
+            mat-icon-button
+            type="button"
+            class="action-delete"
+            matTooltip="Delete"
+            [attr.aria-label]="'Delete saved search ' + search.title"
+            (click)="remove(search)"
+          >
+            <mat-icon>delete_outline</mat-icon>
+          </button>
+        </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+    </table>
+
+    <mat-paginator
+      [pageSizeOptions]="[10, 25, 50, 100]"
+      [pageSize]="25"
+      showFirstLastButtons
+    ></mat-paginator>
+  </div>
+}

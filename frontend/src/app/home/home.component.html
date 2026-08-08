@@ -1,0 +1,65 @@
+<header class="app-header">
+  <h1>{{ title }}</h1>
+
+  <div class="search-bar">
+    <mat-form-field appearance="outline">
+      <mat-label>Job title</mat-label>
+      <input
+        matInput
+        [formControl]="titleControl"
+        placeholder="e.g. Angular developer"
+        required
+      />
+      @if (titleControl.hasError("required")) {
+        <mat-error>Job title is required</mat-error>
+      }
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>City</mat-label>
+      <input
+        matInput
+        [formControl]="cityControl"
+        [matAutocomplete]="cityAuto"
+        placeholder="Start typing..."
+        required
+      />
+      @if (cityControl.hasError("required")) {
+        <mat-error>City is required</mat-error>
+      }
+      <mat-autocomplete #cityAuto="matAutocomplete">
+        @for (city of filteredCities(); track city) {
+          <mat-option [value]="city">{{ city }}</mat-option>
+        }
+      </mat-autocomplete>
+    </mat-form-field>
+
+    <div class="search-actions">
+      <button
+        mat-flat-button
+        color="primary"
+        type="button"
+        (click)="onSearch()"
+        [disabled]="titleControl.invalid || cityControl.invalid"
+      >
+        <mat-icon>search</mat-icon>
+        Search
+      </button>
+
+      <!-- Save Search Button -->
+      <button
+        mat-icon-button
+        type="button"
+        class="save-search-btn"
+        aria-label="Save search"
+        matTooltip="Save search"
+        (click)="onSaveSearch()"
+        [disabled]="titleControl.invalid || cityControl.invalid"
+      >
+        <mat-icon>favorite_border</mat-icon>
+      </button>
+    </div>
+  </div>
+</header>
+
+<app-jobs-table />

@@ -1,9 +1,19 @@
 <div class="navbar">
     <h2>Navigation</h2>
     <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Jobs</a></li>
+        <li>
+            <a
+                routerLink="/"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }"
+                >Jobs</a
+            >
+        </li>
         <li><a href="#">Saved job lists</a></li>
-        <li><a href="#">Saved searches</a></li>
+        <li>
+            <a routerLink="/saved-searches" routerLinkActive="active"
+                >Saved searches</a
+            >
+        </li>
     </ul>
 </div>

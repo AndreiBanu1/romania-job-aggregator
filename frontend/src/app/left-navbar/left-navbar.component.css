@@ -48,6 +48,21 @@ a:hover {
 
 /* Active route — needs routerLinkActive="active" on the <a> */
 a.active {
+  position: relative;
   background: var(--accent-soft);
   color: var(--accent-strong);
+  font-weight: 700;
+}
+
+/* Accent bar to distinguish "active" from a plain hover */
+a.active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 60%;
+  border-radius: var(--radius-pill);
+  background: var(--accent-strong);
 }

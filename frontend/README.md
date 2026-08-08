@@ -10,6 +10,12 @@ To start a local development server, run:
 ng serve
 ```
 
+To use the mock json file, set
+```bash
+const USE_LIVE_SEARCH = false;
+```
+in jobs.service.ts
+
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
 ## Code scaffolding

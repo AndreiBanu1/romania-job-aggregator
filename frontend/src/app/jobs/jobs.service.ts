@@ -35,7 +35,7 @@ const API_BASE = "http://localhost:3000";
  * Flip to false to hit the mock endpoint instead of running real scrapers.
  * The real search takes ~15-30s; the mock returns instantly.
  */
-const USE_LIVE_SEARCH = true;
+const USE_LIVE_SEARCH = false;
 
 @Injectable({
   providedIn: "root",

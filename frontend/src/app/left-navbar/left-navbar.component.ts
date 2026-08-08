@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'app-left-navbar',
-  imports: [],
+  imports: [RouterLink, RouterLinkActive],
   templateUrl: './left-navbar.component.html',
   styleUrl: './left-navbar.component.css',
 })
