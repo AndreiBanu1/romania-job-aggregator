@@ -68,4 +68,4 @@ job-results/*.json
 # ----------------------
 .DS_Store
 Thumbs.db
-*.swp
+*.swp.next/
