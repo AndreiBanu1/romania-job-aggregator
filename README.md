@@ -4,9 +4,7 @@ Searches several Romanian job boards at once and shows the combined, deduplicate
 results in one sortable table — instead of running the same query on three sites
 and comparing tabs by hand.
 
-**Live demo:** `https://<your-project>.workers.dev` — replace this once the
-Worker is deployed (see [Deploying it yourself](#deploying-it-yourself)).
-It is a static build serving pre-scraped data; [Hosting](#hosting) explains why.
+**Live demo:** `https://romania-job-aggregator.andreibanu97.workers.dev/`
 
 ---
 
