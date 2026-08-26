@@ -1,9 +1,10 @@
-import { Component, OnInit, computed } from "@angular/core";
+import { Component, OnInit, computed, inject } from "@angular/core";
 import { JobsTableComponent } from "../jobs/jobs-table/jobs-table.component";
 import { JobsService } from "../jobs/jobs.service";
 import { CitiesService } from "../cities.service";
 import { FormControl, ReactiveFormsModule, Validators } from "@angular/forms";
 import { toSignal } from "@angular/core/rxjs-interop";
+import { DatePipe } from "@angular/common";
 import { ActivatedRoute, Router } from "@angular/router";
 
 import { MatFormFieldModule } from "@angular/material/form-field";
@@ -15,6 +16,8 @@ import { MatSnackBar } from "@angular/material/snack-bar";
 import { MatTooltipModule } from "@angular/material/tooltip";
 import { normalize } from "../../utils/string.utils";
 import { SavedSearchesService } from "../saved-searches/saved-searches.service";
+import { DemoJobsService, DemoQuery } from "../jobs/demo-jobs.service";
+import { environment } from "../../environments/environment";
 
 @Component({
   selector: "app-home",
@@ -27,6 +30,7 @@ import { SavedSearchesService } from "../saved-searches/saved-searches.service";
     MatButtonModule,
     MatIconModule,
     MatTooltipModule,
+    DatePipe,
   ],
   templateUrl: "./home.component.html",
   styleUrl: "./home.component.css",
@@ -53,6 +57,13 @@ export class HomeComponent implements OnInit {
     return this.citiesService.cities().filter((c) => normalize(c).includes(q));
   });
 
+  private demoJobs = inject(DemoJobsService);
+
+  /** Hosted build: there is no API, so say so and offer the covered queries. */
+  readonly isDemo = environment.demo;
+  demoQueries = this.demoJobs.queries;
+  demoGenerated = this.demoJobs.generated;
+
   constructor(
     private jobsService: JobsService,
     private citiesService: CitiesService,
@@ -64,7 +75,15 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.citiesService.getCities();
+    if (this.isDemo) this.demoJobs.loadManifest();
     this.restoreQuery();
+  }
+
+  /** Runs one of the nightly-scraped queries, which is served verbatim. */
+  runDemoQuery(query: DemoQuery) {
+    this.titleControl.setValue(query.title);
+    this.cityControl.setValue(query.city);
+    this.onSearch();
   }
 
   onSearch() {

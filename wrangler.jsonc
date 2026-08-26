@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "romania-job-aggregator",
+  "compatibility_date": "2026-08-26",
+
+  // Assets only, no "main": there is no server-side code. The Angular bundle is
+  // served straight from Cloudflare's edge. This is also why the build output
+  // path lives here instead of in a dashboard field — Workers Builds reads it
+  // from this file, so the repo root can stay the project root.
+  "assets": {
+    "directory": "./frontend/dist/frontend/browser",
+
+    // Deep links like /saved-job-lists are routes, not files. Without this they
+    // would 404 on reload; with it, unmatched paths get index.html and the
+    // Angular router takes over. Real files (/demo-data/*.json, JS, CSS) are
+    // still served directly.
+    "not_found_handling": "single-page-application"
+  }
+}

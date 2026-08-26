@@ -1,5 +1,8 @@
-import { Injectable, signal } from "@angular/core";
+import { Injectable, inject, signal } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
+import { Observable } from "rxjs";
+import { environment } from "../../environments/environment";
+import { DemoJobsService } from "./demo-jobs.service";
 
 export interface Job {
   id?: string;
@@ -27,18 +30,15 @@ export type DescriptionState =
   | { status: "loaded"; text: string }
   | { status: "error"; message: string };
 
-const API_BASE = "http://localhost:3000";
-
-/**
- * Flip to false to hit the mock endpoint instead of running real scrapers.
- * The real search takes ~15-30s; the mock returns instantly.
- */
-const USE_LIVE_SEARCH = false;
-
 @Injectable({
   providedIn: "root",
 })
 export class JobsService {
+  private demoJobs = inject(DemoJobsService);
+
+  /** True on the hosted build: no API, results come from committed snapshots. */
+  readonly demo = environment.demo;
+
   jobs = signal<Job[]>([]);
   loading = signal(false);
   total_jobs_found = signal(0);
@@ -56,22 +56,30 @@ export class JobsService {
     this.error.set(null);
     this.descriptions.set({});
     this.lastQuery.set({ title, city });
-    const endpoint = USE_LIVE_SEARCH ? "/jobs" : "/jobs-mock";
-    this.http
-      .post<JobsResponse>(`${API_BASE}${endpoint}`, { title, city })
-      .subscribe({
-        next: (response) => {
-          this.jobs.set(response.jobs);
-          this.total_jobs_found.set(response.total_jobs_found);
-          this.sources_summary.set(response.sources_summary);
-          this.seedDescriptions(response.jobs);
-          this.loading.set(false);
-        },
-        error: (err) => {
-          this.error.set(this.messageFor(err));
-          this.loading.set(false);
-        },
-      });
+
+    this.request(title, city).subscribe({
+      next: (response) => {
+        this.jobs.set(response.jobs);
+        this.total_jobs_found.set(response.total_jobs_found);
+        this.sources_summary.set(response.sources_summary);
+        this.seedDescriptions(response.jobs);
+        this.loading.set(false);
+      },
+      error: (err) => {
+        this.error.set(this.messageFor(err));
+        this.loading.set(false);
+      },
+    });
+  }
+
+  private request(title: string, city: string): Observable<JobsResponse> {
+    if (environment.demo) return this.demoJobs.search(title, city);
+
+    const endpoint = environment.liveSearch ? "/jobs" : "/jobs-mock";
+    return this.http.post<JobsResponse>(`${environment.apiBase}${endpoint}`, {
+      title,
+      city,
+    });
   }
 
   descriptionFor(job: Job): DescriptionState | undefined {
@@ -84,10 +92,22 @@ export class JobsService {
     const existing = this.descriptions()[job.href];
     if (existing?.status === "loading" || existing?.status === "loaded") return;
 
+    // Descriptions are baked into the snapshots for the first N jobs of each
+    // query (the fetch is rate limited, so the workflow caps it). Past that
+    // there is nothing to call in the hosted build.
+    if (environment.demo) {
+      this.setDescription(job.href, {
+        status: "error",
+        message:
+          "This description was not part of the nightly snapshot. Run the project locally to fetch it live.",
+      });
+      return;
+    }
+
     this.setDescription(job.href, { status: "loading" });
 
     this.http
-      .post<JobDescriptionResponse>(`${API_BASE}/job-description`, {
+      .post<JobDescriptionResponse>(`${environment.apiBase}/job-description`, {
         href: job.href,
       })
       .subscribe({

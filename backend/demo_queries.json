@@ -1,0 +1,13 @@
+{
+  "_comment": "Queries the scheduled workflow scrapes for the hosted demo. Keep this list short: every entry is a full multi-source scrape, and the frontend downloads all of them to filter uncovered searches.",
+  "desc_limit": 12,
+  "mode": "loose",
+  "queries": [
+    { "title": "Angular developer", "city": "Bucharest" },
+    { "title": "React developer", "city": "Bucharest" },
+    { "title": "Java developer", "city": "Cluj-Napoca" },
+    { "title": "Python developer", "city": "Bucharest" },
+    { "title": "QA engineer", "city": "Iasi" },
+    { "title": "DevOps engineer", "city": "Timisoara" }
+  ]
+}

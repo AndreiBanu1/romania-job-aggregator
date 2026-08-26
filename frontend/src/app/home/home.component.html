@@ -60,6 +60,35 @@
       </button>
     </div>
   </div>
+
+  @if (isDemo) {
+    <div class="demo-note">
+      <p>
+        <mat-icon inline>cloud_off</mat-icon>
+        Static demo — no scraper runs here. These results were collected by the
+        real scrapers in a scheduled GitHub Actions job
+        @if (demoGenerated()) {
+          <span>({{ demoGenerated() | date: "d MMM y" }})</span>
+        }
+        and committed to the repo. Any other search filters the same snapshots.
+      </p>
+
+      @if (demoQueries().length) {
+        <div class="demo-note__queries">
+          @for (query of demoQueries(); track query.slug) {
+            <button
+              mat-stroked-button
+              type="button"
+              (click)="runDemoQuery(query)"
+            >
+              {{ query.title }} · {{ query.city }}
+              <span class="demo-note__count">{{ query.total }}</span>
+            </button>
+          }
+        </div>
+      }
+    </div>
+  }
 </header>
 
 <app-jobs-table />

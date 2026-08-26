@@ -77,3 +77,8 @@ Thumbs.db
 
 # Playwright MCP screenshots/snapshots
 .playwright-mcp/
+
+# ----------------------
+# Cloudflare
+# ----------------------
+.wrangler/

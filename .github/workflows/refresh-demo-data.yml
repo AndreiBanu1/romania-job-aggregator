@@ -1,0 +1,68 @@
+name: Refresh demo data
+
+# The hosted site is static, so its data has to be produced ahead of time. This
+# runs the real scrapers nightly and commits the results, which Cloudflare
+# Workers Builds then picks up and deploys.
+#
+# Note: GitHub disables scheduled workflows after 60 days without repo activity.
+# Push something, or re-enable it from the Actions tab.
+on:
+  schedule:
+    # 03:17 UTC — off the hour, when the job boards are quiet.
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+    inputs:
+      desc_limit:
+        description: "Descriptions to fetch per query (0 to skip)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-demo-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    # Description fetching is rate limited to ~1 request/1.5s per host.
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+
+      - name: Install scraper dependencies
+        run: pip install -r backend/requirements.txt
+
+      - name: Scrape the demo queries
+        env:
+          # Empty on the scheduled run, which then uses demo_queries.json.
+          DESC_LIMIT: ${{ inputs.desc_limit }}
+        run: |
+          if [ -n "$DESC_LIMIT" ]; then
+            python backend/scrappers/build_demo_data.py --desc-limit "$DESC_LIMIT"
+          else
+            python backend/scrappers/build_demo_data.py
+          fi
+
+      - name: Commit refreshed snapshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add frontend/public/demo-data
+          if git diff --staged --quiet; then
+            echo "No change in the scraped results."
+            exit 0
+          fi
+          git commit -m "chore(demo): refresh scraped job snapshots"
+          # Rebase in case a real commit landed while the scrape was running.
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

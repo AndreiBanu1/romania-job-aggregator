@@ -1,0 +1,13 @@
+{
+  "name": "romania-job-aggregator",
+  "private": true,
+  "description": "Repo-root entry point for Cloudflare Workers Builds, which runs its install and build commands here rather than in frontend/.",
+  "scripts": {
+    "build": "npm ci --prefix frontend && npm run build --prefix frontend",
+    "deploy": "wrangler deploy",
+    "preview": "npm run build && wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.42.0"
+  }
+}
