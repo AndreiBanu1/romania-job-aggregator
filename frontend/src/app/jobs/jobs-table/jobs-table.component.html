@@ -15,12 +15,31 @@
   </div>
 } @else {
   <div class="summary">
-    <p>Total jobs found: {{ totalJobsFound() }}</p>
-    <div class="source-summary">
-      @for (entry of sourceSummary() | keyvalue; track entry.key) {
-        <span>{{ entry.key }}: {{ entry.value }}</span>
-      }
+    <div class="summary__counts">
+      <p>Total jobs found: {{ totalJobsFound() }}</p>
+      <div class="source-summary">
+        @for (entry of sourceSummary() | keyvalue; track entry.key) {
+          <span>{{ entry.key }}: {{ entry.value }}</span>
+        }
+      </div>
     </div>
+
+    <button
+      mat-stroked-button
+      type="button"
+      class="save-list-btn"
+      [class.save-list-btn--saved]="listSaved()"
+      [disabled]="listSaved()"
+      [matTooltip]="
+        listSaved()
+          ? 'These results are already in your saved job lists'
+          : 'Keep a copy of these ' + totalJobsFound() + ' jobs to revisit later'
+      "
+      (click)="onSaveJobsList()"
+    >
+      <mat-icon>{{ listSaved() ? "bookmark" : "bookmark_border" }}</mat-icon>
+      {{ listSaved() ? "List saved" : "Save this job list" }}
+    </button>
   </div>
   <div class="table-wrapper mat-elevation-z2">
     <table mat-table [dataSource]="dataSource" matSort multiTemplateDataRows>

@@ -7,8 +7,11 @@ import { MatProgressSpinnerModule } from "@angular/material/progress-spinner";
 import { MatIconModule } from "@angular/material/icon";
 import { MatChipsModule } from "@angular/material/chips";
 import { MatButtonModule } from "@angular/material/button";
+import { MatTooltipModule } from "@angular/material/tooltip";
+import { MatSnackBar } from "@angular/material/snack-bar";
 import { Job } from "../jobs.service";
 import { KeyValuePipe } from "@angular/common";
+import { SavedJobListsService } from "../../saved-job-lists/saved-job-lists.service";
 
 @Component({
   selector: "app-jobs-table",
@@ -20,6 +23,7 @@ import { KeyValuePipe } from "@angular/common";
     MatIconModule,
     MatChipsModule,
     MatButtonModule,
+    MatTooltipModule,
     KeyValuePipe,
   ],
   templateUrl: "./jobs-table.component.html",
@@ -27,17 +31,28 @@ import { KeyValuePipe } from "@angular/common";
 })
 export class JobsTableComponent {
   private jobsService = inject(JobsService);
+  private savedJobListsService = inject(SavedJobListsService);
+  private snackBar = inject(MatSnackBar);
 
   loading = this.jobsService.loading;
   jobs = this.jobsService.jobs;
   totalJobsFound = this.jobsService.total_jobs_found;
   sourceSummary = this.jobsService.sources_summary;
   error = this.jobsService.error;
+  lastQuery = this.jobsService.lastQuery;
+
+  listSaved = signal(false);
 
   dataSource = new MatTableDataSource<Job>([]);
-  displayedColumns = ["expand", "title", "company", "location", "source", "href"];
+  displayedColumns = [
+    "expand",
+    "title",
+    "company",
+    "location",
+    "source",
+    "href",
+  ];
 
-  /** href of the open row, or null. One at a time keeps fetches serialised. */
   expandedHref = signal<string | null>(null);
 
   paginator = viewChild(MatPaginator);
@@ -46,8 +61,8 @@ export class JobsTableComponent {
   constructor() {
     effect(() => {
       this.dataSource.data = this.jobs();
-      // A new result set invalidates whichever row was open.
       this.expandedHref.set(null);
+      this.listSaved.set(false);
     });
 
     effect(() => {
@@ -62,7 +77,6 @@ export class JobsTableComponent {
     return this.expandedHref() === job.href;
   }
 
-  // Arrow property: matRowDef's `when` is called unbound.
   isExpandedRow = (_index: number, job: Job): boolean => this.isExpanded(job);
 
   toggle(job: Job) {
@@ -74,8 +88,6 @@ export class JobsTableComponent {
     this.jobsService.loadDescription(job);
   }
 
-  // Narrow the union here rather than in the template: the template type
-  // checker does not narrow a discriminated union across an @else if chain.
   isDescriptionLoading(job: Job): boolean {
     return this.jobsService.descriptionFor(job)?.status === "loading";
   }
@@ -92,5 +104,28 @@ export class JobsTableComponent {
 
   retry(job: Job) {
     this.jobsService.loadDescription(job);
+  }
+
+  onSaveJobsList() {
+    const jobs = this.jobs();
+    if (!jobs.length || this.listSaved()) return;
+
+    const query = this.lastQuery();
+    this.savedJobListsService.saveList(
+      query?.title ?? "",
+      query?.city ?? "",
+      jobs,
+    );
+    this.listSaved.set(true);
+
+    this.snackBar.open(
+      `${jobs.length} jobs saved — find them under Saved job lists.`,
+      "Close",
+      {
+        duration: 3000,
+        horizontalPosition: "end",
+        verticalPosition: "bottom",
+      },
+    );
   }
 }

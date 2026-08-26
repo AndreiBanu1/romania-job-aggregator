@@ -30,58 +30,6 @@
   color: var(--text-primary);
 }
 
-/* Counts group together so space-between pushes the action to the far edge. */
-.summary__counts {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: var(--space-2) var(--space-3);
-}
-
-.save-list-btn {
-  flex-shrink: 0;
-  font-weight: 600;
-}
-
-.save-list-btn mat-icon {
-  font-size: 18px;
-  width: 18px;
-  height: 18px;
-}
-
-/* Saved state reads as a settled fact rather than a dimmed dead control. */
-.save-list-btn--saved:disabled {
-  color: var(--accent-strong) !important;
-  border-color: var(--accent) !important;
-  background: var(--accent-soft) !important;
-}
-
-.source-summary {
-  display: flex;
-  gap: var(--space-2);
-  flex-wrap: wrap;
-}
-
-.source-summary span {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-1);
-  background: var(--bg-surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-pill);
-  padding: 4px var(--space-3);
-  font-size: 0.8125rem;
-  font-weight: 500;
-  color: var(--text-secondary);
-  text-transform: capitalize;
-  transition: border-color var(--transition-fast), color var(--transition-fast);
-}
-
-.source-summary span:hover {
-  border-color: var(--accent);
-  color: var(--text-primary);
-}
-
 /* ---------- Table card ---------- */
 .table-wrapper {
   max-width: 1400px;
@@ -92,11 +40,6 @@
   box-shadow: var(--shadow-md);
   overflow: hidden;
   animation: fade-in-up 320ms cubic-bezier(0.4, 0, 0.2, 1) 60ms backwards;
-}
-
-.table-scroll {
-  overflow-x: auto;
-  max-height: calc(100vh - 240px);
 }
 
 table.mat-mdc-table {
@@ -113,13 +56,6 @@ table.mat-mdc-table {
   font-size: 0.875rem;
 }
 
-/* Sticky header */
-.mat-mdc-header-row {
-  position: sticky;
-  top: 0;
-  z-index: 2;
-}
-
 .mat-mdc-header-cell {
   background: var(--bg-surface-2) !important;
   color: var(--text-secondary) !important;
@@ -131,7 +67,6 @@ table.mat-mdc-table {
   border-bottom: 1px solid var(--border) !important;
 }
 
-/* Sort header hover */
 .mat-sort-header-container {
   transition: color var(--transition-fast);
 }
@@ -143,56 +78,43 @@ table.mat-mdc-table {
 .mat-mdc-row {
   transition: background-color var(--transition-fast);
 }
-.mat-mdc-row:nth-child(even) {
-  background: var(--bg-surface-2);
-}
 .mat-mdc-row:hover {
   background: var(--accent-soft) !important;
 }
-
-/* Last row no border */
 .mat-mdc-row:last-child .mat-mdc-cell {
   border-bottom: none !important;
 }
 
-/* Title column emphasis */
-.mat-column-title {
+.mat-column-name {
   font-weight: 600;
   color: var(--text-primary);
-  max-width: 360px;
+  max-width: 420px;
 }
 
-.mat-column-company,
-.mat-column-location {
+.mat-column-count,
+.mat-column-date {
   color: var(--text-secondary);
 }
 
-.mat-column-href {
-  width: 96px;
+.mat-column-count {
+  width: 80px;
+}
+
+/* ---------- Actions column ---------- */
+.mat-column-actions {
+  width: 72px;
   text-align: right;
+  white-space: nowrap;
 }
 
-.mat-column-href a {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  padding: 4px var(--space-2);
-  border-radius: var(--radius-sm);
-  font-weight: 500;
-  font-size: 0.8125rem;
-  transition: background var(--transition-fast), color var(--transition-fast);
+.action-delete {
+  color: var(--text-secondary);
 }
-.mat-column-href a:hover {
-  background: var(--accent-soft);
+.action-delete:hover {
+  color: #ef4444;
 }
 
-.link-icon {
-  font-size: 14px !important;
-  width: 14px !important;
-  height: 14px !important;
-}
-
-/* ---------- Expandable description row ---------- */
+/* ---------- Expandable snapshot row ---------- */
 .mat-column-expand {
   width: 48px;
   padding-right: 0 !important;
@@ -222,38 +144,94 @@ tr.detail-row {
   background: var(--bg-surface-2);
 }
 
-.description {
-  margin: 0;
-  max-height: 320px;
+/* ---------- Nested snapshot table ---------- */
+.jobs-mini {
+  width: 100%;
+  border-collapse: collapse;
+  display: block;
+  /* Long snapshots scroll in place rather than pushing the page down. */
+  max-height: 420px;
   overflow-y: auto;
-  padding: var(--space-3);
   background: var(--bg-surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
-  color: var(--text-secondary);
-  font-size: 0.8125rem;
-  line-height: 1.6;
-  /* Descriptions arrive as newline-separated plain text. */
-  white-space: pre-wrap;
 }
 
-.detail-state {
-  display: flex;
+.jobs-mini thead,
+.jobs-mini tbody,
+.jobs-mini tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.jobs-mini thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.jobs-mini th {
+  padding: var(--space-2) var(--space-3);
+  background: var(--bg-surface-2);
+  border-bottom: 1px solid var(--border);
+  color: var(--text-secondary);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.jobs-mini td {
+  padding: var(--space-2) var(--space-3);
+  border-bottom: 1px solid var(--divider);
+  color: var(--text-secondary);
+  font-size: 0.8125rem;
+  vertical-align: middle;
+}
+
+.jobs-mini tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.jobs-mini tbody tr:nth-child(even) {
+  background: var(--bg-surface-2);
+}
+
+.jobs-mini__title {
+  font-weight: 600;
+  color: var(--text-primary) !important;
+}
+
+.jobs-mini__link {
+  text-align: right;
+  width: 96px;
+}
+
+.jobs-mini__link a {
+  display: inline-flex;
   align-items: center;
-  gap: var(--space-2);
-  padding: var(--space-3) 0;
+  gap: 4px;
+  padding: 4px var(--space-2);
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+  transition: background var(--transition-fast);
+}
+.jobs-mini__link a:hover {
+  background: var(--accent-soft);
+}
+
+.link-icon {
+  font-size: 14px !important;
+  width: 14px !important;
+  height: 14px !important;
+}
+
+.detail-note {
+  margin: var(--space-2) 0 0;
   color: var(--text-secondary);
-  font-size: 0.8125rem;
-}
-
-.detail-state--error {
-  color: var(--text-primary);
-}
-
-.detail-state mat-icon {
-  font-size: 18px;
-  width: 18px;
-  height: 18px;
+  font-size: 0.75rem;
 }
 
 /* Paginator */
@@ -264,7 +242,7 @@ tr.detail-row {
   font-size: 0.8125rem !important;
 }
 
-/* ---------- States (loading / empty) ---------- */
+/* ---------- Empty state ---------- */
 .state {
   display: flex;
   flex-direction: column;
@@ -300,17 +278,6 @@ tr.detail-row {
   opacity: 1;
 }
 
-/* After the base rule: same specificity, so source order decides. */
-.state--error mat-icon {
-  background: rgba(239, 68, 68, 0.14);
-  color: #ef4444;
-}
-
-/* Loading skeleton — replaces empty space below the spinner */
-.state mat-spinner {
-  margin-bottom: var(--space-2);
-}
-
 /* ---------- Animations ---------- */
 @keyframes fade-in-up {
   from {
@@ -338,8 +305,11 @@ tr.detail-row {
     padding: var(--space-2) var(--space-3) !important;
     font-size: 0.8125rem;
   }
-  .mat-column-title {
-    max-width: 220px;
+  .mat-column-name {
+    max-width: 200px;
+  }
+  .detail-cell {
+    padding-left: var(--space-3) !important;
   }
 }
 

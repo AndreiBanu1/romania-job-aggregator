@@ -8,7 +8,6 @@ export interface Job {
   location: string;
   href: string;
   source: string;
-  /** Present only when the search was run with descriptions enabled. */
   description?: string;
 }
 
@@ -23,7 +22,6 @@ export interface JobDescriptionResponse {
   description: string;
 }
 
-/** Per-job description state, keyed by href. */
 export type DescriptionState =
   | { status: "loading" }
   | { status: "loaded"; text: string }
@@ -47,11 +45,8 @@ export class JobsService {
   sources_summary = signal<Record<string, number>>({});
   error = signal<string | null>(null);
 
-  /**
-   * Descriptions cost roughly 1.5s each because requests are paced per host,
-   * so they are fetched one at a time when a row is opened rather than as part
-   * of the search.
-   */
+  lastQuery = signal<{ title: string; city: string } | null>(null);
+
   descriptions = signal<Record<string, DescriptionState>>({});
 
   constructor(private http: HttpClient) {}
@@ -60,6 +55,7 @@ export class JobsService {
     this.loading.set(true);
     this.error.set(null);
     this.descriptions.set({});
+    this.lastQuery.set({ title, city });
     const endpoint = USE_LIVE_SEARCH ? "/jobs" : "/jobs-mock";
     this.http
       .post<JobsResponse>(`${API_BASE}${endpoint}`, { title, city })
@@ -68,8 +64,6 @@ export class JobsService {
           this.jobs.set(response.jobs);
           this.total_jobs_found.set(response.total_jobs_found);
           this.sources_summary.set(response.sources_summary);
-          // A search run with --descriptions already carries the text; seed the
-          // cache so opening those rows costs nothing.
           this.seedDescriptions(response.jobs);
           this.loading.set(false);
         },
@@ -84,7 +78,6 @@ export class JobsService {
     return this.descriptions()[job.href];
   }
 
-  /** Fetch one description on demand. No-op if already loaded or in flight. */
   loadDescription(job: Job) {
     if (!job.href) return;
 

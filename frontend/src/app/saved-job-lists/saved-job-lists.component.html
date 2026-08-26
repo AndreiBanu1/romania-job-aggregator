@@ -1,0 +1,142 @@
+@if (lists().length === 0) {
+  <div class="state">
+    <mat-icon>bookmarks</mat-icon>
+    <p>
+      No saved job lists yet. Run a search and use "Save this job list" to keep a
+      copy of the results here.
+    </p>
+  </div>
+} @else {
+  <div class="summary">
+    <p>Saved job lists: {{ lists().length }}</p>
+  </div>
+  <div class="table-wrapper mat-elevation-z2">
+    <table mat-table [dataSource]="dataSource" matSort multiTemplateDataRows>
+      <ng-container matColumnDef="expand">
+        <th mat-header-cell *matHeaderCellDef>
+          <span class="sr-only">Show jobs</span>
+        </th>
+        <td mat-cell *matCellDef="let list">
+          <button
+            mat-icon-button
+            type="button"
+            class="expand-toggle"
+            [attr.aria-expanded]="isExpanded(list)"
+            [attr.aria-label]="
+              (isExpanded(list) ? 'Hide' : 'Show') + ' jobs in ' + label(list)
+            "
+            (click)="toggle(list)"
+          >
+            <mat-icon>{{
+              isExpanded(list) ? "expand_less" : "expand_more"
+            }}</mat-icon>
+          </button>
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Search</th>
+        <td mat-cell *matCellDef="let list">{{ label(list) }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="count">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Jobs</th>
+        <td mat-cell *matCellDef="let list">{{ list.jobs.length }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="date">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Saved</th>
+        <td mat-cell *matCellDef="let list">
+          {{ list.date | date: "medium" }}
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="actions">
+        <th mat-header-cell *matHeaderCellDef>Actions</th>
+        <td mat-cell *matCellDef="let list">
+          <button
+            mat-icon-button
+            type="button"
+            class="action-delete"
+            matTooltip="Delete this saved list"
+            [attr.aria-label]="'Delete saved job list ' + label(list)"
+            (click)="remove(list)"
+          >
+            <mat-icon>delete_outline</mat-icon>
+          </button>
+        </td>
+      </ng-container>
+
+      <!-- Detail row: only rendered for the open list, see isExpandedRow. -->
+      <ng-container matColumnDef="detail">
+        <td
+          mat-cell
+          *matCellDef="let list"
+          [attr.colspan]="displayedColumns.length"
+          class="detail-cell"
+        >
+          <table class="jobs-mini">
+            <caption class="sr-only">
+              Jobs saved in {{ label(list) }}
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Job Title</th>
+                <th scope="col">Company</th>
+                <th scope="col">Location</th>
+                <th scope="col">Source</th>
+                <th scope="col">URL</th>
+              </tr>
+            </thead>
+            <tbody>
+              @for (job of list.jobs; track job.href) {
+                <tr>
+                  <td class="jobs-mini__title">{{ job.title }}</td>
+                  <td>{{ job.company }}</td>
+                  <td>{{ job.location }}</td>
+                  <td>
+                    <mat-chip [disableRipple]="true">{{ job.source }}</mat-chip>
+                  </td>
+                  <td class="jobs-mini__link">
+                    <a
+                      [href]="job.href"
+                      target="_blank"
+                      rel="noopener"
+                      [attr.aria-label]="
+                        'Open ' + job.title + ' on ' + job.source
+                      "
+                    >
+                      View <mat-icon class="link-icon">open_in_new</mat-icon>
+                    </a>
+                  </td>
+                </tr>
+              }
+            </tbody>
+          </table>
+          <!-- Snapshots are historical: postings may have since been removed. -->
+          <p class="detail-note">
+            Saved {{ list.date | date: "medium" }}. Links may have expired since.
+          </p>
+        </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr
+        mat-row
+        *matRowDef="let row; columns: displayedColumns"
+        [class.row--expanded]="isExpanded(row)"
+      ></tr>
+      <tr
+        mat-row
+        *matRowDef="let row; columns: ['detail']; when: isExpandedRow"
+        class="detail-row"
+      ></tr>
+    </table>
+
+    <mat-paginator
+      [pageSizeOptions]="[10, 25, 50]"
+      [pageSize]="10"
+      showFirstLastButtons
+    ></mat-paginator>
+  </div>
+}
