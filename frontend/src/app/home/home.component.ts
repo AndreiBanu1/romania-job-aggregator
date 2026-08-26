@@ -4,6 +4,7 @@ import { JobsService } from "../jobs/jobs.service";
 import { CitiesService } from "../cities.service";
 import { FormControl, ReactiveFormsModule, Validators } from "@angular/forms";
 import { toSignal } from "@angular/core/rxjs-interop";
+import { ActivatedRoute, Router } from "@angular/router";
 
 import { MatFormFieldModule } from "@angular/material/form-field";
 import { MatInputModule } from "@angular/material/input";
@@ -57,10 +58,13 @@ export class HomeComponent implements OnInit {
     private citiesService: CitiesService,
     private snackBar: MatSnackBar,
     private savedSearchesService: SavedSearchesService,
+    private router: Router,
+    private route: ActivatedRoute,
   ) {}
 
   ngOnInit() {
     this.citiesService.getCities();
+    this.restoreQuery();
   }
 
   onSearch() {
@@ -69,7 +73,53 @@ export class HomeComponent implements OnInit {
       this.cityControl.markAsTouched();
       return;
     }
-    this.jobsService.search(this.titleControl.value, this.cityControl.value);
+    const title = this.titleControl.value;
+    const city = this.cityControl.value;
+    this.jobsService.search(title, city);
+    this.syncUrl(title, city);
+  }
+
+  /**
+   * Repopulates the form on entering the page, from the URL if it carries a
+   * query and otherwise from the search this session already ran — the sidebar
+   * link is a bare `/`, so in-app navigation arrives with no params.
+   */
+  private restoreQuery() {
+    const params = this.route.snapshot.queryParamMap;
+    const title = params.get("title")?.trim();
+    const city = params.get("city")?.trim();
+    const last = this.jobsService.lastQuery();
+
+    if (!title || !city) {
+      if (!last) return;
+      this.titleControl.setValue(last.title);
+      this.cityControl.setValue(last.city);
+      // Its results are already on screen; only the URL needs catching up.
+      this.syncUrl(last.title, last.city);
+      return;
+    }
+
+    this.titleControl.setValue(title);
+    this.cityControl.setValue(city);
+
+    // Returning to this page with its results still in memory: re-running would
+    // cost another 15-30s scrape for rows already on screen.
+    if (last?.title === title && last?.city === city) return;
+
+    this.jobsService.search(title, city);
+  }
+
+  /**
+   * Keeps the query in the URL so a reload, bookmark or shared link restores it.
+   * Replaced rather than pushed: a history entry per search would let the back
+   * button show one query in the form and another's results below it.
+   */
+  private syncUrl(title: string, city: string) {
+    this.router.navigate([], {
+      relativeTo: this.route,
+      queryParams: { title, city },
+      replaceUrl: true,
+    });
   }
 
   onSaveSearch() {

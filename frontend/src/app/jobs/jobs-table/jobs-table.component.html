@@ -1,9 +1,9 @@
-@if (loading()) {
+@if (!isSnapshot() && loading()) {
   <div class="state">
     <mat-spinner diameter="48"></mat-spinner>
     <p>Searching jobs...</p>
   </div>
-} @else if (error()) {
+} @else if (!isSnapshot() && error()) {
   <div class="state state--error" role="alert">
     <mat-icon>error_outline</mat-icon>
     <p>{{ error() }}</p>
@@ -11,36 +11,44 @@
 } @else if (jobs().length === 0) {
   <div class="state">
     <mat-icon>inbox</mat-icon>
-    <p>No results yet. Try a search above.</p>
+    <p>
+      @if (isSnapshot()) {
+        This saved list has no jobs in it.
+      } @else {
+        No results yet. Try a search above.
+      }
+    </p>
   </div>
 } @else {
-  <div class="summary">
-    <div class="summary__counts">
-      <p>Total jobs found: {{ totalJobsFound() }}</p>
-      <div class="source-summary">
-        @for (entry of sourceSummary() | keyvalue; track entry.key) {
-          <span>{{ entry.key }}: {{ entry.value }}</span>
-        }
+  @if (!isSnapshot()) {
+    <div class="summary">
+      <div class="summary__counts">
+        <p>Total jobs found: {{ totalJobsFound() }}</p>
+        <div class="source-summary">
+          @for (entry of sourceSummary() | keyvalue; track entry.key) {
+            <span>{{ entry.key }}: {{ entry.value }}</span>
+          }
+        </div>
       </div>
-    </div>
 
-    <button
-      mat-stroked-button
-      type="button"
-      class="save-list-btn"
-      [class.save-list-btn--saved]="listSaved()"
-      [disabled]="listSaved()"
-      [matTooltip]="
-        listSaved()
-          ? 'These results are already in your saved job lists'
-          : 'Keep a copy of these ' + totalJobsFound() + ' jobs to revisit later'
-      "
-      (click)="onSaveJobsList()"
-    >
-      <mat-icon>{{ listSaved() ? "bookmark" : "bookmark_border" }}</mat-icon>
-      {{ listSaved() ? "List saved" : "Save this job list" }}
-    </button>
-  </div>
+      <button
+        mat-stroked-button
+        type="button"
+        class="save-list-btn"
+        [class.save-list-btn--saved]="listSaved()"
+        [disabled]="listSaved()"
+        [matTooltip]="
+          listSaved()
+            ? 'These results are already in your saved job lists'
+            : 'Keep a copy of these ' + totalJobsFound() + ' jobs to revisit later'
+        "
+        (click)="onSaveJobsList()"
+      >
+        <mat-icon>{{ listSaved() ? "bookmark" : "bookmark_border" }}</mat-icon>
+        {{ listSaved() ? "List saved" : "Save this job list" }}
+      </button>
+    </div>
+  }
   <div class="table-wrapper mat-elevation-z2">
     <table mat-table [dataSource]="dataSource" matSort multiTemplateDataRows>
       <ng-container matColumnDef="expand">
@@ -145,7 +153,7 @@
 
     <mat-paginator
       [pageSizeOptions]="[10, 25, 50, 100]"
-      [pageSize]="25"
+      [pageSize]="isSnapshot() ? 10 : 25"
       showFirstLastButtons
     ></mat-paginator>
   </div>

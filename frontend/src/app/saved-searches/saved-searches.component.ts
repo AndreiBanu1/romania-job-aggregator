@@ -6,6 +6,7 @@ import { MatIconModule } from "@angular/material/icon";
 import { MatButtonModule } from "@angular/material/button";
 import { MatTooltipModule } from "@angular/material/tooltip";
 import { DatePipe } from "@angular/common";
+import { Router } from "@angular/router";
 import {
   SavedSearch,
   SavedSearchesService,
@@ -24,11 +25,12 @@ import { JobsService } from "../jobs/jobs.service";
     DatePipe,
   ],
   templateUrl: "./saved-searches.component.html",
-  styleUrl: "./saved-searches.component.css",
+  styleUrls: ["../shared/data-table.css", "./saved-searches.component.css"],
 })
 export class SavedSearchesComponent {
   private savedSearchesService = inject(SavedSearchesService);
   private jobsService = inject(JobsService);
+  private router = inject(Router);
 
   searches = this.savedSearchesService.searches;
 
@@ -52,7 +54,14 @@ export class SavedSearchesComponent {
   }
 
   run(search: SavedSearch) {
+    // Start the search here, then hand the query to the jobs page in the URL:
+    // the results table lives there, and without navigating the scrape would run
+    // while the user stares at an unchanged list of saved searches. The page
+    // sees the query it is already running and does not start a second one.
     this.jobsService.search(search.title, search.city);
+    this.router.navigate(["/"], {
+      queryParams: { title: search.title, city: search.city },
+    });
   }
 
   remove(search: SavedSearch) {

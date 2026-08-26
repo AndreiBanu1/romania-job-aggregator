@@ -1,4 +1,12 @@
-import { Component, effect, inject, signal, viewChild } from "@angular/core";
+import {
+  Component,
+  computed,
+  effect,
+  inject,
+  input,
+  signal,
+  viewChild,
+} from "@angular/core";
 import { JobsService } from "../jobs.service";
 import { MatTableDataSource, MatTableModule } from "@angular/material/table";
 import { MatPaginator, MatPaginatorModule } from "@angular/material/paginator";
@@ -26,22 +34,51 @@ import { SavedJobListsService } from "../../saved-job-lists/saved-job-lists.serv
     MatTooltipModule,
     KeyValuePipe,
   ],
+  // Lets an embedded snapshot drop the page-level padding and elevation.
+  host: { "[class.embedded]": "isSnapshot()" },
   templateUrl: "./jobs-table.component.html",
-  styleUrl: "./jobs-table.component.css",
+  styleUrls: [
+    "../../shared/data-table.css",
+    "../../shared/expandable-rows.css",
+    "./jobs-table.component.css",
+  ],
 })
 export class JobsTableComponent {
   private jobsService = inject(JobsService);
   private savedJobListsService = inject(SavedJobListsService);
   private snackBar = inject(MatSnackBar);
 
+  /**
+   * A fixed set of jobs to display. Left unset, the table follows the live
+   * search in JobsService; set, it renders that snapshot read-only, without the
+   * search states or the save action.
+   */
+  snapshot = input<Job[] | null>(null);
+
+  /** True when displaying a snapshot rather than the current search. */
+  isSnapshot = computed(() => this.snapshot() !== null);
+
   loading = this.jobsService.loading;
-  jobs = this.jobsService.jobs;
   totalJobsFound = this.jobsService.total_jobs_found;
   sourceSummary = this.jobsService.sources_summary;
   error = this.jobsService.error;
   lastQuery = this.jobsService.lastQuery;
 
-  listSaved = signal(false);
+  /** The rows on screen, from whichever source is driving this instance. */
+  jobs = computed(() => this.snapshot() ?? this.jobsService.jobs());
+
+  /**
+   * Derived from storage rather than held locally, so it survives navigating
+   * away and back — the same result set cannot be snapshotted twice.
+   */
+  listSaved = computed(() => {
+    const query = this.lastQuery();
+    return this.savedJobListsService.isSaved(
+      query?.title ?? "",
+      query?.city ?? "",
+      this.jobs(),
+    );
+  });
 
   dataSource = new MatTableDataSource<Job>([]);
   displayedColumns = [
@@ -62,7 +99,6 @@ export class JobsTableComponent {
     effect(() => {
       this.dataSource.data = this.jobs();
       this.expandedHref.set(null);
-      this.listSaved.set(false);
     });
 
     effect(() => {
@@ -94,7 +130,9 @@ export class JobsTableComponent {
 
   descriptionText(job: Job): string {
     const state = this.jobsService.descriptionFor(job);
-    return state?.status === "loaded" ? state.text : "";
+    if (state?.status === "loaded") return state.text;
+    // Snapshots may carry the description they were saved with.
+    return job.description?.trim() ?? "";
   }
 
   descriptionError(job: Job): string | null {
@@ -108,24 +146,36 @@ export class JobsTableComponent {
 
   onSaveJobsList() {
     const jobs = this.jobs();
-    if (!jobs.length || this.listSaved()) return;
-
     const query = this.lastQuery();
-    this.savedJobListsService.saveList(
+    const result = this.savedJobListsService.saveList(
       query?.title ?? "",
       query?.city ?? "",
       jobs,
     );
-    this.listSaved.set(true);
 
-    this.snackBar.open(
-      `${jobs.length} jobs saved — find them under Saved job lists.`,
-      "Close",
-      {
-        duration: 3000,
-        horizontalPosition: "end",
-        verticalPosition: "bottom",
-      },
-    );
+    switch (result.status) {
+      case "saved":
+        this.notify(`${jobs.length} jobs saved — find them under Saved job lists.`);
+        break;
+      case "quota-exceeded":
+        // The write failed, so listSaved() stays false and the button stays live.
+        this.notify(
+          "Could not save: browser storage is full. Delete a saved job list and try again.",
+        );
+        break;
+      case "empty":
+        this.notify("Nothing to save — run a search first.");
+        break;
+      case "duplicate":
+        break;
+    }
+  }
+
+  private notify(message: string) {
+    this.snackBar.open(message, "Close", {
+      duration: 5000,
+      horizontalPosition: "end",
+      verticalPosition: "bottom",
+    });
   }
 }

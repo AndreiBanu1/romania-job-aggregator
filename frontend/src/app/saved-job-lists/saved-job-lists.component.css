@@ -1,90 +1,6 @@
-:host {
-  display: block;
-  padding: var(--space-5) var(--space-5) var(--space-7);
-}
+/* Shared shell lives in ../shared/data-table.css and expandable-rows.css. */
 
-/* ---------- Summary bar ---------- */
-.summary {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: var(--space-3);
-  max-width: 1400px;
-  margin: 0 auto var(--space-3);
-  padding: var(--space-3) var(--space-4);
-  background: var(--bg-elevated);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-sm);
-  font-size: 0.875rem;
-  color: var(--text-secondary);
-  animation: fade-in-up 280ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.summary p {
-  margin: 0;
-  font-weight: 600;
-  color: var(--text-primary);
-}
-
-/* ---------- Table card ---------- */
-.table-wrapper {
-  max-width: 1400px;
-  margin: 0 auto;
-  background: var(--bg-surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-md);
-  overflow: hidden;
-  animation: fade-in-up 320ms cubic-bezier(0.4, 0, 0.2, 1) 60ms backwards;
-}
-
-table.mat-mdc-table {
-  width: 100% !important;
-  background: transparent !important;
-}
-
-/* Cells */
-.mat-mdc-header-cell,
-.mat-mdc-cell {
-  padding: var(--space-3) var(--space-4) !important;
-  border-bottom-color: var(--divider) !important;
-  color: var(--text-primary);
-  font-size: 0.875rem;
-}
-
-.mat-mdc-header-cell {
-  background: var(--bg-surface-2) !important;
-  color: var(--text-secondary) !important;
-  font-weight: 600 !important;
-  font-size: 0.75rem !important;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  white-space: nowrap;
-  border-bottom: 1px solid var(--border) !important;
-}
-
-.mat-sort-header-container {
-  transition: color var(--transition-fast);
-}
-.mat-sort-header:hover .mat-sort-header-container {
-  color: var(--text-primary);
-}
-
-/* Rows */
-.mat-mdc-row {
-  transition: background-color var(--transition-fast);
-}
-.mat-mdc-row:hover {
-  background: var(--accent-soft) !important;
-}
-.mat-mdc-row:last-child .mat-mdc-cell {
-  border-bottom: none !important;
-}
-
+/* ---------- Columns ---------- */
 .mat-column-name {
   font-weight: 600;
   color: var(--text-primary);
@@ -100,7 +16,6 @@ table.mat-mdc-table {
   width: 80px;
 }
 
-/* ---------- Actions column ---------- */
 .mat-column-actions {
   width: 72px;
   text-align: right;
@@ -114,212 +29,21 @@ table.mat-mdc-table {
   color: #ef4444;
 }
 
-/* ---------- Expandable snapshot row ---------- */
-.mat-column-expand {
-  width: 48px;
-  padding-right: 0 !important;
-}
-
-.expand-toggle {
-  color: var(--text-secondary);
-}
-.expand-toggle:hover {
-  color: var(--accent-strong);
-}
-
-.mat-mdc-row.row--expanded {
-  background: var(--accent-soft) !important;
-}
-.mat-mdc-row.row--expanded .mat-mdc-cell {
-  border-bottom: none !important;
-}
-
-/* Detail rows have no height of their own; the cell provides the padding. */
-tr.detail-row {
-  height: auto;
-}
-
-.detail-cell {
-  padding: 0 var(--space-4) var(--space-4) 56px !important;
-  background: var(--bg-surface-2);
-}
-
-/* ---------- Nested snapshot table ---------- */
-.jobs-mini {
-  width: 100%;
-  border-collapse: collapse;
+/* ---------- Snapshot detail ---------- */
+/* The embedded jobs table brings its own card; keep the gap tight. */
+.detail-cell app-jobs-table {
   display: block;
-  /* Long snapshots scroll in place rather than pushing the page down. */
-  max-height: 420px;
-  overflow-y: auto;
-  background: var(--bg-surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-}
-
-.jobs-mini thead,
-.jobs-mini tbody,
-.jobs-mini tr {
-  display: table;
-  width: 100%;
-  table-layout: fixed;
-}
-
-.jobs-mini thead {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
-
-.jobs-mini th {
-  padding: var(--space-2) var(--space-3);
-  background: var(--bg-surface-2);
-  border-bottom: 1px solid var(--border);
-  color: var(--text-secondary);
-  font-size: 0.6875rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  text-align: left;
-}
-
-.jobs-mini td {
-  padding: var(--space-2) var(--space-3);
-  border-bottom: 1px solid var(--divider);
-  color: var(--text-secondary);
-  font-size: 0.8125rem;
-  vertical-align: middle;
-}
-
-.jobs-mini tbody tr:last-child td {
-  border-bottom: none;
-}
-
-.jobs-mini tbody tr:nth-child(even) {
-  background: var(--bg-surface-2);
-}
-
-.jobs-mini__title {
-  font-weight: 600;
-  color: var(--text-primary) !important;
-}
-
-.jobs-mini__link {
-  text-align: right;
-  width: 96px;
-}
-
-.jobs-mini__link a {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  padding: 4px var(--space-2);
-  border-radius: var(--radius-sm);
-  font-weight: 500;
-  transition: background var(--transition-fast);
-}
-.jobs-mini__link a:hover {
-  background: var(--accent-soft);
-}
-
-.link-icon {
-  font-size: 14px !important;
-  width: 14px !important;
-  height: 14px !important;
+  margin-bottom: var(--space-2);
 }
 
 .detail-note {
-  margin: var(--space-2) 0 0;
+  margin: 0;
   color: var(--text-secondary);
   font-size: 0.75rem;
 }
 
-/* Paginator */
-.mat-mdc-paginator {
-  background: var(--bg-surface-2) !important;
-  border-top: 1px solid var(--border) !important;
-  color: var(--text-secondary) !important;
-  font-size: 0.8125rem !important;
-}
-
-/* ---------- Empty state ---------- */
-.state {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: var(--space-3);
-  max-width: 520px;
-  margin: var(--space-7) auto;
-  padding: var(--space-7) var(--space-5);
-  background: var(--bg-surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-md);
-  color: var(--text-secondary);
-  text-align: center;
-  animation: fade-in-up 320ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.state p {
-  margin: 0;
-  font-size: 0.9375rem;
-  color: var(--text-secondary);
-}
-
-.state mat-icon {
-  font-size: 40px;
-  width: 40px;
-  height: 40px;
-  padding: var(--space-3);
-  background: var(--accent-soft);
-  color: var(--accent-strong);
-  border-radius: var(--radius-pill);
-  opacity: 1;
-}
-
-/* ---------- Animations ---------- */
-@keyframes fade-in-up {
-  from {
-    opacity: 0;
-    transform: translateY(8px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* ---------- Responsive ---------- */
 @media (max-width: 720px) {
-  :host {
-    padding: var(--space-4) var(--space-3) var(--space-6);
-  }
-  .summary {
-    padding: var(--space-3);
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .mat-mdc-header-cell,
-  .mat-mdc-cell {
-    padding: var(--space-2) var(--space-3) !important;
-    font-size: 0.8125rem;
-  }
   .mat-column-name {
     max-width: 200px;
-  }
-  .detail-cell {
-    padding-left: var(--space-3) !important;
-  }
-}
-
-/* Reduced motion */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
   }
 }

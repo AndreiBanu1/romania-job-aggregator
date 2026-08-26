@@ -1,0 +1,47 @@
+/**
+ * Shared scaffolding for tables built with `multiTemplateDataRows`: the leading
+ * toggle column, the expanded parent row, and the full-width detail row.
+ * Pairs with data-table.css.
+ */
+
+.mat-column-expand {
+  width: 48px;
+  padding-right: 0 !important;
+}
+
+.expand-toggle {
+  color: var(--text-secondary);
+}
+.expand-toggle:hover {
+  color: var(--accent-strong);
+}
+
+.mat-mdc-row.row--expanded {
+  background: var(--accent-soft) !important;
+}
+.mat-mdc-row.row--expanded .mat-mdc-cell {
+  border-bottom: none !important;
+}
+
+/* Detail rows have no height of their own; the cell provides the padding. */
+tr.detail-row {
+  height: auto;
+}
+
+.detail-cell {
+  padding: 0 var(--space-4) var(--space-4) 56px !important;
+  background: var(--bg-surface-2);
+}
+
+@media (max-width: 720px) {
+  .detail-cell {
+    padding-left: var(--space-3) !important;
+  }
+}
+
+/* External-link affordance, used inside detail content and link columns. */
+.link-icon {
+  font-size: 14px !important;
+  width: 14px !important;
+  height: 14px !important;
+}

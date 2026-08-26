@@ -4,10 +4,10 @@ import { MatPaginator, MatPaginatorModule } from "@angular/material/paginator";
 import { MatSort, MatSortModule } from "@angular/material/sort";
 import { MatIconModule } from "@angular/material/icon";
 import { MatButtonModule } from "@angular/material/button";
-import { MatChipsModule } from "@angular/material/chips";
 import { MatTooltipModule } from "@angular/material/tooltip";
 import { DatePipe } from "@angular/common";
 import { SavedJobList, SavedJobListsService } from "./saved-job-lists.service";
+import { JobsTableComponent } from "../jobs/jobs-table/jobs-table.component";
 
 @Component({
   selector: "app-saved-job-lists",
@@ -17,12 +17,16 @@ import { SavedJobList, SavedJobListsService } from "./saved-job-lists.service";
     MatSortModule,
     MatIconModule,
     MatButtonModule,
-    MatChipsModule,
     MatTooltipModule,
     DatePipe,
+    JobsTableComponent,
   ],
   templateUrl: "./saved-job-lists.component.html",
-  styleUrl: "./saved-job-lists.component.css",
+  styleUrls: [
+    "../shared/data-table.css",
+    "../shared/expandable-rows.css",
+    "./saved-job-lists.component.css",
+  ],
 })
 export class SavedJobListsComponent {
   private savedJobListsService = inject(SavedJobListsService);
