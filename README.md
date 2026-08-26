@@ -185,12 +185,14 @@ To check the deployed behaviour before pushing:
 npm run preview     # builds, then serves the Worker locally via wrangler dev
 ```
 
-Other static hosts work too. `frontend/public/_redirects` is kept for them
-(Cloudflare and Netlify both consume it, and it is never served as a public
-file). The one real assumption is that the site is served from the domain root,
-because the demo data is fetched from `/demo-data/...`. A GitHub Pages *project*
-site is served from `/<repo>/`, which would need a `--base-href` and a `404.html`
-copy of `index.html`.
+Other static hosts work too, but each wants the SPA fallback expressed its own
+way — Netlify via a `_redirects` file, GitHub Pages via a `404.html` copy of
+`index.html`. (Do not add a `_redirects` file here: wrangler uploads it as
+Worker configuration, and Cloudflare rejects `/* /index.html 200` as a
+redirect loop.) The one real assumption is that the site is served from the
+domain root, because the demo data is fetched from `/demo-data/...`. A GitHub
+Pages *project* site is served from `/<repo>/`, which would also need a
+`--base-href`.
 
 > **Note:** GitHub disables scheduled workflows after 60 days without repository
 > activity. If the demo data goes stale, re-enable the workflow from the Actions

@@ -1,9 +1,0 @@
-# Hand every unmatched path to the Angular router, so /saved-job-lists survives
-# a reload or a shared link instead of 404ing. Real files (assets,
-# /demo-data/*.json) are served before this rule applies.
-#
-# The deployed Worker gets this from wrangler.jsonc's
-# not_found_handling: "single-page-application" instead; this file is kept for
-# other static hosts (Netlify, and Cloudflare Pages if used). Hosts that
-# understand it treat it as config, never as a servable asset.
-/*  /index.html  200
