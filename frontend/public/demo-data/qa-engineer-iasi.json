@@ -1,7 +1,7 @@
 {
-  "total_jobs_found": 50,
+  "total_jobs_found": 53,
   "sources_summary": {
-    "bestjobs": 47,
+    "bestjobs": 50,
     "linkedin": 3
   },
   "jobs": [
@@ -11,6 +11,15 @@
       "title": "Agentic Solution Architect – UiPath",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/agentic-solution-architect-uipath-1/52059536",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
+      "id": "52066010",
+      "company": "Veoneer Safety Systems",
+      "title": "C# Software Test Engineer Intern",
+      "location": "Iasi, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/c-software-test-engineer-intern/52066010",
       "source": "bestjobs",
       "description": ""
     },
@@ -38,6 +47,15 @@
       "title": "Developer in Test-Technical Lead",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/developer-in-test-technical-lead/52022570",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
+      "id": "52065972",
+      "company": "Nelnet",
+      "title": "DevOps Engineer - Release/ENV Management",
+      "location": "Remote",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/devops-engineer-release-env-management/52065972",
       "source": "bestjobs",
       "description": ""
     },
@@ -110,6 +128,15 @@
       "title": "Network Automation Engineer",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/network-automation-engineer-4/52059334",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
+      "id": "52066009",
+      "company": "Veoneer Safety Systems",
+      "title": "Python Software Test Engineer Intern",
+      "location": "Iasi, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/python-software-test-engineer-intern/52066009",
       "source": "bestjobs",
       "description": ""
     },
@@ -429,34 +456,34 @@
       "description": ""
     },
     {
-      "id": "4458875807",
-      "company": "Kols",
-      "title": "QA Engineer",
-      "location": "Iasi Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/qa-engineer-at-kols-4458875807?position=3&pageNum=0&refId=YSzH7HnJ22e2S%2FHprvxqyw%3D%3D&trackingId=hl3HsfRLzTUTaj%2BbciUXGQ%3D%3D",
-      "source": "linkedin",
-      "description": "•\nBachelor’s degree or higher in a relevant field\n• 5 years + experience in manual and automation testing environments\n• Proven experience in defining, designing, and executing test scenarios (Zephyr Scale,\nTestRail, or similar)\n• Experience in test planning, test strategy, test estimation and defect management\n• Strong skills in API testing (REST/SOAP), with preference for Postman or Bruno\n• Hands-on experience working with API microservices, services, and middleware\nmodules\n• Familiarity with testing mobile applications (Android & iOS) and web frontends\n(Angular)\n• Advantageous: Experience with automation tools such as Appium and Selenium\n• Working knowledge of Java or JavaScript for test automation\n• Technical proficiency with Jira, Confluence, SQL, Postman, Kibana, and the ELK\nstack\n• Experience with banking software (administration, processes, products, etc.)\n• Experience with test data preparation and maintenance\n• Ability to identify product risks and apply risk-based testing practices\n• Experience creating and maintaining automated regression test suites\n• Experience preparing test summary reports and quality metrics\n• Good understanding of test levels and testing methodologies\n• Proven ability to leverage AI technologies for analysis, content generation, process\nautomation, and continuous improvement initiatives.\n• Solid understanding of Agile Scrum methodology\n• Good command of English"
-    },
-    {
       "id": "4458949352",
       "company": "hedgehog lab",
       "title": "Senior Automation QA Engineer (Contract)",
       "location": "Iaşi, Iaşi, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-automation-qa-engineer-contract-at-hedgehog-lab-4458949352?position=3&pageNum=1&refId=QZEdQyDoXYvhRoeW7QoBKg%3D%3D&trackingId=x7EWz7WSiexsJSLteetCpA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-automation-qa-engineer-contract-at-hedgehog-lab-4458949352?position=4&pageNum=1&refId=EQ59SdrOb9C5HRTWrFLX5A%3D%3D&trackingId=0Yht1PklLfrb5D4KsDOqsA%3D%3D",
       "source": "linkedin",
       "description": "Location and basis\nContractors engage on a B2B basis.\nFully flexible working: home, office, or a mix, your call. We just ask that you're based within one of these areas:\nRomania: within 50 miles of Bucharest, Cluj or Iasi\nBulgaria: within 50 miles of Sofia\nApplications from outside these areas won't be considered.\nThe engagement\nYou'll join a high-volume online marketplace part-way through a major, multi-year technology transformation. There's a live migration from GCP to AWS and a full version 2 build underway.\nThis is an initial 3 to 6 month contract, starting as soon as possible.\nYou'll embed directly into one of our product squads as its quality engineer, working alongside a tech lead, a principal engineer, three full-stack engineers and a platform engineer. You'll be the quality lead for that squad, owning test coverage, automation and validation standards for the features it ships.\nDay to day, you'll write and maintain automated tests, shape the squad's test approach, and hold quality high while the platform changes underneath you.\nThis is a capacity role alongside an established permanent team. You'll work in a blended squad of permanent and contract colleagues, so you'll need to be productive quickly without a long ramp.\nThe platform\nThis is a genuinely large-scale marketplace. Very few platforms handle a product catalogue or transaction volume at this level.\nThe roadmap includes agentic AI workflows built into the platform, retail media integrated directly into the marketplace, and infrastructure work targeting cost and performance at high volume.\nA lot of this is being attempted at volumes that have rarely been tested in a marketplace before, so the work leans research-led rather than routine.\nWho this suits\nThis is a fast-paced scale-up environment on a complex platform.\nYou'll do well here if you're comfortable with ambiguity and shifting ground.\nWhat We Need\nThe essentials:\n5+ years across manual and automated testing, operating at a senior level with the autonomy to set standards and deliver without close oversight\nDeep expertise in at least one language (TypeScript, Java, C# or Python)\nYou can build, maintain and extend automated tests and frameworks\nStrong grasp of SDLC QA processes: planning, test cases, bug tracking, reporting\nHands-on with a test case management system such as TestRail\nSolid test methodologies and techniques\nComfortable working in English, written and spoken\nAlso Needed\nWorking understanding of OOP principles and design patterns\nGood knowledge of CI/CD systems\nExperience with test reporting tools and services\nNice To Have\nPlaywright with TypeScript used professionally\nHands-on with AWS\nGenAI tools already part of your day-to-day QA workflow\nReady to apply?\nSubmit your application below."
+    },
+    {
+      "id": "4456004167",
+      "company": "GlobalLogic",
+      "title": "Senior Automation QA Engineer IRC302861",
+      "location": "Iaşi, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-automation-qa-engineer-irc302861-at-globallogic-4456004167?position=4&pageNum=0&refId=Dd%2BsopObdZdJn7dZUksc5g%3D%3D&trackingId=UsAfo%2FnXlOYcPivwJ7IrLA%3D%3D",
+      "source": "linkedin",
+      "description": "Description\nYou will be part of cross-functional project teams working in an Agile environment.\nThe primary project you will work on is built as a suite of small, independently deployable services, each running in its own process. These microservices are designed to collect and store relevant data and statistics for eBikes, and to expose processed information to other client applications.\nThe overall solution consists of interconnected desktop and web applications aimed at enhancing the post-purchase experience for the client’s customers. The platform provides maintenance recommendations, step-by-step service instructions, service history tracking, issue reporting, efficient firmware updates and firmware package configuration.\nRequirements\n5+ yrs. relevant experience with Automation mindset, tools & frameworks\nGood development skills in Java\nGood understanding of Object-Oriented Programming (OOP) principles\nExperience with RestAssured for API automation\nExperience with CI tools such as GitHub Actions\nExperience wit test management tools such as TestRail\nISTQB certification is a plus\nSQL and Database knowledge\nNice to have experience with web applications testing\nGood ability to prioritize tasks and work independently\nGood command of English\nGood communication skills\nJob responsibilities\nOn site presence at the office 1 day/ week\nDevelop, maintain and improve automated QA systems and associated test strategies\nDesign and implement automated test cases for backend services and APIs\nContribute to test framework enhancements and continuous improvement initiatives\nPerform API automation testing using modern tools and best practices\nParticipate in code reviews and ensure adherence to automation standards\nIntegrate automated tests into CI/CD pipelines\nCollaborate with cross-functional teams to ensure product quality\nIdentify, document and track defect\nWhat we offer\nEmpowering Projects:\nWith 500+ clients spanning diverse industries and domains, we provide an exciting opportunity to contribute to groundbreaking projects that leverage cutting-edge technologies. As a team, we engineer digital products that positively impact people’s lives.\nEmpowering Growth:\nWe foster a culture of continuous learning and professional development. Our dedication is to provide timely and comprehensive assistance for every consultant through our dedicated Learning & Development team, ensuring their continuous growth and success.\nDE&I Matters:\nAt GlobalLogic, we deeply value and embrace\ndiversity\n. We are dedicated to providing\nequal\nopportunities for all individuals, fostering an\ninclusive\nand empowering work environment.\nCareer Development:\nOur corporate culture places a strong emphasis on career development, offering abundant opportunities for growth. Regular interactions with our teams ensure their engagement, motivation, and recognition. We empower our team members to pursue their career goals with confidence and enthusiasm.\nComprehensive Benefits:\nIn addition to equitable compensation, we provide a comprehensive benefits package that prioritizes the overall well-being of our consultants. We genuinely care about their health and strive to create a positive work environment.\nFlexible Opportunities:\nAt GlobalLogic, we prioritize work-life balance by offering flexible opportunities tailored to your lifestyle. Explore relocation and rotation options for diverse cultural and professional experiences in different countries with our company.\nAbout GlobalLogic\nGlobalLogic, a Hitachi Group Company, is a trusted digital engineering partner to the world’s largest and most forward-thinking companies. Since 2000, we’ve been at the forefront of the digital revolution – helping create some of the most innovative and widely used digital products and experiences. Today we continue to collaborate with clients in transforming businesses and redefining industries through intelligent products, platforms, and services."
     },
     {
       "id": "4420970110",
       "company": "Luxoft",
       "title": "Senior QA Test Automation Engineer (Java)",
       "location": "Iasi Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/senior-qa-test-automation-engineer-java-at-luxoft-4420970110?position=4&pageNum=0&refId=YSzH7HnJ22e2S%2FHprvxqyw%3D%3D&trackingId=chvN%2FHICkO8tRd2PjBjfAA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-qa-test-automation-engineer-java-at-luxoft-4420970110?position=5&pageNum=0&refId=Dd%2BsopObdZdJn7dZUksc5g%3D%3D&trackingId=Nx2dmPdmINe62NDJoKVQIA%3D%3D",
       "source": "linkedin",
       "description": "Reason to join us:\n• We offer the opportunity to work in a highly professional environment where you will work with high-level financial instruments\n• We want you to be part of our success story and give you reasons to be proud of what you achieved as part of our fabulous team\n• We allow you to develop yourself and evolve in your career via our fantastic technical, business-related, or soft-skills training\n• We encourage creative thinking in our great open-minded work environment. Frequently the relaxation rooms are the place where the most ambitious ideas are born.\n• We are not just professional teams, we are also friends who have fun working together\n• If you are an active person and you feel motivated by the creation/development of software solutions, then this is the place to be, you will not get bored.\nProject description:\nVR-120329\nThe client, an investment bank is renewing its workflow automation technology. The project it's a new platform aiming at simplifying business process interactions and automation by using modern technologies specific to this domain.\nThe core of the platform is managing all platform business processes and providing core functionalities, libraries, indexing, data enhancement, and user interaction to onboarded use cases. The goal is to have high availability and high-performance platform infrastructure with a focus on fast business adoption with low downtimes. Core technologies are Java, Camunda, Spring, Hibernate, and Elasticsearch deployed on OpenShift/Kubernetes environments and automated by E2E CI/CD pipelines.\nResponsibilities:\nAbility to plan and implement the full set of test automation activities: create, maintain, and execute automated tests.\nDevelop, extend, and improve the existing Test Automation tools and test frameworks\nProviding input to the project plan/release plan, defect/change management processes, systems integration, testing tools and processes;\nIdentifying areas of weakness to existing procedures, continually implementing new procedures, and assessing risk of impact from changes to projects;\nAssisting the IT application team in achieving quality products by identifying defects and deficiencies early and providing feedback for continuously improving the development and testing processes.\nAbility to perform manual testing when required.\nSkills\nJava (OOP principles, Design patterns)\nSpring and SpringBoot\nCucumber ( Data Table, Annotations )\nAutomation framework tools: Selenium, Rest Assured or similar\nRest calls interaction\nHTTP protocol understanding\nExcellent skills in Test planning, designing, and test strategy/case/script creation and execution.\nExperience with integration & regression testing and coordination with supporting systems."
     }
   ],
-  "scraped_at": "2026-08-31T09:47:34+00:00",
+  "scraped_at": "2026-09-01T08:40:56+00:00",
   "query": {
     "title": "QA engineer",
     "city": "Iasi"
