@@ -312,6 +312,6 @@ wrangler.jsonc               the assets-only Worker (output dir, SPA fallback)
 - Anything scraped here is public listing data, collected at a deliberately
   polite request rate. This is a portfolio project, not a commercial service.
 
-## Licence
+## License
 
 MIT — see [LICENSE](LICENSE).
