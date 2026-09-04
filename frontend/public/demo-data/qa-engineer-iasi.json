@@ -1,7 +1,7 @@
 {
-  "total_jobs_found": 54,
+  "total_jobs_found": 55,
   "sources_summary": {
-    "bestjobs": 52,
+    "bestjobs": 53,
     "linkedin": 2
   },
   "jobs": [
@@ -78,15 +78,6 @@
       "description": ""
     },
     {
-      "id": "52062455",
-      "company": "CXM Direct",
-      "title": "Full-Stack QA Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-qa-engineer-2/52062455",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
       "id": "52055801",
       "company": "YO IT Consulting",
       "title": "GitHub Contributor - Remote",
@@ -123,11 +114,11 @@
       "description": ""
     },
     {
-      "id": "52053635",
-      "company": "Storyteller",
-      "title": "Junior Web Developer",
+      "id": "52066738",
+      "company": "Welo Global",
+      "title": "Kazakh Localization QA Tester / Proofreader (8/13/2026)",
       "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/junior-web-developer-67/52053635",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/kazakh-localization-qa-tester-proofreader-8-13-2026/52066738",
       "source": "bestjobs",
       "description": ""
     },
@@ -191,15 +182,6 @@
       "title": "QA / Test Coordinator",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/qa-test-coordinator/52063947",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52054035",
-      "company": "Poland and Eastern Europe",
-      "title": "QA Architect - B2B  project",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/qa-architect-b2b-project/52054035",
       "source": "bestjobs",
       "description": ""
     },
@@ -402,11 +384,29 @@
       "description": ""
     },
     {
+      "id": "52066725",
+      "company": "Magna International",
+      "title": "Software Tester - Student",
+      "location": "Iasi, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/software-tester-student/52066725",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
       "id": "52066250",
       "company": "Codekeeper",
       "title": "Software Verification Engineer",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/software-verification-engineer-6/52066250",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
+      "id": "52066718",
+      "company": "Smart Working Solutions",
+      "title": "Sr. Symfony Engineer (Remote, Full-Time) - [HR191]",
+      "location": "Remote",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/sr-symfony-engineer-remote-full-time-hr191/52066718",
       "source": "bestjobs",
       "description": ""
     },
@@ -474,11 +474,20 @@
       "description": ""
     },
     {
+      "id": "52066729",
+      "company": "Infineon",
+      "title": "Working Student in Software Development (f/m/div)",
+      "location": "Iasi, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/working-student-in-software-development-f-m-div/52066729",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
       "id": "4456004167",
       "company": "GlobalLogic",
       "title": "Senior Automation QA Engineer IRC302861",
       "location": "Iaşi, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-automation-qa-engineer-irc302861-at-globallogic-4456004167?position=4&pageNum=0&refId=idGWw%2B1kqavhcKYzjgAHtg%3D%3D&trackingId=cAwqoFyCXnrjl2%2B65OMviQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-automation-qa-engineer-irc302861-at-globallogic-4456004167?position=4&pageNum=0&refId=EQRVz068Re0rO08Jc6eowA%3D%3D&trackingId=%2F6aGtzSQUbmed7RUxypJbQ%3D%3D",
       "source": "linkedin",
       "description": "Description\nYou will be part of cross-functional project teams working in an Agile environment.\nThe primary project you will work on is built as a suite of small, independently deployable services, each running in its own process. These microservices are designed to collect and store relevant data and statistics for eBikes, and to expose processed information to other client applications.\nThe overall solution consists of interconnected desktop and web applications aimed at enhancing the post-purchase experience for the client’s customers. The platform provides maintenance recommendations, step-by-step service instructions, service history tracking, issue reporting, efficient firmware updates and firmware package configuration.\nRequirements\n5+ yrs. relevant experience with Automation mindset, tools & frameworks\nGood development skills in Java\nGood understanding of Object-Oriented Programming (OOP) principles\nExperience with RestAssured for API automation\nExperience with CI tools such as GitHub Actions\nExperience wit test management tools such as TestRail\nISTQB certification is a plus\nSQL and Database knowledge\nNice to have experience with web applications testing\nGood ability to prioritize tasks and work independently\nGood command of English\nGood communication skills\nJob responsibilities\nOn site presence at the office 1 day/ week\nDevelop, maintain and improve automated QA systems and associated test strategies\nDesign and implement automated test cases for backend services and APIs\nContribute to test framework enhancements and continuous improvement initiatives\nPerform API automation testing using modern tools and best practices\nParticipate in code reviews and ensure adherence to automation standards\nIntegrate automated tests into CI/CD pipelines\nCollaborate with cross-functional teams to ensure product quality\nIdentify, document and track defect\nWhat we offer\nEmpowering Projects:\nWith 500+ clients spanning diverse industries and domains, we provide an exciting opportunity to contribute to groundbreaking projects that leverage cutting-edge technologies. As a team, we engineer digital products that positively impact people’s lives.\nEmpowering Growth:\nWe foster a culture of continuous learning and professional development. Our dedication is to provide timely and comprehensive assistance for every consultant through our dedicated Learning & Development team, ensuring their continuous growth and success.\nDE&I Matters:\nAt GlobalLogic, we deeply value and embrace\ndiversity\n. We are dedicated to providing\nequal\nopportunities for all individuals, fostering an\ninclusive\nand empowering work environment.\nCareer Development:\nOur corporate culture places a strong emphasis on career development, offering abundant opportunities for growth. Regular interactions with our teams ensure their engagement, motivation, and recognition. We empower our team members to pursue their career goals with confidence and enthusiasm.\nComprehensive Benefits:\nIn addition to equitable compensation, we provide a comprehensive benefits package that prioritizes the overall well-being of our consultants. We genuinely care about their health and strive to create a positive work environment.\nFlexible Opportunities:\nAt GlobalLogic, we prioritize work-life balance by offering flexible opportunities tailored to your lifestyle. Explore relocation and rotation options for diverse cultural and professional experiences in different countries with our company.\nAbout GlobalLogic\nGlobalLogic, a Hitachi Group Company, is a trusted digital engineering partner to the world’s largest and most forward-thinking companies. Since 2000, we’ve been at the forefront of the digital revolution – helping create some of the most innovative and widely used digital products and experiences. Today we continue to collaborate with clients in transforming businesses and redefining industries through intelligent products, platforms, and services."
     },
@@ -487,12 +496,12 @@
       "company": "Luxoft",
       "title": "Senior QA Test Automation Engineer (Java)",
       "location": "Iasi Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/senior-qa-test-automation-engineer-java-at-luxoft-4420970110?position=5&pageNum=0&refId=idGWw%2B1kqavhcKYzjgAHtg%3D%3D&trackingId=E6J4O5ig2LvgeWPWBChnug%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-qa-test-automation-engineer-java-at-luxoft-4420970110?position=5&pageNum=0&refId=EQRVz068Re0rO08Jc6eowA%3D%3D&trackingId=GhiKx8vwUdWOL%2BNh1si6Aw%3D%3D",
       "source": "linkedin",
       "description": "Reason to join us:\n• We offer the opportunity to work in a highly professional environment where you will work with high-level financial instruments\n• We want you to be part of our success story and give you reasons to be proud of what you achieved as part of our fabulous team\n• We allow you to develop yourself and evolve in your career via our fantastic technical, business-related, or soft-skills training\n• We encourage creative thinking in our great open-minded work environment. Frequently the relaxation rooms are the place where the most ambitious ideas are born.\n• We are not just professional teams, we are also friends who have fun working together\n• If you are an active person and you feel motivated by the creation/development of software solutions, then this is the place to be, you will not get bored.\nProject description:\nVR-120329\nThe client, an investment bank is renewing its workflow automation technology. The project it's a new platform aiming at simplifying business process interactions and automation by using modern technologies specific to this domain.\nThe core of the platform is managing all platform business processes and providing core functionalities, libraries, indexing, data enhancement, and user interaction to onboarded use cases. The goal is to have high availability and high-performance platform infrastructure with a focus on fast business adoption with low downtimes. Core technologies are Java, Camunda, Spring, Hibernate, and Elasticsearch deployed on OpenShift/Kubernetes environments and automated by E2E CI/CD pipelines.\nResponsibilities:\nAbility to plan and implement the full set of test automation activities: create, maintain, and execute automated tests.\nDevelop, extend, and improve the existing Test Automation tools and test frameworks\nProviding input to the project plan/release plan, defect/change management processes, systems integration, testing tools and processes;\nIdentifying areas of weakness to existing procedures, continually implementing new procedures, and assessing risk of impact from changes to projects;\nAssisting the IT application team in achieving quality products by identifying defects and deficiencies early and providing feedback for continuously improving the development and testing processes.\nAbility to perform manual testing when required.\nSkills\nJava (OOP principles, Design patterns)\nSpring and SpringBoot\nCucumber ( Data Table, Annotations )\nAutomation framework tools: Selenium, Rest Assured or similar\nRest calls interaction\nHTTP protocol understanding\nExcellent skills in Test planning, designing, and test strategy/case/script creation and execution.\nExperience with integration & regression testing and coordination with supporting systems."
     }
   ],
-  "scraped_at": "2026-09-03T08:04:46+00:00",
+  "scraped_at": "2026-09-04T07:59:52+00:00",
   "query": {
     "title": "QA engineer",
     "city": "Iasi"
