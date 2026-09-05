@@ -1,10 +1,19 @@
 {
-  "total_jobs_found": 253,
+  "total_jobs_found": 252,
   "sources_summary": {
-    "bestjobs": 244,
+    "bestjobs": 243,
     "linkedin": 9
   },
   "jobs": [
+    {
+      "id": "52066861",
+      "company": "SupportYourApp",
+      "title": "(Fluent English) T3 Support Engineer (EU, Remote)",
+      "location": "Remote",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/fluent-english-t3-support-engineer-eu-remote/52066861",
+      "source": "bestjobs",
+      "description": ""
+    },
     {
       "id": "52064388",
       "company": "SupportYourApp",
@@ -195,6 +204,15 @@
       "description": ""
     },
     {
+      "id": "52066912",
+      "company": "Boatyardx",
+      "title": "Cloud Native Engineer",
+      "location": "Remote",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/cloud-native-engineer/52066912",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
       "id": "51994295",
       "company": "CONTINENTAL AUTOMOTIVE PRODUCTS",
       "title": "Cloud Platform Engineer (FinOps) - Tires",
@@ -254,6 +272,15 @@
       "title": "Cyber Security Engineer",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/cyber-security-engineer-16/51921938",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
+      "id": "52066914",
+      "company": "Ness Digital Engineering",
+      "title": "Cyber Security Operations Engineer",
+      "location": "Timisoara, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/cyber-security-operations-engineer/52066914",
       "source": "bestjobs",
       "description": ""
     },
@@ -344,6 +371,15 @@
       "title": "Database Developer / SQL Specialist",
       "location": "Timisoara, Romania",
       "href": "https://www.bestjobs.eu/locuri-de-munca/database-developer-sql-specialist/51934748",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
+      "id": "52066882",
+      "company": "Trinetix",
+      "title": "Databricks Developer",
+      "location": "Remote",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/databricks-developer-2/52066882",
       "source": "bestjobs",
       "description": ""
     },
@@ -452,6 +488,15 @@
       "title": "DevOps Engineer- Senior Associate- Financial Services",
       "location": "Timisoara, Romania",
       "href": "https://www.bestjobs.eu/locuri-de-munca/devops-engineer-senior-associate-financial-services-6/52056362",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
+      "id": "52066897",
+      "company": "Everseen",
+      "title": "DevOps Manager - Edge",
+      "location": "Timisoara, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/devops-manager-edge/52066897",
       "source": "bestjobs",
       "description": ""
     },
@@ -1230,15 +1275,6 @@
       "description": ""
     },
     {
-      "id": "52056091",
-      "company": "Kiteworks",
-      "title": "Senior Cloud Operations Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-cloud-operations-engineer-5/52056091",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
       "id": "52058482",
       "company": "Form3",
       "title": "Senior Cloud Security Engineer",
@@ -1473,15 +1509,6 @@
       "description": ""
     },
     {
-      "id": "52056655",
-      "company": "accesa.eu",
-      "title": "Senior Golang Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-golang-engineer-8/52056655",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
       "id": "52065983",
       "company": "Hack The Box",
       "title": "Senior Infrastructure Engineer",
@@ -1590,29 +1617,11 @@
       "description": ""
     },
     {
-      "id": "52055240",
-      "company": "Virtuozzo",
-      "title": "Senior Product Manager for Virtualization & Cloud",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-product-manager-for-virtualization-cloud/52055240",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
       "id": "52058359",
       "company": "Flosum",
       "title": "Senior Product Manager, Salesforce Platform (Romania)",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/senior-product-manager-salesforce-platform-romania/52058359",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52056158",
-      "company": "AgileEngine",
-      "title": "Senior Product Owner",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-product-owner-25/52056158",
       "source": "bestjobs",
       "description": ""
     },
@@ -2049,15 +2058,6 @@
       "description": ""
     },
     {
-      "id": "52055598",
-      "company": "Paymentology",
-      "title": "Staff Software Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/staff-software-engineer-19/52055598",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
       "id": "52057224",
       "company": "Third-Party Job Posts",
       "title": "Staff Software Engineer",
@@ -2072,15 +2072,6 @@
       "title": "Staff Software Engineer, Backend (Bucharest)",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/staff-software-engineer-backend-bucharest/52057641",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52055429",
-      "company": "Ledgy",
-      "title": "Staff/Senior Software Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/staff-senior-software-engineer/52055429",
       "source": "bestjobs",
       "description": ""
     },
@@ -2206,7 +2197,7 @@
       "company": "OPSWAT",
       "title": "DevOps Engineer",
       "location": "Timişoara, Timiş, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/devops-engineer-at-opswat-4430969454?position=5&pageNum=0&refId=pcq6X7erXTRQBXziSL5XgA%3D%3D&trackingId=iYPN7YoEQls%2FB4qYJOWSMw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/devops-engineer-at-opswat-4430969454?position=5&pageNum=0&refId=0KcN765WyU8lBJZXIw%2BGWA%3D%3D&trackingId=9aHf%2BUpTBBdx2sAW3Y%2Bacg%3D%3D",
       "source": "linkedin",
       "description": "OPSWAT, a global leader in IT, OT, and ICS critical infrastructure cybersecurity, delivers an end-to-end platform that gives public and private sector organizations and enterprises the critical advantage needed to protect their complex networks, secure their devices, and ensure compliance. Over the last 20 years our commitment to innovative technology has earned the trust of more than 1,700 organizations, governments, and institutions globally, solidifying our role in protecting the world’s critical infrastructure and securing our way of life.\nThe Position\nWe are seeking a talented and experienced DevOps Engineer to join our dynamic team at OPSWAT. The ideal candidate will play a crucial role in the design, implementation, and maintenance of our cloud infrastructure on AWS, ensuring optimal performance, scalability, and security. This role requires expertise in AWS services, Kubernetes, CI/CD pipelines, infrastructure automation, testing frameworks, monitoring, and logging solutions. Additionally, experience with Argo, Terraform, AWS CloudFormation, and production support is highly advantageous.\nWhat You Will Be Doing\nDesign, deploy, and manage cloud infrastructure on AWS using Terraform and AWS CloudFormation, leveraging services such as EC2, S3, RDS, and more.\nImplement and maintain Kubernetes clusters for container orchestration, ensuring scalability and high availability.\nDevelop and maintain CI/CD pipelines for automated software delivery and deployment.\nManage infrastructure as code (IaC) using Terraform and AWS CloudFormation for provisioning and configuration management.\nDesign and implement load test infrastructure to validate system performance under varying conditions.\nCollaborate with development and QA teams to integrate automated testing into the CI/CD pipeline.\nImplement monitoring and logging solutions using tools such as Prometheus, Grafana, and ELK Stack.\nAnalyze and troubleshoot infrastructure issues, implementing solutions to ensure system reliability and uptime.\nProvide production support and troubleshooting, resolving issues promptly to minimize downtime.\nWhat We Need From You\nProven experience (2-4 years) as a DevOps Engineer or similar role, with a strong focus on AWS cloud infrastructure.\nExperience with Kubernetes administration and containerization concepts.\nSolid understanding of CI/CD principles and hands-on experience with related tools\nExperience with infrastructure as code (IaC) using Terraform and AWS CloudFormation.\nExperience with test automation frameworks and methodologies.\nExperience with load testing, endurance testing, scalability testing, and stress testing.\nKnowledge of scripting languages (e.g., Python, Bash) for automation tasks.\nExperience implementing monitoring and logging solutions with Prometheus, Grafana, and ELK Stack.\nExcellent troubleshooting skills and the ability to diagnose and resolve complex issues efficiently.\nExperience with production support and incident response.\nStrong communication and collaboration skills, with the ability to work effectively in a team environment.\nFamiliarity with email infrastructure and domain administration — Microsoft 365 / Exchange Online experience or prior email admin background is a strong plus.\nWhy You'll Love Working Here\nInnovative Environment: Join a team at the forefront of cybersecurity innovation. At OPSWAT, you'll have the opportunity to work with cutting-edge technologies and contribute to solutions that shape the future of cybersecurity.\nCollaborative Culture: We foster a culture of collaboration, where every team member's input is valued. You'll have the chance to work alongside talented individuals who are passionate about cybersecurity and dedicated to making a difference.\nProfessional Growth: At OPSWAT, we prioritize the growth and development of our team members. You'll have access to ongoing training and development opportunities to enhance your skills and advance your career in cybersecurity.\nImpactful Work: Join a mission-driven company that is committed to securing the digital world. Your work at OPSWAT will have a meaningful impact on organizations worldwide, protecting critical data and assets from evolving cyber threats.\nFun and Dynamic Atmosphere: We believe in fostering a fun and dynamic work environment. From team-building activities to social events, you'll have plenty of opportunities to connect with your colleagues and enjoy the journey together.\nOPSWAT is an equal opportunity employer. We celebrate diversity and are committed to providing an environment where equal employment opportunities are extended to all employees and applicants, free of discrimination and harassment of any type. All employment decisions are based on individual qualifications, job requirements, and business needs without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other category protected by federal, state, or local laws.\nRecruiting Agencies: we do not accept unsolicited resumes from third party agencies for any of our open positions. To submit resumes for our jobs, there must be a recruiting contract approved by our legal team and endorsed by both parties. We are currently not accepting additional 3rd party agencies at this time."
     },
@@ -2215,7 +2206,7 @@
       "company": "AUMOVIO",
       "title": "DevOps Engineer Cloud Landing Zone (m/f/d)",
       "location": "Timişoara, Timiş, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/devops-engineer-cloud-landing-zone-m-f-d-at-aumovio-4434484676?position=1&pageNum=0&refId=pcq6X7erXTRQBXziSL5XgA%3D%3D&trackingId=5GGCQ1vT4z46%2B9uLeB4mDw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/devops-engineer-cloud-landing-zone-m-f-d-at-aumovio-4434484676?position=1&pageNum=0&refId=0KcN765WyU8lBJZXIw%2BGWA%3D%3D&trackingId=2OQQN%2F4sv3qJyDF2sWztKA%3D%3D",
       "source": "linkedin",
       "description": "Company Description\nAUMOVIO führt seit dem Spin-off im September 2025 das Geschäft des ehemaligen Continental-Unternehmensbereichs Automotive als eigenständiges Unternehmen. Das Technologie- und Elektronikunternehmen bietet ein breites Portfolio für eine sichere, begeisternde, vernetzte und autonome Mobilität. Dazu gehören Sensorlösungen, Displays, Brems- und Komfortsysteme sowie umfassende Expertise in Software, Architekturplattformen und Assistenzsystemen für software-definierte Fahrzeuge. Die Geschäftsfelder, die nun zu AUMOVIO gehören, erzielten im Geschäftsjahr 2024 einen Umsatz von 19,6 Milliarden Euro. Der Hauptsitz des Unternehmens ist in Frankfurt am Main. An über 100 Standorten weltweit hat AUMOVIO rund 87.000 Beschäftigte.\nJob Description\nA DevOps Engineer Cloud Landing Zone is responsible for the development and operation of the globally used Secure Cloud Access (SCA) IT service.\nKey Responsibilities\nLanding Zone Engineering\nDesign, build and maintain a global cloud landing zone for Google Cloud Platform (GCP) and Amazon Web Services (AWS), following enterprise architecture, compliance and security standards;\nDevelop and enhance automated account/project/subscription provisioning and baseline configurations exclusively using Infrastructure-as-Code (IaC);\nAutomation & Platform Enablement\nDevelop and maintain CI/CD pipelines for platform components;\nFoster process automation to reduce manual work using GitHub Actions;\nOperations\n& Development\nOperate and enhance the cloud platform with a strong focus on reliability and performance;\nDrive incident resolution and root cause analysis in collaboration with other cross-functional teams;\nPlan, coordinate and implement incoming platform changes for the further platform development;\nCollaboration and workstyle\nWork within an agile global team using Scrum or Kanban;\nCollaborate closely with internal and external teams on a global scale, e.g. security, network, governance and public cloud providers;\nParticipate in backlog refinement, sprint planning, retrospectives, and continuous improvement initiatives.\nQualifications\nDegree (e.g. business informatics, informatics) or comparable qualification;\nTechnical knowledge with at least one of the following cloud providers: AWS, Azure, GCP;\nCompetency with scripting languages such as Python;\nGood knowledge of cloud networking (VPC/VNet design, DNS);\nGood expertise about IT infrastructure components;\nStrong proficiency in Infrastructure as Code (e.g. Cloud Formation or Terraform), CI/CD pipelines and DevOps tooling;\nAgile methodologies (SCRUM);\nExperience with AI usage (e.g. GitHub Copilot) highly recommended\nRelevant certifications and/or experience in cloud computing, like: Solutions Architect Associate (AWS), Administrator (Azure), Associate Cloud Engineer (GCP);\nGood team player with the ability to work in cross functional teams;\nStrong problem-solving and analytical skills;\nFluent English skills, German skills helpful.\nAdditional Information\nWhat we offer:\nPay For Performance\nAchievement Bonuses and Rewards;\nRecommendation Bonuses for new team members;\nFlexibility Program including flexible hours, mobile work and sabbaticals.\nWellbeing\nHealth & Wellness (Private Health Insurance, Life Insurance, Sport activities etc.);\nDifferent discounts (glasses, tires, medical, shopping);\nIn-house restaurant & coffee corners.\nLife-Long Learning\nDedicated Programs and Conferences;\nFree Language Courses (English, German, French etc);\nAccess to e-learning platforms;\nCareer development opportunities (local and international);\nInternal development communities (Experts, Agile Community of Practice, Artificial Intelligence etc).\nReady to take your career to the next level? The future of mobility isn’t just anyone’s job. Make it yours!\nJoin AUMOVIO. Own What’s Next."
     },
@@ -2224,7 +2215,7 @@
       "company": "Bosch Romania",
       "title": "DevOps Engineer Senior",
       "location": "Timişoara, Timiş, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/devops-engineer-senior-at-bosch-romania-4449570467?position=3&pageNum=0&refId=pcq6X7erXTRQBXziSL5XgA%3D%3D&trackingId=R4vrUGaL1m8FOJ9PLKGuKg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/devops-engineer-senior-at-bosch-romania-4449570467?position=3&pageNum=0&refId=0KcN765WyU8lBJZXIw%2BGWA%3D%3D&trackingId=rYlOQ1%2FuCdabCGeddmubEQ%3D%3D",
       "source": "linkedin",
       "description": "About Bosch Service Solutions in Timișoara\nBosch Service Solutions is a leading service provider of enterprise and IT solutions. It designs and provides\nbest-in-class services\n, including\nsoftware-based solutions, consulting and management, AI, automation and customer experience\n. We’re on a mission to exceed customer expectations and continually elevate industry standards. Our colleagues contribute to this mission through their commitment, in an environment where diversity is valued and where everyone can bring their own contribution.\nOur promise to our colleagues is rock-solid: we grow together, we enjoy our work, and inspire each other. Join us and see the difference.\nWork LikeABosch\nJob Description\nDevelop and maintain backend services and AI-assisted PoC interfaces using Python.\nReview, validate, and refine AI-generated code to ensure quality, security, maintainability, and adherence to best practices before integration into production systems.\nIntegrate and manage robust authentication and authorization services.\nDesign, build, and automate cloud infrastructure using Infrastructure-as-Code (IaC) while applying security best practices.\nCreate and manage CI/CD pipelines in GitHub Actions, including repository policies and secret management.\nImplement and maintain comprehensive monitoring and observability solutions to ensure application performance and reliability.\nLead the design and development of internal platform tools to optimize developer workflows and experience, e.g. automation of local development environments set up.\nAct as a subject matter expert, providing guidance and support to the development team on infrastructure and tooling.\nUphold code and infrastructure quality through peer code reviews.\nEstablish team guidelines for AI code review processes.\nQualifications\n6+ years of relevant professional experience as Software Engineer, DevOps Engineer, Site Reliability Engineer, Cloud Engineer, Solutions Architect, or similar.\nDemonstrated experience reviewing and validating AI-generated code, with strong ability to identify security vulnerabilities, logic errors, edge cases, and anti-patterns that AI tools commonly produce.\nDeep expertise in cloud architecture, security principles, and Infrastructure as Code, specifically with Terraform.\nStrong proficiency in a backend programming language (preferably Python), and extensive hands-on experience with containerization (Docker, Docker Compose, Kubernetes, Helm)\nProven ability to design, build, and optimize CI/CD pipelines for cloud environments.\nExperience implementing and managing monitoring and observability stacks (e.g., Prometheus, Grafana, Elastic, etc.).\nDemonstrated technical leadership and mentorship experience within an engineering team.\nSolid understanding of core IT fundamentals, including Linux, networking concepts (routing, load balancers, firewalls), and database management (relational and non-relational).\nExperience working within agile frameworks in a global team environment and leveraging AI solutions to enhance daily work.\nAdditional Information\nLikeABosch Benefits:\nFinancial benefits:\nFlexible benefits system\n– In addition to your salary, we provide 2700 RON/year through your benefits account, allowing reimbursements based on your preferences;\nMeal tickets -\nA balanced diet includes at least one hot meal per day, therefore we offer you meal tickets with a value of 40 Ron;\nThe company performance related pay -\nYour contribution to Bosch is valuable. Celebrate a successful year with the company performance related pay;\nCelebrate together\n- We Like to give presents to our Loved ones, therefore we offer you 300 Ron for Christmas and Easter. Your minor children will enjoy this benefit too, as they will also receive 300 Ron;\nLoyalty bonus\n: We value your commitment and at 5 years you will receive 750 RON, at 10 years 1500 RON, and for every additional 5 years brings another 1500 RON. It’s our way of saying thank you for being part of our journey.\nLanguage courses\n- A new language is key to a new world, so we invite you to learn languages in your free time and get a discount of up to 1200 RON/year (e.g.: two modules of 600 RON each). Please note that the discount is based on the certification that you have passed the specific module.\nReferral bonuses -\nWe build our teams on trust, so we encourage you to refer new candidates to us through our program: Recommend Bosch. For certain positions, we will honor you with an attractive bonus;\nRelocation package\n- If you’re being recruited from more than 50 km away, we provide a standard relocation package of 2500 RON (conditions apply). This is a one-time fee, paid together with your first salary.\nLife events celebration\n- Your family is growing while working at Bosch? We congratulate your newborn with a 5000 RON bonus;\nUnforeseen situations\n- In case of unfortunate events, we support you by offering you free days and financial support (handled on a case-by-case basis);\nDiscounts to our partners -\nWe have a strong network in our community so we can offer you discounts to various businesses such as ISHO, Vodafone, and others.\nWork-Life Balance:\nSmart Work\n– Our working contracts are standardized to include the home office. Occasionally, you might be asked to come to the office (trainings, workshops, team events). Talk to your leader for more information.\nFlex-time possibility\n- We care about your schedule, therefore we try to offer you flexible working hours, according to personal and business needs. Please discuss this with your leader.\nGrowing number of vacation days\n- Work-life balance is essential for us, therefore we offer you 1 more day of vacation for every 2 years you spend in Bosch. We start with 25 days.\nInternal communities\n- You are welcome to become an active member of our internal communities: Trainers Community, Wellbeing Community, Quality Ambassadors, Project Management Ambassadors, IT Community, and many others;\nWork from abroad\n: Do you want to work a few days from abroad? Our Smart Work concept allows you to work from outside Romania for\nup to 30 days per year.\nConditions apply. Please contact HR for support.\nHealth and sport:\nMedical subscription\n- We know how important health is, so you get a medical subscription through the Regina Maria network, paid by the company—extended package of medical tests, free or reduced ultrasounds, and consultations.\nSports benefits\n- Being active helps you in your personal and professional Life, so we encourage you to stay in shape by using the 7Card discount for Smartfit Studio; See also: flexible benefits;\nPsychological counseling\n-Through the medical subscription, you can benefit from several free psychological counseling sessions at\nClinicile Oana Nicolau\nand at a discounted price afterward.\nDevelopment:\nBookster-\nthe road to self-improvement is paved by books. Borrow the books that interest you and your family through the Library that comes to your office (and your home).\nTraining and certifications\n-We believe in a Life-Long Learning approach, so we invite you to take part in technical and soft skills training delivered by our internal training team and through other methods.\nProfessional Development\n- Great opportunities to develop yourself within the company. Choose between different career paths: expert, project manager, or associates manager. Whether an upward or lateral move – we’ll be by your side.\nTeam-buildings\n- We organize yearly team-building activities for your department, so you get to know each other and build trust among your peers;\nInternational Assignments\n- You can work on international projects with and in other Bosch Locations, as we have offices in more than 60 countries worldwide;\nDiversity and multicultural mindset -\nMore than 10 different nations are represented  and  several  Languages are spoken  by  our colleagues. Diversity Day is a special day dedicated to sharing our diverse cultural experiences."
     },
@@ -2233,7 +2224,7 @@
       "company": "NTT DATA Europe & Latam",
       "title": "DevOps Engineer with Azure",
       "location": "Timisoara Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/devops-engineer-with-azure-at-ntt-data-europe-latam-4451262209?position=7&pageNum=0&refId=pcq6X7erXTRQBXziSL5XgA%3D%3D&trackingId=3g81XF%2BZd6xpcoDGDv5m8w%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/devops-engineer-with-azure-at-ntt-data-europe-latam-4451262209?position=7&pageNum=0&refId=0KcN765WyU8lBJZXIw%2BGWA%3D%3D&trackingId=D89arT4oo6bz7KlzX6yseg%3D%3D",
       "source": "linkedin",
       "description": "Who We Are\nWe are seeking an experienced DevOps Engineer with Azure expertise to drive the reliability, automation, and continuous improvement of our cloud platform. The role focuses on designing and supporting scalable Azure environments, implementing robust CI/CD practices, and enhancing operational excellence through infrastructure automation and monitoring.\nWhat You'll Be Doing\nDesign and manage scalable, secure, and reliable Azure infrastructure\nBuild and maintain Infrastructure as Code (Terraform)\nDevelop and optimize CI/CD pipelines using Azure DevOps and GitHub Actions\nAdminister and support AKS environments\nImplement monitoring, logging, and alerting solutions\nTroubleshoot production incidents and perform root cause analysis\nManage Azure networking and connectivity services\nAutomate operational processes through scripting and tooling\nSupport GitHub Enterprise and DevOps best practices\nDrive platform reliability, performance, security, and continuous improvement\nWhat You'll Bring Along\nBSc/MSc in Computer Science or related field\n5-10 years of experience in DevOps, Cloud, SRE, Platform, or Infrastructure Engineering\nStrong production support experience\nHands-on experience with Azure cloud services\nInfrastructure as Code using Terraform\nStrong understanding of Azure networking\nExperience with AKS, Application Gateway, Traffic Manager, Key Vault, Azure Monitor, Log Analytics, Managed Identities, Private Endpoints, and VNets\nStrong Kubernetes & AKS administration and support skills\nExperience with Helm, Ingress Controllers, scaling, upgrades, and monitoring\nAbility to troubleshoot networking, DNS, SSL/TLS, performance, and availability issues\nStrong Terraform experience\nKnowledge of reusable modules, remote state management, and infrastructure lifecycle management\nSolid Linux administration skills\nBash scripting experience required, Python is a plus\nStrong problem-solving and root cause analysis skills\nComfortable supporting applications end-to-end across cloud, networking, Kubernetes, and application layers\nExperience with GitHub Enterprise and GitHub Actions\nKnowledge of reusable workflows, branch protection, and GitHub security features\nExperience troubleshooting runners, pipelines, and connectivity issues\nExperience with ArgoCD and GitOps practices\nExperience with Prometheus, Grafana, Azure Monitor, Log Analytics, and Application Insights"
     },
@@ -2242,7 +2233,7 @@
       "company": "Publicis Sapient",
       "title": "DevOps Engineer- Senior Associate",
       "location": "Timisoara Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/devops-engineer-senior-associate-at-publicis-sapient-4446608872?position=6&pageNum=0&refId=pcq6X7erXTRQBXziSL5XgA%3D%3D&trackingId=5Vy6TJfDRO8I72lCxGfKCw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/devops-engineer-senior-associate-at-publicis-sapient-4446608872?position=6&pageNum=0&refId=0KcN765WyU8lBJZXIw%2BGWA%3D%3D&trackingId=EP8LZ4K81aDgDGuL8eAz6A%3D%3D",
       "source": "linkedin",
       "description": "Job Description\nTremend is looking for a DevOps Engineer to join our team of bright thinkers and doers. You’ll use your problem-solving creativity to figure out our clients’ most complex and challenging problems across different industries. We are on a mission to transform the world, and you will be instrumental in shaping how we do it with your ideas, thoughts, and solutions.\nResponsibilities:\nBuild the ultimate service environment for over 150 developers\nCreate and nurture new ways to deliver secure, reliable, and highly available, business-critical software\nHelp us spread the DevOps love and culture throughout the company\nProvide custom solutions for custom projects, as an autonomous engineer and as part of our team\nBuild infrastructure as code from the ground up\nProvide support for our teams and clients\nBe Agile, breathe Agile and discover the fun in Agile\nExperience with Azure services\nQualifications:\nOps & Infrastructure\nAdvanced Linux setup & operation\nSystem and network security & incident mitigation\nCaching solutions: Redis, Memcache\nWeb servers: Traefik, Nginx\nProvisioning\nTerraform & Terragrunt\nCI/CD\nSCM: Azure DevOps, GitHub\nAny combination of: Azure DevOps, GitHub Actions, GitLab CI, Bitbucket Pipelines\nArtifact management\nSonarQube\nDeployment\nDocker, Docker Compose\nOrchestrators: Kubernetes, Rancher\nCDNs\nMonitoring, performance\nELK stack,\nPrometheus\nGrafana, Graphite, stats\nProgramming\nBash\nPython\nUnderstanding the microservices design patterns\nBasic understanding of how Java/Node.js operate\nDB\nSetup, operate, and troubleshoot SQL (any combination): MySQL, PostgreSQL, Oracle, MSSQL\nNoSQL (any combination): MongoDB, Redis, Elasticsearch\nAzure Cloud\nProactively involved in cost reduction\nWork with Hub & Spoke network topologies and on-premises integrations\nFamiliar with Microsoft Entra ecosystem\nTroubleshoot microservices using App Insights\nImplemented Workload Identity for applications deployed on Azure Kubernetes Service\nFamiliar with Azure services used to decouple applications: Azure ServiceBus\nAdditional Information\nBesides an exciting job in a tremendous team, here s what you can expect:\nA fast-paced tech environment\nContinuous growth & learning\nOpen feedback culture\nRoom for own initiative & ideas\nTransparency about results & strategy\nRecognition & reward for hard work\nWorking with a flexible schedule\nMedical subscription\nMeal tickets\nExtra vacation days - starting with 25 vacation days\nMany other perks\nCompany Description\nTremend is the newest global software engineering hub for Publicis Sapient. For over 20 years, the company has been infusing its advanced technical expertise into complex and innovative solutions that meet today s digital transformation needs and pave the way for a better and smarter future. By joining forces with Publicis Sapient we re accelerating the impact, providing a good mix of talented engineers, technology, continuous improvement, innovation, and R&D. Here, you ll have the opportunity to unleash your potential, powering up advanced software solutions for some of the world s most iconic brands. Embrace your passion for technology, creativity, and continuous improvement, and join us in making a difference through engineering."
     },
@@ -2251,7 +2242,7 @@
       "company": "Publicis Sapient",
       "title": "Devops Engineer- Specialist- Retail",
       "location": "Timisoara Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/devops-engineer-specialist-retail-at-publicis-sapient-4457266623?position=8&pageNum=0&refId=pcq6X7erXTRQBXziSL5XgA%3D%3D&trackingId=R2qY3%2FhFTLVLt%2F5%2F9V%2BeWQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/devops-engineer-specialist-retail-at-publicis-sapient-4457266623?position=8&pageNum=0&refId=0KcN765WyU8lBJZXIw%2BGWA%3D%3D&trackingId=N6VwWp9CvdygiwEh%2FZnjDg%3D%3D",
       "source": "linkedin",
       "description": "Job Description\nWe are looking for a DevOps Specialist with strong expertise in Microsoft Azure to help design, build, and optimize cloud-native platforms that power innovative AI solutions. In this role, you will work closely with stakeholders, AI engineers, data scientists, and developers, leveraging Infrastructure as Code, CI/CD, and Azure best practices to deliver secure, scalable, and high-performing applications. You will also provide technical leadership within an Agile environment, helping teams solve complex challenges and accelerate delivery.\nResponsibilities\nDesign, review, and contribute to solution architectures for AI-driven applications with a strong focus on Microsoft Azure Cloud.\nAct as a technical lead within an Agile Scrum team, supporting planning, estimation, dependency management, risk mitigation, and continuous improvement initiatives.\nGuide engineering teams in adopting and enforcing DevOps, coding, security, and quality best practices.\nCollaborate with software engineers, AI specialists, and stakeholders to design and implement scalable cloud solutions.\nTroubleshoot complex technical issues and provide innovative solutions leveraging Azure services and cloud-native architectures.\nDevelop new services, automation tools, and proof-of-concepts to support business and technical objectives.\nBuild, maintain, and optimize Infrastructure as Code (IaC) solutions and deployment pipelines.\nSupport feature estimation and sprint planning activities within Scrum ceremonies.\nOversee deployment processes and collaborate closely with Quality Engineering teams to validate and certify releases.\nParticipate in release management activities and contribute to release documentation and notes.\nMonitor, maintain, and continuously improve the reliability, performance, and security of cloud environments.\nSkills & Experience\nMicrosoft Azure & Cloud Technologies\nHands-on experience with Microsoft Azure Cloud Services.\nStrong knowledge of:\nVirtual Networking and DNS\nIdentity and Access Management\nAzure Container Apps, Kubernetes (AKS), and App Services\nApplication Gateway and Web Application Firewall (WAF)\nAzure API Management\nDeep understanding of Azure architecture, cloud security, observability, and cloud-native design principles.\nDevOps & Automation\nProven experience with Infrastructure as Code (IaC), preferably using Terraform.\nExperience designing and managing CI/CD pipelines using Azure DevOps Pipelines.\nStrong experience with source control and collaboration platforms such as GitHub.\nExperience deploying, monitoring, and supporting microservices-based applications.\nAgile & Delivery\nExperience working within Scrum Agile environments.\nAbility to estimate technical work, identify dependencies, and manage delivery risks.\nExperience managing work items, releases, and project tracking using Jira.\nSoft Skills\nExcellent communication and stakeholder management skills.\nStrong problem-solving mindset with the ability to navigate complex technical challenges.\nAbility to work effectively in cross-functional and distributed teams.\nQualifications\nBachelor s degree in Computer Science, Engineering, Information Technology, or a related field.\nRelevant Microsoft Azure certifications (e.g., AZ-104, AZ-305, AZ-400, or equivalent) are highly desirable.\nDemonstrated experience in cloud infrastructure, DevOps engineering, and modern application delivery practices.\nPreferred Qualifications\nExperience supporting AI, Machine Learning, or Data Science platforms.\nKnowledge of cloud governance, security, and compliance frameworks.\nExperience implementing monitoring and observability solutions in Azure environments.\nFamiliarity with enterprise-scale cloud transformation initiatives.\nAdditional Information\nBesides an exciting job in a tremendous team, here s what you can expect:\nA fast-paced tech environment\nContinuous growth & learning\nOpen feedback culture\nRoom for own initiative & ideas\nTransparency about results & strategy\nRecognition & reward for hard work\nWorking with a flexible schedule\nMedical subscription\nMeal tickets\nExtra vacation days - starting with 25 vacation days\nMany other perks\nCompany Description\nTremend is the newest global software engineering hub for Publicis Sapient. For over 20 years, the company has been infusing its advanced technical expertise into complex and innovative solutions that meet today s digital transformation needs and pave the way for a better and smarter future. By joining forces with Publicis Sapient we re accelerating the impact, providing a good mix of talented engineers, technology, continuous improvement, innovation, and R&D. Here, you ll have the opportunity to unleash your potential, powering up advanced software solutions for some of the world s most iconic brands. Embrace your passion for technology, creativity, and continuous improvement, and join us in making a difference through engineering."
     },
@@ -2260,7 +2251,7 @@
       "company": "Bosch Romania",
       "title": "DevOps Team Leader",
       "location": "Timişoara, Timiş, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/devops-team-leader-at-bosch-romania-4442817663?position=1&pageNum=1&refId=d6GmbWTgU0%2F099YnFKv35Q%3D%3D&trackingId=V6cPX6Ts440SPlDOq7ltWw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/devops-team-leader-at-bosch-romania-4442817663?position=2&pageNum=1&refId=aC6bw2rcX%2B9COiv0ezAoPA%3D%3D&trackingId=TNFFoSgAu1pyGa19LVgemw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2269,7 +2260,7 @@
       "company": "Luxoft",
       "title": "Senior DevOps Engineer (GCP | Kubernetes | Terraform)",
       "location": "Timisoara Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/senior-devops-engineer-gcp-kubernetes-terraform-at-luxoft-4452423613?position=2&pageNum=0&refId=pcq6X7erXTRQBXziSL5XgA%3D%3D&trackingId=HHneMPlFONg1VyN9zX5m0Q%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-devops-engineer-gcp-kubernetes-terraform-at-luxoft-4452423613?position=2&pageNum=0&refId=0KcN765WyU8lBJZXIw%2BGWA%3D%3D&trackingId=zTfzLBKAqrrQnnErGI67%2Fg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2278,12 +2269,12 @@
       "company": "Endava",
       "title": "Senior DevOps Engineer with Azure",
       "location": "Timişoara, Timiş, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-devops-engineer-with-azure-at-endava-4455413915?position=4&pageNum=0&refId=pcq6X7erXTRQBXziSL5XgA%3D%3D&trackingId=WfLez30FsTfZpRy11KBX5w%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-devops-engineer-with-azure-at-endava-4455413915?position=4&pageNum=0&refId=0KcN765WyU8lBJZXIw%2BGWA%3D%3D&trackingId=A04wLr%2Bh5Mak4ppAUeM94A%3D%3D",
       "source": "linkedin",
       "description": ""
     }
   ],
-  "scraped_at": "2026-09-04T07:59:52+00:00",
+  "scraped_at": "2026-09-05T07:41:29+00:00",
   "query": {
     "title": "DevOps engineer",
     "city": "Timisoara"
