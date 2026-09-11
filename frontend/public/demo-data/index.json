@@ -1,47 +1,47 @@
 {
-  "generated": "2026-09-10T08:09:44+00:00",
+  "generated": "2026-09-11T08:05:09+00:00",
   "queries": [
     {
       "title": "Angular developer",
       "city": "Bucharest",
       "slug": "angular-developer-bucharest",
-      "total": 382,
-      "scrapedAt": "2026-09-10T08:09:44+00:00"
+      "total": 391,
+      "scrapedAt": "2026-09-11T08:05:09+00:00"
     },
     {
       "title": "React developer",
       "city": "Bucharest",
       "slug": "react-developer-bucharest",
-      "total": 276,
-      "scrapedAt": "2026-09-10T08:09:44+00:00"
+      "total": 277,
+      "scrapedAt": "2026-09-11T08:05:09+00:00"
     },
     {
       "title": "Java developer",
       "city": "Cluj-Napoca",
       "slug": "java-developer-cluj-napoca",
-      "total": 207,
-      "scrapedAt": "2026-09-10T08:09:44+00:00"
+      "total": 209,
+      "scrapedAt": "2026-09-11T08:05:09+00:00"
     },
     {
       "title": "Python developer",
       "city": "Bucharest",
       "slug": "python-developer-bucharest",
-      "total": 386,
-      "scrapedAt": "2026-09-10T08:09:44+00:00"
+      "total": 388,
+      "scrapedAt": "2026-09-11T08:05:09+00:00"
     },
     {
       "title": "QA engineer",
       "city": "Iasi",
       "slug": "qa-engineer-iasi",
-      "total": 51,
-      "scrapedAt": "2026-09-10T08:09:44+00:00"
+      "total": 53,
+      "scrapedAt": "2026-09-11T08:05:09+00:00"
     },
     {
       "title": "DevOps engineer",
       "city": "Timisoara",
       "slug": "devops-engineer-timisoara",
-      "total": 244,
-      "scrapedAt": "2026-09-10T08:09:44+00:00"
+      "total": 241,
+      "scrapedAt": "2026-09-11T08:05:09+00:00"
     }
   ]
 }
