@@ -1,9 +1,9 @@
 {
-  "total_jobs_found": 209,
+  "total_jobs_found": 210,
   "sources_summary": {
-    "bestjobs": 163,
+    "bestjobs": 159,
     "ejobs": 2,
-    "linkedin": 44
+    "linkedin": 49
   },
   "jobs": [
     {
@@ -70,15 +70,6 @@
       "description": ""
     },
     {
-      "id": "52059401",
-      "company": "CGS Nexus",
-      "title": "AI Engineer – Platform & Integrations",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/ai-engineer-platform-integrations/52059401",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
       "id": "52055261",
       "company": "Ionic Partners",
       "title": "AI-Enabled .NET Chief Architect (OTE $100,000/year USD), @Sparkrock",
@@ -111,15 +102,6 @@
       "title": "Backend Tech Lead — Product Infrastructure",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/backend-tech-lead-product-infrastructure/52067851",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "51833666",
-      "company": "Allevo",
-      "title": "C++ Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/c-developer-307/51833666",
       "source": "bestjobs",
       "description": ""
     },
@@ -412,15 +394,6 @@
       "description": ""
     },
     {
-      "id": "52058543",
-      "company": "GoHome",
-      "title": "Java-developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/java-developer-1223/52058543",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
       "id": "52018866",
       "company": "Vest Integrated Solutions",
       "title": "Junior Java Developer",
@@ -457,15 +430,6 @@
       "description": ""
     },
     {
-      "id": "52066214",
-      "company": "Bonapolia",
-      "title": "Lead Data Engineer (ADB)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/lead-data-engineer-adb/52066214",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
       "id": "52065277",
       "company": "Exadel (Website)",
       "title": "Lead Full-Stack Software Engineer (.NET, Angular)",
@@ -484,11 +448,11 @@
       "description": ""
     },
     {
-      "id": "52065712",
-      "company": "Exadel (Website)",
-      "title": "Lead Software Engineer (.NET)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/lead-software-engineer-net/52065712",
+      "id": "52068071",
+      "company": "JustRocket",
+      "title": "Mid Java Backend Developer for Banking API (m/f/d)",
+      "location": "Cluj-Napoca, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/mid-java-backend-developer-for-banking-api-m-f-d/52068071",
       "source": "bestjobs",
       "description": ""
     },
@@ -624,6 +588,15 @@
       "title": "Request to Service Specialist",
       "location": "Remote",
       "href": "https://bit.ly/4fRLLKP",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
+      "id": "52068022",
+      "company": "EWOR GmbH",
+      "title": "SaaS Full-Stack Developer (100 % remote) (m/f/d)",
+      "location": "Remote",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/saas-full-stack-developer-100-remote-m-f-d/52068022",
       "source": "bestjobs",
       "description": ""
     },
@@ -768,6 +741,15 @@
       "title": "Senior Developer .NET",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/senior-developer-net-1/52063997",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
+      "id": "52068027",
+      "company": "TELEKOM HELLENIC BUSINESS SOLUTIONS",
+      "title": "Senior DevOps Engineer",
+      "location": "Remote",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-devops-engineer-215/52068027",
       "source": "bestjobs",
       "description": ""
     },
@@ -1294,15 +1276,6 @@
       "description": ""
     },
     {
-      "id": "52055243",
-      "company": "Qiagen",
-      "title": "Software QA Automation Engineer",
-      "location": "Cluj-Napoca, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-qa-automation-engineer-5/52055243",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
       "id": "52066250",
       "company": "Codekeeper",
       "title": "Software Verification Engineer",
@@ -1447,15 +1420,6 @@
       "description": ""
     },
     {
-      "id": "52059363",
-      "company": "IGT",
-      "title": "Typescript Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/typescript-developer-9/52059363",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
       "id": "51897560",
       "company": "Swicon IT Services",
       "title": "Workday Design & Implementation Specialist",
@@ -1496,16 +1460,25 @@
       "company": "SupportYourApp",
       "title": "(fluent English) Senior Full-Stack Developer (Python/Java/React)",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/fluent-english-senior-full-stack-developer-python-java-react-at-supportyourapp-4450237434?position=6&pageNum=4&refId=INZ1obczBC3jyHMGoLRH0A%3D%3D&trackingId=fkOigaVbIjfu4c8knf2f3A%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/fluent-english-senior-full-stack-developer-python-java-react-at-supportyourapp-4450237434?position=5&pageNum=4&refId=eM6oarq41ckWL8eQ5eZYFQ%3D%3D&trackingId=LYXeb4nYMih%2FWcYBLbv3fA%3D%3D",
       "source": "linkedin",
       "description": "We are looking for a proactive and experienced\nSenior Full-Stack Developer\nto join the Application team at the partner company. Their mission is to provide businesses with easy access to high-quality web data, allowing clients to focus on data analysis rather than data collection.\nIn this role, you will build, refine, and maintain core features across the full stack, delivering high-performance, pixel-perfect web applications while developing secure back-end systems and intuitive user experiences. The ideal candidate is passionate about writing clean, scalable code, collaborating closely with cross-functional teams, and leveraging modern AI tools to accelerate development.\nExcited? Let's see what it takes 💛\nWhat you will do:\nBuild, refine, and maintain core features across the full stack, ensuring a polished, high-performance user experience;\nDevelop and optimize both the company's main application and internal Admin Interfaces (including user management and billing systems);\nImplement high-fidelity UI/UX, ensuring pixel-perfect execution of product designs down to the smallest detail;\nCooperate closely with Product Managers and Designers, translating Figma designs into seamless production code;\nCollaborate closely with an additional developer and the QA team to ensure smooth integration, high code quality, and flawless deployment;\nDesign and maintain significant, sensitive, and secure back-end logic and infrastructure;\nTake responsibility for maintaining and updating the company's marketing website, built on WordPress;\nLeverage AI tools effectively to accelerate the development lifecycle and optimize delivery speed without compromising quality\nWhat you need to succeed in this role:\n8+ years of development experience, including at least 5-6 years of Full-Stack experience, with a strong and balanced track record in both Frontend and Backend development;\nDeep, significant experience with React;\nSignificant and hands-on experience with Python OR Java, with the ability to handle complex and sensitive architecture;\nFluent English (B2 or higher), both written and spoken;\nProven ability to deliver pixel-perfect UI with a sharp eye for detail, and extensive experience working with Figma;\nExcellent team player with a proven track record of working effectively alongside other developers, QA engineers, and product stakeholders;\nGrowth mindset with the ability to adapt quickly, deliver results efficiently, and leverage AI-powered tools to maximize productivity\nWould be a plus:\nExperience with the second backend language (Python/Java);\nHands-on experience with Next.js;\nPractical experience with WordPress maintenance and customization\nBenefits and Perks:\nFixed schedule: Sunday-Thursday, 09:00-18:00 (Asia/Jerusalem, GMT+3);\nFully remote work opportunity;\nInclusive and international environment;\nCompensation in USD;\nSupportive management focused on your growth and long-term collaboration\nSo if you are a proactive\nFull-Stack Developer\nwho is passionate about building impactful products, writing high-quality code, and driving technical excellence — grab the chance to collaborate with us and send your CV in\nEnglish\n💛\nWe adhere to the principles of equal treatment of candidates and prohibit discrimination on any grounds protected by law.\nYour personal data will be processed as described in the SupportYourApp Candidate Privacy Notice.\nInternal job code:3BW"
+    },
+    {
+      "id": "4401989300",
+      "company": "De'Longhi Group",
+      "title": "BACKEND DEVELOPER",
+      "location": "Cluj-Napoca Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/backend-developer-at-de-longhi-group-4401989300?position=8&pageNum=5&refId=CO5ntk0dJvXSP%2F3P0MOFcQ%3D%3D&trackingId=fq2lP%2Fxhg0p9gtS4aB2zKw%3D%3D",
+      "source": "linkedin",
+      "description": "Job Responsibilities\nE-Services, is the IT Company of De’Longhi Group. Its community of over 100 professionals is based in our HQ in Treviso, the location where the new Colleague will receive the technical training and induction for the first employment period.\nAfter this initial period, the selected candidate will be based in Romania, in our new IT HUB, being part of a dynamic team and supporting in the upgrade project to SAP4Hana.\nMain Responsibilities:\nCreate and manage dictionary objects, functions groups and related function modules, programs, ABAP object-oriented (Interfaces, classes, methods);\nDevelop code, document and execute unit tests, systems, integration and acceptance tests and testing tools for functions of high complexity;\nManage SAP debugging;\nTransform business function requirements into technical program specifications to code,\ntest and debug programs;\nPerform performance tuning to improve performance over multiple functions.\nJob Profile\nQualifications, Knowledges:\nComplete Relational Database & SQL knowledge;\nKnow the main ABAP constructs;\nKnow the new constructs of ABAP on SAP HANA Database, in particular the Native SQL;\nHave the remediation experience to correct the programs as per the new versions;\nHave analytical skills and ability to write technical specifications.\nSkills,capabilities, Competencies:\nMinimum of 2 years of ABAP experience;\nAbility to work in a team with a group of people to achieve a shared goal or outcome in an effective way;\nAnalytical skills and ability to write technical specifications;\nBe able to learn quickly and get the job done in a high visibility;\nSupport functional consultants in designing solutions for the gaps identified;\nMentor and coach junior developer resources;\nAbility to multitask and manage multiple deliverables and projects at the same time;\nSAP Certifications is a big plus;\nFluency in English is mandatory.\nWe are an Equal Opportunity Employer, we reject and condemn any form of discrimination including discrimination based on age, gender, sexual orientation, health, race, nationality, cultural background, political opinions and religious beliefs, and membership of associations and trade unions."
     },
     {
       "id": "4445914498",
       "company": "Luxoft Romania",
       "title": "Full Stack Java Developer",
       "location": "Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/full-stack-java-developer-at-luxoft-romania-4445914498?position=5&pageNum=9&refId=oBstgMwM%2BZ%2BVOEHt3UodSg%3D%3D&trackingId=TxsFKYxcc%2Blzq6Po5p7o2g%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/full-stack-java-developer-at-luxoft-romania-4445914498?position=3&pageNum=9&refId=hi%2FCq9tQc0EFVBrRxSKfig%3D%3D&trackingId=JU2aCsZ293XBB%2FDVfxQq4g%3D%3D",
       "source": "linkedin",
       "description": "Project description\nVR-124185\nOur Client is a leading global financial markets infrastructure and data provider. Their purpose is driving financial stability, empowering economies and enabling customers to create sustainable growth.\nTeam is seeking a highly technical, hands-on Java developer. Our group is focused on bringing a new level of efficiency, transparency and openness to the trading process by building a collaborative community of investors, brokers, technology firms and content providers.\nThrough our modular, end-to-end trade management platform, users can: execute everything from simple single stock trades to complex strategies across markets and time zones and manage their risk throughout the trade lifecycle; access our growing network of execution brokers to route Equities, Futures or Options orders globally, as well as dozens of integrated prime and clearing brokers through our growing suite of middle office tools; and collaborate with our broker and vendor partners, who are able to efficiently plug into our platform to reach our community.\nThis role involves maintenance and enhancement of existing backend and web-based applications, and contributing to the evolution of our trading platform and web user interfaces.\nResponsibilities\nContributes to design, development, and implementation of backend services and web applications.\nWrites clean, maintainable, and well-tested code following established engineering practices.\nParticipates in technical design discussions and collaborates with senior engineers and architects.\nWorks closely with frontend developers to integrate backend services with UI components.\nSupports troubleshooting, debugging, and performance optimization of applications.\nBreaks down user stories into technical tasks and delivers within agreed timelines.\nCollaborates effectively in Agile teams with product owners, QA, and other developers.\nMaintains and improves existing systems while ensuring stability and reliability.\nBuilds positive relationships within the team and contributes to a collaborative environment.\nCommunicates technical concepts clearly to both technical and non-technical stakeholders.\nContinuously develops technical expertise and stays up to date with modern technologies and frameworks.\nSkills\nMust have\nStrong Java fundamentals (Java 21 preferred) including core concepts (collections, concurrency, memory management).\nSolid experience with Spring Framework (Spring 4+) and Spring Boot 3.x.\nExperience building and consuming REST APIs.\nGood knowledge of React (version 17) and integration with backend services.\nStrong understanding of web application architecture and client-server communication.\nExperience with SQL and relational databases (e.g. PostgreSQL).\nProficiency with version control (Git) and build tools (Maven/Gradle).\nStrong focus on clean code, unit testing, and code reviews.\nFamiliar with Agile development practices.\nComfortable working in Linux/Unix environments.\n5-8+ years of software engineering experience.\nExperience with trading platforms is preferred; however, candidates with broader financial services systems experience will also be considered.\nNice to have\nExperience with JSF / JSP applications and legacy UI technologies.\nFamiliarity with modern frontend practices and component-based architectures.\nExperience with CI/CD pipelines and testing practices.\nExposure to Docker / containerization.\nBasic understanding of distributed systems.\nFamiliarity with Spring ecosystem tooling.\nKnowledge of financial systems or trading platforms is a plus.\nBS/MS in Computer Science or equivalent software engineering qualification."
     },
@@ -1514,7 +1487,7 @@
       "company": "Endava",
       "title": "Full Stack Software Engineer (Java with React)",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/full-stack-software-engineer-java-with-react-at-endava-4417150394?position=3&pageNum=7&refId=BHHSIm2bjXlXb3S9vvN%2Fyg%3D%3D&trackingId=pK%2FCcvDC7iJyb5M36inkzw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/full-stack-software-engineer-java-with-react-at-endava-4417150394?position=6&pageNum=9&refId=hi%2FCq9tQc0EFVBrRxSKfig%3D%3D&trackingId=zxao9cuxGehHLpNTUJOcsw%3D%3D",
       "source": "linkedin",
       "description": "Technology is our how. And people are our why. For over two decades, we have been harnessing technology to drive meaningful change.\nBy combining world-class engineering, industry expertise and a people-centric mindset, we consult and partner with leading brands from various industries to create dynamic platforms and intelligent digital experiences that drive innovation and transform businesses.\nFrom prototype to real-world impact - be part of a global shift by doing work that matters.\nJob Description\nDesign, estimate, and implement\ntechnical solutions\nfor medium to high complexity applications.\nParticipate actively in\nall phases of the software development lifecycle\n, from requirements gathering and architecture to deployment and maintenance.\nCollaborate closely with\ncross-functional teams\nto clarify requirements, processes, architecture, and priorities.\nRecommend and promote\nengineering best practices\n(e.g., DevOps, CI/CD, testing, code reviews).\nContribute to\ntechnical decision-making\n, including proposing and designing solutions autonomously.\nParticipate in\ncode reviews\n, providing constructive feedback and ensuring high code quality.\nIdentify risks, propose improvements, and proactively resolve development challenges.\nStay current with emerging technologies and\nadvocate for continuous learning\nwithin the team.\nMentor and guide less experienced engineers, contributing to a culture of technical excellence.\nQualifications\nBack-end experience:\nYou are proficient with the latest\nJava\nversions (5+ years);\nYou have a strong understanding of\nJava fundamentals\nand\nOOP principles\nKnowledge of\nWeb protocols\nand technologies,\nRESTful\nWeb services;\nYou worked with both SQL & NoSQL\ndatabases\n;\nExperience with\nMicroservices\n;\nKubernetes\nand\nDocker\nare terms you understand and have worked with before\nYou have good knowledge of\nSpring\nand\nSpring Boot\nNice to have - you have worked before with some\ncloud platforms\n(Azure, AWS, GCP);\nFrontend experience:\n5+ years of experience in\nfront-end development\nusing\nJavaScript\nand\nTypeScript\n.\nSolid hands-on experience with\nReact\nGood understanding of\nHTML5, CSS3\n, and modern UI development principles.\nFamiliarity with other\nJavaScript\nframeworks\nProficient understanding of\nHTTP\n,\nREST\n,\nJSON\n, and web communication protocols.\nOther technical or soft skills are appreciated:\nGood verbal and written English;\nExperience with\ntesting frameworks\nand mocking tools.\nStrong knowledge of\ndesign and architectural patterns\n(e.g., SOLID, GoF, MVVM).\nKnowledge of\nCI/CD\ntools and\nDevOps pipelines\n.\nExperience with\nsource code\nversioning systems;\nSolid understanding of the complete\nproduct development cycle\n;\nStrong\nanalytical skills\n,\nsystematic approach\n, and\nself-reliant\n;\nFamiliarity with\nAgile/Scrum\nmethodologies;\nAdditional Information\nDiscover some of the global benefits that empower our people to become the best version of themselves:\nFinance:\nCompetitive salary package, share plan, company performance bonuses, value-based recognition awards, referral bonus;\nCareer Development:\nCareer coaching, global career opportunities, non-linear career paths, internal development programmes for management and technical leadership;\nLearning Opportunities:\nComplex projects, rotations, internal tech communities, training, certifications, coaching, online learning platforms subscriptions, pass-it-on sessions, workshops, conferences;\nWork-Life Balance:\nHybrid work and flexible working hours, employee assistance programme;\nHealth:\nGlobal internal wellbeing programme, access to wellbeing apps;\nCommunity:\nGlobal internal tech communities, hobby clubs and interest groups, inclusion and diversity programmes, events and celebrations.\nAt Endava, we’re committed to creating an open, inclusive, and respectful environment where everyone feels safe, valued, and empowered to be their best. We welcome applications from people of all backgrounds, experiences, and perspectives—because we know that inclusive teams help us deliver smarter, more innovative solutions for our customers. Hiring decisions are based on merit, skills, qualifications, and potential. If you need adjustments or support during the recruitment process, please let us know."
     },
@@ -1523,7 +1496,7 @@
       "company": "NTT DATA Europe & Latam",
       "title": "Full Stack Web & Mobile Developer (Java, Angular, React Native)",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/full-stack-web-mobile-developer-java-angular-react-native-at-ntt-data-europe-latam-4462226966?position=7&pageNum=7&refId=BHHSIm2bjXlXb3S9vvN%2Fyg%3D%3D&trackingId=0dIu1HpBIztWUVlPr79WDA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/full-stack-web-mobile-developer-java-angular-react-native-at-ntt-data-europe-latam-4462226966?position=8&pageNum=9&refId=hi%2FCq9tQc0EFVBrRxSKfig%3D%3D&trackingId=Po2bSoo8JI1gHo7kt7o74Q%3D%3D",
       "source": "linkedin",
       "description": "Who We Are\nWe don't have the fame, but we've got the flame. We are a distributed group of specialists within NTT DATA Romania, who make the best out of JVM-based technologies, creativity and business solutions. Referred to as Java Competence Center, we co-create and co-accelerate with key players in any field. Without being limited to any business unit, we demonstrated our deep Java development expertise by delivering SaaS platforms in various domains: Web Applications in e-Commerce, Automotive, Telco, Insurance, Banking and Public sector, even Big Data and scientific applications.\nWe are currently looking for a Full Stack Web & Mobile Developer to join our team. The role is responsible for analyzing and implementing technical and functional requirements, as well as contributing to the continuous improvement of existing software solutions. The successful candidate will be part of a mixed agile team composed of designers, developers, and testers.\nWhat You'll Be Doing\nDevelopment of microservices and integration with the existing platform\nApply new and innovative technologies to continuously improve software quality and performance.\nDefine technical specifications and contribute to architectural decisions.\nCreate and maintain technical documentation in accordance with software development guidelines and standards.\nDesign and implement applications using Spring Boot, Angular, ReactNative, ensuring seamless compatibility, scalability, and fault tolerance\nCollaborate with the testing team to ensure proper functionality, performance, and reliability of the application, conducting thorough unit and integration testing\nWork closely with Agile Scrum teams, adhering to Agile principles and processes for efficient delivery.\nWhat You'll Bring Along\nA University degree or advanced diploma in a software engineering-related discipline, preferably in Computer Science, or equivalent experience\nAt least 5 years of experience on a similar position is required\nStrong experience with Java and modern client-side frameworks such as Angular.\nSolid understanding of Java and common frameworks, especially Spring / Spring Boot.\nSolid experience with React Native\nWorking experience with Microservice architecture\nWorking experience with Unit testing and test automation\nWorking experience with Maven or similar build tools\nStrong analytical, problem-solving, and debugging skills, with the ability to work in a fast-paced, solution-oriented environment.\nA great teammate who thrives in a collaborative and Agile environment.\nAssertive communication skills.\nExcellent verbal and written communication skills in English"
     },
@@ -1532,16 +1505,16 @@
       "company": "N-iX",
       "title": "Full-stack Technical Lead (Java+React)",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/full-stack-technical-lead-java%2Breact-at-n-ix-4455682550?position=6&pageNum=3&refId=R8FR%2BiBhrxz3%2BtXKiSp1pQ%3D%3D&trackingId=ur4Q8J72YJbOqllx4%2BX94g%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/full-stack-technical-lead-java%2Breact-at-n-ix-4455682550?position=6&pageNum=3&refId=UH8npQUtF%2FafA9gl2dA9dg%3D%3D&trackingId=6MG7%2Bge67gvsEtF3%2BXnvjQ%3D%3D",
       "source": "linkedin",
-      "description": "N-iX is a global software development service company that helps businesses across the globe create next-generation software products. Founded in 2002, we unite 2,400+ tech-savvy professionals across 40+ countries, working on impactful projects for industry leaders and Fortune 500 companies. Our expertise spans cloud, data, AI/ML, embedded software, IoT, and more, driving digital transformation across finance, manufacturing, telecom, healthcare, and other industries. Join N-iX and become part of a team where your ideas make a real impact.\nNowadays, finding a long-term job with an interesting project can feel like a real challenge.\nBut hey — if you're an experienced\nTechnical Lead / Full Stack Engineer (Java + React)\n, look no further!\nYes, it's real. You're not dreaming. Miracles do exist!\nWhen it comes to our customer – a strategic partner of ours in the integrated Shipping Services. They have set themselves apart as an independent carrier with a fresh, unique approach. Their strategy as a global niche carrier offers distinctive advantages to customers worldwide. We have created a smart, efficient network that ensures stable, reliable services; and we have made it our mission to focus on the needs of our customers, which stand at the heart of all our decisions. The main idea of our product operates in select trades, where it has a competitive advantage and where it can provide superior service. We maintain a flexible partnership approach with other major carriers, and our new line structure is a much-needed alternative to customers concerned about the current alliance-dominated market.\nResponsibilities:\nGuide, mentor, and foster the growth of full-stack engineers within the team, championing engineering excellence and XP practices.\nLead the architectural design and technical direction of innovative full-stack applications, ensuring scalability, security, and alignment with business goals.\nEstablish and champion high standards of code quality, testing (TDD/BDD), CI/CD pipelines, and robust DevOps practices.\nAct as a key technical point of contact, collaborating closely with product owners and stakeholders to translate complex requirements into actionable technical strategies.\nDirect full-stack development of innovative applications, remaining actively involved in writing code and remote pairing.\nOwn the entire development cycle, including design, architecture, development, testing, and DevOps deployment.\nFoster a highly collaborative Extreme Programming (XP) environment featuring remote pairing and rapid feedback loops.\nRequirements:\nBS degree\nin Computer Science or an equivalent combination of education and experience.\nExperience\nin technical leadership is a must.\n6+ years\nof full-stack development experience.\n6+ years\nof experience in the following technologies: Java, Spring.\nProven experience with Functional Programming and Java Streams.\n2+ years\nof experience in front-end development with React.\nExperience with developing a reactive UI (Reactive JS).\n2+ years\nof experience in TDD/BDD development in the following frameworks: JUnit, Jasmine, Mockito, Protractor/Selenium.\n2+ years\nof experience in microservices-based architecture and tools (Spring Boot/Cloud).\nAI experience\nExperience in DevOps development and Jenkins (must).\nExperience in development in Kotlin – an advantage.\nExperience in designing, developing, and deploying cloud/hybrid-based solutions.\nExperience in developing and deploying in Container-based environments (Kubernetes, Cloud Foundry).\nDeep familiarity with the following design concepts: microservices, service discovery, circuit breakers.\nStrong leadership abilities\nwith the capacity to appropriately prioritize, plan, and delegate complex work in a rapidly changing environment.\nVersatility and capability to switch easily between different tasks and technologies.\nExperience in assessing a broad range of information solutions and products.\nStrong critical thinker with an exceptional problem-solving aptitude.\nExcellent English\nskills - both verbal and written.\nWe offer*:\nFlexible working format - remote, office-based or flexible\nA competitive salary and good compensation package\nPersonalized career growth\nProfessional development tools (mentorship program, tech talks and trainings, centers of excellence, and more)\nActive tech communities with regular knowledge sharing\nEducation reimbursement\nMemorable anniversary presents\nCorporate events and team buildings\nOther location-specific benefits\nnot applicable for freelancers"
+      "description": ""
     },
     {
       "id": "4452436054",
       "company": "Publicis Sapient",
       "title": "Fullstack Java Engineer (Java+ Angular) - Senior Associate- Financial Services",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/fullstack-java-engineer-java%2B-angular-senior-associate-financial-services-at-publicis-sapient-4452436054?position=7&pageNum=1&refId=K%2FihuctM7Z2DPuLDAT0mSA%3D%3D&trackingId=TqDj7%2BHhNfxnC%2F3P5i37%2Bw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/fullstack-java-engineer-java%2B-angular-senior-associate-financial-services-at-publicis-sapient-4452436054?position=8&pageNum=1&refId=LtPzNEHvnW4TuKIQuT8V9g%3D%3D&trackingId=xopsVBu4bxm%2BMMNGlIKOAg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1550,7 +1523,7 @@
       "company": "Eurofins",
       "title": "IT Solutions Architect (Java)",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/it-solutions-architect-java-at-eurofins-4440521183?position=4&pageNum=4&refId=INZ1obczBC3jyHMGoLRH0A%3D%3D&trackingId=Sxey3pgSGIjqnwHIgz8YOA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/it-solutions-architect-java-at-eurofins-4440521183?position=3&pageNum=4&refId=eM6oarq41ckWL8eQ5eZYFQ%3D%3D&trackingId=L7LbkRZJTynNuRuUsnEt6w%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1559,16 +1532,7 @@
       "company": "NTT DATA Europe & Latam",
       "title": "Java Architect with German",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/java-architect-with-german-at-ntt-data-europe-latam-4395061832?position=8&pageNum=10&refId=7dkSG3K9Lb1RkK2b4%2Bxoqw%3D%3D&trackingId=3cbLVHs5QAAt%2BduLAMCNug%3D%3D",
-      "source": "linkedin",
-      "description": ""
-    },
-    {
-      "id": "4463960693",
-      "company": "JUSTROCKET",
-      "title": "Java Backend Developer for Banking API (m/f/d)",
-      "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/java-backend-developer-for-banking-api-m-f-d-at-justrocket-4463960693?position=10&pageNum=0&refId=ccJDMeFZMo9AqaTFcz2Itw%3D%3D&trackingId=2k04d34WSBOKfrxRIoDmtQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/java-architect-with-german-at-ntt-data-europe-latam-4395061832?position=6&pageNum=10&refId=2itCO9wJQeAV8ruys0mojw%3D%3D&trackingId=GAIDH7r9gT3Fsxn7f4o8SQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1577,7 +1541,7 @@
       "company": "BMW TechWorks Romania",
       "title": "Java Developer",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/java-developer-at-bmw-techworks-romania-4434601860?position=9&pageNum=1&refId=K%2FihuctM7Z2DPuLDAT0mSA%3D%3D&trackingId=lrkH7MJcPSHbq13Vc7IZzg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/java-developer-at-bmw-techworks-romania-4434601860?position=10&pageNum=1&refId=LtPzNEHvnW4TuKIQuT8V9g%3D%3D&trackingId=KG31sAZz8aniUeeDtM5qDg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1586,7 +1550,7 @@
       "company": "NTT DATA Europe & Latam",
       "title": "Java Developer",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/java-developer-at-ntt-data-europe-latam-4464507440?position=8&pageNum=1&refId=K%2FihuctM7Z2DPuLDAT0mSA%3D%3D&trackingId=Ew0OR6KChyamR0AkMBSsvw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/java-developer-at-ntt-data-europe-latam-4464507440?position=9&pageNum=1&refId=LtPzNEHvnW4TuKIQuT8V9g%3D%3D&trackingId=eiUixQtC69gv8kxrdagz%2Fg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1595,7 +1559,7 @@
       "company": "HyPlus Romania",
       "title": "Java Developer (Regular/Mid-Level)",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/java-developer-regular-mid-level-at-hyplus-romania-4462838280?position=2&pageNum=1&refId=K%2FihuctM7Z2DPuLDAT0mSA%3D%3D&trackingId=6LlwHmAvdifdiERV2VlUMA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/java-developer-regular-mid-level-at-hyplus-romania-4462838280?position=2&pageNum=1&refId=LtPzNEHvnW4TuKIQuT8V9g%3D%3D&trackingId=0MkC3IGkgU5HvdinQX6YDg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1604,7 +1568,7 @@
       "company": "Publicis Sapient",
       "title": "Java Developer- Senior Associate- Financial Services",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/java-developer-senior-associate-financial-services-at-publicis-sapient-4458006560?position=3&pageNum=0&refId=ccJDMeFZMo9AqaTFcz2Itw%3D%3D&trackingId=B9pa9Q5YXOEuETYBJjrf6A%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/java-developer-senior-associate-financial-services-at-publicis-sapient-4458006560?position=4&pageNum=0&refId=5gcVg4Fcne8osZY3mV4FjA%3D%3D&trackingId=ZbUFjGHEXwDgPIP%2B51H15Q%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1613,7 +1577,7 @@
       "company": "Endava",
       "title": "Java Development Consultant",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/java-development-consultant-at-endava-4462949995?position=8&pageNum=9&refId=oBstgMwM%2BZ%2BVOEHt3UodSg%3D%3D&trackingId=E9hP68w8ZgOt1QJ%2FhYUGlA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/java-development-consultant-at-endava-4462949995?position=5&pageNum=9&refId=hi%2FCq9tQc0EFVBrRxSKfig%3D%3D&trackingId=2seEc53tbDoyVzSffrommA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1622,7 +1586,7 @@
       "company": "NTT DATA Europe & Latam",
       "title": "Java Engineering Lead with German",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/java-engineering-lead-with-german-at-ntt-data-europe-latam-4461886984?position=7&pageNum=10&refId=7dkSG3K9Lb1RkK2b4%2Bxoqw%3D%3D&trackingId=SJFlpsMLMaPdzr3up7f8WA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/java-engineering-lead-with-german-at-ntt-data-europe-latam-4461886984?position=5&pageNum=10&refId=2itCO9wJQeAV8ruys0mojw%3D%3D&trackingId=kyEa5OTVlO%2BHv1nd%2FXKxTw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1631,7 +1595,7 @@
       "company": "NTT DATA Europe & Latam",
       "title": "Java Software Architect",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/java-software-architect-at-ntt-data-europe-latam-4463902274?position=9&pageNum=10&refId=7dkSG3K9Lb1RkK2b4%2Bxoqw%3D%3D&trackingId=u2l%2Fx1BZ4JQydWy3oaLmIg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/java-software-architect-at-ntt-data-europe-latam-4463902274?position=7&pageNum=10&refId=2itCO9wJQeAV8ruys0mojw%3D%3D&trackingId=ubHUxaTLkCTsXx0cejshog%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1640,7 +1604,7 @@
       "company": "RIA Solutions Group",
       "title": "Java Software Engineer",
       "location": "Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/java-software-engineer-at-ria-solutions-group-4456319115?position=6&pageNum=1&refId=K%2FihuctM7Z2DPuLDAT0mSA%3D%3D&trackingId=BFxmc4D%2FHA0APTVkLw8z3w%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/java-software-engineer-at-ria-solutions-group-4456319115?position=7&pageNum=1&refId=LtPzNEHvnW4TuKIQuT8V9g%3D%3D&trackingId=4Jny5GXUQ7Y3XjOpj0AQBw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1649,7 +1613,16 @@
       "company": "Garmin Cluj",
       "title": "Java Software Engineer | Garmin Dive team",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/java-software-engineer-garmin-dive-team-at-garmin-cluj-4411456045?position=1&pageNum=0&refId=ccJDMeFZMo9AqaTFcz2Itw%3D%3D&trackingId=4A07pIq0h8oHAvygGQoOSg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/java-software-engineer-garmin-dive-team-at-garmin-cluj-4411456045?position=2&pageNum=0&refId=5gcVg4Fcne8osZY3mV4FjA%3D%3D&trackingId=kxahzvb%2BCRrup90zqJsQYw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4466076189",
+      "company": "Garmin Cluj",
+      "title": "Java Software Engineer | HRX Team",
+      "location": "Cluj-Napoca, Cluj, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/java-software-engineer-hrx-team-at-garmin-cluj-4466076189?position=1&pageNum=0&refId=5gcVg4Fcne8osZY3mV4FjA%3D%3D&trackingId=TlGLKvB0o71mBUdqc3Jd1Q%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1658,7 +1631,7 @@
       "company": "Publicis Sapient",
       "title": "Java Technical Lead/ Architect- Senior Specialist- Financial Services",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/java-technical-lead-architect-senior-specialist-financial-services-at-publicis-sapient-4448450040?position=10&pageNum=7&refId=BHHSIm2bjXlXb3S9vvN%2Fyg%3D%3D&trackingId=uojBbh82zZx6Giq17z62cA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/java-technical-lead-architect-senior-specialist-financial-services-at-publicis-sapient-4448450040?position=9&pageNum=9&refId=hi%2FCq9tQc0EFVBrRxSKfig%3D%3D&trackingId=HCKxL0oqss4jN62je6Hkzw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1667,7 +1640,16 @@
       "company": "Mindera",
       "title": "Java Technical Lead/Staff Engineer - with Azure",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/java-technical-lead-staff-engineer-with-azure-at-mindera-4464979985?position=6&pageNum=7&refId=BHHSIm2bjXlXb3S9vvN%2Fyg%3D%3D&trackingId=tUMIU1VhdERD4mKYBGg9Og%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/java-technical-lead-staff-engineer-with-azure-at-mindera-4464979985?position=7&pageNum=9&refId=hi%2FCq9tQc0EFVBrRxSKfig%3D%3D&trackingId=yDHalG%2BHj0MFyQALLrS%2BOA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4463960693",
+      "company": "JUSTROCKET",
+      "title": "Mid Java Backend Developer for Banking API (m/f/d)",
+      "location": "Cluj-Napoca, Cluj, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/mid-java-backend-developer-for-banking-api-m-f-d-at-justrocket-4463960693?position=4&pageNum=1&refId=LtPzNEHvnW4TuKIQuT8V9g%3D%3D&trackingId=sXAwm%2B6w4jXDP6w61Gt%2FVQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1676,7 +1658,16 @@
       "company": "Capgemini Engineering",
       "title": "Python Backend Developer",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/python-backend-developer-at-capgemini-engineering-4461893467?position=9&pageNum=6&refId=yfqVQKc22wTTaIpUFundhg%3D%3D&trackingId=n7Rj3cvH6SXuijAXLsjMbQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/python-backend-developer-at-capgemini-engineering-4461893467?position=6&pageNum=6&refId=k12p1nnMsr3TdBcHldfBTg%3D%3D&trackingId=LcW%2BxhKnbW0T4p4JCU1X9Q%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4462977967",
+      "company": "Undelucram.ro",
+      "title": "Python Backend Developer",
+      "location": "Cluj-Napoca, Cluj, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/python-backend-developer-at-undelucram-ro-4462977967?position=7&pageNum=14&refId=RrmPm9a4nlhbTGfDvStKyQ%3D%3D&trackingId=4pepdwlEPutqSwriGkGBfA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1685,7 +1676,7 @@
       "company": "NTT DATA Europe & Latam",
       "title": "Senior Backend Developer ( .NET)",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-backend-developer-net-at-ntt-data-europe-latam-4450133248?position=6&pageNum=13&refId=Ghslk3jNf9YxxgrzuyyTUA%3D%3D&trackingId=5eY6kALaJ1L0Xod0AmYiyw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-backend-developer-net-at-ntt-data-europe-latam-4450133248?position=9&pageNum=13&refId=ifincZpUe84zpYrTKurpNw%3D%3D&trackingId=C3hdF%2Fvqrb5n%2Ba7yIX9Rkg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1694,7 +1685,7 @@
       "company": "NTT DATA Europe & Latam",
       "title": "Senior Backend Engineer",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-backend-engineer-at-ntt-data-europe-latam-4457268837?position=5&pageNum=1&refId=K%2FihuctM7Z2DPuLDAT0mSA%3D%3D&trackingId=nKFIqbb%2FKD7mR8ctb8Upug%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-backend-engineer-at-ntt-data-europe-latam-4457268837?position=6&pageNum=1&refId=LtPzNEHvnW4TuKIQuT8V9g%3D%3D&trackingId=AqIy26td2RgM3EZxVF5TFw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1703,7 +1694,7 @@
       "company": "QIAGEN",
       "title": "Senior Backend Software Engineer (Scala/ Java)",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-backend-software-engineer-scala-java-at-qiagen-4463865625?position=5&pageNum=2&refId=VT9VAmrudI8AdWdjFEAU9g%3D%3D&trackingId=UjLRXWLcABWb32IDVvphJg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-backend-software-engineer-scala-java-at-qiagen-4463865625?position=6&pageNum=2&refId=PrIN%2FYs4Dzrp5Bcq7mnLrA%3D%3D&trackingId=JgdJFsuaejT3mlmgGpgPQg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1712,7 +1703,7 @@
       "company": "ALTEN",
       "title": "Senior Java Backend Developer",
       "location": "Cluj-Napoca Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/senior-java-backend-developer-at-alten-4464339200?position=1&pageNum=1&refId=K%2FihuctM7Z2DPuLDAT0mSA%3D%3D&trackingId=%2FKw0BmkaEku1tBLoV39u%2Bw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-java-backend-developer-at-alten-4464339200?position=1&pageNum=1&refId=LtPzNEHvnW4TuKIQuT8V9g%3D%3D&trackingId=%2B3B0MSiRFS5mBOzAwI3Olw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1721,7 +1712,7 @@
       "company": "Endava",
       "title": "Senior Java Developer",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-at-endava-4452992334?position=9&pageNum=0&refId=ccJDMeFZMo9AqaTFcz2Itw%3D%3D&trackingId=JOTyAF9o0fAuwFRpAUgXRg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-at-endava-4452992334?position=10&pageNum=0&refId=5gcVg4Fcne8osZY3mV4FjA%3D%3D&trackingId=wr0SKj2h06ZSsuk87XldMw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1730,7 +1721,7 @@
       "company": "Endava",
       "title": "Senior Java Developer",
       "location": "Târgu Mureş, Mureş, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-at-endava-4453208238?position=10&pageNum=1&refId=K%2FihuctM7Z2DPuLDAT0mSA%3D%3D&trackingId=za70FdrwjGxPUH3VL2jVwg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-at-endava-4453208238?position=1&pageNum=2&refId=PrIN%2FYs4Dzrp5Bcq7mnLrA%3D%3D&trackingId=m7gOg0PvOBvB1P8xp3rxCA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1739,7 +1730,7 @@
       "company": "Eurofins",
       "title": "Senior Java Developer",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-at-eurofins-4440554162?position=7&pageNum=2&refId=VT9VAmrudI8AdWdjFEAU9g%3D%3D&trackingId=kaOAe2qME91zOo%2BEeH9%2B7w%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-at-eurofins-4440554162?position=8&pageNum=2&refId=PrIN%2FYs4Dzrp5Bcq7mnLrA%3D%3D&trackingId=Y5MOwjWmAxPloUI0smMsfg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1748,7 +1739,7 @@
       "company": "Luxoft",
       "title": "Senior Java Developer",
       "location": "Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-at-luxoft-4459310038?position=7&pageNum=0&refId=ccJDMeFZMo9AqaTFcz2Itw%3D%3D&trackingId=Mc9jvHZMGkPZAZ%2FncYbDFA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-at-luxoft-4459310038?position=8&pageNum=0&refId=5gcVg4Fcne8osZY3mV4FjA%3D%3D&trackingId=zY3etYrtXfTCHbIg0bjUcg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1757,7 +1748,25 @@
       "company": "Luxoft",
       "title": "Senior Java Developer",
       "location": "Cluj-Napoca Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-at-luxoft-4459666751?position=2&pageNum=0&refId=ccJDMeFZMo9AqaTFcz2Itw%3D%3D&trackingId=yJLD8Ay8C3d41XPYyzbpkw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-at-luxoft-4459666751?position=3&pageNum=0&refId=5gcVg4Fcne8osZY3mV4FjA%3D%3D&trackingId=UIAXgRyLzVsfkmMM00xcrw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4459668630",
+      "company": "Luxoft",
+      "title": "Senior Java Developer",
+      "location": "Cluj, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-at-luxoft-4459668630?position=3&pageNum=17&refId=5q6bq4230WDISmPo6cPdqQ%3D%3D&trackingId=yywBOXSDSC9k0YjkUnbOvw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4461766081",
+      "company": "Luxoft",
+      "title": "Senior Java Developer",
+      "location": "Cluj-Napoca Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-at-luxoft-4461766081?position=2&pageNum=17&refId=5q6bq4230WDISmPo6cPdqQ%3D%3D&trackingId=%2BldugRtNq9HsPC%2Bb0%2FvNDQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1766,7 +1775,7 @@
       "company": "Luxoft Romania",
       "title": "Senior Java Developer",
       "location": "Cluj-Napoca Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-at-luxoft-romania-4459662743?position=4&pageNum=0&refId=ccJDMeFZMo9AqaTFcz2Itw%3D%3D&trackingId=cxBJS5lDWr4ieJwX1gcD%2Fw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-at-luxoft-romania-4459662743?position=5&pageNum=0&refId=5gcVg4Fcne8osZY3mV4FjA%3D%3D&trackingId=90Nw4VeNHlTrF39SzlUlHg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1775,16 +1784,7 @@
       "company": "Mindera",
       "title": "Senior Java Developer",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-at-mindera-4413951843?position=5&pageNum=0&refId=ccJDMeFZMo9AqaTFcz2Itw%3D%3D&trackingId=gRQBgykTUb56NDGEszPdbw%3D%3D",
-      "source": "linkedin",
-      "description": ""
-    },
-    {
-      "id": "4465000280",
-      "company": "Luxoft",
-      "title": "Senior Java Developer + Go 🚀 Cloud-Native Platform | AWS | Kubernetes | Kafka",
-      "location": "Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-%2B-go-%F0%9F%9A%80-cloud-native-platform-aws-kubernetes-kafka-at-luxoft-4465000280?position=5&pageNum=7&refId=BHHSIm2bjXlXb3S9vvN%2Fyg%3D%3D&trackingId=YWLq6tknCJdxrdF4%2Bpq96g%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-at-mindera-4413951843?position=6&pageNum=0&refId=5gcVg4Fcne8osZY3mV4FjA%3D%3D&trackingId=jjsatryCDjk7bh1B80awlA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1793,7 +1793,7 @@
       "company": "Frequentis",
       "title": "Senior Java Developer - MosaiX",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-mosaix-at-frequentis-4435052578?position=3&pageNum=1&refId=K%2FihuctM7Z2DPuLDAT0mSA%3D%3D&trackingId=0%2BN41J7Q3BefPLDqKtOo6w%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-mosaix-at-frequentis-4435052578?position=3&pageNum=1&refId=LtPzNEHvnW4TuKIQuT8V9g%3D%3D&trackingId=mi8dJG%2FPtqAsjTjtBynafw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1802,7 +1802,7 @@
       "company": "Luxoft Romania",
       "title": "Senior Java Developer Cluj-Napoca",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-cluj-napoca-at-luxoft-romania-4459198117?position=8&pageNum=0&refId=ccJDMeFZMo9AqaTFcz2Itw%3D%3D&trackingId=CAPNknXlGwNCCzJhOspOWg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-cluj-napoca-at-luxoft-romania-4459198117?position=9&pageNum=0&refId=5gcVg4Fcne8osZY3mV4FjA%3D%3D&trackingId=PG9NOpD2KnAE2%2BeQ3inSQA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1811,7 +1811,7 @@
       "company": "Mindera",
       "title": "Senior Java Developer with Kotlin",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-with-kotlin-at-mindera-4413963648?position=6&pageNum=0&refId=ccJDMeFZMo9AqaTFcz2Itw%3D%3D&trackingId=i%2F%2FOg2UMEjWmLmI2xVlVrA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-with-kotlin-at-mindera-4413963648?position=7&pageNum=0&refId=5gcVg4Fcne8osZY3mV4FjA%3D%3D&trackingId=2rEkVvwFMSAJtBah2pPzfw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1820,7 +1820,16 @@
       "company": "NTT DATA Europe & Latam",
       "title": "Senior QA Automation Engineer (Selenium, Java, Playwright)",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-qa-automation-engineer-selenium-java-playwright-at-ntt-data-europe-latam-4441546455?position=5&pageNum=12&refId=epSRrkVyx6%2B7LlDvYiFzjg%3D%3D&trackingId=9o2rJg%2FFRwskKJnp4cLItg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-qa-automation-engineer-selenium-java-playwright-at-ntt-data-europe-latam-4441546455?position=8&pageNum=12&refId=s8CfOYNCKerv5k1wI2LHmA%3D%3D&trackingId=ummNXK2J6vD%2Fpg7QglgLcQ%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4462249006",
+      "company": "NTT DATA Europe & Latam",
+      "title": "Senior QA Automation with Java",
+      "location": "Cluj-Napoca, Cluj, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-qa-automation-with-java-at-ntt-data-europe-latam-4462249006?position=2&pageNum=12&refId=s8CfOYNCKerv5k1wI2LHmA%3D%3D&trackingId=UC1UEeTQqcq5qstAXrGXSg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1829,7 +1838,7 @@
       "company": "LSEG",
       "title": "Senior Software Developer (Java, network programming)",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-software-developer-java-network-programming-at-lseg-4416541542?position=2&pageNum=3&refId=R8FR%2BiBhrxz3%2BtXKiSp1pQ%3D%3D&trackingId=NiFgsz4ARlgp7jylpeW5Dg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-software-developer-java-network-programming-at-lseg-4416541542?position=2&pageNum=3&refId=UH8npQUtF%2FafA9gl2dA9dg%3D%3D&trackingId=flqROVEcY0vnLe9jmCa3IA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1838,7 +1847,7 @@
       "company": "LSEG",
       "title": "Senior Software Engineer (Java Full Stack)",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-software-engineer-java-full-stack-at-lseg-4383239050?position=3&pageNum=2&refId=VT9VAmrudI8AdWdjFEAU9g%3D%3D&trackingId=5CjRqxIDri2w6c1pJguykg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-software-engineer-java-full-stack-at-lseg-4383239050?position=4&pageNum=2&refId=PrIN%2FYs4Dzrp5Bcq7mnLrA%3D%3D&trackingId=Yv9t9eC2zG2NxTuFMsch9A%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1847,7 +1856,7 @@
       "company": "Kingfisher plc",
       "title": "Software Engineer (Java)",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/software-engineer-java-at-kingfisher-plc-4429258315?position=4&pageNum=1&refId=K%2FihuctM7Z2DPuLDAT0mSA%3D%3D&trackingId=JWm4K4o7%2FXp6XD2esnXxrQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/software-engineer-java-at-kingfisher-plc-4429258315?position=5&pageNum=1&refId=LtPzNEHvnW4TuKIQuT8V9g%3D%3D&trackingId=IYrdyFfaSOvaTr%2BCUN95Cw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1856,7 +1865,7 @@
       "company": "Betfair Romania Development",
       "title": "Software Engineer (Java) (12 months) - Flutter Functions, Hybrid",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/software-engineer-java-12-months-flutter-functions-hybrid-at-betfair-romania-development-4405557068?position=4&pageNum=3&refId=R8FR%2BiBhrxz3%2BtXKiSp1pQ%3D%3D&trackingId=MGEi5Jw7hI4xQQOE6qgjNQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/software-engineer-java-12-months-flutter-functions-hybrid-at-betfair-romania-development-4405557068?position=4&pageNum=3&refId=UH8npQUtF%2FafA9gl2dA9dg%3D%3D&trackingId=qNgmlCG2%2Fmv7K42mQIaqPw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1865,7 +1874,7 @@
       "company": "NTT DATA Europe & Latam",
       "title": "SSAP BTP CAP Java Developer",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/ssap-btp-cap-java-developer-at-ntt-data-europe-latam-4456957041?position=4&pageNum=7&refId=BHHSIm2bjXlXb3S9vvN%2Fyg%3D%3D&trackingId=s25skiElJ7M6Q9zQIvs81A%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/ssap-btp-cap-java-developer-at-ntt-data-europe-latam-4456957041?position=4&pageNum=9&refId=hi%2FCq9tQc0EFVBrRxSKfig%3D%3D&trackingId=cqoRbMfQsmjYEPyAt4WYGA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1874,7 +1883,7 @@
       "company": "Garmin Cluj",
       "title": "Team Leader Software Engineering | Java | Garmin Connect",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/team-leader-software-engineering-java-garmin-connect-at-garmin-cluj-4427000780?position=9&pageNum=7&refId=BHHSIm2bjXlXb3S9vvN%2Fyg%3D%3D&trackingId=ysMJ1VSctQxWwYCGCZp7HA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/team-leader-software-engineering-java-garmin-connect-at-garmin-cluj-4427000780?position=8&pageNum=10&refId=2itCO9wJQeAV8ruys0mojw%3D%3D&trackingId=%2FjGe6HT%2FGS5WgiqK8RQZwA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -1883,12 +1892,12 @@
       "company": "Garmin Cluj",
       "title": "Technical/Team Lead Software Engineer | Java | Marine Cloud",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/technical-team-lead-software-engineer-java-marine-cloud-at-garmin-cluj-4399218521?position=8&pageNum=3&refId=R8FR%2BiBhrxz3%2BtXKiSp1pQ%3D%3D&trackingId=EhWK%2BSFmJm8UFHcFGiBQ4w%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/technical-team-lead-software-engineer-java-marine-cloud-at-garmin-cluj-4399218521?position=1&pageNum=10&refId=2itCO9wJQeAV8ruys0mojw%3D%3D&trackingId=ZjNY0p7f0IvjbJu6%2F2Xq0w%3D%3D",
       "source": "linkedin",
       "description": ""
     }
   ],
-  "scraped_at": "2026-09-11T08:05:09+00:00",
+  "scraped_at": "2026-09-12T07:56:21+00:00",
   "query": {
     "title": "Java developer",
     "city": "Cluj-Napoca"
