@@ -1,8 +1,8 @@
 {
-  "total_jobs_found": 362,
+  "total_jobs_found": 381,
   "sources_summary": {
-    "bestjobs": 307,
-    "linkedin": 55
+    "bestjobs": 312,
+    "linkedin": 69
   },
   "jobs": [
     {
@@ -87,6 +87,15 @@
       "description": ""
     },
     {
+      "id": "52072765",
+      "company": "Qualysoft",
+      "title": "Android Developer (Banking)",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/android-developer-banking/52072765",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
       "id": "52002771",
       "company": "Alecu Alexandru",
       "title": "Angajam Programator Full Stack",
@@ -137,6 +146,15 @@
       "title": "Automation Developer",
       "location": "Bucharest, Romania",
       "href": "https://www.bestjobs.eu/locuri-de-munca/automation-developer-12/52007466",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
+      "id": "52015991",
+      "company": "ORANGE SERVICES",
+      "title": "Automation Developer with UiPath RPA & Agentic AI",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/automation-developer-with-uipath-rpa-agentic-ai-1/52015991",
       "source": "bestjobs",
       "description": ""
     },
@@ -195,6 +213,15 @@
       "description": ""
     },
     {
+      "id": "52072714",
+      "company": "Publicis Groupe Holdings B.V",
+      "title": "Business Analyst– CMS/DAM (AEM)- Specialist- Automotive",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/business-analyst-cms-dam-aem-specialist-automotive/52072714",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
       "id": "52012172",
       "company": "Lundin Software",
       "title": "C# Software Developer",
@@ -227,6 +254,15 @@
       "title": "Checkout Champ Funnel Developer (Front-End, DTC Health & Wellness)",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/checkout-champ-funnel-developer-front-end-dtc-health-wellness/52071566",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
+      "id": "52072848",
+      "company": "ADERA PRO DATA",
+      "title": "Coordonator suport clienti",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/coordonator-suport-clienti-1/52072848",
       "source": "bestjobs",
       "description": ""
     },
@@ -474,11 +510,11 @@
       "description": ""
     },
     {
-      "id": "52070446",
+      "id": "52072757",
       "company": "Codekeeper",
       "title": "Frontend Developer (React)",
       "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/frontend-developer-react-12/52070446",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/frontend-developer-react-13/52072757",
       "source": "bestjobs",
       "description": ""
     },
@@ -546,11 +582,11 @@
       "description": ""
     },
     {
-      "id": "52068813",
+      "id": "52072758",
       "company": "Codekeeper",
       "title": "Full Stack Developer (Javascript)",
       "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-developer-javascript-8/52068813",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-developer-javascript-9/52072758",
       "source": "bestjobs",
       "description": ""
     },
@@ -843,6 +879,15 @@
       "description": ""
     },
     {
+      "id": "52072764",
+      "company": "Qualysoft",
+      "title": "Java Engineer (Banking)",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/java-engineer-banking-1/52072764",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
       "id": "52058553",
       "company": "Schwarz Digits",
       "title": "Java Full Stack Engineer (m/f/d)",
@@ -960,6 +1005,15 @@
       "description": ""
     },
     {
+      "id": "52072727",
+      "company": "Magic media",
+      "title": "Lead Unity Developer",
+      "location": "Remote",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/lead-unity-developer-2/52072727",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
       "id": "52059219",
       "company": "Flosum",
       "title": "Manual QA Engineer (Romania)",
@@ -1068,6 +1122,15 @@
       "description": ""
     },
     {
+      "id": "52072737",
+      "company": "Gramian Consulting Group",
+      "title": "Mobile Software Engineering Expert - AI Training Projects",
+      "location": "Remote",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/mobile-software-engineering-expert-ai-training-projects/52072737",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
       "id": "52070461",
       "company": "Propellerhead",
       "title": "Move to New Zealand - Technical Strategist (Solution Architect)",
@@ -1100,15 +1163,6 @@
       "title": "PHP Developer",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/php-developer-808/52066084",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52063490",
-      "company": "Qualysoft",
-      "title": "PHP Symfony Developer - E-commerce",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/php-symfony-developer-e-commerce/52063490",
       "source": "bestjobs",
       "description": ""
     },
@@ -1275,11 +1329,11 @@
       "description": ""
     },
     {
-      "id": "52024188",
+      "id": "52072815",
       "company": "SBA Total",
       "title": "Programatori juniori / entry-level",
       "location": "Bucharest România",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/programatori-juniori-entry-level/52024188",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/programatori-juniori-entry-level-1/52072815",
       "source": "bestjobs",
       "description": ""
     },
@@ -1347,15 +1401,6 @@
       "description": ""
     },
     {
-      "id": "52058726",
-      "company": "OTTO BROKER DE ASIGURARE",
-      "title": "QA Senior Specialist",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/qa-senior-specialist/52058726",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
       "id": "52070447",
       "company": "Cloudmargin",
       "title": "QA/Test Engineer (Romania)",
@@ -1374,6 +1419,15 @@
       "description": ""
     },
     {
+      "id": "52072763",
+      "company": "Qualysoft",
+      "title": "Salesforce Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/salesforce-developer-66/52072763",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
       "id": "51946506",
       "company": "RECOGNOS",
       "title": "Salesforce Developer",
@@ -1388,6 +1442,15 @@
       "title": "Salesforce Engineering Manager (Romania)",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/salesforce-engineering-manager-romania/52070405",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
+      "id": "52072783",
+      "company": "Metica",
+      "title": "SDK Engineer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/sdk-engineer/52072783",
       "source": "bestjobs",
       "description": ""
     },
@@ -1739,15 +1802,6 @@
       "title": "Senior Java Developer",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/senior-java-developer-499/52071776",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52067231",
-      "company": "Qualysoft",
-      "title": "Senior Java Developer (Cards)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-java-developer-cards/52067231",
       "source": "bestjobs",
       "description": ""
     },
@@ -2301,15 +2355,6 @@
       "description": ""
     },
     {
-      "id": "52057273",
-      "company": "Primer.io",
-      "title": "Software Engineer II - Growth (FE)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-engineer-ii-growth-fe/52057273",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
       "id": "52057409",
       "company": "PRIMER",
       "title": "Software Engineer III, Frontend - Account Experience",
@@ -2373,11 +2418,11 @@
       "description": ""
     },
     {
-      "id": "52068579",
+      "id": "52072756",
       "company": "Codekeeper",
       "title": "Software Verification Engineer",
       "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-verification-engineer-7/52068579",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/software-verification-engineer-8/52072756",
       "source": "bestjobs",
       "description": ""
     },
@@ -2769,11 +2814,20 @@
       "description": ""
     },
     {
+      "id": "4478783266",
+      "company": "Luxoft",
+      "title": "Angular Developer | Angular & Node.js | Hybrid | Bucharest",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/angular-developer-angular-node-js-hybrid-bucharest-at-luxoft-4478783266?position=1&pageNum=15&refId=buo1Rg2XK0HxLsy%2BMKjhPw%3D%3D&trackingId=Ee0j6sL5pzaho3ZuH44ePg%3D%3D",
+      "source": "linkedin",
+      "description": "Join an international team working on enterprise applications for a globally recognized client. You'll have the opportunity to work with modern technologies, contribute to large-scale projects, and further develop both your technical and professional skills.\n💼 What You'll Do\n✅ Develop and maintain Single Page Applications (SPAs) using Angular and TypeScript\n✅ Build scalable and maintainable frontend features\n✅ Integrate applications with REST services and backend components\n✅ Participate in code reviews and contribute to development best practices\n✅ Write and maintain unit tests\n✅ Collaborate with cross-functional teams in an Agile environment\n🎯 What We're Looking For\n✔ Strong experience with Angular and TypeScript\n✔ Experience developing modern SPAs\n✔ Solid knowledge of HTML5, CSS3, SCSS, and responsive design\n✔ Experience with Node.js and REST APIs\n✔ Knowledge of unit testing frameworks such as Karma, Jasmine, or Jest\n✔ Ability to quickly understand complex applications and architectures\n✔ Strong problem-solving and communication skills\n✔ Experience working in Agile environments\n🌟 Why Apply?\n✨ International work environment\n✨ Long-term enterprise projects\n✨ Modern technology stack\n✨ Professional growth and training opportunities\n✨ Hybrid working model\n📍 Location: Bucharest, Romania\nRef: VR-123792"
+    },
+    {
       "id": "4468988677",
       "company": "Cognizant",
       "title": "Angular Frontend Engineer",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/angular-frontend-engineer-at-cognizant-4468988677?position=4&pageNum=0&refId=CwI39nqQrrGhk8Voza4krA%3D%3D&trackingId=Z2i5lAi4OKp2JImYDN1TRg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/angular-frontend-engineer-at-cognizant-4468988677?position=3&pageNum=0&refId=siOc7a6B%2FZK7n4CXAiqTrA%3D%3D&trackingId=aqC2zX6p55Q7uwdMkLGkdg%3D%3D",
       "source": "linkedin",
       "description": "Cognizant Romania\nis\nhome to 2300+ creative technologists and is one of Eastern Europe's largest Software Product Engineering delivery networks. We serve global clients in several industries, including Banking & Financial Services, Insurance, Healthcare & Life Sciences, Communication Media & Technology, and Retail & MLEU (manufacturing, logistics, energy & utilities).\nCognizant Romania\nwas established in 2018 when Cognizant acquired Softvision, a company founded in the late 1990s in Cluj-Napoca, Romania. We continue to build on our history as the preferred engineering partner for thriving Silicon Valley tech companies, now as a prominent Cognizant next generation studio.\nAbout the role\nWe are looking for an experienced\nAngular Frontend Engineer\nto join an Agile delivery team and contribute to the development of complex, high-quality web solutions.\nIn this role, you will design, develop, test, and maintain modern frontend applications using Angular and TypeScript. You will work closely with engineers, QA specialists, UX professionals, and other stakeholders to deliver clean, scalable, and maintainable solutions.\nYou will also contribute to technical design decisions, code reviews, quality assurance, delivery automation, and the continuous improvement of engineering standards and team practices.\nFor this position, you should be able to check the following:\nDemonstrable professional experience in software development\nStrong knowledge of JavaScript, including performance optimization techniques\nHands-on experience with ES7+, TypeScript, and Angular 18+\nExperience with UI and UX libraries or frameworks such as Tailwind CSS and Bootstrap\nAdvanced knowledge of frontend testing using Karma and Jasmine or Jest\nAbility to write clean, efficient, and maintainable code aligned with industry best practices\nExperience conducting thorough code reviews\nGood understanding of software quality, maintainability, and QA automation processes\nAbility to investigate and debug issues across complex system environments\nExperience working independently and as part of Agile delivery teams\nStrong analytical, problem-solving, and communication skills\nAbility to design solutions using common design patterns and appropriate design tools\nAbility to deliver complex, end-to-end solutions with limited supervision\nExcellent English communication skills\nNice to have:\nExperience with React\nExperience with GitHub workflows\nKnowledge of UX design principles\nExperience working with Figma\nInterest in delivery automation and continuous improvement\nUnderstanding of security, risk, and control considerations in engineering solutions\nLocation:\nBucharest, Romania\nWork model:\nHybrid, 3 days per week from the office, in Pipera\nCognizant Romania Employee Benefits:\nFlexible Work Schedule\n– Outside of core working hours, you have the flexibility to arrange your schedule in a way that best suits your personal and professional needs.\nAnnual Leave\n– Enjoy 26 vacation days each year to relax, recharge, travel, and spend quality time with family and friends.\nLearning & Development\n– Access a wide range of training programs, workshops, certifications, and continuous learning opportunities to support your professional growth.\nPrivate Medical Insurance\n– Comprehensive healthcare coverage for your wellbeing and peace of mind.\nEmployee Assistance Program (EAP)\n– Confidential professional support services to help you navigate personal, emotional, financial, legal, or work-related challenges.\nMeal Tickets\n– Monthly meal allowance provided through meal vouchers.\nReferral Bonus Program\n– Help us grow our team and be rewarded for successful referrals.\nLife Insurance\n– Additional protection and financial security\nBanking Benefits\n– Preferential banking services and financial products through our partner institutions.\nBookster Library\n– Access thousands of books, audiobooks, and learning resources to support both personal and professional development.\nPlease note that only suitable candidates will be contacted. Cognizant and its affiliated companies are firmly committed to protecting your privacy. This\nCandidate Privacy Notice\nprovides you with all the details on what we do with Personal Information we collect during and after the recruitment process"
     },
@@ -2782,7 +2836,7 @@
       "company": "Booking Holdings (NASDAQ: BKNG)",
       "title": "Booking Holdings Romania - Frontend Software Engineer - Pipeline",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/booking-holdings-romania-frontend-software-engineer-pipeline-at-booking-holdings-nasdaq-bkng-4440478782?position=8&pageNum=8&refId=f9E25HLVXr2hNlTV5hnR0A%3D%3D&trackingId=fhHKhUn5k7kIAH2kbVSCYw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/booking-holdings-romania-frontend-software-engineer-pipeline-at-booking-holdings-nasdaq-bkng-4440478782?position=7&pageNum=8&refId=eDOv14z6GeH0L3keZSwlFw%3D%3D&trackingId=8DszwSLTuYU5NYss0o0A%2Bg%3D%3D",
       "source": "linkedin",
       "description": "Booking Holdings Romania is a Center of Excellence based in Bucharest, Romania and was created to support the increasing business demands of the Booking Holdings Brands. The Center of Excellence provides access to specialized and highly skilled talent, leading industry best practices, and collaboration opportunities across all of our Brands.\nAs part of our Booking Holdings Romania team, you will have the opportunity to be a part of the world’s leading provider of online travel, with a mission of making it easier for everyone to experience the world through six-primary consumer facing brands: Booking.com, Priceline, Agoda, KAYAK, OpenTable and Rentalcars.com.\nRole Description\nThe Frontend Software Engineer designs, builds, and evolves scalable, high-quality web applications and user experiences that power Booking Holdings’ high-traffic platforms, ensuring performance, accessibility, reliability, and usability for millions of travelers worldwide. Success means owning the full software lifecycle from architecture and implementation through deployment, monitoring, and production support, while raising the engineering bar through mentorship, code reviews, and technical leadership across teams. The role exists to drive frontend engineering excellence and modern web architecture within the Bucharest Centre of Excellence, supporting Booking Holdings’ consumer brands by providing specialized engineering talent and best practices that accelerate delivery across the organization.\nThis role provides a hybrid way of working with an onsite presence of 2 days/week.\nKey Job Responsibilities And Duties\nTranslates product and design requirements into fully functioning front-end features across desktop and mobile web, following established design systems and engineering standards, in order to deliver high-quality user experiences to millions of customers.\nBuilds, tests, and iterates on web experiences using modern front-end technologies, aligned with performance, accessibility, and maintainability best practices, in order to ensure reliable, bug-free product experiences.\nOwns front-end solutions end-to-end, from idea and implementation through release and post-launch monitoring, guided by team engineering practices, in order to ensure quality, performance, and long-term maintainability.\nApplies experimentation, A/B testing, and analytics to product development work, in line with data-driven product principles, in order to validate ideas and drive measurable improvements for end users.\nCollaborates with designers, back-end developers, product managers, copywriters, and user researchers on feature discovery and delivery, within an agile team setup, in order to shape and ship well-rounded product experiences.\nContributes to engineering standards, code reviews, hiring, and onboarding within the broader engineering organisation, aligned with internal guidelines and ways of working, in order to raise code quality and support the growth of the team.\nRole Qualifications And Requirements\nBachelor’s degree and 3-5 years of relevant experience\nKnowledge\nStrong knowledge of core front-end technologies, including JavaScript, HTML, and CSS.\nWorking knowledge of modern front-end ecosystems such as React and TypeScript, with familiarity with Node.js considered a plus.\nUnderstanding of web performance, accessibility, responsive design, and cross-browser compatibility principles.\nFamiliarity with experimentation, A/B testing, and analytics-informed product development.\nKnowledge of version control systems (e.g., Git) and modern collaborative development workflows.\nUnderstanding of testing practices for front-end code, including unit, integration, and end-to-end testing.\nAwareness of agile ways of working and product development lifecycles in a commercial, product-led environment.\nSkills\nAbility to translate product and design requirements into functional, high-quality front-end features.\nSkill in writing high-performance, reusable, and maintainable front-end code.\nProficiency in troubleshooting browser compatibility issues and complex front-end implementation problems.\nStrong product sense, with the ability to advocate for the end-user experience during design and implementation.\nAbility to interpret experimentation and analytics data to inform front-end decisions and iterations.\nEffective written and verbal communication skills in English, with the ability to collaborate across disciplines.\nSkill in reviewing peers' code and providing constructive, actionable feedback.\nAbilities\nAbility to take ownership of front-end work from idea through implementation, release, and iteration.\nAbility to collaborate effectively with designers, back-end developers, product managers, copywriters, and user researchers in an agile setting.\nStrong analytical and problem-solving ability, with a pragmatic approach to trade-offs on quality, performance, and delivery.\nAbility to manage competing priorities and deliver reliably in a fast-paced, performance-driven environment.\nAdaptability to evolving front-end technologies, tools, and product needs.\nCommitment to continuous learning and to raising engineering standards within the team.\nBenefits & Perks\nContributing to a high-scale, complex, world renowned product and seeing real-time impact of your work on millions of travelers worldwide\nWorking in a fast-paced and performance driven culture\nTechnical, behavioral and interpersonal competence advancement via on-the-job opportunities, experimental projects, hackathons, conferences and active community participation\nCompetitive compensation and benefits package\nVast amounts of data to validate your ideas and the opportunity to experiment with real users\nBooking Holdings is proud to be an equal opportunity workplace and is an affirmative action employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status. We strive to move well beyond traditional equal opportunity and work to create an environment that allows everyone to thrive.\nPre-Employment Screening\nIf your application is successful, your personal data may be used for a pre-employment screening check by a third party as permitted by applicable law. Depending on the vacancy and applicable law, a pre-employment screening may include employment history, education and other information (such as media information) that may be necessary for determining your qualifications and suitability for the position."
     },
@@ -2791,43 +2845,52 @@
       "company": "Hipo.ro",
       "title": "Booking Holdings Romania - Frontend Software Engineer - Pipeline",
       "location": "Ilfov, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/booking-holdings-romania-frontend-software-engineer-pipeline-at-hipo-ro-4443976415?position=6&pageNum=21&refId=iCRfkU3sxp1pkbo0lFEA2g%3D%3D&trackingId=E0puWxtF6X1LdcJRwLpPbA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/booking-holdings-romania-frontend-software-engineer-pipeline-at-hipo-ro-4443976415?position=3&pageNum=23&refId=8M1FLhDuTv%2BQgbJaBaeH%2Bg%3D%3D&trackingId=YRP6FKs9sNvXC5XxERhlRA%3D%3D",
       "source": "linkedin",
       "description": "Booking Holdings Romania is a Center of Excellence based in Bucharest, Romania and was created to support the increasing business demands of the Booking Holdings Brands. The Center of Excellence provides access to specialized and highly skilled talent, leading industry best practices, and collaboration opportunities across all of our Brands.\nAs part of our Booking Holdings Romania team, you will have the opportunity to be a part of the world's leading provider of online travel, with a mission of making it easier for everyone to experience the world through six-primary consumer facing brands: Booking.com, Priceline, Agoda, KAYAK, OpenTable and Rentalcars.com.\nRole Description\nThe Frontend Software Engineer designs, builds, and evolves scalable, high-quality web applications and user experiences that power Booking Holdings' high-traffic platforms, ensuring performance, accessibility, reliability, and usability for millions of travelers worldwide. Success means owning the full software lifecycle from architecture and implementation through deployment, monitoring, and production support, while raising the engineering bar through mentorship, code reviews, and technical leadership across teams. The role exists to drive frontend engineering excellence and modern web architecture within the Bucharest Centre of Excellence, supporting Booking Holdings' consumer brands by providing specialized engineering talent and best practices that accelerate delivery across the organization.\nThis role provides a hybrid way of working with an onsite presence of 2 days/week.\nKey Job Responsibilities And Duties\nTranslates product and design requirements into fully functioning front-end features across desktop and mobile web, following established design systems and engineering standards, in order to deliver high-quality user experiences to millions of customers.\nBuilds, tests, and iterates on web experiences using modern front-end technologies, aligned with performance, accessibility, and maintainability best practices, in order to ensure reliable, bug-free product experiences.\nOwns front-end solutions end-to-end, from idea and implementation through release and post-launch monitoring, guided by team engineering practices, in order to ensure quality, performance, and long-term maintainability.\nApplies experimentation, A/B testing, and analytics to product development work, in line with data-driven product principles, in order to validate ideas and drive measurable improvements for end users.\nCollaborates with designers, back-end developers, product managers, copywriters, and user researchers on feature discovery and delivery, within an agile team setup, in order to shape and ship well-rounded product experiences.\nContributes to engineering standards, code reviews, hiring, and onboarding within the broader engineering organisation, aligned with internal guidelines and ways of working, in order to raise code quality and support the growth of the team.\nRole Qualifications And Requirements\nBachelor's degree and 3-5 years of relevant experience\nKnowledge\nStrong knowledge of core front-end technologies, including JavaScript, HTML, and CSS.\nWorking knowledge of modern front-end ecosystems such as React and TypeScript, with familiarity with Node.js considered a plus.\nUnderstanding of web performance, accessibility, responsive design, and cross-browser compatibility principles.\nFamiliarity with experimentation, A/B testing, and analytics-informed product development.\nKnowledge of version control systems (e.g., Git) and modern collaborative development workflows.\nUnderstanding of testing practices for front-end code, including unit, integration, and end-to-end testing.\nAwareness of agile ways of working and product development lifecycles in a commercial, product-led environment.\nSkills\nAbility to translate product and design requirements into functional, high-quality front-end features.\nSkill in writing high-performance, reusable, and maintainable front-end code.\nProficiency in troubleshooting browser compatibility issues and complex front-end implementation problems.\nStrong product sense, with the ability to advocate for the end-user experience during design and implementation.\nAbility to interpret experimentation and analytics data to inform front-end decisions and iterations.\nEffective written and verbal communication skills in English, with the ability to collaborate across disciplines.\nSkill in reviewing peers' code and providing constructive, actionable feedback.\nAbilities\nAbility to take ownership of front-end work from idea through implementation, release, and iteration.\nAbility to collaborate effectively with designers, back-end developers, product managers, copywriters, and user researchers in an agile setting.\nStrong analytical and problem-solving ability, with a pragmatic approach to trade-offs on quality, performance, and delivery.\nAbility to manage competing priorities and deliver reliably in a fast-paced, performance-driven environment.\nAdaptability to evolving front-end technologies, tools, and product needs.\nCommitment to continuous learning and to raising engineering standards within the team.\nBenefits & Perks\nContributing to a high-scale, complex, world renowned product and seeing real-time impact of your work on millions of travelers worldwide\nWorking in a fast-paced and performance driven culture\nTechnical, behavioral and interpersonal competence advancement via on-the-job opportunities, experimental projects, hackathons, conferences and active community participation\nCompetitive compensation and benefits package\nVast amounts of data to validate your ideas and the opportunity to experiment with real users\nBooking Holdings is proud to be an equal opportunity workplace and is an affirmative action employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status. We strive to move well beyond traditional equal opportunity and work to create an environment that allows everyone to thrive.\nPre-Employment Screening\nIf your application is successful, your personal data may be used for a pre-employment screening check by a third party as permitted by applicable law. Depending on the vacancy and applicable law, a pre-employment screening may include employment history, education and other information (such as media information) that may be necessary for determining your qualifications and suitability for the position."
+    },
+    {
+      "id": "4446959161",
+      "company": "Undelucram.ro",
+      "title": "Booking Holdings Romania - Frontend Software Engineer - Pipeline",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/booking-holdings-romania-frontend-software-engineer-pipeline-at-undelucram-ro-4446959161?position=8&pageNum=21&refId=r6V6wiLyQAOstjOLwQjBdQ%3D%3D&trackingId=Z4D4bP79dfKNELJotH0bfQ%3D%3D",
+      "source": "linkedin",
+      "description": "Undelucram.ro on behalf of:\nBOOKING HOLDINGS ROMANIA SRL\nBooking Holdings Romania is a Center of Excellence based in Bucharest, Romania and was created to support the increasing business demands of the Booking Holdings Brands. The Center of Excellence provides access to specialized and highly skilled talent, leading industry best practices, and collaboration opportunities across all of our Brands.\nAs part of our Booking Holdings Romania team, you will have the opportunity to be a part of the world’s leading provider of online travel, with a mission of making it easier for everyone to experience the world through six-primary consumer facing brands: Booking.com, Priceline, Agoda, KAYAK, OpenTable and Rentalcars.com.\nRole Description\nThe Frontend Software Engineer designs, builds, and evolves scalable, high-quality web applications and user experiences that power Booking Holdings’ high-traffic platforms, ensuring performance, accessibility, reliability, and usability for millions of travelers worldwide. Success means owning the full software lifecycle from architecture and implementation through deployment, monitoring, and production support, while raising the engineering bar through mentorship, code reviews, and technical leadership across teams. The role exists to drive frontend engineering excellence and modern web architecture within the Bucharest Centre of Excellence, supporting Booking Holdings’ consumer brands by providing specialized engineering talent and best practices that accelerate delivery across the organization.\nThis role provides a hybrid way of working with an onsite presence of 2 days/week.\nKey Job Responsibilities And Duties\nTranslates product and design requirements into fully functioning front-end features across desktop and mobile web, following established design systems and engineering standards, in order to deliver high-quality user experiences to millions of customers.\nBuilds, tests, and iterates on web experiences using modern front-end technologies, aligned with performance, accessibility, and maintainability best practices, in order to ensure reliable, bug-free product experiences.\nOwns front-end solutions end-to-end, from idea and implementation through release and post-launch monitoring, guided by team engineering practices, in order to ensure quality, performance, and long-term maintainability.\nApplies experimentation, A/B testing, and analytics to product development work, in line with data-driven product principles, in order to validate ideas and drive measurable improvements for end users.\nCollaborates with designers, back-end developers, product managers, copywriters, and user researchers on feature discovery and delivery, within an agile team setup, in order to shape and ship well-rounded product experiences.\nContributes to engineering standards, code reviews, hiring, and onboarding within the broader engineering organisation, aligned with internal guidelines and ways of working, in order to raise code quality and support the growth of the team.\nRole Qualifications And Requirements\nBachelor’s degree and 3-5 years of relevant experience\nKnowledge\nStrong knowledge of core front-end technologies, including JavaScript, HTML, and CSS.\nWorking knowledge of modern front-end ecosystems such as React and TypeScript, with familiarity with Node.js considered a plus.\nUnderstanding of web performance, accessibility, responsive design, and cross-browser compatibility principles.\nFamiliarity with experimentation, A/B testing, and analytics-informed product development.\nKnowledge of version control systems (e.g., Git) and modern collaborative development workflows.\nUnderstanding of testing practices for front-end code, including unit, integration, and end-to-end testing.\nAwareness of agile ways of working and product development lifecycles in a commercial, product-led environment.\nSkills\nAbility to translate product and design requirements into functional, high-quality front-end features.\nSkill in writing high-performance, reusable, and maintainable front-end code.\nProficiency in troubleshooting browser compatibility issues and complex front-end implementation problems.\nStrong product sense, with the ability to advocate for the end-user experience during design and implementation.\nAbility to interpret experimentation and analytics data to inform front-end decisions and iterations.\nEffective written and verbal communication skills in English, with the ability to collaborate across disciplines.\nSkill in reviewing peers' code and providing constructive, actionable feedback.\nAbilities\nAbility to take ownership of front-end work from idea through implementation, release, and iteration.\nAbility to collaborate effectively with designers, back-end developers, product managers, copywriters, and user researchers in an agile setting.\nStrong analytical and problem-solving ability, with a pragmatic approach to trade-offs on quality, performance, and delivery.\nAbility to manage competing priorities and deliver reliably in a fast-paced, performance-driven environment.\nAdaptability to evolving front-end technologies, tools, and product needs.\nCommitment to continuous learning and to raising engineering standards within the team.\nBenefits & Perks\nContributing to a high-scale, complex, world renowned product and seeing real-time impact of your work on millions of travelers worldwide\nWorking in a fast-paced and performance driven culture\nTechnical, behavioral and interpersonal competence advancement via on-the-job opportunities, experimental projects, hackathons, conferences and active community participation\nCompetitive compensation and benefits package\nVast amounts of data to validate your ideas and the opportunity to experiment with real users\nBooking Holdings is proud to be an equal opportunity workplace and is an affirmative action employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status. We strive to move well beyond traditional equal opportunity and work to create an environment that allows everyone to thrive.\nPre-Employment Screening\nIf your application is successful, your personal data may be used for a pre-employment screening check by a third party as permitted by applicable law. Depending on the vacancy and applicable law, a pre-employment screening may include employment history, education and other information (such as media information) that may be necessary for determining your qualifications and suitability for the position."
     },
     {
       "id": "4400769364",
       "company": "Extia",
       "title": "Developpeur Java / Angular confirmé H/F",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/developpeur-java-angular-confirm%C3%A9-h-f-at-extia-4400769364?position=8&pageNum=1&refId=s6HOcNZJ9UgiGxR8JL12eg%3D%3D&trackingId=qBqqfYeI97oXYuRW1k7zrw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/developpeur-java-angular-confirm%C3%A9-h-f-at-extia-4400769364?position=8&pageNum=1&refId=ySkPiYxoQFDdP0fdaNSWCA%3D%3D&trackingId=y0yHbqtp134utLIO6bxL5Q%3D%3D",
       "source": "linkedin",
       "description": "Vous souhaitez rejoindre une entreprise qui place l’humain au cœur de ses préoccupations ? On vous attend chez Extia !\nSociété de conseil spécialisée dans les métiers de l’IT et du digital, Extia privilégie depuis sa création en 2007 une approche qui allie\nperformance et bien-être au travail\n. Une vision de l’entreprise partagée aujourd’hui par plus de 2 500 Extiens en France et à l'international et récompensée par le label\nGreat Place to Work® depuis 15 ans\ndont 10 ans sur le podium et 3 années consécutives à la première place du palmarès !\nNous croyons en l'égalité des chances et nous offrons à chaque candidat la possibilité de révéler son potentiel, sans distinction et de quelque nature qu'elle soit. Chez Extia, c’est «\nD’abord qui, ensuite quoi\n» alors, allons-y !\nCurieux(se)\n, votre boite mail est pleine d’alertes de veille pour rester à la page\nPersévérant(e)\n, vous ne perdez jamais, soit vous gagnez, soit vous apprenez\nProactif(e)\n, vous aimez les projets qui avancent vite et bien\nAu sein d'une équipe dynamique, vous serez amené à :\nParticiper à la rédaction du cahier des charges afin de comprendre les besoins du client et lui proposer les meilleures solutions\nÊtre force de proposition tout au long du développement du projet dans un objectif de satisfaction du client\nDévelopper l'application web en structure complète CRUD (Create, Read, Update & Delete) sous l'architecture MVC\nVeiller à rendre le code compréhensible aux autres parties prenantes pour favoriser l'échange entre les équipes et la pédagogie\nAssurer les tests unitaires et end-to-end de l'application pour faciliter la maintenance de celle-ci,\nUtiliser la technique de test mock,\nRéaliser la maintenance et les mises à jour de l'application.\nProfil recherché\n:\nDiplômé d'une école d'ingénieurs ou équivalent (Bac +5) :\nVous justifiez d'une première expérience réussie en développement,\nVous avez l’esprit créatif qui vous permet de proposer des solutions innovantes,\nVous avez une expérience sur le développement front : Angular, GWT, Bootstrap,\nVous disposez d’une connaissance des frameworks Java (Spring, Hibernate, Struts par exemple),\nVous disposez d’une connaissance des outils tels que GIT, Maven, SVN ...\nProcessus de recrutement\nÉchangez avec un ou une chargée de recrutement pour un premier contact téléphonique\nRencontrez un ou une Ingénieure d’Affaires (Business Manager) sur vos souhaits d’évolution\nApprofondissez avec nos responsables et directeurs d’agence pour connaître la vision de l'agence\nSelon votre profil, des tests ou entretiens techniques pourront vous être demandés. Tout au long du processus, vous pourrez échanger avec nos consultants pour en savoir + sur leur quotidien chez nous !\nLes petits plus\n🏠 Télétravail possible 🎉 250 événements par an pour rencontrer tes collègues et des locaux feel good  📢 Des formations, conférences et une plateforme d'e-learning avec LinkedIn pour monter en compétences #greatplacetolearn 👩‍ Des Communautés Métiers et du Mentorat pour partager son expertise et en apprendre sur de nombreux sujets #greatplacetoshare 🕹️ Une communauté de e-sport : Extia Gaming ! #greatplacetoplay\nLes petits plus\n🏠 Télétravail possible 👛 100% des frais de transports en communs pris en charge, des tickets restaurant et une mutuelle haut de gamme ❤️‍🩹Une politique inclusive et une référente handicap à disposition pour vous accompagner #greatplacetobe 🎁 Un CSE avantageux et des challenges tout au long de l'année ! #greatplacetolive 📈 Des primes à hauteur des performances de l'année et de l'implication 🎉 250 événements par an pour rencontrer tes collègues et des locaux feel good  📢 Des formations, conférences et une plateforme d'e-learning avec LinkedIn pour monter en compétences #greatplacetolearn 👩‍ Des Communautés Métiers et du Mentorat pour partager son expertise et en apprendre sur de nombreux sujets #greatplacetoshare 🕹️ Une communauté de e-sport : Extia Gaming ! #greatplacetoplay 🌏 Envie d’évoluer ? Grâce à notre politique de mobilité interne, explorez de nouvelles opportunités en France ou dans l’un de nos 7 autres pays !"
     },
     {
-      "id": "4471916132",
-      "company": "SCOR",
-      "title": "Front End Developer (Angular / UI/UX)",
-      "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/front-end-developer-angular-ui-ux-at-scor-4471916132?position=1&pageNum=0&refId=CwI39nqQrrGhk8Voza4krA%3D%3D&trackingId=uRM93%2FXGtaniX9dl6%2BxLzg%3D%3D",
+      "id": "4478536707",
+      "company": "Luxoft Romania",
+      "title": "Front End Developer with Angular",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/front-end-developer-with-angular-at-luxoft-romania-4478536707?position=8&pageNum=0&refId=siOc7a6B%2FZK7n4CXAiqTrA%3D%3D&trackingId=VyhKYQAyIBA3scSYodRQdA%3D%3D",
       "source": "linkedin",
-      "description": "At SCOR, we combine the Art and Science of risk to help build more resilient societies. Technology is a vital resource and partner in every step of our journey. We are seeking innovators to join our dynamic tech team of over 230 professionals across three global hubs. Guided by our corporate values Collaboration, Courage, Care, Open-Mindedness, and Integrity our teams develop technology that insures the world. Join us and make a difference!\nResearch shows that women and underrepresented groups often apply only when they meet every requirement. If that sounds like you, we encourage you to rethink, your unique perspective matters. We're excited to hear from you!\nAt our brand-new Shared Business Platform (SBP) in Bucharest, we offer a dynamic environment where career growth is actively supported through internal mobility, globally recognized certifications, and continuous professional development. We value work-life balance, offering flexible work arrangements, and wellbeing initiatives.\nAs a leading global reinsurer, SCOR offers its clients a diversified and innovative range of reinsurance and insurance solutions and services to control and manage risk. Applying \"The Art & Science of Risk,\" SCOR uses its industry-recognized expertise and cutting-edge financial solutions to serve its clients and contribute to the welfare and resilience of society in around 160 countries worldwide.\nWorking at SCOR means engaging with some of the best minds in the industry - actuaries, data scientists, underwriters, risk modelers, engineers, and many others - as we work together to find solutions to pressing challenges facing societies.\nAs an international company, our common culture is defined by \"The SCOR Way.\" Serving both to build momentum that drives the Group forward and as a compass to guide our actions and choices, The SCOR Way is anchored by five core values, reflecting the input of employees at all levels of the Group. We care about clients, people, and societies. We perform with integrity. We act with courage. We encourage open minds. And we thrive through collaboration.\nSCOR supports inclusion and the diversity of talents, and all positions are open to people with disabilities.\nWe are seeking an experienced and highly motivated Front End Developer to design and build modern, user-centered web applications. In this role, you will craft responsive, accessible user interfaces primarily using Angular and TypeScript, collaborating closely with UX/UI designers, product owners, and backend engineers to deliver intuitive experiences, consistent design patterns, and leverage Scor Design System (SDS) standards. You will contribute to front-end architecture, component libraries, performance optimization, and automated testing to ensure a high-quality and maintainable codebase, while using AI-assisted development tools and generative AI to enhance productivity, accelerate delivery, and improve code quality. We are looking for someone with hands-on experience applying AI capabilities in digital experiences and a strong understanding of responsible AI principles, including data privacy, fairness, accessibility, and explainability.\nYou build and maintain user interfaces using Angular, TypeScript, HTML, and CSS, with strong attention to usability, responsiveness, and maintainability.\nYou partner with UX/UI and product teams to translate user journeys, wireframes, and design systems into polished, consistent experiences.\nYou create reusable components, patterns, and documentation to scale delivery and improve consistency across products.\nYou integrate REST/JSON services, manage client-side state and data flow (RxJS/signals), and implement robust loading/error states and caching patterns.\nYou write automated tests, participate in code reviews, optimize performance, and ensure WCAG-aligned accessibility.\nYou use AI-assisted development tools and generative AI to accelerate front-end delivery, improve code quality, and streamline testing and documentation.\nYou help evaluate and integrate AI-powered UI capabilities such as intelligent search, assistants, recommendations, or summarization features within enterprise applications.\nYou follow secure front-end practices and requirements for handling\nPII\n, including responsible AI considerations for privacy, fairness, and explainability.\nYou have experience with\nReact\nand can contribute to or migrate components across front-end stacks when needed\nDesired Skills and Experience\nRequired experience & competencies\n* 5+ years of professional experience building and delivering modern web user interfaces.\n* Angular & TypeScript: Strong command of Angular (components, routing, forms, RxJS), TypeScript, and modern JavaScript; experience creating maintainable, testable front-end architecture.\n* UX & UI Engineering: Demonstrated ability to translate UX designs into high-quality UI, with understanding of usability principles, interaction patterns, and visual consistency (design systems/component libraries).\n* API Consumption: Experience consuming REST/JSON APIs from web applications, including authentication/authorization concepts, request/response handling, error states, and coordinating with backend teams on API contracts.\n* Testing & Quality: Experience with automated testing (unit/component/e2e) and working in a code-review culture with engineering standards and documentation.\n* Performance: Familiarity with performance profiling and optimization techniques (rendering performance, bundle size, lazy loading, caching strategies).\n* AI-Assisted Development: Proven experience using AI-assisted software development tools and workflows to improve front-end engineering productivity.\n* Generative AI Enablement: Demonstrated ability to apply generative AI to improve developer productivity, UI content workflows, prototyping, and code quality.\n* Responsible AI: Solid understanding of responsible AI principles, including data privacy, fairness, accessibility, and explainability in digital experiences.\n* Enterprise AI Integration: Hands-on experience integrating AI-powered capabilities into enterprise web applications through APIs, SDKs, or platform services.\n* Security & Privacy Mindset: Understanding of secure coding basics on the web and careful handling of PII and regulated data.\n* Nice-to-Haves: React experience: familiarity with micro-frontends; experience with Storybook or similar component documentation tools; exposure to CI/CD pipelines and cloud-hosted front-end deployments; and familiarity with integrating AI/ML service endpoints into user-facing applications.\nRequired Education\n· Degree in Computer Science, Management of Information Systems, or a related analytical field or equivalent experience."
+      "description": ""
     },
     {
       "id": "4469741105",
       "company": "DKV Mobility",
       "title": "Frontend Developer (gn) - Location Bucharest",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/frontend-developer-gn-location-bucharest-at-dkv-mobility-4469741105?position=8&pageNum=0&refId=CwI39nqQrrGhk8Voza4krA%3D%3D&trackingId=qcxEewLWxynY1Vd8PVOhww%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/frontend-developer-gn-location-bucharest-at-dkv-mobility-4469741105?position=7&pageNum=0&refId=siOc7a6B%2FZK7n4CXAiqTrA%3D%3D&trackingId=Ji0U%2FcChD5xtyJQVkThuRQ%3D%3D",
       "source": "linkedin",
-      "description": "Your job at DKV Mobility? As part of a leading European B2B platform for on-the-road payment solutions, you will work in an exciting environment. Our tasks are defined by our Purpose: To drive the transition towards an efficient and sustainable future of mobility. We offer you numerous opportunities to help shape the mobility of tomorrow in a dynamic and agile environment. Our approximately 2,700 employees throughout Europe are united by a common passion: to give their best every day for our customers in more than 50 countries. True to our claim: You drive, we care. Become part of our diverse, dedicated and unique team!\nWhat you can expect\nThe ideal candidate will be responsible for designing, developing, testing, and debugging responsive web and mobile applications for the company. Using Angular & JavaScript this candidate will be able to translate user and business needs into functional frontend design.\nKey Responsibilities\nYou will work as part of an agile development team with members from Romania, Germany, and Ukraine to design, estimate, develop and implement software solutions that satisfy the business requirements.\nYou will work closely with the team on a comprehensive Java-based product consisting of web front ends, back-end APIs, and standalone microservices, using Azure cloud.\nYou will be required to participate in the FE Community of Practice, identify and come up with best practices that would push us towards building a great end user experience for our DKV customer base\nYou will be part of the Customer Product Services organization, which is focused on delivering high-quality software services for the DKV customers, which is reachable via www (web).\nResponsible for planning, development and operations of web applications for DKV products\nDeveloping client-based web frontends with Angular of Java web applications and microservices for application servers and cloud environments\nResponsible for applications and porting to other infrastructures (primarily cloud environments)\nCreate unit tests to ensure code is functioning as expected and well written documentation\nPart of scrum team\nDevelopment of functions to improve usability\nWhat makes you stand out\nBachelor's degree or equivalent in Computer Science\n4+ years' experience in frontend development\nFamiliarity using Scrum/Agile development methodologies is a plus\nExperience building object-oriented web applications in JavaScript, Angular 16+,\nWe are looking forward to your application and to applicants who enrich our diverse culture! Regardless of age, gender, origin and sexual identity and orientation. Severely disabled applicants will be given preference if equally qualified. This position can be full-time or part-time (min. 30h/week). DKV Mobility is looking for the best talents and knows that these are not always available on a full-time basis. Many of our employees work part-time or in flexible working models. Please talk to us about the flexibility you need during the application process.\nWhy DKV Mobility? Here are five good reasons...\nAt DKV Mobility, we are team players - because we are only successful together!\n#teamofteams\nYou should feel welcome with us from the very beginning!\nWe've Been Growing For About 90 Years\nHow we do it? We keep adapting our products and business model to meet changing customer needs. That's how we stay mobile and master every challenge the future holds.\nThere are also many other good reasons to work at DKV Mobility. For example, we offer you comprehensive company health management, parent-child offices (from 2023) and support you in leasing your eBike through our partner Jobrad!\nWe attach great importance to work-life balance.\nWe stand for the compatibility of family and career! That's why we offer flexible working hours and family-friendly working time models. In addition, we rely on a balanced mix of on-site meetings and home office.\nWe support you in your development\nWe offer you optimal conditions to familiarize yourself so that you can quickly find your way around and become a part of the team! To further your personal development, we offer you access to a modern learning environment - independent of time and location. This way you can also face the challenges of tomorrow!\nWe are committed to a net-zero future\nAfter reaching our Green Pledge climate target in 2023 by reducing carbon emissions in our own business operations by 50.4% compared to the base year 2019, we set ourselves ambitious net-zero climate targets. The targets have been validated by the Science Based Targets initiative. By 2050, DKV Mobility commits to reach net-zero greenhouse gas emissions across the value chain from a 2022 base year. You want to take climate action? Follow us on our road to net-zero.\nWe are a certified employer\nOur employees trust us. As an employer, we regularly receive awards from independent institutes, e.g. as Top Employer Germany and as Great Place to Work!\nDid you know that we have received several awards as an employer in recent years?\nHave we made you curious? Then we are looking forward to your application! If you still have open questions then please contact\nZaharia Alexandra\nvia Alexandra.Zaharia@dkv-mobility.com."
+      "description": ""
     },
     {
       "id": "4466353759",
       "company": "Hipo.ro",
       "title": "Frontend Developer - DealWise @ING Hubs Romania",
       "location": "Ilfov, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/frontend-developer-dealwise-%40ing-hubs-romania-at-hipo-ro-4466353759?position=3&pageNum=1&refId=s6HOcNZJ9UgiGxR8JL12eg%3D%3D&trackingId=g3hBnNxjpQ%2BtOWf7C6WpgQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/frontend-developer-dealwise-%40ing-hubs-romania-at-hipo-ro-4466353759?position=3&pageNum=1&refId=ySkPiYxoQFDdP0fdaNSWCA%3D%3D&trackingId=Zhn6Ffh3ar97%2F0KO74XhsA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2836,7 +2899,7 @@
       "company": "ING Hubs Romania",
       "title": "Frontend Developer - DealWise @ING Hubs Romania",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/frontend-developer-dealwise-%40ing-hubs-romania-at-ing-hubs-romania-4464851405?position=1&pageNum=1&refId=s6HOcNZJ9UgiGxR8JL12eg%3D%3D&trackingId=FUOlebTRwWXyYVkceNhzzQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/frontend-developer-dealwise-%40ing-hubs-romania-at-ing-hubs-romania-4464851405?position=1&pageNum=1&refId=ySkPiYxoQFDdP0fdaNSWCA%3D%3D&trackingId=1U4b%2F25sMWshulcqgReqYQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2845,7 +2908,7 @@
       "company": "NTT DATA Europe & Latam",
       "title": "Frontend Engineer with Angular",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/frontend-engineer-with-angular-at-ntt-data-europe-latam-4475251168?position=6&pageNum=0&refId=CwI39nqQrrGhk8Voza4krA%3D%3D&trackingId=0JsKTCiHUmOrXOuRufQvrQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/frontend-engineer-with-angular-at-ntt-data-europe-latam-4475251168?position=5&pageNum=0&refId=siOc7a6B%2FZK7n4CXAiqTrA%3D%3D&trackingId=hAGBdA3DaeTwOrQqk0hO5g%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2854,7 +2917,7 @@
       "company": "R Systems",
       "title": "Frontend Engineer_Angular",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/frontend-engineer-angular-at-r-systems-4470150250?position=9&pageNum=0&refId=CwI39nqQrrGhk8Voza4krA%3D%3D&trackingId=RCVOii62d2EqrsgVl2OXyA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/frontend-engineer-angular-at-r-systems-4470150250?position=9&pageNum=0&refId=siOc7a6B%2FZK7n4CXAiqTrA%3D%3D&trackingId=Iou2r4gKyi2FTUMREvUCNg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2863,7 +2926,7 @@
       "company": "VOIS",
       "title": "Frontend Software Developer",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/frontend-software-developer-at-vois-4463985786?position=2&pageNum=1&refId=s6HOcNZJ9UgiGxR8JL12eg%3D%3D&trackingId=E5DrdfIF%2FH8nEDpAXQ%2FFpA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/frontend-software-developer-at-vois-4463985786?position=2&pageNum=1&refId=ySkPiYxoQFDdP0fdaNSWCA%3D%3D&trackingId=uOnquPsYwz4QrMA0vFquvA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2872,7 +2935,7 @@
       "company": "Swissquote",
       "title": "Frontend Software Engineer",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/frontend-software-engineer-at-swissquote-4473774035?position=1&pageNum=11&refId=wL%2F1WfBcqid7I35jjOJ0EQ%3D%3D&trackingId=O9zzTAx4ugc5W9McyhSdsQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/frontend-software-engineer-at-swissquote-4473774035?position=2&pageNum=11&refId=AvT3rivfpKpLQgYrotwNow%3D%3D&trackingId=b2nLwmH3veJWirhcTszUtw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2881,7 +2944,7 @@
       "company": "VOIS",
       "title": "Frontend Software Engineer",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/frontend-software-engineer-at-vois-4469744645?position=7&pageNum=20&refId=W0Aby1ZYieJ5dpKnGuQLJQ%3D%3D&trackingId=n%2FkzmSRhplM%2Frcxc1QNX%2Bw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/frontend-software-engineer-at-vois-4469744645?position=4&pageNum=22&refId=maKr4iWXUEv%2FcgQeIcFSEA%3D%3D&trackingId=Kk7hVZdm0Zhth0Z6nE2afw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2890,7 +2953,7 @@
       "company": "VOIS",
       "title": "Frontend Software Engineer",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/frontend-software-engineer-at-vois-4469749580?position=8&pageNum=20&refId=W0Aby1ZYieJ5dpKnGuQLJQ%3D%3D&trackingId=hUPxItA6sF4o2dkv189%2FnQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/frontend-software-engineer-at-vois-4469749580?position=5&pageNum=22&refId=maKr4iWXUEv%2FcgQeIcFSEA%3D%3D&trackingId=uJlHseZUlHLMt155oSPfUA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2899,7 +2962,7 @@
       "company": "Worldline",
       "title": "Full Stack Developer (Java+Angular)",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/full-stack-developer-java%2Bangular-at-worldline-4470478669?position=2&pageNum=2&refId=zPV%2FhgLgG3tNZLwViF%2FTNw%3D%3D&trackingId=4Xxd1I4Ru92Kz%2BwHdR0Q9g%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/full-stack-developer-java%2Bangular-at-worldline-4470478669?position=1&pageNum=2&refId=NYhbbUV4jK5HAKvmESXckg%3D%3D&trackingId=%2BXcnXItW8RyZ7QzC%2FIqqvg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2908,7 +2971,7 @@
       "company": "Capgemini",
       "title": "Full Stack Developer (Java, Angular, Microservices)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/full-stack-developer-java-angular-microservices-at-capgemini-4468640843?position=5&pageNum=2&refId=zPV%2FhgLgG3tNZLwViF%2FTNw%3D%3D&trackingId=lpKJu5ek%2F9lk0RqLSAJfjQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/full-stack-developer-java-angular-microservices-at-capgemini-4468640843?position=4&pageNum=2&refId=NYhbbUV4jK5HAKvmESXckg%3D%3D&trackingId=Wp%2Be4nsDKBxpdrH0bBZuvg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2917,7 +2980,7 @@
       "company": "Luxoft",
       "title": "Full Stack Engineer (Java & Angular)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/full-stack-engineer-java-angular-at-luxoft-4359381137?position=9&pageNum=16&refId=MC%2FOaATmVrwe9wH%2Bg1be%2Bg%3D%3D&trackingId=lkTak2G9k5VQV8qa4RgUFA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/full-stack-engineer-java-angular-at-luxoft-4359381137?position=5&pageNum=18&refId=ncuJTOPxyesPN5ylaflslg%3D%3D&trackingId=p2dtbIM%2FXERERr0mqDxI4g%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2926,7 +2989,7 @@
       "company": "Global Payments Inc.",
       "title": "Full Stack Software Engineer - Node.js, Typescript, AWS",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/full-stack-software-engineer-node-js-typescript-aws-at-global-payments-inc-4477164981?position=6&pageNum=13&refId=dJxzJTXaVOxqSN%2Bsfwe%2Bng%3D%3D&trackingId=cB4Eq9U53AInvJUz7tMA9w%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/full-stack-software-engineer-node-js-typescript-aws-at-global-payments-inc-4477164981?position=6&pageNum=13&refId=KeYhcYIjCIz2kUBM30I4dQ%3D%3D&trackingId=3cYGzX9dmGIFuS1FW5%2FPSA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2935,7 +2998,7 @@
       "company": "Undelucram.ro",
       "title": "Full Stack Software Engineer - Node.js, Typescript, AWS",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/full-stack-software-engineer-node-js-typescript-aws-at-undelucram-ro-4476237588?position=2&pageNum=13&refId=dJxzJTXaVOxqSN%2Bsfwe%2Bng%3D%3D&trackingId=AxNvzd7q7umidXuwHISPxQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/full-stack-software-engineer-node-js-typescript-aws-at-undelucram-ro-4476237588?position=2&pageNum=13&refId=KeYhcYIjCIz2kUBM30I4dQ%3D%3D&trackingId=Cng4V1TK4lfsXQYIYQPSKA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2944,16 +3007,7 @@
       "company": "Tessero",
       "title": "Full-stack Developer (Spring Boot & Angular)",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/full-stack-developer-spring-boot-angular-at-tessero-4470951812?position=1&pageNum=3&refId=P8X01O3OR2D%2BHY5H47nv%2Bw%3D%3D&trackingId=JGjSvldk8S2zba%2B84g4A2Q%3D%3D",
-      "source": "linkedin",
-      "description": ""
-    },
-    {
-      "id": "4474754445",
-      "company": "Luxoft Romania",
-      "title": "Fullstack Developer (Java & Angular)",
-      "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/fullstack-developer-java-angular-at-luxoft-romania-4474754445?position=5&pageNum=3&refId=P8X01O3OR2D%2BHY5H47nv%2Bw%3D%3D&trackingId=pj8TckUO7I6dauTVBD70hQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/full-stack-developer-spring-boot-angular-at-tessero-4470951812?position=10&pageNum=2&refId=NYhbbUV4jK5HAKvmESXckg%3D%3D&trackingId=ztU%2Bjtsl%2FuEqyTJ9jhlAkg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2962,7 +3016,7 @@
       "company": "Luxoft Romania",
       "title": "Fullstack Developer (Java & Angular)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/fullstack-developer-java-angular-at-luxoft-romania-4475547558?position=1&pageNum=16&refId=MC%2FOaATmVrwe9wH%2Bg1be%2Bg%3D%3D&trackingId=XqvqYWicuNaO7o%2FT8F55vA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/fullstack-developer-java-angular-at-luxoft-romania-4475547558?position=7&pageNum=17&refId=k%2FuCvv8C%2FEg6L8dphzDTtw%3D%3D&trackingId=Mw8IEKlSxcEGpfA8RSTySw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2971,7 +3025,7 @@
       "company": "Criteo",
       "title": "Fullstack Software Engineer (C#, Angular) - VIE",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/fullstack-software-engineer-c%23-angular-vie-at-criteo-4421697937?position=7&pageNum=2&refId=zPV%2FhgLgG3tNZLwViF%2FTNw%3D%3D&trackingId=7qVq8NGdVO%2BWV6swCj296w%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/fullstack-software-engineer-c%23-angular-vie-at-criteo-4421697937?position=6&pageNum=2&refId=NYhbbUV4jK5HAKvmESXckg%3D%3D&trackingId=%2F0yUuRuQZMVjwqcuih%2BGbA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2980,7 +3034,7 @@
       "company": "Worldline Global Services",
       "title": "Lead Full Stack Developer (Java/Angular)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/lead-full-stack-developer-java-angular-at-worldline-global-services-4470901259?position=4&pageNum=3&refId=P8X01O3OR2D%2BHY5H47nv%2Bw%3D%3D&trackingId=yujTyVt%2FQ%2BcjIvM5q4ewqw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/lead-full-stack-developer-java-angular-at-worldline-global-services-4470901259?position=3&pageNum=3&refId=uakZsCi4ZE8TOjg6z1PkgA%3D%3D&trackingId=WRaE22J8H%2BuiDNFOZaedbA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2989,7 +3043,70 @@
       "company": "Thales",
       "title": "MID FullStack Java & Angular (B1 French) – Shape Global Innovation",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/mid-fullstack-java-angular-b1-french-%E2%80%93-shape-global-innovation-at-thales-4433884518?position=10&pageNum=1&refId=s6HOcNZJ9UgiGxR8JL12eg%3D%3D&trackingId=kG%2FYtfrYq2Ipui7IcRZlVg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/mid-fullstack-java-angular-b1-french-%E2%80%93-shape-global-innovation-at-thales-4433884518?position=10&pageNum=1&refId=ySkPiYxoQFDdP0fdaNSWCA%3D%3D&trackingId=crX4TLM%2BOkn7KUbB%2F91%2FVg%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478787221",
+      "company": "Luxoft",
+      "title": "Middle Front End Developer (Angular & Node.Js)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/middle-front-end-developer-angular-node-js-at-luxoft-4478787221?position=7&pageNum=15&refId=buo1Rg2XK0HxLsy%2BMKjhPw%3D%3D&trackingId=Y6U2LVPmkB5t88Jx0Omk%2Bg%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478774878",
+      "company": "Luxoft",
+      "title": "Regular Front End Developer (Angular/Node.Js)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/regular-front-end-developer-angular-node-js-at-luxoft-4478774878?position=5&pageNum=15&refId=buo1Rg2XK0HxLsy%2BMKjhPw%3D%3D&trackingId=I8OKW1hTnbtTScGZq%2BJPMg%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478776243",
+      "company": "Luxoft",
+      "title": "Regular Front End Developer (Angular/Node.Js)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/regular-front-end-developer-angular-node-js-at-luxoft-4478776243?position=8&pageNum=15&refId=buo1Rg2XK0HxLsy%2BMKjhPw%3D%3D&trackingId=Z4nF1QyQok%2BvZqjEa3%2FbIg%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478783560",
+      "company": "Luxoft",
+      "title": "Regular Front End Developer (Angular/Node.Js)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/regular-front-end-developer-angular-node-js-at-luxoft-4478783560?position=4&pageNum=15&refId=buo1Rg2XK0HxLsy%2BMKjhPw%3D%3D&trackingId=xPlU07UzFAUir2N7to3ayA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478784562",
+      "company": "Luxoft",
+      "title": "Regular Front End Developer (Angular/Node.js)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/regular-front-end-developer-angular-node-js-at-luxoft-4478784562?position=3&pageNum=15&refId=buo1Rg2XK0HxLsy%2BMKjhPw%3D%3D&trackingId=gJA4vtW16zckjqtMOicigw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478787163",
+      "company": "Luxoft",
+      "title": "Regular Front End Developer (Angular/Node.Js)",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/regular-front-end-developer-angular-node-js-at-luxoft-4478787163?position=6&pageNum=15&refId=buo1Rg2XK0HxLsy%2BMKjhPw%3D%3D&trackingId=SnQOmGwKTOT0ffU3onrvdA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478774535",
+      "company": "Luxoft Romania",
+      "title": "Regular Front End Developer (Angular/Node.Js)",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/regular-front-end-developer-angular-node-js-at-luxoft-romania-4478774535?position=2&pageNum=15&refId=buo1Rg2XK0HxLsy%2BMKjhPw%3D%3D&trackingId=DtcfwKFAhtlA%2Bvnknqelvw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2998,7 +3115,7 @@
       "company": "NTT DATA Europe & Latam",
       "title": "Senior AI Full-Stack Engineer (Angular&Python)",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-ai-full-stack-engineer-angular-python-at-ntt-data-europe-latam-4469796363?position=1&pageNum=15&refId=lJ1Ff65SbPh5xhk6npKu5Q%3D%3D&trackingId=%2BNCkaeosEMD20U9W%2FVcO9w%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-ai-full-stack-engineer-angular-python-at-ntt-data-europe-latam-4469796363?position=5&pageNum=16&refId=iwdT%2BIankJ2lOmN6UN6W%2Bg%3D%3D&trackingId=9KoJbSYtDVrXgPfuSSqR0w%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3007,7 +3124,7 @@
       "company": "Luxoft",
       "title": "Senior Angular Developer",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-angular-developer-at-luxoft-4465065769?position=3&pageNum=0&refId=CwI39nqQrrGhk8Voza4krA%3D%3D&trackingId=ZRsqbGQJRvkUREvBQ%2Fqt7g%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-angular-developer-at-luxoft-4465065769?position=2&pageNum=0&refId=siOc7a6B%2FZK7n4CXAiqTrA%3D%3D&trackingId=rcre9CEqgqly4nHvXARJTA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3016,7 +3133,7 @@
       "company": "Luxoft",
       "title": "Senior Angular Developer",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/senior-angular-developer-at-luxoft-4476597426?position=2&pageNum=0&refId=CwI39nqQrrGhk8Voza4krA%3D%3D&trackingId=BcDrKybX9XPibLAW1lLoPA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-angular-developer-at-luxoft-4476597426?position=1&pageNum=0&refId=siOc7a6B%2FZK7n4CXAiqTrA%3D%3D&trackingId=gl5WDLQGgXT0RN6egxbTgQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3025,7 +3142,7 @@
       "company": "In The Pocket",
       "title": "Senior Angular Front-End Engineer",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/senior-angular-front-end-engineer-at-in-the-pocket-4404724599?position=5&pageNum=0&refId=CwI39nqQrrGhk8Voza4krA%3D%3D&trackingId=s%2F8ViwIKpweg5a5uUlKv5Q%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-angular-front-end-engineer-at-in-the-pocket-4404724599?position=4&pageNum=0&refId=siOc7a6B%2FZK7n4CXAiqTrA%3D%3D&trackingId=2wlQkzVkqphz9hvnQf2KIw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3034,7 +3151,7 @@
       "company": "Luxoft",
       "title": "Senior Front End Developer (Angular)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-front-end-developer-angular-at-luxoft-4476197802?position=8&pageNum=14&refId=fOCzsoBGpjgh5jU5roVGZw%3D%3D&trackingId=Fo%2FW48mz%2B69IDqWzII7IZg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-front-end-developer-angular-at-luxoft-4476197802?position=9&pageNum=14&refId=OkD6Rgxs4Il0r2K462f%2FrA%3D%3D&trackingId=M1dK5R49VmQFcURzg%2BKBOw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3043,7 +3160,7 @@
       "company": "Luxoft",
       "title": "Senior Front End Developer (Angular)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-front-end-developer-angular-at-luxoft-4476300634?position=9&pageNum=14&refId=fOCzsoBGpjgh5jU5roVGZw%3D%3D&trackingId=XiBETiDSmPRc1Q0S9RrsTw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-front-end-developer-angular-at-luxoft-4476300634?position=10&pageNum=14&refId=OkD6Rgxs4Il0r2K462f%2FrA%3D%3D&trackingId=RNIJKnV0FUsEqGWPwu%2FdGA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3052,7 +3169,7 @@
       "company": "Luxoft Romania",
       "title": "Senior Front End Developer (Angular)",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/senior-front-end-developer-angular-at-luxoft-romania-4469119649?position=7&pageNum=0&refId=CwI39nqQrrGhk8Voza4krA%3D%3D&trackingId=SxtEV%2BZEWvzBPAgltBe5kA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-front-end-developer-angular-at-luxoft-romania-4469119649?position=6&pageNum=0&refId=siOc7a6B%2FZK7n4CXAiqTrA%3D%3D&trackingId=gGDZFWrwWQIzreFjNxyYpA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3061,7 +3178,7 @@
       "company": "Luxoft",
       "title": "Senior Frontend Angular Developer",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-angular-developer-at-luxoft-4477126459?position=7&pageNum=14&refId=fOCzsoBGpjgh5jU5roVGZw%3D%3D&trackingId=ueE3SinJYG115da%2Fl674rw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-angular-developer-at-luxoft-4477126459?position=8&pageNum=14&refId=OkD6Rgxs4Il0r2K462f%2FrA%3D%3D&trackingId=usK21xTiMNPMMPMlet7pPA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3070,16 +3187,7 @@
       "company": "Luxoft",
       "title": "Senior Frontend Developer (Angular)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-developer-angular-at-luxoft-4477177735?position=6&pageNum=14&refId=fOCzsoBGpjgh5jU5roVGZw%3D%3D&trackingId=Z9Vy3r453HSDpZRVDwB4HA%3D%3D",
-      "source": "linkedin",
-      "description": ""
-    },
-    {
-      "id": "4477178771",
-      "company": "Luxoft",
-      "title": "Senior Frontend Developer (Angular)",
-      "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-developer-angular-at-luxoft-4477178771?position=10&pageNum=14&refId=fOCzsoBGpjgh5jU5roVGZw%3D%3D&trackingId=rhUr4D9LSi95P2RbvE1nxg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-developer-angular-at-luxoft-4477177735?position=7&pageNum=14&refId=OkD6Rgxs4Il0r2K462f%2FrA%3D%3D&trackingId=zy4%2BoST1YFdSxJL45pBPng%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3088,7 +3196,7 @@
       "company": "Legion Technologies",
       "title": "Senior Frontend Engineer",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-engineer-at-legion-technologies-4441816437?position=7&pageNum=21&refId=iCRfkU3sxp1pkbo0lFEA2g%3D%3D&trackingId=30tX1wbH8OVHEeSIO5pyxA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-engineer-at-legion-technologies-4441816437?position=4&pageNum=23&refId=8M1FLhDuTv%2BQgbJaBaeH%2Bg%3D%3D&trackingId=1rq0uVPfjbPXwSEcqjNiyg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3097,7 +3205,7 @@
       "company": "Legion Technologies",
       "title": "Senior Frontend Engineer",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-engineer-at-legion-technologies-4472633444?position=4&pageNum=1&refId=s6HOcNZJ9UgiGxR8JL12eg%3D%3D&trackingId=oWbQU89lhzPNh9su5GDMGw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-engineer-at-legion-technologies-4472633444?position=4&pageNum=1&refId=ySkPiYxoQFDdP0fdaNSWCA%3D%3D&trackingId=CXn4umB2eMDQZZXKx2Kt1Q%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3106,7 +3214,7 @@
       "company": "LSEG",
       "title": "Senior Frontend Engineer",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-engineer-at-lseg-4384252172?position=9&pageNum=19&refId=hqIRM%2Bpyiv0zxTsjpEdlpQ%3D%3D&trackingId=3Es5DwGHX%2F96Ro%2Fhv2v%2B6w%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-engineer-at-lseg-4384252172?position=6&pageNum=21&refId=r6V6wiLyQAOstjOLwQjBdQ%3D%3D&trackingId=fySo1%2BGNzpK9aGGZv9rK1w%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3115,7 +3223,7 @@
       "company": "Postis",
       "title": "Senior Frontend Engineer",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-engineer-at-postis-4450795698?position=10&pageNum=0&refId=CwI39nqQrrGhk8Voza4krA%3D%3D&trackingId=By9uY3J%2FXwEtSbGJWqWBDQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-engineer-at-postis-4450795698?position=10&pageNum=0&refId=siOc7a6B%2FZK7n4CXAiqTrA%3D%3D&trackingId=whgYRby5RNVjhAPmUWKVuQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3124,7 +3232,7 @@
       "company": "Luxoft",
       "title": "Senior Full Stack Developer (Java & Angular)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-developer-java-angular-at-luxoft-4465019149?position=10&pageNum=15&refId=lJ1Ff65SbPh5xhk6npKu5Q%3D%3D&trackingId=BF8lIB4TWftA5c4nBXOzIA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-developer-java-angular-at-luxoft-4465019149?position=6&pageNum=17&refId=k%2FuCvv8C%2FEg6L8dphzDTtw%3D%3D&trackingId=hsC%2FcliU4gbSZNrcHJTe3w%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3133,7 +3241,7 @@
       "company": "Luxoft",
       "title": "Senior Full Stack Developer (Java, Spring Boot, Angular)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-developer-java-spring-boot-angular-at-luxoft-4464350816?position=6&pageNum=16&refId=MC%2FOaATmVrwe9wH%2Bg1be%2Bg%3D%3D&trackingId=Vs70LKtHuILysUdQD1%2FN%2FA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-developer-java-spring-boot-angular-at-luxoft-4464350816?position=4&pageNum=18&refId=ncuJTOPxyesPN5ylaflslg%3D%3D&trackingId=YdWpntJjcQxiPBiiAO9vdA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3142,7 +3250,16 @@
       "company": "Luxoft",
       "title": "Senior Full Stack Developer (Java, Spring Boot, Angular)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-developer-java-spring-boot-angular-at-luxoft-4470948625?position=7&pageNum=16&refId=MC%2FOaATmVrwe9wH%2Bg1be%2Bg%3D%3D&trackingId=VQKNOxngdX%2Ftv1Zhs1%2FaWA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-developer-java-spring-boot-angular-at-luxoft-4470948625?position=3&pageNum=18&refId=ncuJTOPxyesPN5ylaflslg%3D%3D&trackingId=eyKQdUfI5dC6Or6Oxmv74Q%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478775882",
+      "company": "Luxoft",
+      "title": "Senior Full Stack Developer (Node.js & Angular)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-developer-node-js-angular-at-luxoft-4478775882?position=4&pageNum=16&refId=iwdT%2BIankJ2lOmN6UN6W%2Bg%3D%3D&trackingId=NNquqNL%2BsYVmYooPjGWU5w%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3151,7 +3268,34 @@
       "company": "NTT DATA Europe & Latam",
       "title": "Senior Full Stack Software Engineer with AI Expertise (Angular/Spring Boot)",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-software-engineer-with-ai-expertise-angular-spring-boot-at-ntt-data-europe-latam-4469309354?position=4&pageNum=2&refId=zPV%2FhgLgG3tNZLwViF%2FTNw%3D%3D&trackingId=QrdIg%2Bsm284GzxET%2FDMMUQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-software-engineer-with-ai-expertise-angular-spring-boot-at-ntt-data-europe-latam-4469309354?position=3&pageNum=2&refId=NYhbbUV4jK5HAKvmESXckg%3D%3D&trackingId=2NsMLiqbIbD38xG1AeDmcA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478782288",
+      "company": "Luxoft",
+      "title": "Senior Full-Stack Developer (Angular+Node.Js)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-developer-angular%2Bnode-js-at-luxoft-4478782288?position=3&pageNum=16&refId=iwdT%2BIankJ2lOmN6UN6W%2Bg%3D%3D&trackingId=JHw6xMNtNs%2BET7fiWfKaPw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478786389",
+      "company": "Luxoft",
+      "title": "Senior Full-Stack Developer (Angular+Node.Js)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-developer-angular%2Bnode-js-at-luxoft-4478786389?position=10&pageNum=15&refId=buo1Rg2XK0HxLsy%2BMKjhPw%3D%3D&trackingId=4I66OJ6XMkGewPSE9Glejg%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478790207",
+      "company": "Luxoft",
+      "title": "Senior Full-Stack Developer (Angular+Node.Js)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-developer-angular%2Bnode-js-at-luxoft-4478790207?position=9&pageNum=15&refId=buo1Rg2XK0HxLsy%2BMKjhPw%3D%3D&trackingId=PtIPwN%2Bm1CiBTIG5RxyK%2Bg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3160,7 +3304,7 @@
       "company": "Talent Spotter",
       "title": "Senior Full-Stack Developer – Java & React/Angular",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-developer-%E2%80%93-java-react-angular-at-talent-spotter-4474246940?position=5&pageNum=4&refId=zqrQZtCh5qjU%2FwpAJ1AiYg%3D%3D&trackingId=XPIisczGn%2Bfb4qe6TjEqmw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-developer-%E2%80%93-java-react-angular-at-talent-spotter-4474246940?position=5&pageNum=4&refId=ss14rvEjaO4Lp%2B1yUiyf%2FQ%3D%3D&trackingId=Vo4E7r10zyjmwTadJp8gCw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3169,7 +3313,7 @@
       "company": "Luxoft Romania",
       "title": "Senior Full-Stack Engineer (Java- Angular)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-engineer-java-angular-at-luxoft-romania-4471888128?position=5&pageNum=16&refId=MC%2FOaATmVrwe9wH%2Bg1be%2Bg%3D%3D&trackingId=HurBG%2BQrifLcIlaH%2BGRKDA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-engineer-java-angular-at-luxoft-romania-4471888128?position=2&pageNum=18&refId=ncuJTOPxyesPN5ylaflslg%3D%3D&trackingId=bLTBWu6Y3kQj0dOCIwzF%2BA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3178,7 +3322,7 @@
       "company": "NTT DATA Europe & Latam",
       "title": "Senior Full-Stack Engineer (ReactJS or Angular)",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-engineer-reactjs-or-angular-at-ntt-data-europe-latam-4470151712?position=9&pageNum=15&refId=lJ1Ff65SbPh5xhk6npKu5Q%3D%3D&trackingId=3ZkOkpD3STfgdqZGOEsvEg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-engineer-reactjs-or-angular-at-ntt-data-europe-latam-4470151712?position=5&pageNum=17&refId=k%2FuCvv8C%2FEg6L8dphzDTtw%3D%3D&trackingId=yh1Cb5M4BKpMKJPj4yAFTg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3187,7 +3331,7 @@
       "company": "Luxoft",
       "title": "Senior Fullstack Developer (Java & Angular)",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/senior-fullstack-developer-java-angular-at-luxoft-4448864079?position=2&pageNum=15&refId=lJ1Ff65SbPh5xhk6npKu5Q%3D%3D&trackingId=U4YtvQtiE4teXvprmfIeMA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-fullstack-developer-java-angular-at-luxoft-4448864079?position=6&pageNum=16&refId=iwdT%2BIankJ2lOmN6UN6W%2Bg%3D%3D&trackingId=eMT33KLbTsRIVoiVFiGDsQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3196,7 +3340,7 @@
       "company": "Luxoft",
       "title": "Senior Fullstack Developer (Java & Angular)",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/senior-fullstack-developer-java-angular-at-luxoft-4465077320?position=3&pageNum=15&refId=lJ1Ff65SbPh5xhk6npKu5Q%3D%3D&trackingId=gUePI%2BTrazLGo9vo7uUagQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-fullstack-developer-java-angular-at-luxoft-4465077320?position=7&pageNum=16&refId=iwdT%2BIankJ2lOmN6UN6W%2Bg%3D%3D&trackingId=owjsQCL%2Fda5iGoNAHxb%2BKA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3205,7 +3349,7 @@
       "company": "Luxoft",
       "title": "Senior Fullstack Developer (Java & Angular)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-fullstack-developer-java-angular-at-luxoft-4469893925?position=5&pageNum=15&refId=lJ1Ff65SbPh5xhk6npKu5Q%3D%3D&trackingId=NzQUE%2BrBFlQW2KiLx7Av3Q%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-fullstack-developer-java-angular-at-luxoft-4469893925?position=9&pageNum=16&refId=iwdT%2BIankJ2lOmN6UN6W%2Bg%3D%3D&trackingId=e284EkFLO3y3I5USeu3t0w%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3214,7 +3358,7 @@
       "company": "Luxoft",
       "title": "Senior Fullstack Developer (Java & Angular)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-fullstack-developer-java-angular-at-luxoft-4474144187?position=6&pageNum=15&refId=lJ1Ff65SbPh5xhk6npKu5Q%3D%3D&trackingId=0WJkIseIByrssN8r7jlM4g%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-fullstack-developer-java-angular-at-luxoft-4474144187?position=10&pageNum=16&refId=iwdT%2BIankJ2lOmN6UN6W%2Bg%3D%3D&trackingId=QtrIBg6GbMrckynhIBaqKQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3223,7 +3367,7 @@
       "company": "Luxoft",
       "title": "Senior Fullstack Developer (Java & Angular)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-fullstack-developer-java-angular-at-luxoft-4474727943?position=8&pageNum=15&refId=lJ1Ff65SbPh5xhk6npKu5Q%3D%3D&trackingId=t3N3iHqfbg1Zfu%2B3EIZj0A%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-fullstack-developer-java-angular-at-luxoft-4474727943?position=2&pageNum=17&refId=k%2FuCvv8C%2FEg6L8dphzDTtw%3D%3D&trackingId=zzTSEDnlShxWlPgmjKQMVQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3232,7 +3376,7 @@
       "company": "Luxoft",
       "title": "Senior Fullstack Developer (Java & Angular)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-fullstack-developer-java-angular-at-luxoft-4474738624?position=7&pageNum=15&refId=lJ1Ff65SbPh5xhk6npKu5Q%3D%3D&trackingId=19XFM1CZj5Ttqmk0shy2Ew%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-fullstack-developer-java-angular-at-luxoft-4474738624?position=1&pageNum=17&refId=k%2FuCvv8C%2FEg6L8dphzDTtw%3D%3D&trackingId=cvZ%2BYqPh4%2FOKQ4PpyYuNQQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3241,7 +3385,25 @@
       "company": "Luxoft",
       "title": "Senior Fullstack Developer (Java & Angular)",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/senior-fullstack-developer-java-angular-at-luxoft-4476161863?position=4&pageNum=15&refId=lJ1Ff65SbPh5xhk6npKu5Q%3D%3D&trackingId=WFLdDLmC6cf7KhU4LhHqXA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-fullstack-developer-java-angular-at-luxoft-4476161863?position=8&pageNum=16&refId=iwdT%2BIankJ2lOmN6UN6W%2Bg%3D%3D&trackingId=qT3YX9kVCiGuWWdnDxeQRA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478768996",
+      "company": "Luxoft",
+      "title": "Senior Fullstack Developer (Java & Angular)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-fullstack-developer-java-angular-at-luxoft-4478768996?position=4&pageNum=17&refId=k%2FuCvv8C%2FEg6L8dphzDTtw%3D%3D&trackingId=VlX0M5WpjMz6fBnLujFdGg%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478787147",
+      "company": "Luxoft",
+      "title": "Senior Fullstack Developer (Java & Angular)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-fullstack-developer-java-angular-at-luxoft-4478787147?position=3&pageNum=17&refId=k%2FuCvv8C%2FEg6L8dphzDTtw%3D%3D&trackingId=SEYGGmLoSH2mmDvq8YIT5Q%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3250,7 +3412,16 @@
       "company": "Elastic Serve Private Limited",
       "title": "Senior Software Developer (.NET + Angular)",
       "location": "Sector 1, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-software-developer-net-%2B-angular-at-elastic-serve-private-limited-4432372107?position=9&pageNum=1&refId=s6HOcNZJ9UgiGxR8JL12eg%3D%3D&trackingId=8JkSMHjtUrKAjodEZ30xjA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-software-developer-net-%2B-angular-at-elastic-serve-private-limited-4432372107?position=9&pageNum=1&refId=ySkPiYxoQFDdP0fdaNSWCA%3D%3D&trackingId=YLAR1Ws9nfv8EFqMG808tA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478766945",
+      "company": "Luxoft",
+      "title": "Senior-Regular Full-Stack Developer (Angular+Node.Js)",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/senior-regular-full-stack-developer-angular%2Bnode-js-at-luxoft-4478766945?position=2&pageNum=16&refId=iwdT%2BIankJ2lOmN6UN6W%2Bg%3D%3D&trackingId=MljShEJcsPB2FRPnX%2BpUFg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3259,12 +3430,12 @@
       "company": "AdsWizz",
       "title": "Staff Software Engineer (Frontend)",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/staff-software-engineer-frontend-at-adswizz-4450127251?position=6&pageNum=2&refId=zPV%2FhgLgG3tNZLwViF%2FTNw%3D%3D&trackingId=eEhTuLNE33oEKIxFjmZ3iA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/staff-software-engineer-frontend-at-adswizz-4450127251?position=5&pageNum=2&refId=NYhbbUV4jK5HAKvmESXckg%3D%3D&trackingId=IQ3seQ%2FNXrDObFT4qptx2w%3D%3D",
       "source": "linkedin",
       "description": ""
     }
   ],
-  "scraped_at": "2026-10-12T10:53:11+00:00",
+  "scraped_at": "2026-10-13T10:38:42+00:00",
   "query": {
     "title": "Angular developer",
     "city": "Bucharest"
