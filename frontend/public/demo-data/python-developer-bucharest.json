@@ -1,8 +1,8 @@
 {
-  "total_jobs_found": 317,
+  "total_jobs_found": 381,
   "sources_summary": {
     "bestjobs": 288,
-    "linkedin": 29
+    "linkedin": 93
   },
   "jobs": [
     {
@@ -11,6 +11,15 @@
       "title": ".Net Full Stack Developer",
       "location": "Bucharest, Romania",
       "href": "https://www.bestjobs.eu/locuri-de-munca/net-full-stack-developer-18/51917584",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
+      "id": "52073174",
+      "company": "Nagarro",
+      "title": ".NET Fullstack Developer (with Kubernetes experience)",
+      "location": "Remote",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/net-fullstack-developer-with-kubernetes-experience/52073174",
       "source": "bestjobs",
       "description": ""
     },
@@ -222,15 +231,6 @@
       "description": ""
     },
     {
-      "id": "52072578",
-      "company": "AgileEngine",
-      "title": "Application Security Engineer ID71662",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/application-security-engineer-id71662-1/52072578",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
       "id": "52061032",
       "company": "Stagii pe Bune",
       "title": "Arcanna.ai - Junior Developer - Paid and Full time",
@@ -285,15 +285,6 @@
       "description": ""
     },
     {
-      "id": "52071571",
-      "company": "Globaldev Group",
-      "title": "Backend Data Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/backend-data-engineer/52071571",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
       "id": "52071265",
       "company": "ALLCLOUD",
       "title": "Backend Developer Gen AI",
@@ -308,15 +299,6 @@
       "title": "Backend Engineer",
       "location": "Bucharest, Romania",
       "href": "https://www.bestjobs.eu/locuri-de-munca/backend-engineer-39/51999018",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52069275",
-      "company": "Deutsche Bank",
-      "title": "Backend Engineer (f/m/x)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/backend-engineer-f-m-x-1/52069275",
       "source": "bestjobs",
       "description": ""
     },
@@ -546,11 +528,38 @@
       "description": ""
     },
     {
+      "id": "52073148",
+      "company": "hedgehog lab",
+      "title": "Forward Deployed Engineer - B2B Contract",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/forward-deployed-engineer-b2b-contract/52073148",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
       "id": "52060080",
       "company": "Kinaxis",
       "title": "Forward Deployed Engineer I",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/forward-deployed-engineer-i/52060080",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
+      "id": "52073168",
+      "company": "hedgehog lab",
+      "title": "Forwarded Deployed Engineer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/forwarded-deployed-engineer/52073168",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
+      "id": "52073198",
+      "company": "LSEG",
+      "title": "Frontend Engineer",
+      "location": "Bucharest, Romania",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/frontend-engineer-44/52073198",
       "source": "bestjobs",
       "description": ""
     },
@@ -1266,15 +1275,6 @@
       "description": ""
     },
     {
-      "id": "52071561",
-      "company": "Gramian Consulting Group",
-      "title": "Rust Software Engineer - Ground Control & Robotics",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/rust-software-engineer-ground-control-robotics/52071561",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
       "id": "52054144",
       "company": "adesso",
       "title": "Senior AI & Fullstack Developer (Javascript & Vue)",
@@ -1442,6 +1442,15 @@
       "title": "Senior Backend Developer (Python)",
       "location": "Remote",
       "href": "https://www.bestjobs.eu/locuri-de-munca/senior-backend-developer-python-1/52057486",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
+      "id": "52073202",
+      "company": "DuckDuckGo",
+      "title": "Senior C++ Engineer",
+      "location": "Remote",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-c-engineer-7/52073202",
       "source": "bestjobs",
       "description": ""
     },
@@ -2067,15 +2076,6 @@
       "description": ""
     },
     {
-      "id": "51892169",
-      "company": "Black Square",
-      "title": "Software Developer (General)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-developer-general/51892169",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
       "id": "52060459",
       "company": "DEVAPP MOBILE",
       "title": "Software Developer (Mid/Senior)",
@@ -2179,7 +2179,7 @@
       "company": "CODA INTELLIGENCE",
       "title": "Software Engineer (Backend) Python + Django",
       "location": "Bucharest, Romania",
-      "href": "https://ats.rippling.com/pdq/jobs/9c02d3e0-2712-442f-a307-36ece0732096",
+      "href": "https://www.bestjobs.eu/locuri-de-munca/software-engineer-backend-python-django-1/52066392",
       "source": "bestjobs",
       "description": ""
     },
@@ -2198,6 +2198,15 @@
       "title": "Software Engineer (Full-Stack), React",
       "location": "Bucharest, Romania",
       "href": "https://ats.rippling.com/pdq/jobs/894fcbea-92a5-45ce-a233-1cd46b7f1df9",
+      "source": "bestjobs",
+      "description": ""
+    },
+    {
+      "id": "52073088",
+      "company": "",
+      "title": "Software Engineer (Open Source Contributor) Remote",
+      "location": "Remote",
+      "href": "https://jobs.micro1.ai/post/f29dc369-f46f-443e-986b-7120eebe9225?referralCode=098d1da7-bf47-4b1a-aa3e-cd7f37db66d3&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
       "source": "bestjobs",
       "description": ""
     },
@@ -2571,15 +2580,6 @@
       "description": ""
     },
     {
-      "id": "51895818",
-      "company": "ADERA PRO DATA",
-      "title": "WEB Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/web-developer-799/51895818",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
       "id": "51906467",
       "company": "SudRezidential Real Estate",
       "title": "Web Developer - specializare WordPress",
@@ -2602,7 +2602,7 @@
       "company": "IONOS",
       "title": "AI Developer with Python for Customer Care AI Platform team (hybrid)",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/ai-developer-with-python-for-customer-care-ai-platform-team-hybrid-at-ionos-4391783341?position=8&pageNum=2&refId=tWWjzm67zoH5DxkjbKl9%2FA%3D%3D&trackingId=vr%2Bt%2FTxL2RlHOjwEe%2FRl%2BA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/ai-developer-with-python-for-customer-care-ai-platform-team-hybrid-at-ionos-4391783341?position=9&pageNum=2&refId=RCJeEGfBpdeOOW1enbMiLQ%3D%3D&trackingId=4pXoavobSo96hMKh7hf%2Bug%3D%3D",
       "source": "linkedin",
       "description": "About IONOS\nAt IONOS, we don't just manage servers – we shape the digital future for more than 6.2 million customers worldwide with our solutions. As Europe's leading hosting provider and a pioneer in independent cloud solutions, we are building next-generation infrastructure – from sovereign cloud architectures and high-performance GPU clusters to integrated AI automation tools.\nWhat drives us is digital sovereignty for Europe and real impact for small and medium-sized businesses (SMBs) as well as large enterprises. We work in agile teams, rely on transparent structures, and believe that excellence and innovation only emerge through true team spirit.\nReady for your next step? Become part of IONOS and grow with us.\nAbout the team:\nOur mission is to build a modern ecosystem used for all IONOS customer support needs. The tools developed by us are used in over 20 locations, by more than 2.000 users, supporting 8 million customer contracts in 10 markets.\nThe development team has full responsibility for the development lifecycle. This means we plan, develop, test and deploy our software without any other internal or external dependencies.\nOur portfolio revolves around an internally built CRM which is now being enhanced with AI capabilities.\nAbout the product you will be building:\nWe are building a next-generation AI platform designed to redefine how our company interacts with customers. This isn't just a chatbot; it's a high-performance, multimodal AI ecosystem powered by state-of-the-art Speech-to-Speech (S2S) models, advanced Large Language Models (LLMs), and intelligent orchestration frameworks. Our platform will understand, reason, and respond across text and voice — while seamlessly executing real-time actions to resolve customer needs.\nWe are aiming for a hybrid architecture of Open Source LLMs, industry-leading proprietary models, and Model Context Protocol (MCP) to enable contextual reasoning, tool invocation, and seamless orchestration across systems. The goal is not just to talk to the customer, but to act on their needs.\nWhat makes this project unique:\nThe Voice Frontier: We are building low-latency, emotive speech-to-speech pipelines for a truly natural voice channel experience.\nDeep System Integration: Our platform connects directly to the company's core systems via MCPs, allowing the AI to access real-time customer context and execute complex workflows.\nSelf-Evolving Logic: We are developing an automated QA and evaluation module that continuously analyzes interactions across channels.By programmatically measuring quality, accuracy, latency, and resolution outcomes, we can close the feedback loop, and adapt system behavior in hours, not weeks.\nHybrid Innovation: You'll work at the intersection of \"build vs. buy,\" integrating the best of the open-source community with custom-built internal infrastructure.\nWhat's in it for you:\nYou won't just be shipping code; you'll be part of making this concept evolve and shift.\nYou'll join a friendly, experienced team where your voice matters and your contribution shapes real-world outcomes. You'll work in a modern environment with technologies and practices that help us ship reliable software efficiently.\nRole description:\nAs an AI Engineer on this team, you will build the core intelligence systems behind our multimodal AI platform.You will be responsible for moving beyond simple chat interfaces to build high-performance, real-time systems that handle complex reasoning, deep context retrieval, LLM orchestration, retrieval-augmented generation (RAG) and seamless voice interactions.\nMain responsibilities:\nDesign Agentic Workflows: Design and implement LLM-based systems that go behind response generation - enabling structured tool usage, workflow orchestration, and secure interaction with internal services via MCP (Model Context Protocol).\nBuild and Optimize RAG & CAG: Develop high-performance Retrieval-Augmented Generation and Context-Augmented Generation pipelines to ensure accurate, relevant, and low-latency responses. Continuously improve context management, ranking strategies, and grounding mechanisms to support complex, multi-step interactions.\nVoice Channel Mastery: Develop and optimize real-time Speech-to-Speech (S2S) pipelines, focusing on streaming architectures, latency reduction (including Time to First Word - TTFW) and maintaining a natural conversational flow.\nEvaluation, Quality & Alignment: Build and maintain an automated QA module, including LLM-as-a-judge patterns, to measure accuracy, safety, latency, and resolution quality at scale. Translate evaluation insights into systematic models and prompt improvements..\nModel Strategy & Hybrid Integration: Integrate and operate both commercial foundation models (e.g., OpenAI, Anthropic, Google) and open-source alternatives (e.g., Qwen, Kimi, DeepSeek, Moonshot, GLM), selecting and optimizing models based on performance, latency, cost, and use-case requirements.\nWe are looking for some of:\nStrong Python and/or Java Engineering Skills: Advanced-level Python development experience, including asynchronous programming (e.g., FastAPI, asyncio) and building high-performance, production-grade services. Experience with streaming architectures is a strong advantage.\nLLM Application & Multi-Agent Orchestration Experience: Hands-on experience building LLM-powered systems, including multi-step workflows, stateful agents, and tool invocation. Familiarity with orchestration frameworks such as LangChain, LlamaIndex, or LangGraph, particularly in building stateful, multi-turn agents.\nAdvanced Retrieval & Context Management: Deep understanding of vector databases (e.g., Weaviate, Qdrant, pgvector, Elasticsearch), semantic search, embedding strategies, and re-ranking techniques. Experience designing and optimizing RAG pipelines.\nReal-Time & Low-Latency Systems: Experience in designing systems that operate under latency constraints, including streaming APIs, event-driven architectures, and performance optimization. Understanding of trade-offs between quality, cost, and response time.\nEvaluation-Driven Development: Experience in implementing evaluation frameworks for LLM-based systems, including automated QA pipelines and LLM-as-a-judge patterns.\nFamiliar with API Design: knowledge of RESTful API design, OAuth2\nWhat we offer:\nAccess to local/international trainings, development and growth opportunities, including access to e-learning platforms, covering both technical and soft skills areas;\nModern technologies, product responsibility;\nFlexible work schedule;\nHybrid work option;\nMedical services package from one of two private providers;\n25 vacation days per year;\nSubstitute days off for public holidays that occur on the weekend;\nMeal tickets;\nInternal referral program;\nTeam events, networking events organized to promote a passionate, creative and diverse culture;\nSummerfest and Winterfest parties;\nOf course, coffee, soft drinks and fresh fruits are on us in the office.\nApplication Note\nWe value diversity and welcome all applications – regardless of, for example, gender, nationality, ethnic or social origin, religion, disability, age as well as sexual orientation and identity, physical characteristics, marital status or any other irrelevant factor subject to applicable law."
     },
@@ -2611,7 +2611,7 @@
       "company": "IONOS Group",
       "title": "AI Developer with Python for Customer Care AI Platform team (hybrid)",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/ai-developer-with-python-for-customer-care-ai-platform-team-hybrid-at-ionos-group-4400256227?position=2&pageNum=3&refId=yjsuy6zUECmp7LSiCDqyCg%3D%3D&trackingId=Jj1ScXMHkfYJOUvazfBxWA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/ai-developer-with-python-for-customer-care-ai-platform-team-hybrid-at-ionos-group-4400256227?position=3&pageNum=3&refId=We0MQEGohN%2BChbZlTHpCdg%3D%3D&trackingId=vqEcu0RsvZB5zYaFRvSMFA%3D%3D",
       "source": "linkedin",
       "description": "About The Team\nOur mission is to build a modern ecosystem used for all IONOS customer support needs. The tools developed by us are used in over 20 locations, by more than 2.000 users, supporting 8 million customer contracts in 10 markets.\nThe development team has full responsibility for the development lifecycle. This means we plan, develop, test and deploy our software without any other internal or external dependencies.\nOur portfolio revolves around an internally built CRM which is now being enhanced with AI capabilities.\nAbout The Product You Will Be Building\nWe are building a next-generation AI platform designed to redefine how our company interacts with customers. This isn't just a chatbot; it's a high-performance, multimodal AI ecosystem powered by state-of-the-art Speech-to-Speech (S2S) models, advanced Large Language Models (LLMs), and intelligent orchestration frameworks. Our platform will understand, reason, and respond across text and voice — while seamlessly executing real-time actions to resolve customer needs.\nWe are aiming for a hybrid architecture of Open Source LLMs, industry-leading proprietary models, and Model Context Protocol (MCP) to enable contextual reasoning, tool invocation, and seamless orchestration across systems. The goal is not just to talk to the customer, but to act on their needs.\nWhat Makes This Project Unique\nThe Voice Frontier: We are building low-latency, emotive speech-to-speech pipelines for a truly natural voice channel experience.\nDeep System Integration: Our platform connects directly to the company's core systems via MCPs, allowing the AI to access real-time customer context and execute complex workflows.\nSelf-Evolving Logic: We are developing an automated QA and evaluation module that continuously analyzes interactions across channels.By programmatically measuring quality, accuracy, latency, and resolution outcomes, we can close the feedback loop, and adapt system behavior in hours, not weeks.\nHybrid Innovation: You’ll work at the intersection of \"build vs. buy,\" integrating the best of the open-source community with custom-built internal infrastructure.\nWhat's In It For You\nYou won't just be shipping code; you’ll be part of making this concept evolve and shift.\nYou’ll join a friendly, experienced team where your voice matters and your contribution shapes real-world outcomes. You’ll work in a modern environment with technologies and practices that help us ship reliable software efficiently.\nRole Description\nAs an AI Engineer on this team, you will build the core intelligence systems behind our multimodal AI platform.You will be responsible for moving beyond simple chat interfaces to build high-performance, real-time systems that handle complex reasoning, deep context retrieval, LLM orchestration, retrieval-augmented generation (RAG) and seamless voice interactions.\nMain Responsibilities\nDesign Agentic Workflows: Design and implement LLM-based systems that go behind response generation - enabling structured tool usage, workflow orchestration, and secure interaction with internal services via MCP (Model Context Protocol).\nBuild and Optimize RAG & CAG: Develop high-performance Retrieval-Augmented Generation and Context-Augmented Generation pipelines to ensure accurate, relevant, and low-latency responses. Continuously improve context management, ranking strategies, and grounding mechanisms to support complex, multi-step interactions.\nVoice Channel Mastery: Develop and optimize real-time Speech-to-Speech (S2S) pipelines, focusing on streaming architectures, latency reduction (including Time to First Word - TTFW) and maintaining a natural conversational flow.\nEvaluation, Quality & Alignment: Build and maintain an automated QA module, including LLM-as-a-judge patterns, to measure accuracy, safety, latency, and resolution quality at scale. Translate evaluation insights into systematic models and prompt improvements..\nModel Strategy & Hybrid Integration: Integrate and operate both commercial foundation models (e.g., OpenAI, Anthropic, Google) and open-source alternatives (e.g., Qwen, Kimi, DeepSeek, Moonshot, GLM), selecting and optimizing models based on performance, latency, cost, and use-case requirements.\nWe Are Looking For Some Of\nStrong Python and/or Java Engineering Skills: Advanced-level Python development experience, including asynchronous programming (e.g., FastAPI, asyncio) and building high-performance, production-grade services. Experience with streaming architectures is a strong advantage.\nLLM Application & Multi-Agent Orchestration Experience: Hands-on experience building LLM-powered systems, including multi-step workflows, stateful agents, and tool invocation. Familiarity with orchestration frameworks such as LangChain, LlamaIndex, or LangGraph, particularly in building stateful, multi-turn agents.\nAdvanced Retrieval & Context Management: Deep understanding of vector databases (e.g., Weaviate, Qdrant, pgvector, Elasticsearch), semantic search, embedding strategies, and re-ranking techniques. Experience designing and optimizing RAG pipelines.\nReal-Time & Low-Latency Systems: Experience in designing systems that operate under latency constraints, including streaming APIs, event-driven architectures, and performance optimization. Understanding of trade-offs between quality, cost, and response time.\nEvaluation-Driven Development: Experience in implementing evaluation frameworks for LLM-based systems, including automated QA pipelines and LLM-as-a-judge patterns.\nFamiliar with API Design: knowledge of RESTful API design, OAuth2\nWhat We Offer\nAccess to local/international trainings, development and growth opportunities, including access to e-learning platforms, covering both technical and soft skills areas;\nModern technologies, product responsibility;\nFlexible work schedule;\nHybrid work option;\nMedical services package from one of two private providers;\n25 vacation days per year;\nSubstitute days off for public holidays that occur on the weekend;\nMeal tickets;\nInternal referral program;\nTeam events, networking events organized to promote a passionate, creative and diverse culture;\nSummerfest and Winterfest parties;\nOf course, coffee, soft drinks and fresh fruits are on us in the office.\nApply now Go to job search"
     },
@@ -2620,43 +2620,79 @@
       "company": "IONOS Romania",
       "title": "AI Developer with Python for Customer Care AI Platform team (hybrid)",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/ai-developer-with-python-for-customer-care-ai-platform-team-hybrid-at-ionos-romania-4465978071?position=5&pageNum=3&refId=yjsuy6zUECmp7LSiCDqyCg%3D%3D&trackingId=EEU7XsjDjiQapwTFzxBWnA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/ai-developer-with-python-for-customer-care-ai-platform-team-hybrid-at-ionos-romania-4465978071?position=6&pageNum=3&refId=We0MQEGohN%2BChbZlTHpCdg%3D%3D&trackingId=782filj51u0eOiUlyygjGg%3D%3D",
       "source": "linkedin",
       "description": "-> A quick note before you dive in: we're hiring a junior-to-mid developer who wants to grow with a mature team. What follows describes an ambitious product and the technologies you'll get to learn here.\nAbout the team:\nOur mission is to build a modern ecosystem used for all IONOS customer support needs. The tools developed by us are used in over 20 locations, by more than 2.000 users, supporting 8 million customer contracts in 10 markets.\nThe development team has full responsibility for the development lifecycle. This means we plan, develop, test and deploy our software without any other internal or external dependencies.\nOur portfolio revolves around an internally built CRM which is now being enhanced with AI capabilities.\nAbout the product you will be building:\nWe are building a next-generation AI platform designed to redefine how our company interacts with customers. This isn't just a chatbot; it's a high-performance, multimodal AI ecosystem powered by state-of-the-art Speech-to-Speech (S2S) models, advanced Large Language Models (LLMs), and intelligent orchestration frameworks. Our platform will understand, reason, and respond across text and voice — while seamlessly executing real-time actions to resolve customer needs.\nWe are aiming for a hybrid architecture of Open Source LLMs, industry-leading proprietary models, and Model Context Protocol (MCP) to enable contextual reasoning, tool invocation, and seamless orchestration across systems. The goal is not just to talk to the customer, but to act on their needs.\nWhat makes this project unique:\nThe Voice Frontier:\nWe are building low-latency, emotive speech-to-speech pipelines for a truly natural voice channel experi\nence.\nDeep System Integration:\nOur platform connects directly to the company's core systems via MCPs, allowing the AI to access real-time customer context and execute complex workflows.\nSelf-Evolving Logic:\nWe are developing an automated QA and evaluation module that continuously analyzes interactions across channels. By programmatically measuring quality, accuracy, latency, and resolution outcomes, we can close the feedback loop, and adapt system behavior in hours, not\nweeks.\nHybrid Innovation:\nYou’ll work at the intersection of \"build vs. buy,\" integrating the best of the open-source community with custom-built internal infrastructure.\nWhat's in it for you:\nYou won't just be shipping code; you’ll be part of making this concept evolve and\nshift. You’ll join a friendly, experienced team where your voice matters and your contribution shapes real-world outcomes. You’ll work in a modern environment with technologies and practices that help us ship reliable software efficiently.\nRole description:\nAs an AI Engineer on this team, you will build the core intelligence systems behind our multimodal AI platform. You will be responsible for moving beyond simple chat interfaces to build high-performance, real-time systems that handle complex reasoning, deep context retrieval, LLM orchestration, retrieval-augmented generation (RAG) and seamless voice interactions.\nMain responsibilities:\nDesign Agentic\nWorkflows:\nDesign and implement LLM-based systems that go behind response generation - enabling structured tool usage, workflow orchestration, and secure interaction with internal services via MCP (Model Context Protocol).\nBuild and Optimize RAG\n& CAG:\nDevelop high-performance Retrieval-Augmented Generation and Context-Augmented Generation pipelines to ensure accurate, relevant, and low-latency responses. Continuously improve context management, ranking strategies, and grounding mechanisms to support complex, multi-step interactions.\nVoice Channel Mastery:\nDevelop and optimize real-time Speech-to-Speech (S2S) pipelines, focusing on streaming architectures, latency reduction (including Time to First Word - TTFW) and maintaining a natural conversa\ntional flow.\nEvaluation, Quality &\nAlignment:\nBuild and maintain an automated QA module, including LLM-as-a-judge patterns, to measure accuracy, safety, latency, and resolution quality at scale. Translate evaluation insights into systematic models and prompt improvements.\nModel Strategy & Hybrid\nIntegration: Integrate and operate both commercial foundation models (e.g., OpenAI, Anthropic, Google) and open-source alternatives (e.g., Qwen, Kimi, DeepSeek, Moonshot, GLM), selecting and optimizing models based on performance, latency, cost, and use-case requirements.\nWe are looking for some of:\nBuild with LLMs:\nyou've used OpenAI, Anthropic, or similar APIs to build something real, even a personal project (not just tutorials).\nPython comfort:\nyou can write clean scripts, understand functions, read and modify existing code without hand-holding.\nCuriosity about AI:\nyou follow the field, can talk about something you read or tried recently. Self-driven learning matters more than formal credentials.\nA shipped project:\na GitHub repo, a small app, a Kaggle notebook. Anything that shows you see things through to completion.\nThe vocabulary:\nyou can explain what RAG, embeddings, or a vector database are, even if you haven't built one in production.\nWhat we offer:\nAccess to local/international trainings, development and growth opportunities, including access to e-learning platforms, covering both technical and soft skills areas;\nModern technologies, product responsibility;\nFlexible work schedule;\nHybrid work option;\nMedical services package from one of two private providers;\n25 vacation days per year;\nSubstitute days off for public holidays that occur on the weekend;\nMeal tickets;\nInternal referral program;\nTeam events, networking events organized to promote a passionate, creative and d\niverse culture;\nSummerfest and Winterfest parties;\nOf course, coffee, soft drinks and fresh fruits are on us in the office.\nWe are looking forward to meeting you!"
+    },
+    {
+      "id": "4476635173",
+      "company": "NTT DATA Europe & Latam",
+      "title": "AI Engineer (Python)",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/ai-engineer-python-at-ntt-data-europe-latam-4476635173?position=5&pageNum=5&refId=qypmO2Tz0KYmTDk5c6LTZQ%3D%3D&trackingId=UAmPKQDAh9O6lhGNRZ1A8Q%3D%3D",
+      "source": "linkedin",
+      "description": "Who We Are\nWe are looking for Artificial Intelligence Engineering Experts to lead the design, industrialization, and continuous improvement of production AI capabilities for our platform. The role will provide deep hands-on expertise across machine learning, generative AI, data and model pipelines, evaluation, deployment, MLOps or LLMOps, observability, security, and operational reliability.\nThe experts will work with Product, Architecture, Data, Engineering, Cybersecurity, Compliance, Quality Assurance, DevOps, and business stakeholders to identify viable use cases and convert experimentation into governed, measurable, maintainable services. They will establish technical standards, challenge weak assumptions, manage AI-specific risks, and mentor teams in sound engineering and scientific practices.\nWhat You'll Be Doing\nAssess proposed AI use cases for technical feasibility, data readiness, expected value, operational constraints, risk, and appropriate build, buy, or reuse options\nDefine AI engineering reference architectures, reusable components, lifecycle standards, guardrails, and decision criteria for machine-learning and generative-AI solutions\nLead solution design across data preparation, feature or context engineering, model selection, experimentation, training or fine-tuning, evaluation, serving, integration, and monitoring\nDevelop and optimize production AI components, including predictive models, retrieval pipelines, embeddings, vector search, generative workflows, tool use, and agentic orchestration where justified\nEstablish reproducible experimentation, source control, dataset and model versioning, metadata capture, benchmark management, and clear promotion criteria\nDesign and implement MLOps or LLMOps pipelines for automated testing, packaging, security checks, deployment, rollback, model or prompt promotion, and environment consistency\nCreate rigorous evaluation frameworks covering task performance, robustness, groundedness, hallucination, safety, bias, explainability, latency, scalability, and cost as applicable\nDefine production monitoring for model and data quality, drift, usage, errors, safety events, service performance, resource consumption, and business outcomes\nApply security, privacy, responsible-AI, and regulatory-by-design controls, including data minimization, access control, provenance, human oversight, misuse prevention, and auditable records\nLead technical reviews, proofs of value, architecture decisions, technology assessments, and root-cause analyses for material AI incidents or performance degradation\nCollaborate with application engineers to expose AI capabilities through reliable APIs, services, event flows, and user experiences with appropriate fallback behavior\nDocument data assumptions, model choices, experiments, limitations, evaluation evidence, dependencies, operational procedures, risks, and technical decisions\nMentor AI, data, and software engineers, promote knowledge sharing, and raise engineering maturity across delivery teams\nTrack relevant AI engineering developments and recommend adoption only when evidence demonstrates value, feasibility, and acceptable risk\nWhat You'll Bring Along\nDeep knowledge of machine-learning engineering, model development lifecycles, statistics, supervised and unsupervised learning, deep learning, and production inference\nStrong hands-on Python experience and familiarity with frameworks such as scikit-learn, PyTorch, TensorFlow, Hugging Face, or equivalent technologies\nAdvanced understanding of generative-AI engineering, large language models, embeddings, retrieval-augmented generation, vector stores, prompt or context engineering, tool calling, and agent orchestration\nExperience with data preparation, feature engineering, data quality, lineage, distributed processing, SQL or NoSQL stores, and secure access to enterprise information\nExperience with MLOps or LLMOps practices, experiment tracking, model registries, pipeline orchestration, containerization, cloud AI services, and automated deployment\nStrong knowledge of model evaluation, benchmarking, error analysis, drift detection, explainability, robustness, safety testing, and human-in-the-loop validation\nUnderstanding of AI security, privacy, responsible-AI, governance, intellectual-property, and regulatory control considerations\nAbility to design reliable distributed services, APIs, batch or streaming pipelines, observability, capacity models, and production-support processes for AI workloads\nStrong scientific reasoning, systems thinking, technical leadership, documentation, and communication skills\nAbility to explain complex AI trade-offs to engineering, product, risk, compliance, and executive stakeholders\nProfessional working proficiency in English to understand technical and scientific documentation and communicate effectively with international teams\nProven expert-level track record designing, delivering, and operating production machine-learning or generative-AI systems\nExperience working with AI assistant platforms and CLI tools\nDemonstrable ability to move from experimentation to reliable, monitored, secure, and maintainable production services\nExperience providing technical leadership across data, AI, Agent development, software engineering, architecture, platform, security, and governance stakeholders\nStrong hands-on engineering capability; profiles limited to research, strategy, or demonstrations without production ownership will not be sufficient\nAbility to make evidence-based decisions under uncertainty and to define measurable acceptance and operational criteria for AI behavior\nProactive, rigorous, collaborative, and continuous-improvement mindset with strong ownership of AI quality and operational risk\nRelevant AI, machine-learning, cloud, data, security, or architecture certifications are desirable but not mandatory"
+    },
+    {
+      "id": "4438017055",
+      "company": "Booking Holdings (NASDAQ: BKNG)",
+      "title": "Booking Holdings Romania - Python Developer - Data Engineering",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/booking-holdings-romania-python-developer-data-engineering-at-booking-holdings-nasdaq-bkng-4438017055?position=8&pageNum=6&refId=X3nBjMflTIlxgjiJIy7zew%3D%3D&trackingId=L14M%2BisZ0KNpz5J8JvZZDg%3D%3D",
+      "source": "linkedin",
+      "description": "Booking Holdings Romania is a Center of Excellence based in Bucharest, Romania and was created to support the increasing business demands of the Booking Holdings Brands. The Center of Excellence provides access to specialized and highly skilled talent, leading industry best practices, and collaboration opportunities across all of our Brands.\nAs part of our Booking Holdings Romania team, you will have the opportunity to be a part of the world’s leading provider of online travel, with a mission of making it easier for everyone to experience the world through five-primary consumer facing brands: Booking.com, Priceline, Agoda, KAYAK and OpenTable.\nRole Description\nAs a Data Engineer, you will independently design, build, and operate reliable data pipelines and platforms that power analytics, experimentation, and product decision-making across the organisation. You take ownership of the quality and reliability of the workflows you build, and you work closely with software engineers, data scientists, analysts, and business stakeholders to ensure high-quality, well-modeled, and trustworthy data is available at scale.\nThis role sits within the Product Security department and helps build software to protect the world's largest travel platform against attacks to its account & authorisation system.\nThis role provides a hybrid way of working with an onsite presence of 2 days/week.\nKey Job Responsibilities And Duties\nDesign, build, and operate data pipelines and Airflow workflows (DAGs) (batch and/or streaming) to ingest, transform, and deliver data from diverse sources into analytics and operational data stores.\nDevelop and maintain data models (e.g. dimensional, vault, or other analytical models) that are consistent, well-documented, and optimised for downstream use cases.\nEnsure data quality and reliability end-to-end by implementing validation, monitoring, testing, and alerting across pipelines, Airflow workflows, and datasets, with clear SLOs and error budgets where applicable.\nOwn the operational excellence of the workflows you develop, including on-call participation where relevant, incident triage, troubleshooting, and driving root-cause analysis and follow-ups to prevent regressions.\nCollaborate with cross-functional teams to understand data needs, translate them into technical solutions, and enable self-service access to data where appropriate.\nOperate and improve big data platforms and tooling, following modern data engineering best practices, version control, and CI/CD workflows.\nManage data governance aspects within your scope: ownership of datasets, documentation, access control, and alignment with security and privacy requirements.\nContribute to craft standards and frameworks, sharing best practices, improving shared Airflow patterns and libraries, and mentoring more junior engineers where relevant.\nRole Qualifications And Requirements\nProven experience (3+ years) as a Data Engineer or in a similar data-focused engineering role, working with large-scale or complex datasets\nStrong skills in at least one programming language commonly used for data engineering (preferably Python, Java is also acceptable).\nHands-on experience with data processing frameworks (e.g. Spark, Flink, Beam or similar) and SQL for working with relational and analytical databases.\nPractical experience designing, implementing, and operating Airflow DAGs(or similar workflow orchestration tools), including dependency management, scheduling, and observability.\nExperience building and operating ETL/ELT pipelines on modern data platforms (e.g. cloud data warehouses, data lakes, or lakehouses).\nExperience with stream processing and real-time data products (e.g. Kafka, Kinesis, or similar).\nUnderstanding of data modeling concepts (e.g. dimensional modeling, Data Vault, star/snowflake schemas) and how they support analytics and reporting.\nFamiliarity with version control, testing, and CI/CD practices for data workflows, including automated validation and deployment of Airflow changes.\nExperience using AI-assisted engineering tools responsibly to improve productivity while maintaining strong standards for quality, privacy, and security.\nAbility to identify pragmatic opportunities to leverage AI in data engineering workflows, for example in data quality monitoring, anomaly detection, metadata enrichment, lineage insights, or incident investigation.\nAbility to communicate clearly with both technical and non-technical stakeholders, explaining trade-offs and data design decisions.\nFind solutions to difficult or complex issues by applying different skills and techniques like analytical thinking, lateral thinking, and logical reasoning\nConstructively improve existing ideas, plans and solutions by reviewing them in a critical yet constructive manner, initiating concrete improvements and articulating their rationale\nContinuous Quality and Process Improvement\nIdentify opportunities for process, system and/or structural improvements, by applying an understanding of process flows and the methods that can be used to boost effectiveness and efficiency\nDeliver clear, well-structured, and meaningful information to a target audience by using suitable communication mediums and language tailored to the audience\nAchieve mutually agreeable solutions by staying adaptable, communicating ideas in clear coherent language and practicing active listening.\nBenefits & Perks\nContributing to a high scale, complex, world-renowned product and seeing real-time impact of your work on millions of travelers worldwide\nWorking in a fast-paced and performance driven culture\nTechnical, behavioral and interpersonal competence advancement via on-the-job opportunities, experimental projects, hackathons, conferences and active community participation\nCompetitive Compensation And Benefits Package\nVast amounts of data to validate your ideas and the opportunity to experiment with real users\nBooking Holdings is proud to be an equal opportunity workplace and is an affirmative action employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status. We strive to move well beyond traditional equal opportunity and work to create an environment that allows everyone to thrive.\nPre-Employment Screening\nIf your application is successful, your personal data may be used for a pre-employment screening check by a third party as permitted by applicable law. Depending on the vacancy and applicable law, a pre-employment screening may include employment history, education and other information (such as media information) that may be necessary for determining your qualifications and suitability for the position."
+    },
+    {
+      "id": "4441234526",
+      "company": "Hipo.ro",
+      "title": "Booking Holdings Romania - Python Developer - Data Engineering",
+      "location": "Ilfov, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/booking-holdings-romania-python-developer-data-engineering-at-hipo-ro-4441234526?position=2&pageNum=16&refId=HsnGrmeBtTPSXftO%2BTb9KA%3D%3D&trackingId=3opIC7cg%2F0%2BbldYMvyODHA%3D%3D",
+      "source": "linkedin",
+      "description": "Booking Holdings Romania is a Center of Excellence based in Bucharest, Romania and was created to support the increasing business demands of the Booking Holdings Brands. The Center of Excellence provides access to specialized and highly skilled talent, leading industry best practices, and collaboration opportunities across all of our Brands.\nAs part of our Booking Holdings Romania team, you will have the opportunity to be a part of the worlds leading provider of online travel, with a mission of making it easier for everyone to experience the world through five-primary consumer facing brands: Booking.com, Priceline, Agoda, KAYAK and OpenTable.\nRole Description\nAs a Data Engineer, you will independently design, build, and operate reliable data pipelines and platforms that power analytics, experimentation, and product decision-making across the organisation. You take ownership of the quality and reliability of the workflows you build, and you work closely with software engineers, data scientists, analysts, and business stakeholders to ensure high-quality, well-modeled, and trustworthy data is available at scale.\nThis role sits within the Product Security department and helps build software to protect the world's largest travel platform against attacks to its account & authorisation system.\nThis role provides a hybrid way of working with an onsite presence of 2 days/week.\nKey Job Responsibilities And Duties\nDesign, build, and operate data pipelines and Airflow workflows (DAGs) (batch and/or streaming) to ingest, transform, and deliver data from diverse sources into analytics and operational data stores.\nDevelop and maintain data models (e.g. dimensional, vault, or other analytical models) that are consistent, well-documented, and optimised for downstream use cases.\nEnsure data quality and reliability end-to-end by implementing validation, monitoring, testing, and alerting across pipelines, Airflow workflows, and datasets, with clear SLOs and error budgets where applicable.\nOwn the operational excellence of the workflows you develop, including on-call participation where relevant, incident triage, troubleshooting, and driving root-cause analysis and follow-ups to prevent regressions.\nCollaborate with cross-functional teams to understand data needs, translate them into technical solutions, and enable self-service access to data where appropriate.\nOperate and improve big data platforms and tooling, following modern data engineering best practices, version control, and CI/CD workflows.\nManage data governance aspects within your scope: ownership of datasets, documentation, access control, and alignment with security and privacy requirements.\nContribute to craft standards and frameworks, sharing best practices, improving shared Airflow patterns and libraries, and mentoring more junior engineers where relevant.\nRole Qualifications And Requirements\nProven experience (3+ years) as a Data Engineer or in a similar data-focused engineering role, working with large-scale or complex datasets\nStrong skills in at least one programming language commonly used for data engineering (preferably Python, Java is also acceptable).\nHands-on experience with data processing frameworks (e.g. Spark, Flink, Beam or similar) and SQL for working with relational and analytical databases.\nPractical experience designing, implementing, and operating Airflow DAGs(or similar workflow orchestration tools), including dependency management, scheduling, and observability.\nExperience building and operating ETL/ELT pipelines on modern data platforms (e.g. cloud data warehouses, data lakes, or lakehouses).\nExperience with stream processing and real-time data products (e.g. Kafka, Kinesis, or similar).\nUnderstanding of data modeling concepts (e.g. dimensional modeling, Data Vault, star/snowflake schemas) and how they support analytics and reporting.\nFamiliarity with version control, testing, and CI/CD practices for data workflows, including automated validation and deployment of Airflow changes.\nExperience using AI-assisted engineering tools responsibly to improve productivity while maintaining strong standards for quality, privacy, and security.\nAbility to identify pragmatic opportunities to leverage AI in data engineering workflows, for example in data quality monitoring, anomaly detection, metadata enrichment, lineage insights, or incident investigation.\nAbility to communicate clearly with both technical and non-technical stakeholders, explaining trade-offs and data design decisions.\nFind solutions to difficult or complex issues by applying different skills and techniques like analytical thinking, lateral thinking, and logical reasoning\nConstructively improve existing ideas, plans and solutions by reviewing them in a critical yet constructive manner, initiating concrete improvements and articulating their rationale\nContinuous Quality and Process Improvement\nIdentify opportunities for process, system and/or structural improvements, by applying an understanding of process flows and the methods that can be used to boost effectiveness and efficiency\nDeliver clear, well-structured, and meaningful information to a target audience by using suitable communication mediums and language tailored to the audience\nAchieve mutually agreeable solutions by staying adaptable, communicating ideas in clear coherent language and practicing active listening.\nBenefits & Perks\nContributing to a high scale, complex, world-renowned product and seeing real-time impact of your work on millions of travelers worldwide\nWorking in a fast-paced and performance driven culture\nTechnical, behavioral and interpersonal competence advancement via on-the-job opportunities, experimental projects, hackathons, conferences and active community participation\nCompetitive Compensation And Benefits Package\nVast amounts of data to validate your ideas and the opportunity to experiment with real users\nBooking Holdings is proud to be an equal opportunity workplace and is an affirmative action employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status. We strive to move well beyond traditional equal opportunity and work to create an environment that allows everyone to thrive.\nPre-Employment Screening\nIf your application is successful, your personal data may be used for a pre-employment screening check by a third party as permitted by applicable law. Depending on the vacancy and applicable law, a pre-employment screening may include employment history, education and other information (such as media information) that may be necessary for determining your qualifications and suitability for the position."
     },
     {
       "id": "4376720250",
       "company": "Rohde & Schwarz",
       "title": "DevSecOps Engineer (Python focus)",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/devsecops-engineer-python-focus-at-rohde-schwarz-4376720250?position=9&pageNum=3&refId=yjsuy6zUECmp7LSiCDqyCg%3D%3D&trackingId=%2BnZ7p02%2BGExFqLLOdB4cGg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/devsecops-engineer-python-focus-at-rohde-schwarz-4376720250?position=10&pageNum=3&refId=We0MQEGohN%2BChbZlTHpCdg%3D%3D&trackingId=FE%2BITA2%2FDwH19oC6okbgtw%3D%3D",
       "source": "linkedin",
-      "description": "DevOps engineer works closely with Research & Development, Testing, Quality Assurance and Production Department providing support for development and deployment tools, virtual environment, in-house products systems setup, configuration, monitoring, load testing etc. You will drive continuous process improvement and increase the efficiency and quality of our CI/CD framework. You will identify and implement creative ways to monitor and reduce Software Quality Assurance cycle times and accelerate adoption of Continuous Integration best practices.\nYour tasks\nDesign, develop, test, and maintain Python-based applications, microservices, or backend systems;\nWrite clean, maintainable, and efficient code following software engineering best practices;\nArchitect scripts covering various needs of the team;\nImplement automation of recurrent tasks through scripting;\nMaintain documentation regarding configurations, operations and troubleshooting procedures;\nSetup/administration of network equipment, vm, products;\nMonitor systems and identify patterns that affect the performance, reliability, or availability of a product or service and drive them out of the system through automation or other technical innovations.\nYour Qualifications\nUniversity degree in Electronics, Computer Science or similar education\n5 years experience in similar roles;\nExpert level Python programming skills;\nBeing able to architect and document code covering specific needs of the team;\nVery good knowledge on Linux OS administration;\nVery good knowledge on TCP/IP networking concepts;\nKnowledge about virtual machines and containers;\nKnowledge on SQL and/or PostgreSQL databases;\nProficiency using versioning tools (Git, SVN), experience working with CI/CD concepts and methodologies, Kubernetes;\nExperience with Infrastructure as a code, Ansible, yaml, orchestration;\nKnowledge about product lifecycle and software release;\nEssential documentation/technical writing skills;\nExperience working on AGILE/Scrum methodologies – is a plus;\nEssential English skills – German is a plus;\nMinimal security concepts for infrastructure (network, application, certification) – also a plus;\nTeam player.\nInterested?\nWe are looking forward to receiving your application! Ideally, you should apply online with the reference number. If you have any questions, please feel free to contact your recruiting contact via LinkedIn.\nWe promote equal opportunities and welcome applications from people with and without disabilities. We offer an inclusive work environment where all individuals can develop their skills and talents regardless of gender, nationality, ethnic and social background, religion, worldview, age, sexual orientation, identity, and other characteristics.\nRohde & Schwarz is a global technology company with approximately 14,000 employees and three divisions Test & Measurement, Technology Systems and Networks & Cybersecurity. For 90 years, the company has been developing cutting-edge technology, pushing the boundaries of what is technically possible and enabling customers from various sectors such as business, government and public authorities to maintain their technological sovereignty.\nOur offer\nFlexible working hour models\nFinancial benefits\nTraining & continuing education\nCompany restaurant/café\nHealth care\nWellbeing programs\nPublic transport\nBookster\nFamily care"
+      "description": ""
     },
     {
       "id": "4462280911",
       "company": "NTT DATA Europe & Latam",
       "title": "FullStack Engineer with Python&React",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/fullstack-engineer-with-python-react-at-ntt-data-europe-latam-4462280911?position=9&pageNum=2&refId=tWWjzm67zoH5DxkjbKl9%2FA%3D%3D&trackingId=PrXrMcISDkf%2FIu%2B9bnf7VA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/fullstack-engineer-with-python-react-at-ntt-data-europe-latam-4462280911?position=10&pageNum=2&refId=RCJeEGfBpdeOOW1enbMiLQ%3D%3D&trackingId=azATthi1aPOSaeSPJFbCig%3D%3D",
       "source": "linkedin",
-      "description": "Who We Are\nWe are looking for an experienced Full-Stack Engineer to join a client project and contribute to the design, development, and evolution of modern web applications. The successful candidate will have strong hands-on experience across both backend and frontend development, with a particular focus on Python, FastAPI, React, and TypeScript. The role involves working across the complete software development lifecycle, from technical design and implementation through testing, integration, deployment, and ongoing improvement.\nWhat You'll Be Doing\nDesign, develop, and maintain scalable full-stack web applications\nDevelop robust backend services and REST APIs using Python and FastAPI\nBuild modern, responsive, and reusable frontend components using React and TypeScript\nDesign and implement integrations between frontend applications, backend services, databases, and external systems\nWork with relational databases including MariaDB and PostgreSQL\nDesign and optimize database schemas, queries, and data-access patterns\nEnsure application performance, scalability, reliability, and maintainability\nImplement appropriate error handling, logging, validation, and security controls\nWrite clean, maintainable, well-structured, and testable code\nDevelop and maintain automated unit and integration tests\nParticipate in code reviews and contribute to engineering standards and best practices\nTroubleshoot application issues across frontend, backend, and database layers\nCollaborate with product owners, architects, developers, QA engineers, DevOps engineers, and other stakeholders\nParticipate in Agile development activities such as refinement, planning, daily meetings, reviews, and retrospectives\nContribute to technical documentation and knowledge sharing within the team\nWhat You'll Bring Along\nStrong hands-on experience with Python, FastAPI, and RESTful API development\nExperience with MariaDB, PostgreSQL, SQL, and relational database design\nKnowledge of data modeling, database integration, API validation, authentication, authorization, and exception handling\nStrong hands-on experience with React, TypeScript, and JavaScript (ES6+)\nExperience building component-based, responsive web applications\nProficiency in REST API integration, state management, and asynchronous data handling\nSolid understanding of HTML5 and CSS3\nGood understanding of object-oriented design, clean code principles, and software development best practices\nExperience with Git, automated testing, unit and integration testing\nKnowledge of API design, documentation, debugging, performance optimization, and secure development practices\nFamiliarity with CI/CD pipelines; experience with Docker and Kubernetes/cloud environments is a plus\nStrong analytical and problem-solving abilities\nEffective communication and collaboration skills\nAbility to translate business requirements into technical solutions\nProactive, quality-focused mindset with experience working in Agile/Scrum environments"
+      "description": ""
+    },
+    {
+      "id": "4465591103",
+      "company": "Thales",
+      "title": "GIS Engineer / Software Developer (Python, DevOps, DB Knowledge)",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/gis-engineer-software-developer-python-devops-db-knowledge-at-thales-4465591103?position=4&pageNum=5&refId=qypmO2Tz0KYmTDk5c6LTZQ%3D%3D&trackingId=RtzDvAQ%2BqpOrc6qkFGEDnw%3D%3D",
+      "source": "linkedin",
+      "description": ""
     },
     {
       "id": "4441524528",
       "company": "Arcadis",
       "title": "Oracle Python Kubernetes Developer",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/oracle-python-kubernetes-developer-at-arcadis-4441524528?position=3&pageNum=3&refId=yjsuy6zUECmp7LSiCDqyCg%3D%3D&trackingId=ECkf6HyfTW0Us5MSKOjxgg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/oracle-python-kubernetes-developer-at-arcadis-4441524528?position=4&pageNum=3&refId=We0MQEGohN%2BChbZlTHpCdg%3D%3D&trackingId=e29GBKiZraurcpSH1lHjKw%3D%3D",
       "source": "linkedin",
-      "description": "Arcadis is the world's leading company delivering sustainable design, engineering, and consultancy solutions for natural and built assets.\nWe are more than 36,000 people, in over 70 countries, dedicated to improving quality of life. Everyone has an important role to play. With the power of many curious minds, together we can solve the world’s most complex challenges and deliver more impact together.\nRole description:\nPurpose: Helps to ensure stable and well-performing Oracle solutions that meet business demand.\nRole Responsibilities:\nProactively engages with Key Business Users to receive feedback, gauge satisfaction with system integrations, and address issues or concerns.\nCollaborates with OTE Application & Extension Manager to gather requirements and prioritize data transformation projects.\nCollaborates with OTE Team to deliver efficient and well-run processes. Design and implement microservices with well-defined interfaces and modular architecture.\nWrite clean, reusable, and maintainable code that supports scalability and performance.\nAdminister and manage Kubernetes clusters, including deployment, scaling, monitoring, and troubleshooting.\nDevelop and integrate services with Oracle technologies such as Oracle Cloud Infrastructure (OCI), Oracle Autonomous Database, Oracle Integration Cloud (OIC), and Oracle REST Data Services (ORDS).\nAutomate CI/CD pipelines and manage service lifecycle using DevOps tools.\nCollaborate with cross-functional teams to integrate services into enterprise systems.\nMaintain technical documentation for services, APIs, and infrastructure components. Coordinates with 3rd parties who provide support for product enhancements, upgrades, patches and application monitoring.\nKey Shared Accountability:\nPartnership with other Technical Towers, Lanes, and teams to achieve goals and exceed business expectations.\nPartnership with Data Tower.\nOracle SOP and KBA development with OTE team.\nOracle service disruptions announcements and EU communications with OTE team.\nRelease Management with OEA teams and Tech CAB\nQualifications\n:\nMinimum of 8 years’ experience developing cloud based microservices, at least 4 of which with Oracle Cloud application services.\nDemonstrated experience successfully planning and implementing Cloud application services in a global company with a multi-national, multi-vendor environment.\nProven track record of achieving service excellence, including maintaining positive stakeholder relationships and coordinating multi-disciplinary teams with internal and external resources.\nPrimary: Python, Oracle Python SDK, Oracle Database 12c & 19c Development, Oracle Kubernetes Engine, Oracle Object Storage, Oracle Cloud Infrastructure\nSecondary: Java, Spring Boot, Kotlin\nWhy Arcadis?\nWe can only achieve our goals when everyone is empowered to be their best. We believe everyone's contribution matters. It’s why we are pioneering a skills-based approach, where you can harness your unique experience and expertise to carve your career path and maximize the impact we can make together.\nYou’ll do meaningful work, and no matter what role, you’ll be helping to deliver sustainable solutions for a more prosperous planet. Make your mark, on your career, your colleagues, your clients, your life and the world around you.\nTogether, we can create a lasting legacy.\nJoin Arcadis. Create a Legacy.\nOur Commitment to Equality, Diversity, Inclusion & Belonging\nWe want you to be able to bring your best self to work every day which is why equality and inclusion is at the forefront of all our activities. Our ambition is to be an employer of choice and provide a great place to work for all our people. We are an equal opportunity employer; women, minorities, and people with disabilities are strongly encouraged to apply. We are dedicated to a policy of non-discrimination in employment on any basis including race, caste, creed, colour, religion, sex, age, disability, marital status, sexual orientation, and gender identity."
+      "description": ""
     },
     {
       "id": "4458785759",
       "company": "Thales",
       "title": "Python AI Agent Engineer (Mid-level)",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/python-ai-agent-engineer-mid-level-at-thales-4458785759?position=4&pageNum=2&refId=tWWjzm67zoH5DxkjbKl9%2FA%3D%3D&trackingId=Rqw%2BgWP3qrhdJdL4B%2F9onQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/python-ai-agent-engineer-mid-level-at-thales-4458785759?position=5&pageNum=2&refId=RCJeEGfBpdeOOW1enbMiLQ%3D%3D&trackingId=e1vMOpCG9mhwqrrtL%2BowlA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2665,7 +2701,97 @@
       "company": "Undelucram.ro",
       "title": "Python Backend Developer",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/python-backend-developer-at-undelucram-ro-4462984856?position=7&pageNum=0&refId=RPT3hTFaOlFguBfFMdRo6w%3D%3D&trackingId=0GKtOKIdrfclg030Z9mMOA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/python-backend-developer-at-undelucram-ro-4462984856?position=8&pageNum=0&refId=5kz84uSvfYrWzv1ZPax%2FtQ%3D%3D&trackingId=DJlppsEJTl73%2FjUB9GN0vQ%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4462997734",
+      "company": "Undelucram.ro",
+      "title": "Python Backend Developer",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/python-backend-developer-at-undelucram-ro-4462997734?position=3&pageNum=23&refId=HPyYWGTupbZAk1gyBOyWQw%3D%3D&trackingId=iNK9aItWD6pSuKVmJnvteA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4461753708",
+      "company": "Luxoft",
+      "title": "Python Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/python-developer-at-luxoft-4461753708?position=9&pageNum=15&refId=%2Fv7tKlO4bsN%2BxSrh%2BP4Rsw%3D%3D&trackingId=sLf6DvF6EIxs0wEM1iidmA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4462400881",
+      "company": "Luxoft",
+      "title": "Python Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/python-developer-at-luxoft-4462400881?position=7&pageNum=15&refId=%2Fv7tKlO4bsN%2BxSrh%2BP4Rsw%3D%3D&trackingId=x0Cf5NvADY6aBn1XV%2BjW6w%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4470950603",
+      "company": "Luxoft",
+      "title": "Python Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/python-developer-at-luxoft-4470950603?position=6&pageNum=15&refId=%2Fv7tKlO4bsN%2BxSrh%2BP4Rsw%3D%3D&trackingId=M9BINlT7P0PnLFT5ZWeF2w%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4473757441",
+      "company": "Luxoft",
+      "title": "Python Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/python-developer-at-luxoft-4473757441?position=8&pageNum=15&refId=%2Fv7tKlO4bsN%2BxSrh%2BP4Rsw%3D%3D&trackingId=1PWgfX7C0gaHb1iY%2FxnDhw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4476166734",
+      "company": "Luxoft",
+      "title": "Python Developer",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/python-developer-at-luxoft-4476166734?position=8&pageNum=14&refId=5hufD3s1eeCZRmhsjdW5Kw%3D%3D&trackingId=OHHjJkg54ELSqNtbGX7OEg%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4475557198",
+      "company": "Luxoft Romania",
+      "title": "Python Developer",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/python-developer-at-luxoft-romania-4475557198?position=3&pageNum=14&refId=5hufD3s1eeCZRmhsjdW5Kw%3D%3D&trackingId=dUFl8L2rq3z55MDYhn3vYA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4475588583",
+      "company": "Luxoft Romania",
+      "title": "Python Developer",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/python-developer-at-luxoft-romania-4475588583?position=7&pageNum=14&refId=5hufD3s1eeCZRmhsjdW5Kw%3D%3D&trackingId=2C4msiguuYsbevK59EQXFA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4476567401",
+      "company": "Luxoft Romania",
+      "title": "Python Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/python-developer-at-luxoft-romania-4476567401?position=5&pageNum=15&refId=%2Fv7tKlO4bsN%2BxSrh%2BP4Rsw%3D%3D&trackingId=bDp%2FUhYhhopROAEdqVMTDA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4464990601",
+      "company": "Luxoft",
+      "title": "Python Developer | AI & Data Platform",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/python-developer-ai-data-platform-at-luxoft-4464990601?position=10&pageNum=14&refId=5hufD3s1eeCZRmhsjdW5Kw%3D%3D&trackingId=6bsBNg%2FHRE9WtadX3maTdg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2674,7 +2800,7 @@
       "company": "Phi Partners",
       "title": "Python Developer – Risk Platform",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/python-developer-%E2%80%93-risk-platform-at-phi-partners-4288020517?position=8&pageNum=0&refId=RPT3hTFaOlFguBfFMdRo6w%3D%3D&trackingId=lI44kCJ8Eg0V7yGRWcPrEw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/python-developer-%E2%80%93-risk-platform-at-phi-partners-4288020517?position=9&pageNum=0&refId=5kz84uSvfYrWzv1ZPax%2FtQ%3D%3D&trackingId=A%2FOJZVTmnEfpKmwoSCVGCQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2683,7 +2809,7 @@
       "company": "Publicis Sapient",
       "title": "Python Developer- Senior Specialist- Energy & Commodities",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/python-developer-senior-specialist-energy-commodities-at-publicis-sapient-4449571939?position=5&pageNum=0&refId=RPT3hTFaOlFguBfFMdRo6w%3D%3D&trackingId=NJ5fWQgmXkYAukP6NyPhnA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/python-developer-senior-specialist-energy-commodities-at-publicis-sapient-4449571939?position=5&pageNum=0&refId=5kz84uSvfYrWzv1ZPax%2FtQ%3D%3D&trackingId=GjEXfDs%2FoGv6JNsncgOdzg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2692,7 +2818,7 @@
       "company": "Endava",
       "title": "Python Development Consultant",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/python-development-consultant-at-endava-4434318135?position=6&pageNum=0&refId=RPT3hTFaOlFguBfFMdRo6w%3D%3D&trackingId=G2Rq2BmhyY3TnuouTGg32w%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/python-development-consultant-at-endava-4434318135?position=6&pageNum=0&refId=5kz84uSvfYrWzv1ZPax%2FtQ%3D%3D&trackingId=kuOZ%2FWin1RKSlgYtYzdE8Q%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2701,7 +2827,7 @@
       "company": "SCOR",
       "title": "Python Full-Stack Developer",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/python-full-stack-developer-at-scor-4467848019?position=3&pageNum=1&refId=e68VQELp8XBUK78jrMSjmw%3D%3D&trackingId=jON9xt92aq4h7c445bNmlA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/python-full-stack-developer-at-scor-4467848019?position=4&pageNum=1&refId=y4gVzfayaXi6FD437nGcpQ%3D%3D&trackingId=bJ2rfhDuSJ47QwJMaQVviw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2710,7 +2836,52 @@
       "company": "Worldline",
       "title": "Python Fullstack Developer",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/python-fullstack-developer-at-worldline-4418677797?position=1&pageNum=1&refId=e68VQELp8XBUK78jrMSjmw%3D%3D&trackingId=zbCTVR9B6T65G7RBSVu%2BAQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/python-fullstack-developer-at-worldline-4418677797?position=2&pageNum=1&refId=y4gVzfayaXi6FD437nGcpQ%3D%3D&trackingId=4uvSYsOatUv7dQpfVJYZGQ%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4418687704",
+      "company": "Worldline",
+      "title": "Python Fullstack Developer",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/python-fullstack-developer-at-worldline-4418687704?position=6&pageNum=23&refId=HPyYWGTupbZAk1gyBOyWQw%3D%3D&trackingId=ZQiSpS97o7Wpz8nocXhIlQ%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4469876459",
+      "company": "ALTEN",
+      "title": "Python GIS Engineer",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/python-gis-engineer-at-alten-4469876459?position=3&pageNum=4&refId=ZHpTfpzRljDvyNMjsNEmIQ%3D%3D&trackingId=kYUCzkplK%2Bz1MAaEjrDHqg%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4474737060",
+      "company": "Luxoft",
+      "title": "Senior AI Data Science Engineer (Python)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-ai-data-science-engineer-python-at-luxoft-4474737060?position=3&pageNum=16&refId=HsnGrmeBtTPSXftO%2BTb9KA%3D%3D&trackingId=BhjXN9cXS%2FJLANebIIx6nA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4450724021",
+      "company": "Luxoft",
+      "title": "Senior AI Engineer | Python, Generative AI & LLMs | Investment Banking",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-ai-engineer-python-generative-ai-llms-investment-banking-at-luxoft-4450724021?position=10&pageNum=15&refId=%2Fv7tKlO4bsN%2BxSrh%2BP4Rsw%3D%3D&trackingId=NlxXCFomQYcQyErpo%2Bw0OA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4469796363",
+      "company": "NTT DATA Europe & Latam",
+      "title": "Senior AI Full-Stack Engineer (Angular&Python)",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-ai-full-stack-engineer-angular-python-at-ntt-data-europe-latam-4469796363?position=4&pageNum=19&refId=hmS5kW8HYuDi%2BdOVYGP32g%3D%3D&trackingId=SfsZNmQXyvNsK%2BM9GdwN4g%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2719,7 +2890,7 @@
       "company": "Amdaris",
       "title": "Senior AI Python Engineer",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/senior-ai-python-engineer-at-amdaris-4465073441?position=6&pageNum=2&refId=tWWjzm67zoH5DxkjbKl9%2FA%3D%3D&trackingId=esnWjQVwRRlWO8Y8NCfpZg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-ai-python-engineer-at-amdaris-4465073441?position=7&pageNum=2&refId=RCJeEGfBpdeOOW1enbMiLQ%3D%3D&trackingId=gQBrmrWt87iNZ5fVXunhJg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2728,7 +2899,7 @@
       "company": "Kake",
       "title": "Senior AI/LLM Engineer (Python) - Remote",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-ai-llm-engineer-python-remote-at-kake-4476026398?position=7&pageNum=3&refId=yjsuy6zUECmp7LSiCDqyCg%3D%3D&trackingId=lqtW7rMxXHuEl8fkt9XYRg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-ai-llm-engineer-python-remote-at-kake-4476026398?position=8&pageNum=3&refId=We0MQEGohN%2BChbZlTHpCdg%3D%3D&trackingId=KZJIRe7KCspvJOzCf%2BvjQw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2737,7 +2908,115 @@
       "company": "Kake",
       "title": "Senior Backend Engineer (TypeScript/Python/C#) - Remote",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-backend-engineer-typescript-python-c%23-remote-at-kake-4459964308?position=6&pageNum=3&refId=yjsuy6zUECmp7LSiCDqyCg%3D%3D&trackingId=fvfBKDnF6TRATIDutYa0Xw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-backend-engineer-typescript-python-c%23-remote-at-kake-4459964308?position=7&pageNum=3&refId=We0MQEGohN%2BChbZlTHpCdg%3D%3D&trackingId=vxnSPu6yS0rvizTbX1p9vw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4447381000",
+      "company": "Adecco",
+      "title": "Senior Data Engineer (AWS, Snowflake, Python)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-data-engineer-aws-snowflake-python-at-adecco-4447381000?position=5&pageNum=13&refId=5b2iNw47iF4dPPkWq0N%2BEw%3D%3D&trackingId=H0mMpL1pNgosMT5%2FrAhJyw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4473169415",
+      "company": "NTT DATA Europe & Latam",
+      "title": "Senior Data Engineer (Python,BQ)",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-data-engineer-python-bq-at-ntt-data-europe-latam-4473169415?position=7&pageNum=17&refId=zsKuWxlT0AeAqXRcpPNGMQ%3D%3D&trackingId=bBm9yWxFnjTRVnEdywH95g%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4474749818",
+      "company": "Luxoft",
+      "title": "Senior Data Engineer (SQL, Python & Cloud)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-data-engineer-sql-python-cloud-at-luxoft-4474749818?position=10&pageNum=20&refId=bob%2BRoghhy2JiSb29lPhMQ%3D%3D&trackingId=lpsRJgeZ1msiQP5B5fzoJw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4474751604",
+      "company": "Luxoft",
+      "title": "Senior Data Engineer (SQL, Python & Cloud)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-data-engineer-sql-python-cloud-at-luxoft-4474751604?position=9&pageNum=20&refId=bob%2BRoghhy2JiSb29lPhMQ%3D%3D&trackingId=QO8GPZm7GgxvLZVYkZB9lA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4470699891",
+      "company": "Luxoft Romania",
+      "title": "Senior Data Engineer (SQL, Python & Cloud)",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-data-engineer-sql-python-cloud-at-luxoft-romania-4470699891?position=8&pageNum=20&refId=bob%2BRoghhy2JiSb29lPhMQ%3D%3D&trackingId=pIGwtr6NaQtLc%2FIqQF19xw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4479779743",
+      "company": "Luxoft Romania",
+      "title": "Senior Data Engineer (SQL, Python & Cloud)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-data-engineer-sql-python-cloud-at-luxoft-romania-4479779743?position=5&pageNum=20&refId=bob%2BRoghhy2JiSb29lPhMQ%3D%3D&trackingId=CQSpEIl75wQkE707mKm%2FYg%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4473280084",
+      "company": "Luxoft",
+      "title": "Senior Data Engineer | Python, SQL & Google Cloud",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-data-engineer-python-sql-google-cloud-at-luxoft-4473280084?position=10&pageNum=19&refId=hmS5kW8HYuDi%2BdOVYGP32g%3D%3D&trackingId=KemZxYRbazu2XpJ8qJ72Mg%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4458972185",
+      "company": "Lateral Group",
+      "title": "Senior Full Stack Engineer (Python + React)",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-engineer-python-%2B-react-at-lateral-group-4458972185?position=2&pageNum=4&refId=ZHpTfpzRljDvyNMjsNEmIQ%3D%3D&trackingId=WqMODsJFBxk8RlGBqO1Q%2BA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4448853704",
+      "company": "Luxoft",
+      "title": "Senior Python AI Developer",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-ai-developer-at-luxoft-4448853704?position=1&pageNum=15&refId=%2Fv7tKlO4bsN%2BxSrh%2BP4Rsw%3D%3D&trackingId=dzZToCsWWPwUvTgrPfZaJQ%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4473725319",
+      "company": "Luxoft",
+      "title": "Senior Python AI Developer",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-ai-developer-at-luxoft-4473725319?position=2&pageNum=15&refId=%2Fv7tKlO4bsN%2BxSrh%2BP4Rsw%3D%3D&trackingId=5x%2BxL81fx9tpRJyhhQbrEw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4474730833",
+      "company": "Luxoft",
+      "title": "Senior Python AI Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-ai-developer-at-luxoft-4474730833?position=3&pageNum=15&refId=%2Fv7tKlO4bsN%2BxSrh%2BP4Rsw%3D%3D&trackingId=SE6qHMG2QjDyz%2Fo2qRjEEw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4475549463",
+      "company": "Luxoft",
+      "title": "Senior Python AI Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-ai-developer-at-luxoft-4475549463?position=4&pageNum=15&refId=%2Fv7tKlO4bsN%2BxSrh%2BP4Rsw%3D%3D&trackingId=0yIiju1Hjf7rEml%2BVsIRLg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2746,7 +3025,16 @@
       "company": "Inetum",
       "title": "Senior Python Backend Developer / Platform Engineer- remote",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-python-backend-developer-platform-engineer-remote-at-inetum-4467992454?position=2&pageNum=2&refId=tWWjzm67zoH5DxkjbKl9%2FA%3D%3D&trackingId=AJotEz4hTQAH8TufBJO08w%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-backend-developer-platform-engineer-remote-at-inetum-4467992454?position=3&pageNum=2&refId=RCJeEGfBpdeOOW1enbMiLQ%3D%3D&trackingId=B27dOeJApykfBfPR2FBlAQ%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4468218648",
+      "company": "Inetum",
+      "title": "Senior Python Data Engineer (OCR & Document Processing)- remote",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-data-engineer-ocr-document-processing-remote-at-inetum-4468218648?position=7&pageNum=4&refId=ZHpTfpzRljDvyNMjsNEmIQ%3D%3D&trackingId=jVNS0%2B6uCAwsT8eeSAqPDw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2755,7 +3043,106 @@
       "company": "Accenture Romania",
       "title": "Senior Python Developer",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-accenture-romania-4477288690?position=1&pageNum=0&refId=RPT3hTFaOlFguBfFMdRo6w%3D%3D&trackingId=ByxE%2FucYqqQA%2F%2FAHoDESFQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-accenture-romania-4477288690?position=1&pageNum=0&refId=5kz84uSvfYrWzv1ZPax%2FtQ%3D%3D&trackingId=Wq913RlwkLlAesLZKIc7bQ%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4462786669",
+      "company": "Luxoft",
+      "title": "Senior Python Developer",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-luxoft-4462786669?position=7&pageNum=24&refId=pjKgsHiLIBmmClAz5fWCxA%3D%3D&trackingId=pUVH%2Fgz6ra6ZXMJadlGFSw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4467966116",
+      "company": "Luxoft",
+      "title": "Senior Python Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-luxoft-4467966116?position=4&pageNum=24&refId=pjKgsHiLIBmmClAz5fWCxA%3D%3D&trackingId=3zwBcZ6rnfIYjD18RTorPA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4468610599",
+      "company": "Luxoft",
+      "title": "Senior Python Developer",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-luxoft-4468610599?position=6&pageNum=24&refId=pjKgsHiLIBmmClAz5fWCxA%3D%3D&trackingId=oqfpWWEwsItEns6RQTklhQ%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4469897758",
+      "company": "Luxoft",
+      "title": "Senior Python Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-luxoft-4469897758?position=5&pageNum=24&refId=pjKgsHiLIBmmClAz5fWCxA%3D%3D&trackingId=Hzu57gkewfqhpc1vxeKh3A%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4474130745",
+      "company": "Luxoft",
+      "title": "Senior Python Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-luxoft-4474130745?position=3&pageNum=24&refId=pjKgsHiLIBmmClAz5fWCxA%3D%3D&trackingId=iq%2Fqv54A71NeBj2ajMoHyg%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4474733747",
+      "company": "Luxoft",
+      "title": "Senior Python Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-luxoft-4474733747?position=2&pageNum=24&refId=pjKgsHiLIBmmClAz5fWCxA%3D%3D&trackingId=j2HsMo%2F%2FhYmQQqsaV95TVg%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478770879",
+      "company": "Luxoft",
+      "title": "Senior Python Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-luxoft-4478770879?position=10&pageNum=23&refId=HPyYWGTupbZAk1gyBOyWQw%3D%3D&trackingId=BnM0%2BMT62YznIpO5tZXjFA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478774670",
+      "company": "Luxoft",
+      "title": "Senior Python Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-luxoft-4478774670?position=8&pageNum=23&refId=HPyYWGTupbZAk1gyBOyWQw%3D%3D&trackingId=jXryDteVq0dS3b0%2FxLZyyg%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478782352",
+      "company": "Luxoft",
+      "title": "Senior Python Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-luxoft-4478782352?position=1&pageNum=24&refId=pjKgsHiLIBmmClAz5fWCxA%3D%3D&trackingId=w%2FonDC7t2HcADe%2B54DoI8w%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478787063",
+      "company": "Luxoft",
+      "title": "Senior Python Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-luxoft-4478787063?position=9&pageNum=23&refId=HPyYWGTupbZAk1gyBOyWQw%3D%3D&trackingId=GQ8tKToB063GrxV1%2FppzIg%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478789012",
+      "company": "Luxoft",
+      "title": "Senior Python Developer",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-luxoft-4478789012?position=7&pageNum=23&refId=HPyYWGTupbZAk1gyBOyWQw%3D%3D&trackingId=01qx9ebZvCtqktQ7O0DLOA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2764,7 +3151,7 @@
       "company": "Luxoft",
       "title": "Senior Python Developer",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-luxoft-4479273483?position=6&pageNum=1&refId=e68VQELp8XBUK78jrMSjmw%3D%3D&trackingId=HVpsMAgb%2BWHswiUfdulbeQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-luxoft-4479273483?position=8&pageNum=1&refId=y4gVzfayaXi6FD437nGcpQ%3D%3D&trackingId=o90kz69NUyDjaN%2BDgzrw4Q%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2773,7 +3160,25 @@
       "company": "Luxoft",
       "title": "Senior Python Developer",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-luxoft-4479292149?position=4&pageNum=1&refId=e68VQELp8XBUK78jrMSjmw%3D%3D&trackingId=NHh7TBzdxM%2FpH%2B%2FaVXJBcA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-luxoft-4479292149?position=6&pageNum=1&refId=y4gVzfayaXi6FD437nGcpQ%3D%3D&trackingId=KvHcRrwncfnbRnz%2BpClgIw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4474750730",
+      "company": "Luxoft Romania",
+      "title": "Senior Python Developer",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-luxoft-romania-4474750730?position=10&pageNum=13&refId=5b2iNw47iF4dPPkWq0N%2BEw%3D%3D&trackingId=vm%2B4WIBkmePtwggrb2FDPw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4474751715",
+      "company": "Luxoft Romania",
+      "title": "Senior Python Developer",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-luxoft-romania-4474751715?position=9&pageNum=13&refId=5b2iNw47iF4dPPkWq0N%2BEw%3D%3D&trackingId=ALsrBPKpXgSa4n3gWadA%2BA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2782,7 +3187,16 @@
       "company": "Luxoft Romania",
       "title": "Senior Python Developer",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-luxoft-romania-4478550188?position=7&pageNum=1&refId=e68VQELp8XBUK78jrMSjmw%3D%3D&trackingId=WOBSeS3ixp%2BJjDnEsX7RAQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-luxoft-romania-4478550188?position=8&pageNum=13&refId=5b2iNw47iF4dPPkWq0N%2BEw%3D%3D&trackingId=xLPpbOmvQwVIv49E843xeA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4479779722",
+      "company": "Luxoft Romania",
+      "title": "Senior Python Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-luxoft-romania-4479779722?position=5&pageNum=1&refId=y4gVzfayaXi6FD437nGcpQ%3D%3D&trackingId=RFmEkFJILKMCrrXLzJfzYA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2791,7 +3205,52 @@
       "company": "nShift",
       "title": "Senior Python Developer",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-nshift-4472794466?position=4&pageNum=0&refId=RPT3hTFaOlFguBfFMdRo6w%3D%3D&trackingId=aMID2ImPwg24cGEQLQ8LVw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-at-nshift-4472794466?position=4&pageNum=0&refId=5kz84uSvfYrWzv1ZPax%2FtQ%3D%3D&trackingId=AtyTOb0ySSlp%2FXBPi5Iriw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4474738586",
+      "company": "Luxoft",
+      "title": "Senior Python Developer (with PySpark skills)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-with-pyspark-skills-at-luxoft-4474738586?position=6&pageNum=14&refId=5hufD3s1eeCZRmhsjdW5Kw%3D%3D&trackingId=qX6y54Tsi6ft6cECILsqmQ%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4475558142",
+      "company": "Luxoft",
+      "title": "Senior Python Developer (with PySpark skills)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-with-pyspark-skills-at-luxoft-4475558142?position=5&pageNum=14&refId=5hufD3s1eeCZRmhsjdW5Kw%3D%3D&trackingId=A7vfSa7Dq0Ls1SrdP%2FOnHg%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4476175137",
+      "company": "Luxoft",
+      "title": "Senior Python Developer (with PySpark skills)",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-with-pyspark-skills-at-luxoft-4476175137?position=1&pageNum=14&refId=5hufD3s1eeCZRmhsjdW5Kw%3D%3D&trackingId=tiSZY9SiFZpNEuIGHGPqyg%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4476178922",
+      "company": "Luxoft",
+      "title": "Senior Python Developer (with PySpark skills)",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-with-pyspark-skills-at-luxoft-4476178922?position=4&pageNum=14&refId=5hufD3s1eeCZRmhsjdW5Kw%3D%3D&trackingId=byyv%2BmrshUx2MpQMp51BDA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4467703848",
+      "company": "Luxoft Romania",
+      "title": "Senior Python Developer with AI",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-with-ai-at-luxoft-romania-4467703848?position=9&pageNum=14&refId=5hufD3s1eeCZRmhsjdW5Kw%3D%3D&trackingId=5fQM7DbvvgB8bxTvKoNnkA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2800,7 +3259,7 @@
       "company": "Luxoft Romania",
       "title": "Senior Python Developer(3+years)",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-3%2Byears-at-luxoft-romania-4477654982?position=5&pageNum=1&refId=e68VQELp8XBUK78jrMSjmw%3D%3D&trackingId=P0yQmjp0HEyqn%2B4QXFWDSw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-developer-3%2Byears-at-luxoft-romania-4477654982?position=7&pageNum=1&refId=y4gVzfayaXi6FD437nGcpQ%3D%3D&trackingId=t03pQoFsYYIyLLXBsDqc7w%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2809,7 +3268,7 @@
       "company": "Deutsche Bank",
       "title": "Senior Python Engineer",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/senior-python-engineer-at-deutsche-bank-4474134448?position=2&pageNum=0&refId=RPT3hTFaOlFguBfFMdRo6w%3D%3D&trackingId=xAJmqo1u8YBhH3%2FnAZ864A%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-engineer-at-deutsche-bank-4474134448?position=2&pageNum=0&refId=5kz84uSvfYrWzv1ZPax%2FtQ%3D%3D&trackingId=CcWyGBIWryBmIdnJrKw1zg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2818,7 +3277,88 @@
       "company": "Deutsche Bank",
       "title": "Senior Python Engineer - AI/ML",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/senior-python-engineer-ai-ml-at-deutsche-bank-4472495544?position=10&pageNum=2&refId=tWWjzm67zoH5DxkjbKl9%2FA%3D%3D&trackingId=aNaHMsIwjXpEI7MCIeFJRg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-python-engineer-ai-ml-at-deutsche-bank-4472495544?position=1&pageNum=3&refId=We0MQEGohN%2BChbZlTHpCdg%3D%3D&trackingId=WkTy9aIgQBaTWqJ1goVfTg%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4468225748",
+      "company": "Luxoft",
+      "title": "Senior QA automation (Python)",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/senior-qa-automation-python-at-luxoft-4468225748?position=3&pageNum=43&refId=xORcYh3%2FtvIh2QC%2F0ijGTA%3D%3D&trackingId=yz%2FQw%2FKAywnbJJBcnqtGyg%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4470912485",
+      "company": "Luxoft Romania",
+      "title": "Senior QA Automation - Python",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-qa-automation-python-at-luxoft-romania-4470912485?position=2&pageNum=31&refId=praE5kWhtbfvyhfG%2BJNsQQ%3D%3D&trackingId=hIp%2B%2Fhaj83idZbayi3tkDQ%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4468654001",
+      "company": "Luxoft",
+      "title": "Senior QA Automation Engineer (Python) | Financial Markets",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-qa-automation-engineer-python-financial-markets-at-luxoft-4468654001?position=9&pageNum=43&refId=xORcYh3%2FtvIh2QC%2F0ijGTA%3D%3D&trackingId=4fSP9LIxj%2FwhLu%2Bc8ej6xg%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4474158167",
+      "company": "Luxoft",
+      "title": "Senior QA Automation Engineer (Python, STC & Networking)",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/senior-qa-automation-engineer-python-stc-networking-at-luxoft-4474158167?position=4&pageNum=26&refId=noJjprOX7cPCetq%2FAQQdyA%3D%3D&trackingId=tNd2mMlb05r%2F8oOdiEgdBg%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4474734595",
+      "company": "Luxoft",
+      "title": "Senior QA Automation Engineer with Python and STC",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-qa-automation-engineer-with-python-and-stc-at-luxoft-4474734595?position=6&pageNum=49&refId=mZmo0mQW5tpMr%2Ft5ptmKrg%3D%3D&trackingId=Vqg72ah67Bm3qhGI5SB1uw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4474735500",
+      "company": "Luxoft",
+      "title": "Senior QA Automation Engineer with Python and STC",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-qa-automation-engineer-with-python-and-stc-at-luxoft-4474735500?position=2&pageNum=27&refId=yJzTtisEQRcJ4WtRFpYwIQ%3D%3D&trackingId=YBN6TZJuYqXafBt3FzISDw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4468216203",
+      "company": "Luxoft",
+      "title": "Senior QA automation Python",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-qa-automation-python-at-luxoft-4468216203?position=7&pageNum=43&refId=xORcYh3%2FtvIh2QC%2F0ijGTA%3D%3D&trackingId=1VkpWJxDh1GAi9ifwBenOw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4468220117",
+      "company": "Luxoft",
+      "title": "Senior QA automation Python",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-qa-automation-python-at-luxoft-4468220117?position=8&pageNum=43&refId=xORcYh3%2FtvIh2QC%2F0ijGTA%3D%3D&trackingId=UNggtdI8W%2BdUHHS3qZZcvw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4465783151",
+      "company": "Onapsis",
+      "title": "Software Developer Engineer in Test III (SDET) - Python & JavaScript",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/software-developer-engineer-in-test-iii-sdet-python-javascript-at-onapsis-4465783151?position=4&pageNum=9&refId=bJWQl0F56EeV2vakm7B7Lw%3D%3D&trackingId=MKBWkD71ecoPqpkJsyGUMQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2827,7 +3367,7 @@
       "company": "PDQ",
       "title": "Software Engineer (Backend), Python",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/software-engineer-backend-python-at-pdq-4462130921?position=2&pageNum=1&refId=e68VQELp8XBUK78jrMSjmw%3D%3D&trackingId=GRVCvANAsS2v%2FtOt4rXhhg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/software-engineer-backend-python-at-pdq-4462130921?position=3&pageNum=1&refId=y4gVzfayaXi6FD437nGcpQ%3D%3D&trackingId=SZB7bZjomBiycHFpKo6ZYw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2836,7 +3376,7 @@
       "company": "Telnyx",
       "title": "Software Engineer (Python) — Programmable Networking",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/software-engineer-python-%E2%80%94-programmable-networking-at-telnyx-4468314952?position=1&pageNum=2&refId=tWWjzm67zoH5DxkjbKl9%2FA%3D%3D&trackingId=DgSkGC4uxGoWlKvZPPvDXg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/software-engineer-python-%E2%80%94-programmable-networking-at-telnyx-4468314952?position=2&pageNum=2&refId=RCJeEGfBpdeOOW1enbMiLQ%3D%3D&trackingId=N8yodLV%2BI6vJGc3vuhEjaA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2845,7 +3385,7 @@
       "company": "Telnyx",
       "title": "Software Engineer (Python) — Programmable Networking",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/software-engineer-python-%E2%80%94-programmable-networking-at-telnyx-4468329226?position=10&pageNum=1&refId=e68VQELp8XBUK78jrMSjmw%3D%3D&trackingId=%2BfiTpo3aMUw%2BJMJ0swMbzQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/software-engineer-python-%E2%80%94-programmable-networking-at-telnyx-4468329226?position=1&pageNum=2&refId=RCJeEGfBpdeOOW1enbMiLQ%3D%3D&trackingId=vcMdKkVJgyGPeBP63mKHnw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2854,12 +3394,48 @@
       "company": "Onapsis",
       "title": "Software Engineer II - Python",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/software-engineer-ii-python-at-onapsis-4471930702?position=9&pageNum=0&refId=RPT3hTFaOlFguBfFMdRo6w%3D%3D&trackingId=Oxv4%2Fj3L7CJ6r5HJwzpa3w%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/software-engineer-ii-python-at-onapsis-4471930702?position=10&pageNum=0&refId=5kz84uSvfYrWzv1ZPax%2FtQ%3D%3D&trackingId=c7iqSReBNo9mkK7GE%2Bj1jw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4423934005",
+      "company": "Lenovo",
+      "title": "Solution Engineer (Python & Linux)",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/solution-engineer-python-linux-at-lenovo-4423934005?position=10&pageNum=22&refId=eoRI%2FxoM5%2F5dL6jg6bZmhQ%3D%3D&trackingId=lDycJXYp%2F2cUg7X0ge2ijw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4404426307",
+      "company": "N-iX",
+      "title": "Tech Lead Full Stack Engineer (Python, React, AI/LLM)",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/tech-lead-full-stack-engineer-python-react-ai-llm-at-n-ix-4404426307?position=7&pageNum=7&refId=ViQcSBc4RCcAZhwTaeCoCQ%3D%3D&trackingId=cwtUCXVkKSnA3ILvvOWP1Q%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4467189314",
+      "company": "Bertrandt Group",
+      "title": "Test Automation Engineer (Python)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/test-automation-engineer-python-at-bertrandt-group-4467189314?position=7&pageNum=31&refId=praE5kWhtbfvyhfG%2BJNsQQ%3D%3D&trackingId=mxqWzjJZT7a8FGpFcSzFWQ%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4455949461",
+      "company": "Faculty of Technical Sciences, University of Novi Sad",
+      "title": "Пракса – Python QA Automation Engineer",
+      "location": "Sector 6, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/%D0%BF%D1%80%D0%B0%D0%BA%D1%81%D0%B0-%E2%80%93-python-qa-automation-engineer-at-faculty-of-technical-sciences-university-of-novi-sad-4455949461?position=9&pageNum=32&refId=s%2Bgzu9JwaI%2BtIDsdN7PBaw%3D%3D&trackingId=Oep%2Fy12PWhsdXSaDXWH31A%3D%3D",
       "source": "linkedin",
       "description": ""
     }
   ],
-  "scraped_at": "2026-10-14T08:45:18+00:00",
+  "scraped_at": "2026-10-15T08:20:10+00:00",
   "query": {
     "title": "Python developer",
     "city": "Bucharest"
