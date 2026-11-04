@@ -1,6 +1,5 @@
 import argparse
 import json
-import re
 import time
 import urllib.parse
 import sys
@@ -11,6 +10,7 @@ import requests
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from backend.scrappers.helpers.location_normalizer import romanian_city, translate_location_with_city_scan
+from backend.scrappers.helpers.relevance import is_relevant
 
 BASE_URL = "https://www.bestjobs.eu"
 
@@ -161,7 +161,11 @@ def collect_all_jobs(title, location, page_size=25, max_pages=0, mode="loose") -
         time.sleep(0.5)
         page += 1
 
-    return all_jobs
+    # BestJobs answers a title search with loosely related postings (support,
+    # .NET, sales...), so filter once after collection, like the other sources.
+    relevant = [job for job in all_jobs if is_relevant(job, title, mode)]
+    print(f"[BestJobs] Collected {len(all_jobs)} unique jobs, {len(relevant)} relevant (mode={mode})")
+    return relevant
 
 
 def main() -> None:
@@ -171,6 +175,8 @@ def main() -> None:
     parser.add_argument("--page-size", type=int, default=24, help="Listings page size")
     parser.add_argument("--max-pages", type=int, default=0, help="Max pages to fetch (0 = no limit)")
     parser.add_argument("--output", default="job-results/bestjobs-results.json", help="Output JSON file path")
+    parser.add_argument("--mode", choices=["strict", "loose", "none"], default="loose",
+                        help="Job filtering mode")
     args = parser.parse_args()
 
     jobs = collect_all_jobs(
@@ -178,6 +184,7 @@ def main() -> None:
         location=args.location,
         page_size=args.page_size,
         max_pages=args.max_pages,
+        mode=args.mode,
     )
     output_payload = {
         "total_jobs_found": len(jobs),

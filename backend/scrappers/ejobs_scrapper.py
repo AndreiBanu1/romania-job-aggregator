@@ -4,10 +4,10 @@ import json
 import time
 import sys
 from pathlib import Path
-from typing import Optional, Union
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from backend.scrappers.helpers.location_normalizer import alias_candidates, normalize_text, translate_location_to_english
+from backend.scrappers.helpers.rate_limiter import backoff_delay, parse_retry_after
 from backend.scrappers.helpers.relevance import is_relevant
 
 BASE_URL = "https://api.ejobs.ro"
@@ -18,9 +18,33 @@ HEADERS = {
 }
 
 
+class SourceBlocked(RuntimeError):
+    """eJobs refused us outright (403 / bot challenge). Retrying will not help."""
+
+
+# Exit code for a blocked source, distinct from a crash, so logs say "blocked".
+EXIT_BLOCKED = 3
+
+
+def _get(url: str, params: dict | None = None, retries: int = 3) -> requests.Response:
+    """GET with backoff on 429 and a clear error when we are blocked."""
+    for attempt in range(retries + 1):
+        response = requests.get(url, headers=HEADERS, params=params, timeout=20)
+        if response.status_code == 403:
+            raise SourceBlocked(
+                f"eJobs returned 403 for {response.url} (bot protection); skipping this source"
+            )
+        if response.status_code == 429 and attempt < retries:
+            wait = parse_retry_after(response.headers.get("Retry-After"), backoff_delay(attempt))
+            print(f"[eJobs] 429 rate limit. Waiting {wait:.1f}s...")
+            time.sleep(wait)
+            continue
+        return response
+    return response
+
+
 def get_locations() -> list[dict]:
-    url = f"{BASE_URL}/locations"
-    response = requests.get(url, headers=HEADERS, timeout=20)
+    response = _get(f"{BASE_URL}/locations")
     response.raise_for_status()
     data = response.json()
     return data.get("locations", [])
@@ -83,11 +107,12 @@ def get_jobs(
     page_size: int = 40,
     max_pages: int = 0,
     mode: str = "loose",
+    locations: list[dict] | None = None,
 ) -> list[dict[str, str]]:
 
     jobs: list[dict[str, str]] = []
     seen_ids: set[str] = set()
-    location_index = _build_location_index(get_locations())
+    location_index = _build_location_index(locations if locations is not None else get_locations())
 
     page = 1
     while max_pages <= 0 or page <= max_pages:
@@ -103,12 +128,7 @@ def get_jobs(
         if keyword:
             params["q"] = keyword
 
-        response = requests.get(
-            f"{BASE_URL}/jobs",
-            headers=HEADERS,
-            params=params,
-            timeout=20,
-        )
+        response = _get(f"{BASE_URL}/jobs", params=params)
         if response.status_code == 404:
             break
         response.raise_for_status()
@@ -165,6 +185,7 @@ def collect_all_jobs(title, location, page_size=25, max_pages=0, mode="loose") -
         page_size=page_size,
         max_pages=max_pages,
         mode=mode,
+        locations=locations,
     )
 
 
@@ -183,23 +204,17 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    locations = get_locations()
-    city_id = _resolve_city_id(args.location, locations)
-    if city_id is None:
-        available = ", ".join(
-            sorted(location.get("name", "") for location in locations if location.get("name"))[:15]
+    try:
+        jobs = collect_all_jobs(
+            title=args.title,
+            location=args.location,
+            page_size=args.page_size,
+            max_pages=args.max_pages,
+            mode=args.mode,
         )
-        raise ValueError(
-            f"Unknown location '{args.location}'. Example valid values: {available}"
-        )
-
-    jobs = get_jobs(
-        city_id=city_id,
-        keyword=args.title,
-        page_size=args.page_size,
-        max_pages=args.max_pages,
-        mode=args.mode,
-    )
+    except SourceBlocked as error:
+        print(f"[eJobs] {error}", file=sys.stderr)
+        sys.exit(EXIT_BLOCKED)
 
     output_payload = {
         "total_jobs_found": len(jobs),

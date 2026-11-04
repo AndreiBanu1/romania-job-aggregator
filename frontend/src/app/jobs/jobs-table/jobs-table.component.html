@@ -28,6 +28,12 @@
           @for (entry of sourceSummary() | keyvalue; track entry.key) {
             <span>{{ entry.key }}: {{ entry.value }}</span>
           }
+          @for (source of failedSources(); track source) {
+            <span
+              class="source-summary__failed"
+              matTooltip="This source refused or failed the request, so its jobs are missing from these results."
+            >{{ source }}: unavailable</span>
+          }
         </div>
       </div>
 

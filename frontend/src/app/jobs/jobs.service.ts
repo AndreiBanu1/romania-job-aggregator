@@ -17,6 +17,8 @@ export interface Job {
 export interface JobsResponse {
   total_jobs_found: number;
   sources_summary: Record<string, number>;
+  /** Sources that errored or blocked us, as opposed to returning no matches. */
+  failed_sources?: string[];
   jobs: Job[];
 }
 
@@ -43,6 +45,7 @@ export class JobsService {
   loading = signal(false);
   total_jobs_found = signal(0);
   sources_summary = signal<Record<string, number>>({});
+  failed_sources = signal<string[]>([]);
   error = signal<string | null>(null);
 
   lastQuery = signal<{ title: string; city: string } | null>(null);
@@ -62,6 +65,7 @@ export class JobsService {
         this.jobs.set(response.jobs);
         this.total_jobs_found.set(response.total_jobs_found);
         this.sources_summary.set(response.sources_summary);
+        this.failed_sources.set(response.failed_sources ?? []);
         this.seedDescriptions(response.jobs);
         this.loading.set(false);
       },

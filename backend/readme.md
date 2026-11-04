@@ -1,6 +1,6 @@
 ```bash
 source .venv/bin/activate
-python -m backend.scrappers.unified_scrapper --title "Angular" --location "Bucharest" --mode "strict" --output "job-results/jobs-angular.json"
+python backend/scrappers/aggregate_scrappers.py --title "Angular" --location "Bucharest" --mode "strict" --output "job-results/jobs-angular.json"
 ```
 
 If `jooble` returns `403`, pass a valid browser cookie:
@@ -42,8 +42,12 @@ python -m backend.scrappers.bestjobs_scrapper \
   --output backend/scrappers/job-results/test-bestjobs.json
 ```
 
+The LinkedIn, eJobs and BestJobs scrapers take `--mode strict|loose|none`
+(default `loose`) to filter titles by relevance. The
+aggregator lists any source that errored or blocked the request under
+`failed_sources` in its output, so "no matches" and "no answer" stay distinct.
+
 Generated files:
-- `backend/scrappers/job-results/jobs-test-unified.json`
 - `backend/scrappers/job-results/test-linkedin.json`
 - `backend/scrappers/job-results/test-ejobs.json`
 - `backend/scrappers/job-results/test-bestjobs.json`
@@ -53,7 +57,7 @@ Optional analysis flow:
 
 ```bash
 source .venv/bin/activate
-python -m backend.scrappers.unified_scrapper \
+python backend/scrappers/aggregate_scrappers.py \
   --title "Software Engineer" \
   --location "Bucharest" \
   --mode none \

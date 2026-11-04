@@ -1,10 +1,10 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "```bash python run-all-scrapers.py --title Angular --location Bucharest --page-size 25 --max-pages 0 --prefix jobs-test ```",
-  "main": "index.js",
+  "description": "Express API that runs the Python job scrapers",
+  "main": "api.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "cd .. && python3 -m unittest discover -s backend/tests -t .",
     "start": "node api.js",
     "dev": "nodemon api.js"
   },

@@ -250,7 +250,7 @@ exactly what the hosted site does.
 
 ```bash
 cd frontend && npm test                                  # 20 Karma/Jasmine specs
-.venv/bin/python -m unittest discover -s backend/tests -t .   # 74 unittest tests
+.venv/bin/python -m unittest discover -s backend/tests -t .   # 81 unittest tests
 ```
 
 The frontend specs cover the two pieces of logic with real invariants: snapshot
@@ -301,8 +301,12 @@ wrangler.jsonc               the assets-only Worker (output dir, SPA fallback)
 - **`jooble_scrapper.py` is not wired in.** It exists and works with a browser
   cookie, but `aggregate_scrappers.py` does not call it (Jooble answers `403`
   without one).
-- **No linter or formatter** is configured, and there is no CI check on pull
-  requests — only the scheduled data refresh.
+- **Linting is minimal.** CI (`.github/workflows/ci.yml`) runs Ruff on the
+  backend with correctness rules only, plus both test suites and the production
+  build. There is no frontend linter or formatter yet.
+- **eJobs is behind Cloudflare bot protection** and currently answers `403`, so
+  it contributes no jobs; the results summary marks it as unavailable rather
+  than silently showing zero.
 - **Scraping is inherently brittle.** Each scraper depends on a site's current
   markup or internal JSON; sources change without notice. The per-source failure
   handling means one broken scraper degrades the results rather than failing the
