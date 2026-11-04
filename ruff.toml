@@ -1,0 +1,9 @@
+# Python lint config for backend/. Kept to the classic correctness rules
+# (pyflakes + syntax/statement errors) so CI catches real bugs without a
+# style-only rewrite of the scrapers. Widen `select` deliberately, one rule
+# family at a time.
+target-version = "py310"
+line-length = 100
+
+[lint]
+select = ["E4", "E7", "E9", "F"]

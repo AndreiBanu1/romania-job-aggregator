@@ -109,40 +109,6 @@ def _sort_jobs(jobs: list[dict[str, str]]) -> list[dict[str, str]]:
             str(job.get("id", "")).strip(),
         ),
     )
-    
-def count_keywords(jobs):
-    counts = {
-        "react": 0,
-        "angular": 0,
-        "java": 0,
-        "python": 0,
-    }
-
-    for job in jobs:
-        text = job["title"].lower()
-
-        for key in counts:
-            if key in text:
-                counts[key] += 1
-
-    return counts
-
-
-def aggregate_jobs(all_jobs_dict: dict[str, list[dict[str, str]]]) -> list[dict[str, str]]:
-    """Aggregate jobs from multiple sources into a single deduplicated list."""
-    all_jobs: list[dict[str, str]] = []
-    
-    for source_name, jobs in all_jobs_dict.items():
-        for job in jobs:
-            if not isinstance(job, dict):
-                continue
-            tagged_job = dict(job)
-            tagged_job["source"] = source_name
-            all_jobs.append(tagged_job)
-    
-    merged_jobs = _dedupe_jobs(all_jobs)
-    sorted_jobs = _sort_jobs(merged_jobs)
-    return sorted_jobs
 
 
 def main() -> None:
@@ -169,7 +135,7 @@ def main() -> None:
     scrapers = [
         ("linkedin", backend_dir / "linkedin_scrapper.py", True),
         ("ejobs", backend_dir / "ejobs_scrapper.py", True),
-        ("bestjobs", backend_dir / "bestjobs_scrapper.py", False),
+        ("bestjobs", backend_dir / "bestjobs_scrapper.py", True),
     ]
 
     available_scrapers = [
@@ -180,6 +146,8 @@ def main() -> None:
             print(f"Skipping missing scraper: {path.name}")
 
     all_jobs: list[dict[str, str]] = []
+    # Sources that errored out, so callers can tell "no jobs" from "no answer".
+    failed_sources: list[str] = []
     with ThreadPoolExecutor(max_workers=len(available_scrapers) or 1) as executor:
         future_to_source = {
             executor.submit(
@@ -201,10 +169,15 @@ def main() -> None:
             try:
                 all_jobs.extend(future.result())
             except subprocess.CalledProcessError as error:
+                failed_sources.append(source_name)
                 stderr = error.stderr.strip() if error.stderr else ""
                 print(f"Scraper failed: {scraper_path.name}")
                 if stderr:
                     print(stderr)
+            except (OSError, json.JSONDecodeError) as error:
+                # Unreadable output from one source must not lose the others.
+                failed_sources.append(source_name)
+                print(f"Scraper output unreadable: {scraper_path.name} ({error})")
 
     merged_jobs = _dedupe_jobs(all_jobs)
     sorted_jobs = _sort_jobs(merged_jobs)
@@ -223,6 +196,7 @@ def main() -> None:
     output_payload = {
         "total_jobs_found": len(sorted_jobs),
         "sources_summary": sources_summary,
+        "failed_sources": sorted(failed_sources),
         "jobs": sorted_jobs,
     }
 

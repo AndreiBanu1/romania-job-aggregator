@@ -30,6 +30,11 @@
   transition: border-color var(--transition-fast), color var(--transition-fast);
 }
 
+.source-summary .source-summary__failed {
+  border-style: dashed;
+  opacity: 0.75;
+}
+
 .source-summary span:hover {
   border-color: var(--accent);
   color: var(--text-primary);

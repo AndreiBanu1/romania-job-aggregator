@@ -61,6 +61,7 @@ export class JobsTableComponent {
   loading = this.jobsService.loading;
   totalJobsFound = this.jobsService.total_jobs_found;
   sourceSummary = this.jobsService.sources_summary;
+  failedSources = this.jobsService.failed_sources;
   error = this.jobsService.error;
   lastQuery = this.jobsService.lastQuery;
 

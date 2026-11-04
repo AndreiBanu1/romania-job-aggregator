@@ -115,6 +115,7 @@ def main() -> int:
 
     manifest_entries = []
     failures = 0
+    failed_by_source: dict[str, list[str]] = {}
 
     for query in queries:
         title, city = query["title"], query["city"]
@@ -125,6 +126,11 @@ def main() -> int:
         payload = scrape(title, city, desc_limit, mode)
         jobs = (payload or {}).get("jobs") or []
         previous = load_existing(target)
+
+        # A source that errored is not the same as a source with no matches.
+        # Surface it so a blocked source cannot quietly vanish for weeks.
+        for source in (payload or {}).get("failed_sources") or []:
+            failed_by_source.setdefault(source, []).append(slug)
 
         if not jobs:
             failures += 1
@@ -157,6 +163,7 @@ def main() -> int:
                 "slug": slug,
                 "total": payload.get("total_jobs_found", len(jobs)),
                 "scrapedAt": now,
+                "failedSources": payload.get("failed_sources") or [],
             }
         )
         print(f"  saved {len(jobs)} jobs")
@@ -175,6 +182,12 @@ def main() -> int:
     (OUTPUT_DIR / "cities.json").write_text(
         CITIES.read_text(encoding="utf-8"), encoding="utf-8"
     )
+
+    for source, slugs in sorted(failed_by_source.items()):
+        message = f"Source '{source}' failed for {len(slugs)}/{len(queries)} queries"
+        print(message, file=sys.stderr)
+        # Shows up as an annotation on the run summary in GitHub Actions.
+        print(f"::warning title=Source unavailable::{message}")
 
     print(
         f"\nWrote {len(manifest_entries)} snapshots to {OUTPUT_DIR.relative_to(REPO_ROOT)}"

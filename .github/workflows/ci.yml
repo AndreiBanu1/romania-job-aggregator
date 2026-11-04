@@ -1,0 +1,80 @@
+name: CI
+
+# Lint, test and build on every push and pull request, so a broken scraper,
+# API or frontend is caught before Cloudflare deploys it. The nightly data
+# refresh only touches frontend/public/demo-data, so it is skipped here.
+on:
+  push:
+    branches: [master]
+    paths-ignore:
+      - "frontend/public/demo-data/**"
+      - "**/*.md"
+  pull_request:
+    paths-ignore:
+      - "frontend/public/demo-data/**"
+      - "**/*.md"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .node-version
+          cache: npm
+          cache-dependency-path: backend/package-lock.json
+
+      - name: Install
+        run: |
+          pip install -r backend/requirements.txt ruff
+          npm ci --prefix backend
+
+      - name: Lint (Ruff)
+        run: ruff check backend
+
+      - name: Check API syntax
+        run: node --check backend/api.js
+
+      - name: Unit tests
+        run: python -m unittest discover -s backend/tests -t .
+
+  frontend:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .node-version
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install
+        run: npm ci
+
+      - name: Unit tests
+        run: npx ng test --watch=false --browsers=ChromeHeadless
+
+      - name: Production build
+        run: npx ng build

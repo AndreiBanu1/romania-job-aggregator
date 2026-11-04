@@ -1,16 +1,35 @@
 const express = require('express')
+const cors = require('cors')
 const { spawn } = require('child_process')
 const fs = require('fs')
 const os = require('os')
 const crypto = require('crypto')
+const path = require('path')
+
+const PORT = Number(process.env.PORT) || 3000
+
+// Comma-separated list of origins allowed to call the API. Defaults to the
+// Angular dev server; an open CORS policy would let any site drive scrapes.
+const ALLOWED_ORIGINS = (process.env.ALLOWED_ORIGINS || 'http://localhost:4200')
+  .split(',')
+  .map((origin) => origin.trim())
+  .filter(Boolean)
+
+// A full search spawns ~4 Python processes and runs for 15-30s. Without a cap,
+// a handful of concurrent requests can exhaust a small machine.
+const MAX_CONCURRENT_SEARCHES = Number(process.env.MAX_CONCURRENT_SEARCHES) || 2
+const SEARCH_TIMEOUT_MS = Number(process.env.SEARCH_TIMEOUT_MS) || 5 * 60 * 1000
+const DESCRIPTION_TIMEOUT_MS = Number(process.env.DESCRIPTION_TIMEOUT_MS) || 60 * 1000
+
+const MAX_TITLE_LENGTH = 100
+const MAX_CITY_LENGTH = 60
+const MAX_HREF_LENGTH = 2048
 
 const app = express()
-const PORT = 3000
+app.disable('x-powered-by')
+app.use(cors({ origin: ALLOWED_ORIGINS }))
+app.use(express.json({ limit: '10kb' }))
 
-app.use(require('cors')())
-app.use(express.json())
-
-const path = require('path')
 const citiesPath = path.join(__dirname, 'scrappers', 'romanian_cities.json')
 const cities = JSON.parse(fs.readFileSync(citiesPath, 'utf8'))
 
@@ -34,137 +53,202 @@ function resolveDescLimit(value) {
   return Math.min(parsed, MAX_DESC_LIMIT)
 }
 
-app.post('/jobs', (req, res) => {
-  const { title, city, mode, descriptions, descLimit } = req.body
+function isNonEmptyString(value, maxLength) {
+  return typeof value === 'string' && value.trim() !== '' && value.length <= maxLength
+}
 
-  if (typeof title !== 'string' || !title.trim()) {
-    return res.status(400).json({ error: 'title is required' })
+/**
+ * Runs a Python script with a hard timeout, and kills it if the client goes
+ * away first, so abandoned requests do not keep scraping in the background.
+ * Resolves with { code, stdout, stderr, reason } where reason is
+ * 'exit' | 'timeout' | 'aborted' | 'spawn-error'.
+ */
+function runPython(args, { timeoutMs, res }) {
+  return new Promise((resolve) => {
+    // Own process group, so a kill also reaches the per-source scrapers the
+    // aggregator spawns; killing only the parent would orphan them.
+    const child = spawn(resolvePython(), args, { cwd: projectRoot, detached: true })
+    const killTree = () => {
+      try {
+        process.kill(-child.pid, 'SIGKILL')
+      } catch {
+        child.kill('SIGKILL')
+      }
+    }
+    let stdout = ''
+    let stderr = ''
+    let reason = 'exit'
+    let settled = false
+
+    const finish = (result) => {
+      if (settled) return
+      settled = true
+      clearTimeout(timer)
+      res.off('close', onClientClose)
+      resolve(result)
+    }
+
+    const timer = setTimeout(() => {
+      reason = 'timeout'
+      killTree()
+    }, timeoutMs)
+
+    // The response emits 'close' when the connection goes away. (The
+    // request's own 'close' fires as soon as its body has been read, so it
+    // cannot signal a disconnect.) Only an unfinished response means the
+    // client gave up.
+    const onClientClose = () => {
+      if (!res.writableEnded) {
+        reason = 'aborted'
+        killTree()
+      }
+    }
+    res.on('close', onClientClose)
+
+    child.stdout.on('data', (chunk) => {
+      stdout += chunk
+    })
+    child.stderr.on('data', (chunk) => {
+      stderr += chunk
+    })
+
+    child.on('error', (err) => {
+      finish({ code: null, stdout, stderr: err.message, reason: 'spawn-error' })
+    })
+    child.on('close', (code) => {
+      finish({ code, stdout, stderr, reason })
+    })
+  })
+}
+
+/** Server-side detail for the logs; never sent to the client. */
+function logFailure(label, result) {
+  console.error(
+    `[${label}] failed (reason=${result.reason}, code=${result.code})`,
+    result.stderr.trim().slice(-2000),
+  )
+}
+
+let activeSearches = 0
+
+app.post('/jobs', async (req, res) => {
+  const { title, city, mode, descriptions, descLimit } = req.body ?? {}
+
+  if (!isNonEmptyString(title, MAX_TITLE_LENGTH)) {
+    return res.status(400).json({ error: `title is required (max ${MAX_TITLE_LENGTH} characters)` })
   }
-  if (typeof city !== 'string' || !city.trim()) {
-    return res.status(400).json({ error: 'city is required' })
+  if (!isNonEmptyString(city, MAX_CITY_LENGTH)) {
+    return res.status(400).json({ error: `city is required (max ${MAX_CITY_LENGTH} characters)` })
+  }
+
+  if (activeSearches >= MAX_CONCURRENT_SEARCHES) {
+    res.set('Retry-After', '30')
+    return res.status(503).json({ error: 'The server is busy with other searches. Try again in a moment.' })
   }
 
   const filterMode = ['strict', 'loose', 'none'].includes(mode) ? mode : 'loose'
-  const wantDescriptions = descriptions === true
 
-  const scriptPath = path.join(__dirname, 'scrappers', 'aggregate_scrappers.py')
   // Unique per request: a shared temp file lets concurrent searches overwrite
   // each other's results.
-  const outputPath = path.join(
-    os.tmpdir(),
-    `jobs-${crypto.randomUUID()}.json`,
-  )
+  const outputPath = path.join(os.tmpdir(), `jobs-${crypto.randomUUID()}.json`)
 
   const scriptArgs = [
-    scriptPath,
-    '--title',
-    title,
-    '--location',
-    city,
-    '--page-size',
-    '25',
-    '--max-pages',
-    '0',
-    '--mode',
-    filterMode,
-    '--output',
-    outputPath,
+    path.join(__dirname, 'scrappers', 'aggregate_scrappers.py'),
+    '--title', title.trim(),
+    '--location', city.trim(),
+    '--page-size', '25',
+    '--max-pages', '0',
+    '--mode', filterMode,
+    '--output', outputPath,
   ]
-
-  if (wantDescriptions) {
+  if (descriptions === true) {
     scriptArgs.push('--descriptions', '--desc-limit', String(resolveDescLimit(descLimit)))
   }
 
-  // Argument array, no shell: user input can never be interpreted as a command.
-  const child = spawn(resolvePython(), scriptArgs, { cwd: projectRoot })
+  activeSearches += 1
+  try {
+    // Argument array, no shell: user input can never be interpreted as a command.
+    const result = await runPython(scriptArgs, { timeoutMs: SEARCH_TIMEOUT_MS, res })
 
-  let stderr = ''
-  child.stderr.on('data', (chunk) => {
-    stderr += chunk
-  })
-  child.stdout.on('data', (chunk) => process.stdout.write(chunk))
-
-  const cleanup = () => fs.promises.unlink(outputPath).catch(() => {})
-
-  child.on('error', (err) => {
-    res.status(500).json({ error: `Failed to start scraper: ${err.message}` })
-  })
-
-  child.on('close', (code) => {
-    if (code !== 0) {
-      cleanup()
-      return res.status(500).json({ error: stderr || `Scraper exited with code ${code}` })
+    if (result.reason === 'aborted') return
+    if (result.reason === 'timeout') {
+      logFailure('jobs', result)
+      return res.status(504).json({ error: 'The search took too long. Try a narrower query.' })
+    }
+    if (result.code !== 0) {
+      logFailure('jobs', result)
+      return res.status(500).json({ error: 'The search failed. Please try again.' })
     }
 
-    fs.readFile(outputPath, 'utf8', (err, data) => {
-      cleanup()
-      if (err) return res.status(500).json({ error: 'Failed to read JSON' })
-      try {
-        res.json(JSON.parse(data))
-      } catch {
-        res.status(500).json({ error: 'Scraper produced invalid JSON' })
-      }
-    })
-  })
+    const data = await fs.promises.readFile(outputPath, 'utf8')
+    res.json(JSON.parse(data))
+  } catch (err) {
+    console.error('[jobs] could not read scraper output', err)
+    if (!res.headersSent) res.status(500).json({ error: 'The search failed. Please try again.' })
+  } finally {
+    activeSearches -= 1
+    fs.promises.unlink(outputPath).catch(() => {})
+  }
 })
 
 // One description, fetched when the user actually opens a job. Keeps the
 // search itself fast while still making descriptions reachable in the UI.
-app.post('/job-description', (req, res) => {
-  const { href } = req.body
+app.post('/job-description', async (req, res) => {
+  const { href } = req.body ?? {}
 
-  if (typeof href !== 'string' || !href.trim()) {
+  if (!isNonEmptyString(href, MAX_HREF_LENGTH)) {
     return res.status(400).json({ error: 'href is required' })
   }
 
   const scriptPath = path.join(__dirname, 'scrappers', 'fetch_description.py')
-  const child = spawn(resolvePython(), [scriptPath, '--url', href], {
-    cwd: projectRoot,
+  const result = await runPython([scriptPath, '--url', href], {
+    timeoutMs: DESCRIPTION_TIMEOUT_MS,
+    res,
   })
 
-  let stdout = ''
-  let stderr = ''
-  child.stdout.on('data', (chunk) => {
-    stdout += chunk
-  })
-  child.stderr.on('data', (chunk) => {
-    stderr += chunk
-  })
+  if (result.reason === 'aborted') return
+  if (result.reason === 'timeout') {
+    logFailure('job-description', result)
+    return res.status(504).json({ error: 'Fetching the description took too long.' })
+  }
 
-  child.on('error', (err) => {
-    res.status(500).json({ error: `Failed to start fetcher: ${err.message}` })
-  })
+  let payload
+  try {
+    payload = JSON.parse(result.stdout)
+  } catch {
+    logFailure('job-description', result)
+    return res.status(500).json({ error: 'Could not fetch the description.' })
+  }
 
-  child.on('close', (code) => {
-    let payload
-    try {
-      payload = JSON.parse(stdout)
-    } catch {
-      return res
-        .status(500)
-        .json({ error: stderr.trim() || 'Fetcher produced invalid JSON' })
-    }
+  // Exit code 2 means the host was rejected, which is the caller's fault.
+  if (result.code === 2) return res.status(400).json(payload)
+  if (result.code !== 0) {
+    logFailure('job-description', result)
+    return res.status(500).json({ error: 'Could not fetch the description.' })
+  }
 
-    // Exit code 2 means the host was rejected, which is the caller's fault.
-    if (code === 2) return res.status(400).json(payload)
-    if (code !== 0) {
-      return res.status(500).json({ error: payload.error || `Fetcher exited with code ${code}` })
-    }
-
-    res.json(payload)
-  })
+  res.json(payload)
 })
 
-app.post('/jobs-mock', (req, res) => {
-  const mockPath = path.join(__dirname, 'jobs_response_example.json')
-  fs.readFile(mockPath, 'utf8', (err, data) => {
-    if (err) return res.status(500).json({ error: 'Failed to read mock JSON' })
+app.post('/jobs-mock', async (req, res) => {
+  try {
+    const data = await fs.promises.readFile(
+      path.join(__dirname, 'jobs_response_example.json'),
+      'utf8',
+    )
     res.json(JSON.parse(data))
-  })
+  } catch (err) {
+    console.error('[jobs-mock] could not read fixture', err)
+    res.status(500).json({ error: 'Failed to read mock JSON' })
+  }
 })
 
 app.get('/cities', (req, res) => {
   res.json(cities)
+})
+
+app.get('/health', (req, res) => {
+  res.json({ status: 'ok', activeSearches })
 })
 
 app.listen(PORT, () => console.log(`API running on http://localhost:${PORT}`))

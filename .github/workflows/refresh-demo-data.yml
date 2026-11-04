@@ -31,9 +31,9 @@ jobs:
     timeout-minutes: 30
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
           cache: pip
@@ -63,6 +63,16 @@ jobs:
             exit 0
           fi
           git commit -m "chore(demo): refresh scraped job snapshots"
-          # Rebase in case a real commit landed while the scrape was running.
-          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+          # GitHub occasionally answers a push with a transient 500, which
+          # would throw away a 10-minute scrape. Retry with backoff; the rebase
+          # also picks up any real commit that landed while the scrape ran.
+          for attempt in 1 2 3 4; do
+            if git pull --rebase --autostash origin "${GITHUB_REF_NAME}" \
+              && git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              exit 0
+            fi
+            echo "Push attempt ${attempt} failed; retrying in $((attempt * 15))s"
+            sleep $((attempt * 15))
+          done
+          echo "::error::Could not push the refreshed snapshots after 4 attempts"
+          exit 1
