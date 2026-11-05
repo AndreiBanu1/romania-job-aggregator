@@ -1,2869 +1,37 @@
 {
-  "total_jobs_found": 360,
+  "total_jobs_found": 72,
   "sources_summary": {
-    "bestjobs": 317,
-    "linkedin": 43
+    "linkedin": 72
   },
+  "failed_sources": [
+    "bestjobs",
+    "ejobs"
+  ],
   "jobs": [
     {
-      "id": "52073170",
-      "company": "SupportYourApp",
-      "title": "(Fluent English) T3 Support Engineer (EU, Remote)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/fluent-english-t3-support-engineer-eu-remote-1/52073170",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074695",
-      "company": "SupportYourApp",
-      "title": "(Fluent English) Technical Support Engineer (PHP/JavaScript, SQL)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/fluent-english-technical-support-engineer-php-javascript-sql/52074695",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "51917584",
-      "company": "Smart ID Technology",
-      "title": ".Net Full Stack Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/net-full-stack-developer-18/51917584",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52073174",
-      "company": "Nagarro",
-      "title": ".NET Fullstack Developer (with Kubernetes experience)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/net-fullstack-developer-with-kubernetes-experience/52073174",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52070156",
-      "company": "AMANO EUROPE NV, Genk - Bucharest Branch",
-      "title": ".NET Software developer/C#",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/net-software-developer-c-6/52070156",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52055299",
-      "company": "EA Sports",
-      "title": ".NET Software Engineer - EA Sports FC",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/net-software-engineer-ea-sports-fc/52055299",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074960",
-      "company": "Intetics",
-      "title": "1194 | Middle/Middle+ JavaScript/TypeScript Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/1194-middle-middle-javascript-typescript-engineer/52074960",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075173",
-      "company": "Evoke",
-      "title": "AI Enablement TL (6 months contract)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/ai-enablement-tl-6-months-contract-2/52075173",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52064442",
-      "company": "WisdomTree",
-      "title": "AI Engineer, Investment Research",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/ai-engineer-investment-research/52064442",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52057320",
-      "company": "Sparkrock",
-      "title": "AI-Enabled .NET Chief Architect (OTE $100,000/year USD), @Sparkrock",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/ai-enabled-net-chief-architect-ote-100-000-year-usd-sparkrock-1/52057320",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52002771",
-      "company": "Alecu Alexandru",
-      "title": "Angajam Programator Full Stack",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/angajam-programator-full-stack/52002771",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52068518",
-      "company": "Smart Apartment Data",
-      "title": "Angular Frontend Developer (4k to 4.5k USD monthly)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/angular-frontend-developer-4k-to-4-5k-usd-monthly/52068518",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52014527",
-      "company": "Homefile.ro",
-      "title": "Angular Nodejs web / mobile developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/angular-nodejs-web-mobile-developer-1/52014527",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52071043",
-      "company": "Expand Concept",
-      "title": "API and Governance Expert",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/api-and-governance-expert/52071043",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52061032",
-      "company": "Stagii pe Bune",
-      "title": "Arcanna.ai - Junior Developer - Paid and Full time",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/arcanna-ai-junior-developer-paid-and-full-time/52061032",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52007466",
-      "company": "Black Square",
-      "title": "Automation Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/automation-developer-12/52007466",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52015991",
-      "company": "ORANGE SERVICES",
-      "title": "Automation Developer with UiPath RPA & Agentic AI",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/automation-developer-with-uipath-rpa-agentic-ai-1/52015991",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52072969",
-      "company": "Poland and Middle-Eastern Europe",
-      "title": "B2B PHP Senior Developer, Romania",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/b2b-php-senior-developer-romania/52072969",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52003561",
-      "company": "Clear Data",
-      "title": "Back End Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/back-end-developer-108/52003561",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "51997685",
-      "company": "UNIGENS",
-      "title": "Back-End Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/back-end-developer-106/51997685",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52013372",
-      "company": "THEFACTORY",
-      "title": "Back-end developer (PHP / Laravel)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/back-end-developer-php-laravel-1/52013372",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074580",
-      "company": "Evoke",
-      "title": "Back-End Engineer Casino Infra",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/back-end-engineer-casino-infra-1/52074580",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52015847",
-      "company": "Global Hr Services",
-      "title": "Backend Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/backend-developer-139/52015847",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075842",
-      "company": "EC Markets",
-      "title": "Backend Developer (Java) — Bucharest",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/backend-developer-java-bucharest/52075842",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52072714",
-      "company": "Publicis Groupe Holdings B.V",
-      "title": "Business Analyst– CMS/DAM (AEM)- Specialist- Automotive",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/business-analyst-cms-dam-aem-specialist-automotive/52072714",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52012172",
-      "company": "Lundin Software",
-      "title": "C# Software Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/c-software-developer-174/52012172",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52056944",
-      "company": "LSEG",
-      "title": "CDSClear Lead Java Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/cdsclear-lead-java-engineer/52056944",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52056945",
-      "company": "LSEG",
-      "title": "CDSClear Web Quality Assurance Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/cdsclear-web-quality-assurance-engineer/52056945",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52072848",
-      "company": "ADERA PRO DATA",
-      "title": "Coordonator suport clienti",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/coordonator-suport-clienti-1/52072848",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52057594",
-      "company": "Nova",
-      "title": "CTO & Senior Backend Architect (Co-Founder)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/cto-senior-backend-architect-co-founder/52057594",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "51997290",
-      "company": "Meet IT Solution",
-      "title": "Data Integration Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/data-integration-engineer-4/51997290",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52076011",
-      "company": "HAGAG DISTRIBUTIE SI FURNIZARE",
-      "title": "Developer CRM/ERP Back End",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/developer-crm-erp-back-end/52076011",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52076015",
-      "company": "HAGAG DISTRIBUTIE SI FURNIZARE",
-      "title": "Developer CRM/ERP Fronted",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/developer-crm-erp-fronted/52076015",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52076012",
-      "company": "HAGAG DISTRIBUTIE SI FURNIZARE",
-      "title": "Developer ERP/CRM Full Stack",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/developer-erp-crm-full-stack/52076012",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52022570",
-      "company": "GDRomania",
-      "title": "Developer in Test-Technical Lead",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/developer-in-test-technical-lead/52022570",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075647",
-      "company": "Tether Operations Limited",
-      "title": "Developer Productivity Engineer (100% Remote)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/developer-productivity-engineer-100-remote/52075647",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52016995",
-      "company": "CERTSIGN",
-      "title": "Dezv. Software Fullstack Senior (Java&Angular)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/dezv-software-fullstack-senior-java-angular-1/52016995",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52007033",
-      "company": "Regia Autonoma RASIROM",
-      "title": "Dezvoltator Backend",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/dezvoltator-backend/52007033",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52007035",
-      "company": "Regia Autonoma RASIROM",
-      "title": "Dezvoltator Frontend",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/dezvoltator-frontend/52007035",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "51992262",
-      "company": "WIMMOV",
-      "title": "Dezvoltator Fullstack TypeScript (NestJS / React)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/dezvoltator-fullstack-typescript-nestjs-react/51992262",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52007281",
-      "company": "Regia Autonoma RASIROM",
-      "title": "Dezvoltator Mobile",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/dezvoltator-mobile/52007281",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52027985",
-      "company": "APA NOVA BUCURESTI",
-      "title": "DEZVOLTATOR SALESFORCE",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/dezvoltator-salesforce/52027985",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "51662261",
-      "company": "NEURATECH",
-      "title": "Dezvoltator Web",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/candidatii-mei-2950/51662261",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074758",
-      "company": "Serious Development",
-      "title": "Director, Engineering Management",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/director-engineering-management/52074758",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52054509",
-      "company": "PEOPLECERT",
-      "title": "Dynamics 365 CRM Developer (Mid-Level)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/dynamics-365-crm-developer-mid-level/52054509",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52073837",
-      "company": "Cegedim Service Center",
-      "title": "Développeur logiciel / Ingénieur logiciel Java",
-      "location": "Șoseaua Pipera 42, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/developpeur-logiciel-ingenieur-logiciel-java/52073837",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075861",
-      "company": "Finom",
-      "title": "Engineering Manager",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/engineering-manager-150/52075861",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52001871",
-      "company": "Proptech Lab",
-      "title": "Experienced Laravel PHP Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/experienced-laravel-php-developer-10/52001871",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52009889",
-      "company": "Proptech Lab",
-      "title": "Experienced ReactJS developer (remote)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/experienced-reactjs-developer-remote-7/52009889",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "51913546",
-      "company": "Global Hr Services",
-      "title": "Flutter Mobile App Developer (programator)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/flutter-mobile-app-developer-programator/51913546",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52058814",
-      "company": "Wittmann",
-      "title": "Front-End .NET Software Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/front-end-net-software-developer-4/52058814",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52014578",
-      "company": "UNIGENS",
-      "title": "Front-End Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/front-end-developer-551/52014578",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52013371",
-      "company": "THEFACTORY",
-      "title": "Front-end developer (middle)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/front-end-developer-middle-2/52013371",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52010048",
-      "company": "C4Media",
-      "title": "Frontend Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/frontend-developer-383/52010048",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52016005",
-      "company": "Curriculo",
-      "title": "Frontend Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/frontend-developer-384/52016005",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52070428",
-      "company": "Markit",
-      "title": "Frontend Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/frontend-developer-393/52070428",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52015340",
-      "company": "Proptech Lab",
-      "title": "frontend developer (freelance)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/frontend-developer-freelance-1/52015340",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52072062",
-      "company": "Uvation",
-      "title": "Frontend Developer (React Js / Next Js)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/frontend-developer-react-js-next-js/52072062",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52072757",
-      "company": "Codekeeper",
-      "title": "Frontend Developer (React)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/frontend-developer-react-13/52072757",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52068994",
-      "company": "LAGO",
-      "title": "Frontend Developer (React/Shopify Hydrogen)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/frontend-developer-react-shopify-hydrogen/52068994",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52005579",
-      "company": "Bestjobs",
-      "title": "Frontend developer - ReactJS",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/frontend-developer-reactjs-4/52005579",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074513",
-      "company": "REPLIKA",
-      "title": "Frontend Engineer, Web Funnels - Remote",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/frontend-engineer-web-funnels-remote/52074513",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52067629",
-      "company": "Recruiter4you",
-      "title": "Frontend React Developer - iGaming (Remote)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/frontend-react-developer-igaming-remote/52067629",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52071076",
-      "company": "Swissquote",
-      "title": "Frontend Software Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/frontend-software-engineer-15/52071076",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074692",
-      "company": "Teambase DMCC",
-      "title": "Full Stack .NET / Vue Developer (Mid/Senior)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-net-vue-developer-mid-senior/52074692",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52007150",
-      "company": "I-CEPA",
-      "title": "Full stack developer",
-      "location": "Strada Gara Herăstrău 2, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-software-engineer-cloud-ai/52007150",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52013720",
-      "company": "FAN COURIER EXPRESS",
-      "title": "Full Stack Developer (.NET Core & Windows Forms)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-developer-net-core-windows-forms/52013720",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52072758",
-      "company": "Codekeeper",
-      "title": "Full Stack Developer (Javascript)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-developer-javascript-9/52072758",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52009678",
-      "company": "Societatea de Inforenergetic Centru Vest",
-      "title": "Full Stack Developer (PHP)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-developer-php-12/52009678",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074527",
-      "company": "Infuse",
-      "title": "Full Stack Developer (Remote, Contract)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-developer-remote-contract/52074527",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075841",
-      "company": "EC Markets",
-      "title": "Full Stack Developer — Bucharest",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-developer-bucharest-1/52075841",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52058462",
-      "company": "Schwarz Digits",
-      "title": "Full Stack Engineer (m/f/d)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-engineer-m-f-d-2/52058462",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52001596",
-      "company": "Expert Software",
-      "title": "Full Stack PHP Developer",
-      "location": "splaiul independentei 319C",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-php-developer-30/52001596",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52010769",
-      "company": "Remote Marketing",
-      "title": "Full Stack PHP Developer (Senior)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-php-developer-senior-1/52010769",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52041368",
-      "company": "FAN COURIER EXPRESS",
-      "title": "Full Stack Software Developer Android/.NET Core",
-      "location": "Şoseaua Fabrica de glucoza",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-software-developer-android-net-core-3/52041368",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52069363",
-      "company": "Aroa Agency",
-      "title": "Full-Stack AI Engineer (Automation & Systems)",
-      "location": "Bucharest",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-ai-engineer-automation-systems-2/52069363",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52004757",
-      "company": "Gi Group Staffing Company",
-      "title": "FULL-STACK DEVELOPER",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-developer-534/52004757",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52002923",
-      "company": "Knowledge Design Unit",
-      "title": "Full-Stack Developer (.NET & Angular)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-developer-net-angular-5/52002923",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52065772",
-      "company": "MWDN",
-      "title": "Full-Stack Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-engineer-103/52065772",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52070459",
-      "company": "Qualysoft",
-      "title": "Full-Stack Engineer (Kotlin)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-engineer-kotlin-1/52070459",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "51959370",
-      "company": "Syscom Digital",
-      "title": "Full-Stack Software Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-software-developer-26/51959370",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52068768",
-      "company": "",
-      "title": "Full-Stack Software Engineer – Remote",
-      "location": "Remote",
-      "href": "https://jobs.micro1.ai/post/4010d2c5-4a3d-41fe-9e33-28bc218626e5?referralCode=098d1da7-bf47-4b1a-aa3e-cd7f37db66d3&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52063938",
-      "company": "Evoke",
-      "title": "Fullstack Developer (2 years)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/fullstack-developer-2-years/52063938",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52044028",
-      "company": "I-Tom Solutions",
-      "title": "Fullstack Developer (React / Next.js + .NET)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/fullstack-developer-react-next-js-net-2/52044028",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52070000",
-      "company": "Huzzle",
-      "title": "Fullstack Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/fullstack-engineer-11/52070000",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52076132",
-      "company": "Kraken",
-      "title": "Fullstack Engineer - Payward Services - Custody",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/fullstack-engineer-payward-services-custody/52076132",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "51934931",
-      "company": "mdundo.com",
-      "title": "Fullstack PHP Web Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/fullstack-php-web-developer-1/51934931",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074796",
-      "company": "Powerprozesse",
-      "title": "Fullstack-Developer (100% Remote)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/fullstack-developer-100-remote-4/52074796",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52006303",
-      "company": "HENNING Experts",
-      "title": "Fullstack-Entwickler mit Typescript -remote",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/fullstack-entwickler-mit-typescript-remote/52006303",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52056296",
-      "company": "Serrala",
-      "title": "Full‑Stack SAP Developer (ABAP & Fiori/UI5)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-sap-developer-abap-fiori-ui5/52056296",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52017173",
-      "company": "SOTEC Software",
-      "title": "Google Cloud Full stack Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/google-cloud-full-stack-developer/52017173",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52013626",
-      "company": "VirtusLab",
-      "title": "IDE Engineer (Senior/Staff)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/ide-engineer-senior-staff-1/52013626",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075591",
-      "company": "Ninja Partners",
-      "title": "Integration Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/integration-engineer-136/52075591",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52015908",
-      "company": "HAVI Logistics",
-      "title": "Integrations Analyst",
-      "location": "Chitila, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/integrations-analyst-5/52015908",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52070037",
-      "company": "PwC",
-      "title": "Intelligent Applications Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/intelligent-applications-developer-1/52070037",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52070024",
-      "company": "PwC CEE",
-      "title": "Intelligent Applications Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/intelligent-applications-developer/52070024",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52063976",
-      "company": "PwC",
-      "title": "Intelligent Automation Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/intelligent-automation-developer-5/52063976",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52063968",
-      "company": "PwC CEE",
-      "title": "Intelligent Automation Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/intelligent-automation-developer-4/52063968",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52076120",
-      "company": "Qualysoft",
-      "title": "Java Backend Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/java-backend-developer-97/52076120",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52069308",
-      "company": "Deutsche Bank",
-      "title": "Java Backend Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/java-backend-engineer-2/52069308",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52067007",
-      "company": "Deutsche Bank",
-      "title": "Java Backend Engineer (f/m/x)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/java-backend-engineer-f-m-x/52067007",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52058849",
-      "company": "WESTACO",
-      "title": "Java Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/java-developer-1224/52058849",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52013659",
-      "company": "Moscu",
-      "title": "Java Developer / Integration Consultant",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/java-developer-integration-consultant-2/52013659",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52058553",
-      "company": "Schwarz Digits",
-      "title": "Java Full Stack Engineer (m/f/d)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/java-full-stack-engineer-m-f-d/52058553",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074567",
-      "company": "Deutsche Bank",
-      "title": "Java Lead Engineer (f/m/x)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/java-lead-engineer-f-m-x/52074567",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52021495",
-      "company": "TRANSFER RAPID LIMITED LONDRA BUCURESTI",
-      "title": "JAVA SOFTWARE ENGINEER",
-      "location": "Bucharest",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/java-software-engineer-88/52021495",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52066510",
-      "company": "GE Vernova",
-      "title": "Java Technical Leader",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/java-technical-leader-3/52066510",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "51962428",
-      "company": "RAI Software",
-      "title": "Java, Golang or Rust Senior Software Developers",
-      "location": "Strada Traian 234, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/java-golang-or-rust-senior-software-developers-4/51962428",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52015902",
-      "company": "Leap Tools . (Canada)",
-      "title": "JavaScript Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/javascript-developer-155/52015902",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "51959367",
-      "company": "Syscom Digital",
-      "title": "Junior developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/junior-developer-39/51959367",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52061053",
-      "company": "Stagii pe Bune",
-      "title": "Junior Full Stack Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/junior-full-stack-engineer-2/52061053",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52018866",
-      "company": "Vest Integrated Solutions",
-      "title": "Junior Java Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/junior-java-developer-101/52018866",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52007410",
-      "company": "Porsche Group",
-      "title": "Junior RPA Developer (UiPath) (f/m/d)",
-      "location": "Voluntari, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/junior-rpa-developer-uipath-f-m-d/52007410",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "51973744",
-      "company": "FAN COURIER EXPRESS",
-      "title": "Laravel Developer",
-      "location": "Şoseaua Fabrica de glucoza",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/full-stack-developer-react-react-native-laravel/51973744",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52043502",
-      "company": "FAN COURIER EXPRESS",
-      "title": "Laravel Developer",
-      "location": "Şoseaua Fabrica de glucoza",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/laravel-developer-11/52043502",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52072273",
-      "company": "Publicis Groupe Holdings B.V",
-      "title": "Lead Java Engineer-Specialist- Financial Services",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/lead-java-engineer-specialist-financial-services/52072273",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074523",
-      "company": "FXC Intelligence",
-      "title": "Lead Software Engineer (Golang/TypeScript) - Independent Contractor",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/lead-software-engineer-golang-typescript-independent-contractor/52074523",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52059219",
-      "company": "Flosum",
-      "title": "Manual QA Engineer (Romania)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/manual-qa-engineer-romania/52059219",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52069224",
-      "company": "Siemens Healthineers",
-      "title": "Medical Software Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/medical-software-engineer-1/52069224",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52071598",
-      "company": "Qualysoft",
-      "title": "Mid Fullstack Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/mid-fullstack-developer/52071598",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52071600",
-      "company": "Qualysoft",
-      "title": "Mid Mobile Developer – React Native/Expo",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/mid-mobile-developer-react-native-expo/52071600",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52071602",
-      "company": "Qualysoft",
-      "title": "Mid QA Automation Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/mid-qa-automation-engineer-3/52071602",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52073945",
-      "company": "Vitamin Software",
-      "title": "Mid-Level Full-Stack Developer (Python + HTLM/JavaScript)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/mid-level-full-stack-developer-python-htlm-javascript/52073945",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52035891",
-      "company": "Digital Garage",
-      "title": "Mid-Level Web Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/mid-level-web-developer-8/52035891",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "51940479",
-      "company": "MASTEX SOFTWARE",
-      "title": "Middle .NET & Angular Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/middle-net-angular-developer/51940479",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52006646",
-      "company": "PEOPLE POINT",
-      "title": "Mobile App Developer - React Native",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/mobile-app-developer-react-native-2/52006646",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52013977",
-      "company": "C4Media",
-      "title": "Mobile Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/mobile-developer-63/52013977",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075620",
-      "company": "SSC Technologies",
-      "title": "Mobile Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/mobile-developer-68/52075620",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52061039",
-      "company": "Stagii pe Bune",
-      "title": "Mobile Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/mobile-developer-67/52061039",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075636",
-      "company": "SSC Technologies",
-      "title": "Mobile Developer - PA26DIGFINRPQ4005",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/mobile-developer-pa26digfinrpq4005/52075636",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52050226",
-      "company": "I-Tom Solutions",
-      "title": "Mobile Developer – Android & iOS",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/mobile-developer-android-ios-3/52050226",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074991",
-      "company": "Quadcode",
-      "title": "Mobile QA Engineer (iOS)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/mobile-qa-engineer-ios/52074991",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075624",
-      "company": "SSC Technologies",
-      "title": "Mobile Technical Lead",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/mobile-technical-lead/52075624",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52070461",
-      "company": "Propellerhead",
-      "title": "Move to New Zealand - Technical Strategist (Solution Architect)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/move-to-new-zealand-technical-strategist-solution-architect/52070461",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52070001",
-      "company": "CXM Direct",
-      "title": "Payment Integrations & Technical QA Manager",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/payment-integrations-technical-qa-manager/52070001",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075389",
-      "company": "Poland and Central-Eastern Europe",
-      "title": "Perl Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/perl-developer-11/52075389",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52055480",
-      "company": "Zyte",
-      "title": "Platform and Automation Engineer - Remote",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/platform-and-automation-engineer-remote/52055480",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52064387",
-      "company": "FYUL",
-      "title": "Principal Engineer (remote within EMEA)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/principal-engineer-remote-within-emea/52064387",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52063934",
-      "company": "FYUL",
-      "title": "Principal Engineering Manager (remote within EMEA)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/principal-engineering-manager-remote-within-emea/52063934",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52069191",
-      "company": "Poland and Middle-Eastern Europe",
-      "title": "Principal/Senior Software Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/principal-senior-software-engineer/52069191",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074777",
-      "company": "Powerprozesse",
-      "title": "Product Engineer (100% Remote / German-Speaking)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/product-engineer-100-remote-german-speaking/52074777",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52068782",
-      "company": "Offsec Services",
-      "title": "Product Owner",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/product-owner-221/52068782",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52076089",
-      "company": "Cloudlinux",
-      "title": "Product Owner - Innovation Team (remote work)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/product-owner-innovation-team-remote-work/52076089",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52032544",
-      "company": "Netcity Telecom",
-      "title": "Programator",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/programator-223/52032544",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "51996073",
-      "company": "Ligeia Contact Management",
-      "title": "Programator Backend Java – Remote (Full-time)",
-      "location": "Cornetu, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/programator-backend-java-remote-full-time/51996073",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52008038",
-      "company": "Nova Industrial",
-      "title": "Programator C# / .NET",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/programator-c-net-8/52008038",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52021417",
-      "company": "Magister Software",
-      "title": "Programator Delphi Mid-Level",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/programator-delphi-mid-level-4/52021417",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "51937258",
-      "company": "RisCo.ro",
-      "title": "Programator HTML CSS - Partial remote",
-      "location": "Bucharest",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/programator-html-css-partial-remote/51937258",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "51951858",
-      "company": "RADCOM",
-      "title": "Programator iOS",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/programator-ios-3/51951858",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52016091",
-      "company": "Cyber_Folks",
-      "title": "Programator PHP",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/programator-php-207/52016091",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52013131",
-      "company": "WIZROM SOFTWARE",
-      "title": "Programator PHP",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/programator-php-205/52013131",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52003738",
-      "company": "BitAP IT Services",
-      "title": "Programator React/NextJS și NestJS – B2B",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/programator-react-nextjs-si-nestjs-b2b-1/52003738",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52004323",
-      "company": "RADCOM",
-      "title": "Programator Senior Java",
-      "location": "Bucharest",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/programator-senior-java-1/52004323",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52002570",
-      "company": "Swiro",
-      "title": "Programator software",
-      "location": "Bucharest",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/programator-software-6/52002570",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52072815",
-      "company": "SBA Total",
-      "title": "Programatori juniori / entry-level",
-      "location": "Bucharest România",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/programatori-juniori-entry-level-1/52072815",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52028239",
-      "company": "Circle Recruiting",
-      "title": "Python Backend Developer - Banking",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/python-backend-developer-banking/52028239",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075391",
-      "company": "Poland and Central-Eastern Europe",
-      "title": "Python Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/python-developer-247/52075391",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074584",
-      "company": "Corsearch",
-      "title": "Python Software Engineer (Product Engineering Team)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/python-software-engineer-product-engineering-team-1/52074584",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52076121",
-      "company": "Qualysoft",
-      "title": "QA Automation Engineer (Banking)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/qa-automation-engineer-banking-1/52076121",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52067829",
-      "company": "Deutsche Bank",
-      "title": "QA Lead (f/m/x)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/qa-lead-f-m-x/52067829",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52070447",
-      "company": "Cloudmargin",
-      "title": "QA/Test Engineer (Romania)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/qa-test-engineer-romania/52070447",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074972",
-      "company": "ITRex Group",
-      "title": "React Native Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/react-native-engineer-7/52074972",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52071819",
-      "company": "Helpware",
-      "title": "Salesforce Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/salesforce-developer-65/52071819",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "51946506",
-      "company": "RECOGNOS",
-      "title": "Salesforce Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/salesforce-developer-51/51946506",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075174",
-      "company": "Wizeline",
-      "title": "Salesforce Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/salesforce-developer-68/52075174",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52070405",
-      "company": "Flosum",
-      "title": "Salesforce Engineering Manager (Romania)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/salesforce-engineering-manager-romania/52070405",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52072783",
-      "company": "Metica",
-      "title": "SDK Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/sdk-engineer/52072783",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52004648",
-      "company": "MASTEX SOFTWARE",
-      "title": "Senior .NET & Angular Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-net-angular-developer-6/52004648",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074540",
-      "company": "Nagarro",
-      "title": "Senior .NET Developer (AWS & Sitecore)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-net-developer-aws-sitecore/52074540",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074153",
-      "company": "Qualysoft",
-      "title": "Senior .Net Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-net-engineer-11/52074153",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52066006",
-      "company": "Logifuture",
-      "title": "Senior .Net Framework Back End Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-net-framework-back-end-developer-3/52066006",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52073958",
-      "company": "Finom",
-      "title": "Senior Android Developer (Remote)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-android-developer-remote-1/52073958",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52072533",
-      "company": "Criteo",
-      "title": "Senior Backend Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-backend-developer-59/52072533",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52053374",
-      "company": "Proxify",
-      "title": "Senior Backend Developer (Node.js / Nest.js)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-backend-developer-node-js-nest-js/52053374",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52044039",
-      "company": "Neho",
-      "title": "Senior Backend Developer PHP / Laravel",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-backend-developer-php-laravel-1/52044039",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52065077",
-      "company": "Trading212",
-      "title": "Senior Backend Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-backend-engineer-61/52065077",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075805",
-      "company": "Gramian Consulting Group",
-      "title": "Senior Backend Engineer (.NET / Python / Azure)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-backend-engineer-net-python-azure/52075805",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52068809",
-      "company": "Pioneera",
-      "title": "Senior Backend Engineer - TypeScript/Node.js & Production Support",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-backend-engineer-typescript-node-js-production-support/52068809",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52063457",
-      "company": "voize",
-      "title": "Senior Backend Engineer, Romania (m/f/d)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-backend-engineer-romania-m-f-d/52063457",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074795",
-      "company": "Powerprozesse",
-      "title": "Senior Backend-Developer – Agents (100% Remote)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-backend-developer-agents-100-remote-3/52074795",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52073202",
-      "company": "DuckDuckGo",
-      "title": "Senior C++ Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-c-engineer-7/52073202",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52057485",
-      "company": "Proxify",
-      "title": "Senior Django Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-django-developer/52057485",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52055552",
-      "company": "Remofirst",
-      "title": "Senior Front End Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-front-end-engineer-26/52055552",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52070203",
-      "company": "Splash Software",
-      "title": "Senior Front-End Engineer (Next.js 16+)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-front-end-engineer-next-js-16/52070203",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52064799",
-      "company": "Smart Glass Technologies",
-      "title": "Senior Frontend Developer (Remote)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-frontend-developer-remote/52064799",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52072065",
-      "company": "Uvation",
-      "title": "Senior Frontend Developer / Tech Lead",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-frontend-developer-tech-lead/52072065",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52055450",
-      "company": "LSEG",
-      "title": "Senior Frontend Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-frontend-engineer-51/52055450",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074154",
-      "company": "Qualysoft",
-      "title": "Senior Frontend Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-frontend-engineer-55/52074154",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52065080",
-      "company": "Trading212",
-      "title": "Senior Frontend Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-frontend-engineer-54/52065080",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52067808",
-      "company": "Markit",
-      "title": "Senior Full Stack .NET Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-full-stack-net-developer-25/52067808",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52072049",
-      "company": "Evoke",
-      "title": "Senior Full Stack Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-full-stack-developer-100/52072049",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52008837",
-      "company": "HORIZON TECHVISION",
-      "title": "Senior Full Stack Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-full-stack-developer-92/52008837",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52070065",
-      "company": "Kisi",
-      "title": "Senior Full Stack Developer (Contractor)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-full-stack-developer-contractor-1/52070065",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52070912",
-      "company": "",
-      "title": "Senior Full Stack Developer - AI, Automation, API",
-      "location": "Voluntari, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-full-stack-developer-ai-automation-api/52070912",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52071846",
-      "company": "AppWork",
-      "title": "Senior Full Stack Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-full-stack-engineer-74/52071846",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075645",
-      "company": "hedgehog lab",
-      "title": "Senior Full Stack Engineer (Agentic AI) - B2B contract",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-full-stack-engineer-agentic-ai-b2b-contract-1/52075645",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52065744",
-      "company": "Lateral Group",
-      "title": "Senior Full Stack Engineer (Python + React)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-full-stack-engineer-python-react-2/52065744",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52067811",
-      "company": "Sigma Software",
-      "title": "Senior Full Stack Engineer with AI (Healthcare)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-full-stack-engineer-with-ai-healthcare-1/52067811",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52065479",
-      "company": "Poland and Middle-Eastern Europe",
-      "title": "Senior Full-stack Developer (AI-Native)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-full-stack-developer-ai-native/52065479",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074723",
-      "company": "Resourceful Talent Group",
-      "title": "Senior Full-Stack Developer (Angular / .NET Core)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-full-stack-developer-angular-net-core/52074723",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52067438",
-      "company": "MyEdSpace",
-      "title": "Senior Full-Stack Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-full-stack-engineer-73/52067438",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075875",
-      "company": "JustRocket",
-      "title": "Senior Fullstack Product Engineer - Typescript (m/f/d)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-fullstack-product-engineer-typescript-m-f-d/52075875",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52066028",
-      "company": "Criteo",
-      "title": "Senior Fullstack Software Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-fullstack-software-engineer-2/52066028",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074760",
-      "company": "WhiteLark",
-      "title": "Senior Go Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-go-developer-9/52074760",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "51924060",
-      "company": "N-iX",
-      "title": "Senior Integration Engineer (MuleSoft)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-integration-engineer-mulesoft-1/51924060",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074690",
-      "company": "FYUL",
-      "title": "Senior iOS Developer (remote within EMEA)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-ios-developer-remote-within-emea/52074690",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52070423",
-      "company": "Poland and Middle-Eastern Europe",
-      "title": "Senior iOS Developer, Remote",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-ios-developer-remote-4/52070423",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52066509",
-      "company": "GE Vernova",
-      "title": "Senior Java Software Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-java-software-engineer-74/52066509",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52066461",
-      "company": "Swissquote",
-      "title": "Senior Java Software Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-java-software-engineer-73/52066461",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52012157",
-      "company": "PROPTECH INDUSTRY",
-      "title": "Senior Kotlin Engineer (Android Frontend)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-kotlin-engineer-android-frontend-1/52012157",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52044804",
-      "company": "Remote Marketing",
-      "title": "Senior Laravel Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-laravel-developer-2/52044804",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52057062",
-      "company": "Proxify",
-      "title": "Senior MERN Developer (React.js + Node.js)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-mern-developer-react-js-node-js/52057062",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075414",
-      "company": "Numan",
-      "title": "Senior Mobile Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-mobile-developer-7/52075414",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "51935870",
-      "company": "Evolona",
-      "title": "Senior Mobile Developer - VoIP/WebRTC App",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-mobile-developer-voip-webrtc-app/51935870",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074155",
-      "company": "Qualysoft",
-      "title": "Senior Mobile Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-mobile-engineer-5/52074155",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52065993",
-      "company": "MWDN",
-      "title": "Senior Mobile SDK Engineer - Unity, iOS & Android",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-mobile-sdk-engineer-unity-ios-android/52065993",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074122",
-      "company": "In The Pocket",
-      "title": "Senior Node.js Back-End Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-node-js-back-end-engineer-1/52074122",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52007031",
-      "company": "Regia Autonoma RASIROM",
-      "title": "Senior Oracle APEX/ADF Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-oracle-apex-adf-developer/52007031",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074514",
-      "company": "REPLIKA",
-      "title": "Senior Product Engineer, Mobile - Remote",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-product-engineer-mobile-remote/52074514",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52069032",
-      "company": "IDT",
-      "title": "Senior Project Manager",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-project-manager-204/52069032",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075839",
-      "company": "EC Markets",
-      "title": "Senior QA / QC Engineer — Bucharest",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-qa-qc-engineer-bucharest/52075839",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52067794",
-      "company": "Flosum",
-      "title": "Senior QA Automation Engineer - AWS & Salesforce (Romania)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-qa-automation-engineer-aws-salesforce-romania/52067794",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075413",
-      "company": "Holycode",
-      "title": "Senior QA Automation Engineer - Holycode team",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-qa-automation-engineer-holycode-team/52075413",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075792",
-      "company": "hedgehog lab",
-      "title": "Senior QA Automation Engineer, B2B Contract",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-qa-automation-engineer-b2b-contract-1/52075792",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52070411",
-      "company": "hedgehog lab",
-      "title": "Senior QA Engineer (B2B Contract)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-qa-engineer-b2b-contract/52070411",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52056408",
-      "company": "Alex Staff",
-      "title": "Senior QA Engineer with Automation",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-qa-engineer-with-automation-2/52056408",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52056098",
-      "company": "Alex Staff Agency",
-      "title": "Senior QA Engineer with Automation",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-qa-engineer-with-automation-1/52056098",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52028242",
-      "company": "Circle Recruiting",
-      "title": "Senior React.js Front-End Developer - Banking",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-react-js-front-end-developer-banking/52028242",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52072573",
-      "company": "Recruiter4you",
-      "title": "Senior Ruby on Rails Engineer (Remote)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-ruby-on-rails-engineer-remote/52072573",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52064995",
-      "company": "Ppc",
-      "title": "Senior Salesforce Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://ppc.jobful.io/company/ppc-energy/jobs/senior-salesforce-developer-2",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52073582",
-      "company": "Wizeline",
-      "title": "Senior Salesforce Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-salesforce-developer-26/52073582",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52015179",
-      "company": "Orange",
-      "title": "Senior ServiceNow Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-servicenow-developer-3/52015179",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52072083",
-      "company": "Affidea BV",
-      "title": "Senior Software Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-software-developer-161/52072083",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52060049",
-      "company": "Avalara",
-      "title": "Senior Software Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-software-engineer-345/52060049",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52058417",
-      "company": "LSEG",
-      "title": "Senior Software Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-software-engineer-343/52058417",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074756",
-      "company": "WhiteLark",
-      "title": "Senior Software Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-software-engineer-354/52074756",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52071559",
-      "company": "FXC Intelligence",
-      "title": "Senior Software Engineer (Golang/TypeScript/React) - Independent Contractor",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-software-engineer-golang-typescript-react-independent-contractor/52071559",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52076076",
-      "company": "Recruiter4you",
-      "title": "Senior Software Engineer - iGaming (Remote)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-software-engineer-igaming-remote/52076076",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52072308",
-      "company": "Kraken",
-      "title": "Senior Software Engineer - Rust - Consumer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-software-engineer-rust-consumer/52072308",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52067238",
-      "company": "LSEG",
-      "title": "Senior Software Engineer C++",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-software-engineer-c-12/52067238",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52069962",
-      "company": "Cast AI",
-      "title": "Senior Software Engineer | Kimchi Studio",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-software-engineer-kimchi-studio/52069962",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52073023",
-      "company": "Kimchi",
-      "title": "Senior Software Engineer | Kimchi Studio",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-software-engineer-kimchi-studio-1/52073023",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52060289",
-      "company": "CRESTA",
-      "title": "Senior Software Engineer, Backend (Cluj)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-software-engineer-backend-cluj/52060289",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52070066",
-      "company": "Reap",
-      "title": "Senior Software Engineer, Embedded Finance (Flagship Web3 Product)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-software-engineer-embedded-finance-flagship-web3-product/52070066",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52015754",
-      "company": "DOUML Pou",
-      "title": "Senior Symfony Developer (v7.4)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-symfony-developer-v7-4/52015754",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52054092",
-      "company": "IgniteTech",
-      "title": "Senior Test Automation Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-test-automation-engineer-25/52054092",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52066490",
-      "company": "LSEG",
-      "title": "Senior Test Automation Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-test-automation-engineer-26/52066490",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52053289",
-      "company": "Sigma Software",
-      "title": "Senior Test Automation Engineer (Healthcare/Medical industry)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-test-automation-engineer-healthcare-medical-industry/52053289",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52073377",
-      "company": "Poland and Middle-Eastern Europe",
-      "title": "Senior Typescript Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-typescript-developer/52073377",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52071298",
-      "company": "DuckDuckGo",
-      "title": "Senior Web Compatibility Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-web-compatibility-engineer/52071298",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52054009",
-      "company": "Remofirst",
-      "title": "Senior/Lead Back End Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-lead-back-end-engineer/52054009",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52015188",
-      "company": "Orange",
-      "title": "ServiceNow Solution Team Leader",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/servicenow-solution-team-leader/52015188",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52068795",
-      "company": "Huzzle",
-      "title": "Shopify Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/shopify-developer-4/52068795",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52012417",
-      "company": "LifePharm",
-      "title": "Shopify Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/shopify-developer-3/52012417",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52001761",
-      "company": "VITOLOS",
-      "title": "Shopify Web Developer / Landing Page Specialist",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/shopify-web-developer-landing-page-specialist/52001761",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52011044",
-      "company": "Romflex Sistem",
-      "title": "Software Developer",
-      "location": "Bucharest",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-developer-858/52011044",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52003231",
-      "company": "SOLO.Fintech",
-      "title": "Software Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-developer-854/52003231",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52060459",
-      "company": "DEVAPP MOBILE",
-      "title": "Software Developer (Mid/Senior)",
-      "location": "Afi Park 1, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-developer-mid-senior/52060459",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52069004",
-      "company": "Suvoda",
-      "title": "Software Developer II ( C#, .NET)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-developer-ii-c-net-3/52069004",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074571",
-      "company": "Caseware",
-      "title": "Software Developer in Test II",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-developer-in-test-ii/52074571",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52069745",
-      "company": "Evoke",
-      "title": "Software Developer RG",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-developer-rg/52069745",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52001164",
-      "company": "HELION",
-      "title": "Software Development Manager / Tech Lead",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-development-manager-tech-lead/52001164",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52060825",
-      "company": "LSEG",
-      "title": "Software Development Manager Typescript/NodeJS",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-development-manager-typescript-nodejs/52060825",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52058805",
-      "company": "FOYU Live",
-      "title": "Software Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-engineer-441/52058805",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52059692",
-      "company": "CODA INTELLIGENCE",
-      "title": "Software Engineer (Full-Stack), React",
-      "location": "Bucharest, Romania",
-      "href": "https://ats.rippling.com/pdq/jobs/894fcbea-92a5-45ce-a233-1cd46b7f1df9",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074169",
-      "company": "LSEG",
-      "title": "Software Engineer (Node.js Backend)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-engineer-node-js-backend/52074169",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52019003",
-      "company": "CODA INTELLIGENCE",
-      "title": "Software Engineer - Python",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-engineer-python-10/52019003",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52070237",
-      "company": "Uvation",
-      "title": "Software Engineer Backend(Django)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-engineer-backend-django/52070237",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52068569",
-      "company": "Uvation",
-      "title": "Software Engineer Frontend - React",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-engineer-frontend-react/52068569",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52069018",
-      "company": "Kraken",
-      "title": "Software Engineer II - Backend - Payments",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-engineer-ii-backend-payments/52069018",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52057409",
-      "company": "PRIMER",
-      "title": "Software Engineer III, Frontend - Account Experience",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-engineer-iii-frontend-account-experience/52057409",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52065061",
-      "company": "Global-e",
-      "title": "Software Engineer Team Leader",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-engineer-team-leader/52065061",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52068007",
-      "company": "Showpad",
-      "title": "Software Engineer, Backend",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-engineer-backend-5/52068007",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52073780",
-      "company": "CERTSIGN",
-      "title": "Software Tester",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-tester-424/52073780",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52060411",
-      "company": "DEVAPP MOBILE",
-      "title": "Software tester",
-      "location": "Afi Park 1, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-tester-422/52060411",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52072756",
-      "company": "Codekeeper",
-      "title": "Software Verification Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-verification-engineer-8/52072756",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074794",
-      "company": "Powerprozesse",
-      "title": "Software-Architect / System-Designer  (100% Remote)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-architect-system-designer-100-remote-2/52074794",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52059261",
-      "company": "Auditdata",
-      "title": "Solution Architect",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/solution-architect-151/52059261",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52022575",
-      "company": "DEV SOFTWARE TEAM",
-      "title": "Specialist testare software",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/specialist-testare-software-1/52022575",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "51983131",
-      "company": "Soft Net Consulting",
-      "title": "SQL Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/sql-developer-92/51983131",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52070267",
-      "company": "GE Vernova",
-      "title": "Sr Java Software Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/sr-java-software-engineer-1/52070267",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075894",
-      "company": "CrowdStrike",
-      "title": "Sr. Mobile QA Analyst (Hybrid, Bucharest)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/sr-mobile-qa-analyst-hybrid-bucharest/52075894",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52071383",
-      "company": "Smart Working Solutions",
-      "title": "Sr. PHP Symfony Engineer (Remote, Full-Time) [AR024]",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/sr-php-symfony-engineer-remote-full-time-ar024/52071383",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52055608",
-      "company": "Remofirst",
-      "title": "Staff Backend Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/staff-backend-engineer-6/52055608",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52065079",
-      "company": "Trading212",
-      "title": "Staff Backend Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/staff-backend-engineer-7/52065079",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52065078",
-      "company": "Trading212",
-      "title": "Staff Frontend Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/staff-frontend-engineer-1/52065078",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52056430",
-      "company": "Sirius XM Radio",
-      "title": "Staff Software Automation Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/staff-software-automation-engineer/52056430",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52060051",
-      "company": "Sirius XM Radio",
-      "title": "Staff Software Engineer (Frontend)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/staff-software-engineer-frontend/52060051",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52057641",
-      "company": "CRESTA",
-      "title": "Staff Software Engineer, Backend (Bucharest)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/staff-software-engineer-backend-bucharest/52057641",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52058453",
-      "company": "Yadimen Consulting Limited",
-      "title": "STEP Stibo Developer — Customer MDM Support (Financial Services)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/step-stibo-developer-customer-mdm-support-financial-services/52058453",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52033627",
-      "company": "Cegedim Service Center",
-      "title": "Tech Lead / Senior Java Engineer",
-      "location": "Șoseaua Pipera 42, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/tech-lead-senior-java-engineer/52033627",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52071554",
-      "company": "Speechify",
-      "title": "Tech Lead, Android Core Product - Bucharest, Romania",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/tech-lead-android-core-product-bucharest-romania/52071554",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52071555",
-      "company": "Speechify",
-      "title": "Tech Lead, Android Core Product - Cluj‑Napoca, Romania",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/tech-lead-android-core-product-cluj-napoca-romania/52071555",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52071557",
-      "company": "Speechify",
-      "title": "Tech Lead, Android Core Product - Iași, Romania",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/tech-lead-android-core-product-iasi-romania/52071557",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52071556",
-      "company": "Speechify",
-      "title": "Tech Lead, Android Core Product - Timișoara, Romania",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/tech-lead-android-core-product-timisoara-romania/52071556",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "51920236",
-      "company": "24Slides",
-      "title": "TechLead(Node.js+React)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/techlead-node-js-react/51920236",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075933",
-      "company": "Ninja Partners",
-      "title": "Technical Onboarding Specialist",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/technical-onboarding-specialist-1/52075933",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52017733",
-      "company": "Affinitext",
-      "title": "Technical Product Lead — AI-Augmented Development",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/technical-product-lead-ai-augmented-development/52017733",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074573",
-      "company": "ShortPoint",
-      "title": "Technical Product Manager (AI-native, Remote)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/technical-product-manager-ai-native-remote/52074573",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075205",
-      "company": "DICONIUM",
-      "title": "Technical Product Owner (All genders)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/technical-product-owner-all-genders/52075205",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075791",
-      "company": "Braze",
-      "title": "Technical Support Engineer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/technical-support-engineer-213/52075791",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "51997319",
-      "company": "ACT NEXT SOLUTIONS",
-      "title": "Technical Support Specialist",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/technical-support-specialist-141/51997319",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52068548",
-      "company": "Nagarro",
-      "title": "Test Automation Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/test-automation-engineer-97/52068548",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52076142",
-      "company": "Onera Health",
-      "title": "Test Automation Engineer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/test-automation-engineer-98/52076142",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52053357",
-      "company": "Solvd",
-      "title": "Test Automation Engineer (Android)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/test-automation-engineer-android/52053357",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52075149",
-      "company": "DynamicsATS",
-      "title": "Test UI Developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/test-ui-developer/52075149",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52067814",
-      "company": "Huzzle",
-      "title": "UI/UX Designer - Remote",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/ui-ux-designer-remote/52067814",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52016991",
-      "company": "Devanda-Creativ",
-      "title": "Web Designer & Developer / Specialist WordPress",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/web-designer-developer-specialist-wordpress/52016991",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52061038",
-      "company": "Stagii pe Bune",
-      "title": "Web Developer",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/web-developer-819/52061038",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52025246",
-      "company": "Workleto",
-      "title": "Web Developer PHP",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/web-developer-php-19/52025246",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52071702",
-      "company": "Leap Tools . (Canada)",
-      "title": "Website Building Specialist",
-      "location": "Remote",
-      "href": "https://jobs.gem.com/leap-tools/am9icG9zdDqd3Wl6Fgpk4WalNMnor1Wx",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "51973703",
-      "company": "Prologue Advertising",
-      "title": "Wordpress front-end developer",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/wordpress-front-end-developer-11/51973703",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074701",
-      "company": "IONOS EN",
-      "title": "Working Student - Technical Product Manager (hybrid)",
-      "location": "Bucharest, Romania",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/working-student-technical-product-manager-hybrid/52074701",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52055901",
-      "company": "Data Edge",
-      "title": "Xamarin Developer (with German)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/xamarin-developer-with-german/52055901",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074791",
-      "company": "Powerprozesse",
-      "title": "🇩🇪 Fullstack-Developer (100% Remote / German-Speaking)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/fullstack-developer-100-remote-german-speaking/52074791",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074792",
-      "company": "Powerprozesse",
-      "title": "🇩🇪 Senior Backend-Developer – Agents (100% Remote / German-Speaking)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/senior-backend-developer-agents-100-remote-german-speaking/52074792",
-      "source": "bestjobs",
-      "description": ""
-    },
-    {
-      "id": "52074793",
-      "company": "Powerprozesse",
-      "title": "🇩🇪 Software-Architect / System-Designer (100% Remote / German-Speaking)",
-      "location": "Remote",
-      "href": "https://www.bestjobs.eu/locuri-de-munca/software-architect-system-designer-100-remote-german-speaking/52074793",
-      "source": "bestjobs",
-      "description": ""
+      "id": "4479030487",
+      "company": "Luxoft",
+      "title": "Angular Developer",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/angular-developer-at-luxoft-4479030487?position=7&pageNum=14&refId=2hCa6vxYq%2BL5Qals0HKLfg%3D%3D&trackingId=E7CX%2BUwbkQu%2BAU5egHuUiw%3D%3D",
+      "source": "linkedin",
+      "description": "Project Description:\nJoin our Development Center in Bucharest, and become a member of our open-minded, progressive and professional team. In this role you will be working on projects for one our world famous clients. You will have a chance to grow your technical and soft skills, and build a thorough expertise of the industry of our client. On top of attractive salary and benefits package, Luxoft will invest into your professional training, and allow you to grow your professional career.\nResponsibilities:\nCode reviews (PR's)\nDeveloping applications in an enterprise environment, using Agile development methodologies\nDevelop and maintain frontend features using Angular (v20+) and TypeScript\nMandatory Skills Description:\nFrontend Tech Stack: Hands-on knowledge in developing Single Page Applications (SPAs) using Angular, and TypeScript.\nStrong experience in responsive design, web accessibility (a11y), and CSS3/SCSS (Bootstrap 4+).\nJunit/ Unit Testing: Proven experience in consuming and developing Node.js REST services, as well as unit testing with Karma/Jasmine or Jest.\nAbility to quickly understand and navigate complex codebases and architectures\nProactive mindset with strong problem-solving and communication skills\nExperience working in agile environments, with the ability to operate independently."
+    },
+    {
+      "id": "4478783266",
+      "company": "Luxoft",
+      "title": "Angular Developer | Angular & Node.js | Hybrid | Bucharest",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/angular-developer-angular-node-js-hybrid-bucharest-at-luxoft-4478783266?position=8&pageNum=14&refId=2hCa6vxYq%2BL5Qals0HKLfg%3D%3D&trackingId=vocZT792x00e8s3FXcEEgg%3D%3D",
+      "source": "linkedin",
+      "description": "Join an international team working on enterprise applications for a globally recognized client. You'll have the opportunity to work with modern technologies, contribute to large-scale projects, and further develop both your technical and professional skills.\n💼 What You'll Do\n✅ Develop and maintain Single Page Applications (SPAs) using Angular and TypeScript\n✅ Build scalable and maintainable frontend features\n✅ Integrate applications with REST services and backend components\n✅ Participate in code reviews and contribute to development best practices\n✅ Write and maintain unit tests\n✅ Collaborate with cross-functional teams in an Agile environment\n🎯 What We're Looking For\n✔ Strong experience with Angular and TypeScript\n✔ Experience developing modern SPAs\n✔ Solid knowledge of HTML5, CSS3, SCSS, and responsive design\n✔ Experience with Node.js and REST APIs\n✔ Knowledge of unit testing frameworks such as Karma, Jasmine, or Jest\n✔ Ability to quickly understand complex applications and architectures\n✔ Strong problem-solving and communication skills\n✔ Experience working in Agile environments\n🌟 Why Apply?\n✨ International work environment\n✨ Long-term enterprise projects\n✨ Modern technology stack\n✨ Professional growth and training opportunities\n✨ Hybrid working model\n📍 Location: Bucharest, Romania\nRef: VR-123792"
     },
     {
       "id": "4479510814",
       "company": "ALTEN",
       "title": "Angular FE Developer",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/angular-fe-developer-at-alten-4479510814?position=5&pageNum=0&refId=Uxdczmi8UImJdBE5u1mPbw%3D%3D&trackingId=QAajzn6VfVxt6C86hxAI4w%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/angular-fe-developer-at-alten-4479510814?position=4&pageNum=0&refId=6GsnPpoW9MaTTqoM0py7vg%3D%3D&trackingId=XRHq3kDDFwhOOdKyXQuMHA%3D%3D",
       "source": "linkedin",
       "description": "ALTEN Romania\nis part of the ALTEN Group, a leader in IT and Engineering Consulting. We develop innovative and sustainable technical solutions that meet the needs of our local and international partners.\nAbout the role:\nWe are looking for a Front-End Developer with at least 4 years of relevant experience, ideally 5+ years, to join a project in fragrance, beauty, taste and wellbeing. The role focuses on developing and maintaining web applications, with a strong emphasis on user experience, performance and code quality.\nTo ensure success in this role, you need the following experience and skills:\nMinimum 4 years of professional front-end development experience, ideally 5+ years, with strong hands-on Angular expertise.\nPractical experience with recent Angular versions (Angular 20+).\nStrong knowledge of TypeScript, JavaScript, HTML5 and CSS3/SCSS.\nExperience with standalone components, Angular Signals, dependency injection, routing and reactive forms.\nGood understanding of RxJS, Observables and asynchronous programming.\nExperience integrating REST APIs, including authentication and error handling.\nFamiliarity with component-based architecture, reusable code and front-end performance optimization.\nExperience with unit testing and Git-based collaborative development.\nStrong analytical and problem-solving skills, with the ability to take ownership of assigned tasks.\nGood communication skills in English, both written and spoken.\nA typical day might include the following:\nDevelop and maintain responsive web applications using Angular and TypeScript.\nBuild reusable components and implement intuitive interfaces based on business requirements and UI/UX designs.\nIntegrate REST APIs in collaboration with back-end developers.\nManage asynchronous data flows and application state.\nEnsure application performance, accessibility and cross-browser compatibility.\nWrite and maintain automated tests, participate in code reviews and resolve technical issues.\nContribute to front-end architecture decisions and upgrades to newer Angular versions.\nCollaborate with developers, testers and business stakeholders throughout the delivery lifecycle.\nNice to Have\nHands-on experience with Angular 21 or 22.\nExperience migrating applications between Angular versions.\nFamiliarity with Angular Material or other UI component libraries.\nExperience with state management solutions such as NgRx.\nExperience with end-to-end testing using Playwright or Cypress.\nFamiliarity with CI/CD pipelines and Agile methodologies.\nOnly eligible candidates will be contacted within a maximum of 2 weeks. Any information provided is treated as confidential."
     },
@@ -2872,7 +40,7 @@
       "company": "Extia",
       "title": "Developpeur Java / Angular confirmé H/F",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/developpeur-java-angular-confirm%C3%A9-h-f-at-extia-4400769364?position=8&pageNum=1&refId=upEbtGa7xK51Du%2Fwf9DgPQ%3D%3D&trackingId=aWzhHnJKK%2FxK540t6rIwbQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/developpeur-java-angular-confirm%C3%A9-h-f-at-extia-4400769364?position=7&pageNum=1&refId=TBi%2Fc4ZmscM3sDQ4F%2Fhfsg%3D%3D&trackingId=zWPhgcFoHisMLus0aAXTRA%3D%3D",
       "source": "linkedin",
       "description": "Vous souhaitez rejoindre une entreprise qui place l’humain au cœur de ses préoccupations ? On vous attend chez Extia !\nSociété de conseil spécialisée dans les métiers de l’IT et du digital, Extia privilégie depuis sa création en 2007 une approche qui allie\nperformance et bien-être au travail\n. Une vision de l’entreprise partagée aujourd’hui par plus de 2 500 Extiens en France et à l'international et récompensée par le label\nGreat Place to Work® depuis 15 ans\ndont 10 ans sur le podium et 3 années consécutives à la première place du palmarès !\nNous croyons en l'égalité des chances et nous offrons à chaque candidat la possibilité de révéler son potentiel, sans distinction et de quelque nature qu'elle soit. Chez Extia, c’est «\nD’abord qui, ensuite quoi\n» alors, allons-y !\nCurieux(se)\n, votre boite mail est pleine d’alertes de veille pour rester à la page\nPersévérant(e)\n, vous ne perdez jamais, soit vous gagnez, soit vous apprenez\nProactif(e)\n, vous aimez les projets qui avancent vite et bien\nAu sein d'une équipe dynamique, vous serez amené à :\nParticiper à la rédaction du cahier des charges afin de comprendre les besoins du client et lui proposer les meilleures solutions\nÊtre force de proposition tout au long du développement du projet dans un objectif de satisfaction du client\nDévelopper l'application web en structure complète CRUD (Create, Read, Update & Delete) sous l'architecture MVC\nVeiller à rendre le code compréhensible aux autres parties prenantes pour favoriser l'échange entre les équipes et la pédagogie\nAssurer les tests unitaires et end-to-end de l'application pour faciliter la maintenance de celle-ci,\nUtiliser la technique de test mock,\nRéaliser la maintenance et les mises à jour de l'application.\nProfil recherché\n:\nDiplômé d'une école d'ingénieurs ou équivalent (Bac +5) :\nVous justifiez d'une première expérience réussie en développement,\nVous avez l’esprit créatif qui vous permet de proposer des solutions innovantes,\nVous avez une expérience sur le développement front : Angular, GWT, Bootstrap,\nVous disposez d’une connaissance des frameworks Java (Spring, Hibernate, Struts par exemple),\nVous disposez d’une connaissance des outils tels que GIT, Maven, SVN ...\nProcessus de recrutement\nÉchangez avec un ou une chargée de recrutement pour un premier contact téléphonique\nRencontrez un ou une Ingénieure d’Affaires (Business Manager) sur vos souhaits d’évolution\nApprofondissez avec nos responsables et directeurs d’agence pour connaître la vision de l'agence\nSelon votre profil, des tests ou entretiens techniques pourront vous être demandés. Tout au long du processus, vous pourrez échanger avec nos consultants pour en savoir + sur leur quotidien chez nous !\nLes petits plus\n🏠 Télétravail possible 🎉 250 événements par an pour rencontrer tes collègues et des locaux feel good  📢 Des formations, conférences et une plateforme d'e-learning avec LinkedIn pour monter en compétences #greatplacetolearn 👩‍ Des Communautés Métiers et du Mentorat pour partager son expertise et en apprendre sur de nombreux sujets #greatplacetoshare 🕹️ Une communauté de e-sport : Extia Gaming ! #greatplacetoplay\nLes petits plus\n🏠 Télétravail possible (hybride) 👛 100% des frais de transports en communs pris en charge, des tickets restaurant et une mutuelle haut de gamme ❤️‍🩹Une politique inclusive et une référente handicap à disposition pour vous accompagner 🎁 Un CSE avantageux et des challenges tout au long de l'année ! #greatplacetolive 📈 Des primes à hauteur des performances de l'année et de l'implication 🎉 250 événements par an pour rencontrer tes collègues et des locaux feel good  📢 Des formations, conférences et une plateforme d'e-learning avec LinkedIn pour monter en compétences #greatplacetolearn 👩‍ Des Communautés Métiers et du Mentorat pour partager son expertise et en apprendre plus sur de nombreux sujets #greatplacetoshare 🕹️ Une communauté de e-sport : Extia Gaming ! #greatplacetoplay 🌏 Envie d’évoluer ? Grâce à notre politique de mobilité interne, explorez de nouvelles opportunités en France ou dans l’un de nos 7 autres pays !"
     },
@@ -2881,7 +49,7 @@
       "company": "Luxoft",
       "title": "Front End Developer (Angular & Node.js)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/front-end-developer-angular-node-js-at-luxoft-4482045775?position=5&pageNum=15&refId=29PYgzuY5tqu6wU4bPNjVw%3D%3D&trackingId=mrn%2Bi6mA2phPslcoiAX0ng%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/front-end-developer-angular-node-js-at-luxoft-4482045775?position=7&pageNum=15&refId=6fShY%2B%2B0gm0fRjZ8EHo9uw%3D%3D&trackingId=WSneR061e35UihnRpV0HaQ%3D%3D",
       "source": "linkedin",
       "description": "About the Project\nJoin our Development Center in Bucharest, and become a member of our open-minded, progressive and professional team. In this role you will be working on projects for one our world famous clients. You will have a chance to grow your technical and soft skills, and build a thorough expertise of the industry of our client. On top of attractive salary and benefits package, Luxoft will invest into your professional training, and allow you to grow your professional career.\nResponsibilities\nCode reviews (PR's).\nDeveloping applications in an enterprise environment, using Agile development methodologies.\nDevelop and maintain frontend features using Angular (v20+) and TypeScript.\nMandatory Skills\nFrontend Tech Stack: Hands-on knowledge in developing Single Page Applications (SPAs) using Angular and TypeScript.\nStrong experience in responsive design, web accessibility (a11y), and CSS3/SCSS (Bootstrap 4+).\nJUnit / Unit Testing: Proven experience in consuming and developing Node.js REST services, as well as unit testing with Karma/Jasmine or Jest.\nAbility to quickly understand and navigate complex codebases and architectures.\nProactive mindset with strong problem-solving and communication skills.\nExperience working in agile environments, with the ability to operate independently."
     },
@@ -2890,7 +58,7 @@
       "company": "Luxoft Romania",
       "title": "Front End Developer (Angular)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/front-end-developer-angular-at-luxoft-romania-4479286586?position=7&pageNum=0&refId=Uxdczmi8UImJdBE5u1mPbw%3D%3D&trackingId=V56jvZYbVJcD6O8osyhj6g%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/front-end-developer-angular-at-luxoft-romania-4479286586?position=6&pageNum=0&refId=6GsnPpoW9MaTTqoM0py7vg%3D%3D&trackingId=vhPjBX%2Fl3QI%2BCbaGAXY5DA%3D%3D",
       "source": "linkedin",
       "description": "Project description\nJoin our Development Center in Bucharest, and become a member of our open-minded, progressive and professional team. In this role you will be working on projects for one our world famous clients. You will have a chance to grow your technical and soft skills, and build a thorough expertise of the industry of our client. On top of attractive salary and benefits package, Luxoft will invest into your professional training, and allow you to grow your professional career.\nResponsibilities\nCode reviews (PR's).\nDeveloping applications in an enterprise environment, using Agile development methodologies.\nDevelop and maintain frontend features using Angular (v20+) and TypeScript.\nSkills\nMust have\nStrong experience with Angular (version 20 or newer, including Signals).\nSolid proficiency in TypeScript.\nAbility to quickly understand and navigate complex codebases and architectures.\nProactive mindset with strong problem-solving and communication skills.\nExperience working in agile environments, with the ability to operate independently.\nTools: Git, VS Code.\nCI/CD: Experience with continuous integration pipelines.\nLanguages\nEnglish: C1"
     },
@@ -2899,7 +67,7 @@
       "company": "Luxoft",
       "title": "Front End Developer (Angular/Node.Js)",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/front-end-developer-angular-node-js-at-luxoft-4479295082?position=1&pageNum=15&refId=29PYgzuY5tqu6wU4bPNjVw%3D%3D&trackingId=uEScziRhdiVdwT46NaWYDw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/front-end-developer-angular-node-js-at-luxoft-4479295082?position=3&pageNum=15&refId=6fShY%2B%2B0gm0fRjZ8EHo9uw%3D%3D&trackingId=zNoqkA8qQV3PqsVGQHpWag%3D%3D",
       "source": "linkedin",
       "description": "Join our Development Center in Bucharest, and become a member of our open-minded, progressive and professional team. In this role you will be working on projects for one our world famous clients. You will have a chance to grow your technical and soft skills, and build a thorough expertise of the industry of our client. On top of attractive salary and benefits package, Luxoft will invest into your professional training, and allow you to grow your professional career.\nResponsibilities:\nCode reviews (PR's)\nDeveloping applications in an enterprise environment, using Agile development methodologies\nDevelop and maintain frontend features using Angular (v20+) and TypeScript\nMandatory Skills Description:\nFrontend Tech Stack: Hands-on knowledge in developing Single Page Applications (SPAs) using Angular, and TypeScript.\nStrong experience in responsive design, web accessibility (a11y), and CSS3/SCSS (Bootstrap 4+).\nJunit/ Unit Testing: Proven experience in consuming and developing Node.js REST services, as well as unit testing with Karma/Jasmine or Jest.\nAbility to quickly understand and navigate complex codebases and architectures\nProactive mindset with strong problem-solving and communication skills\nExperience working in agile environments, with the ability to operate independently."
     },
@@ -2908,7 +76,7 @@
       "company": "Luxoft Romania",
       "title": "Front End Developer with Angular",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/front-end-developer-with-angular-at-luxoft-romania-4478536707?position=8&pageNum=0&refId=Uxdczmi8UImJdBE5u1mPbw%3D%3D&trackingId=9J5QWoUhzh%2BS0xZmZhLzkA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/front-end-developer-with-angular-at-luxoft-romania-4478536707?position=7&pageNum=0&refId=6GsnPpoW9MaTTqoM0py7vg%3D%3D&trackingId=eLrHNYIPnCjh2TU7D04YGQ%3D%3D",
       "source": "linkedin",
       "description": "Project Description (\nVR-125129)\nJoin our Development Center in Bucharest, and become a member of our open-minded, progressive and professional team. In this role you will be working on projects for one our world famous clients. You will have a chance to grow your technical and soft skills, and build a thorough expertise of the industry of our client. On top of attractive salary and benefits package, Luxoft will invest into your professional training, and allow you to grow your professional career.\nResponsibilities\nCode reviews (PR's)\nDeveloping applications in an enterprise environment, using Agile development methodologies\nDevelop and maintain frontend features using Angular (v20+) and TypeScript\nMandatory Skills Description\nFrontend Tech Stack: Hands-on knowledge in developing Single Page Applications (SPAs) using Angular, and TypeScript.\nStrong experience in responsive design, web accessibility (a11y), and CSS3/SCSS (Bootstrap 4+).\nJunit/ Unit Testing: Proven experience in consuming and developing Node.js REST services, as well as unit testing with Karma/Jasmine or Jest.\nAbility to quickly understand and navigate complex codebases and architectures\nProactive mindset with strong problem-solving and communication skills\nExperience working in agile environments, with the ability to operate independently.\nLanguages\nEnglish: B2 Upper Intermediate"
     },
@@ -2917,52 +85,43 @@
       "company": "HCLTech",
       "title": "Frontend Developer",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/frontend-developer-at-hcltech-4478429594?position=6&pageNum=0&refId=Uxdczmi8UImJdBE5u1mPbw%3D%3D&trackingId=PmJQyGQ%2BS1OynvaQ8d45RA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/frontend-developer-at-hcltech-4478429594?position=5&pageNum=0&refId=6GsnPpoW9MaTTqoM0py7vg%3D%3D&trackingId=DdMtqIXiosAMcGVjTqfiIQ%3D%3D",
       "source": "linkedin",
-      "description": ""
+      "description": "HCLTech\nis a global technology company, home to 220,000+ people across 60 countries, delivering industry-leading capabilities centered around digital, engineering, cloud and AI powered by a broad portfolio of technology services and products. We work with clients across all major verticals, providing industry solutions for Financial Services, Manufacturing, Life Sciences and Healthcare, Technology and Services, Telecom and Media, Retail and CPG, and Public Services.\nOur purpose is to bring together the best of technology and our people to supercharge progress. We’re supercharging progress for everyone, everywhere – our clients, partners and their stakeholders, our people, communities, and the planet.\nWe are looking for Frontend Developers to join our team!\nOverview:\nWe oversee a high-frequency, low-latency Order and Execution Management system, supporting Private Bank business lines across multiple regions.\nJob Requirements:\nFrontend Tech Stack: Hands-on knowledge in developing Single Page Applications (SPAs) using Angular, and TypeScript. Strong experience in responsive design, web accessibility (a11y), and CSS3/SCSS (Bootstrap 4+).\nJunit/ Unit Testing: Proven experience in consuming and developing Node.js REST services, as well as unit testing with Karma/Jasmine or Jest.\nStrong analytical skills;\nDesire and ability to learn, debug and investigate across complex system landscape;\nDemonstrable SW Development experience;\nExcellent analytical and communication skills, strong independence and initiative, ability to work in agile delivery teams;\nIn-depth understanding of software quality and maintainability, including participation in QA automation process;\nExcellent communication skills in English.\nNice to have:\nExperience with React framework\nExperience with GitHub workflows\nKnowledge of UX design and work with Figma\nWhy Us?\nWe are investing in your growth, offering learning and career development opportunities at every level to help you find your spark;\nWe offer a virtual-first work environment, promoting a good work-life balance and real flexibility;\nOur company is extremely diverse with representation of 165 nationalities;\nWe offer the opportunity to work with colleagues across the globe;\nWe offer comprehensive benefits for all employees;\nWe are a certified great place to work and a top employer in 25 countries including Romania, offering a positive work environment that values employee recognition and respect;\nWhat do we offer?\n1066 RON monthly budget in Benefit Online Platform\n25 vacation days/year.\nLife Insurance cover.\nThe employees working on bank holidays will benefit either a paid day off in the next 30 days + 100% of the hourly base salary for that specific day OR 200% of the hourly base salary for that specific day.\nChildbirth allowance of 7000 RON after 1 year in HCLTech.\nIn the first 8 weeks, the company will pay the difference of up to 100% for the parental leave granted to pregnant employees.\nUnfortunate events allowance of 7000 RON for first degree relative granted from day 1 in HCLTech.\nInternal trainings and certifications.\nHCLTech is committed to protecting and securing the privacy and confidentiality of the Personal Data which it collects directly or indirectly from you when applying for a job at HCLTech either directly or through a third-party human resources agency. This notice (the “Notice”) outlines and explains how HCL Technologies Limited including its subsidiaries, local employing entities, associates, and affiliated companies [collectively referred to as “HCLTech”, “us,” “our”, or “we”] will process your Personal Data in accordance with applicable privacy legislation(s).\nCandidate Data Privacy Notice | HCLTech"
     },
     {
       "id": "4466353759",
       "company": "Hipo.ro",
       "title": "Frontend Developer - DealWise @ING Hubs Romania",
       "location": "Ilfov, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/frontend-developer-dealwise-%40ing-hubs-romania-at-hipo-ro-4466353759?position=5&pageNum=1&refId=upEbtGa7xK51Du%2Fwf9DgPQ%3D%3D&trackingId=dgHlPkp%2F0MDxEYbhaMQIdQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/frontend-developer-dealwise-%40ing-hubs-romania-at-hipo-ro-4466353759?position=4&pageNum=1&refId=TBi%2Fc4ZmscM3sDQ4F%2Fhfsg%3D%3D&trackingId=mR38Q%2BjLf7w5BNCmXA745A%3D%3D",
       "source": "linkedin",
-      "description": ""
+      "description": "Discover ING Hubs Romania\nING Hubs Romania offers 130 services in software development, data management, non-financial risk & compliance, audit, and retail operations to 24 ING units worldwide, with the help of over 2000 high-performing engineers, risk, and operations professionals.\nWe started out in 2015 as ING's software development hub, then steadily expanded our range to include more services and competencies. Now we provide borderless services with bank-wide capabilities and operate from two locations: Bucharest and Cluj-Napoca.\nOur tech capabilities remain the core of our business, with more than 1800 colleagues active in Data and Analytics Tech, Tech Foundation and Channels, Retail Core Banking and Architecture, and Global Products and Technology Services.\nWe enjoy a flexible way of working and a highly collaborative environment, where fair and constructive feedback is encouraged.\nFor us, impact isn't a perk. It's the driver of our work. We are guided and rewarded by a shared desire to make the world a better place, one innovative solution at a time. Our colleagues make it their job to do impactful things and they love doing it in good company. Do you?\nHere's a sneak peak of what our colleagues say about working within ING Hubs Romania:\nAt ING, we're building the solutions of tomorrow, today | 80% of our colleagues in Romania agree\nThe Mission\nWe are seeking a skilled Frontend Developer with expertise in web components and JavaScript frameworks to join our dynamic team. As a Frontend Developer, you will play a crucial role in designing and implementing user interfaces for our web applications. The ideal candidate should have a strong background in frontend development, a deep understanding of web technologies, and a passion for creating seamless and visually appealing user experiences.\nYour day to day\nFrontend Development & Web Components\nDevelop scalable, maintainable, and reusable frontend applications.\nBuild modular Web Components using technologies such as Lit and modern JavaScript frameworks.\nTranslate UI/UX designs into responsive, high-quality user interfaces.\nContribute to shared component libraries and frontend standards.\nPromote coding best practices, maintainability, and consistency across applications.\nMicrofrontend Architecture\nDesign, develop, and maintain solutions within a microfrontend architecture.\nEnsure seamless integration between independently developed frontend applications.\nSupport modularization, scalability, and independent delivery of frontend capabilities.\nContribute to frontend architecture evolution and technical decision-making.\nState Management\nImplement and maintain scalable state management solutions using Redux or similar technologies.\nDefine effective patterns for data flow and asynchronous operations.\nEnsure predictable application behavior and maintainable state structures.\nSupport communication across frontend modules and applications.\nAccessibility & User Experience\nDevelop accessible user interfaces that comply with WCAG and WAI-ARIA guidelines.\nPerform accessibility reviews and remediation activities.\nEnsure compatibility with assistive technologies.\nAdvocate for inclusive design and accessibility best practices.\nPerformance Optimization\nOptimize application performance and loading times.\nIdentify and resolve rendering bottlenecks, memory issues, and performance concerns.\nImprove Core Web Vitals and overall user experience.\nContinuously monitor and enhance frontend performance.\nTesting & Quality Engineering\nCreate and maintain unit, integration, and end-to-end tests.\nCollaborate with QA engineers to ensure high-quality software delivery.\nSupport automated testing practices.\nParticipate in code reviews and quality improvement initiatives.\nAzure DevOps & CI/CD\nDesign, implement, and maintain CI/CD pipelines using Azure DevOps.\nAutomate build, testing, quality validation, and deployment processes.\nManage source control, build pipelines, release workflows, and artifacts.\nSupport deployment and release activities across multiple environments.\nTroubleshoot build and deployment issues and drive continuous improvement of delivery processes.\nAI-Assisted Development\nLeverage tools such as GitHub Copilot and other AI-powered engineering assistants to improve productivity.\nUse AI-assisted development techniques for coding, testing, debugging, refactoring, and documentation.\nValidate and review AI-generated outputs to ensure compliance with quality, security, and maintainability standards.\nContribute to the adoption of responsible AI-assisted development practices within the team.\nCollaboration & Technical Leadership\nCollaborate with developers, architects, designers, product owners, and QA engineers.\nParticipate in architectural discussions and technical design reviews.\nShare knowledge and contribute to engineering communities and best practices.\nSupport junior and mid-level engineers through mentoring and technical guidance.\nPromote a culture of continuous learning and engineering excellence.\nWhat you'll bring to the team\nBachelor's degree in Computer Science, Software Engineering, Information Technology, or equivalent practical experience.\nProven experience developing modern frontend applications.\nStrong knowledge of JavaScript (ES6+), TypeScript, HTML5, and CSS3.\nHands-on experience with Lit, React, Angular, Vue.js, or similar frontend frameworks.\nStrong experience building and maintaining Web Components.\nSolid experience with Redux or similar state management solutions.\nExperience working within microfrontend architectures.\nStrong understanding of REST APIs and asynchronous programming.\nExperience implementing accessibility standards (WCAG, WAI-ARIA).\nExperience with frontend testing frameworks and automated testing practices.\nHands-on experience with Azure DevOps\nExperience designing and maintaining CI/CD pipelines.\nExperience with Adobe Analytics\nExperience using GitHub Copilot or similar AI-assisted development tools.\nStrong understanding of frontend performance optimization techniques.\nExperience with Git-based development workflows.\nIf you have a passion for building innovative and user-friendly interfaces using the latest web technologies, we would love to hear from you. Join us in shaping the future of our web applications and providing users with exceptional digital experiences.\nIf you want to deep dive into the processing of personal data conducted by ING Hubs Romania during the recruitment process and your rights related to it, read the privacy notices on our website (make sure to scroll until you reach the Data Protection section/ Candidates tab)."
     },
     {
       "id": "4464851405",
       "company": "ING Hubs Romania",
       "title": "Frontend Developer - DealWise @ING Hubs Romania",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/frontend-developer-dealwise-%40ing-hubs-romania-at-ing-hubs-romania-4464851405?position=10&pageNum=0&refId=Uxdczmi8UImJdBE5u1mPbw%3D%3D&trackingId=ejpYCFOebemTNnlI00B4Eg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/frontend-developer-dealwise-%40ing-hubs-romania-at-ing-hubs-romania-4464851405?position=9&pageNum=0&refId=6GsnPpoW9MaTTqoM0py7vg%3D%3D&trackingId=n%2F8CdlE9jcgfBKmzUnoHQQ%3D%3D",
       "source": "linkedin",
-      "description": ""
-    },
-    {
-      "id": "4475251168",
-      "company": "NTT DATA Europe & Latam",
-      "title": "Frontend Engineer with Angular",
-      "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/frontend-engineer-with-angular-at-ntt-data-europe-latam-4475251168?position=4&pageNum=0&refId=Uxdczmi8UImJdBE5u1mPbw%3D%3D&trackingId=236fS8%2FuuM%2BA1V8YvigGVw%3D%3D",
-      "source": "linkedin",
-      "description": ""
+      "description": "Discover ING Hubs Romania\nING Hubs Romania offers 130 services in software development, data management, non-financial risk & compliance, audit, and retail operations to 24 ING units worldwide, with the help of\nover 2000 high-performing engineers, risk, and operations professionals.\nWe started out in 2015 as ING’s software development hub, then steadily expanded our range to include more services and competencies. Now we provide borderless services with bank-wide capabilities and\noperate from two locations: Bucharest and Cluj-Napoca\n.\nOur tech capabilities remain the core of our business\n, with more than 1800 colleagues active in Data and Analytics Tech, Tech Foundation and Channels, Retail Core Banking and Architecture, and Global Products and Technology Services.\nWe enjoy a flexible way of working and a highly collaborative environment, where fair and constructive feedback is encouraged.\nFor us, impact isn't a perk. It's the driver of our work. We are guided and rewarded by a shared desire to make the world a better place, one innovative solution at a time. Our colleagues make it their job to do impactful things and they love doing it in good company. Do you?\nHere’s a sneak peak of what our colleagues say about working within ING Hubs Romania:\nAt ING, we're building the solutions of tomorrow, today | 80% of our colleagues in Romania agree\nThe Mission\nWe are seeking a skilled Frontend Developer with expertise in web components and JavaScript frameworks to join our dynamic team. As a Frontend Developer, you will play a crucial role in designing and implementing user interfaces for our web applications. The ideal candidate should have a strong background in frontend development, a deep understanding of web technologies, and a passion for creating seamless and visually appealing user experiences.\nYour day to day\nFrontend Development & Web Components\nDevelop scalable, maintainable, and reusable frontend applications.\nBuild modular Web Components using technologies such as Lit and modern JavaScript frameworks.\nTranslate UI/UX designs into responsive, high-quality user interfaces.\nContribute to shared component libraries and frontend standards.\nPromote coding best practices, maintainability, and consistency across applications.\nMicrofrontend Architecture\nDesign, develop, and maintain solutions within a microfrontend architecture.\nEnsure seamless integration between independently developed frontend applications.\nSupport modularization, scalability, and independent delivery of frontend capabilities.\nContribute to frontend architecture evolution and technical decision-making.\nState Management\nImplement and maintain scalable state management solutions using Redux or similar technologies.\nDefine effective patterns for data flow and asynchronous operations.\nEnsure predictable application behavior and maintainable state structures.\nSupport communication across frontend modules and applications.\nAccessibility & User Experience\nDevelop accessible user interfaces that comply with WCAG and WAI-ARIA guidelines.\nPerform accessibility reviews and remediation activities.\nEnsure compatibility with assistive technologies.\nAdvocate for inclusive design and accessibility best practices.\nPerformance Optimization\nOptimize application performance and loading times.\nIdentify and resolve rendering bottlenecks, memory issues, and performance concerns.\nImprove Core Web Vitals and overall user experience.\nContinuously monitor and enhance frontend performance.\nTesting & Quality Engineering\nCreate and maintain unit, integration, and end-to-end tests.\nCollaborate with QA engineers to ensure high-quality software delivery.\nSupport automated testing practices.\nParticipate in code reviews and quality improvement initiatives.\nAzure DevOps & CI/CD\nDesign, implement, and maintain CI/CD pipelines using Azure DevOps.\nAutomate build, testing, quality validation, and deployment processes.\nManage source control, build pipelines, release workflows, and artifacts.\nSupport deployment and release activities across multiple environments.\nTroubleshoot build and deployment issues and drive continuous improvement of delivery processes.\nAI-Assisted Development\nLeverage tools such as GitHub Copilot and other AI-powered engineering assistants to improve productivity.\nUse AI-assisted development techniques for coding, testing, debugging, refactoring, and documentation.\nValidate and review AI-generated outputs to ensure compliance with quality, security, and maintainability standards.\nContribute to the adoption of responsible AI-assisted development practices within the team.\nCollaboration & Technical Leadership\nCollaborate with developers, architects, designers, product owners, and QA engineers.\nParticipate in architectural discussions and technical design reviews.\nShare knowledge and contribute to engineering communities and best practices.\nSupport junior and mid-level engineers through mentoring and technical guidance.\nPromote a culture of continuous learning and engineering excellence.\nWhat You’ll Bring To The Team\nBachelor's degree in Computer Science, Software Engineering, Information Technology, or equivalent practical experience.\nProven experience developing modern frontend applications.\nStrong knowledge of JavaScript (ES6+), TypeScript, HTML5, and CSS3.\nHands-on experience with Lit, React, Angular, Vue.js, or similar frontend frameworks.\nStrong experience building and maintaining Web Components.\nSolid experience with Redux or similar state management solutions.\nExperience working within microfrontend architectures.\nStrong understanding of REST APIs and asynchronous programming.\nExperience implementing accessibility standards (WCAG, WAI-ARIA).\nExperience with frontend testing frameworks and automated testing practices.\nHands-on experience with Azure DevOps\nExperience designing and maintaining CI/CD pipelines.\nExperience with Adobe Analytics\nExperience using GitHub Copilot or similar AI-assisted development tools.\nStrong understanding of frontend performance optimization techniques.\nExperience with Git-based development workflows.\nIf you have a passion for building innovative and user-friendly interfaces using the latest web technologies, we would love to hear from you. Join us in shaping the future of our web applications and providing users with exceptional digital experiences.\nIf you want to deep dive into the processing of personal data conducted by ING Hubs Romania during the recruitment process and your rights related to it, read the privacy notices on our\nwebsite\n(make sure to scroll until you reach the Data Protection section/ Candidates tab)."
     },
     {
       "id": "4463985786",
       "company": "VOIS",
       "title": "Frontend Software Developer",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/frontend-software-developer-at-vois-4463985786?position=4&pageNum=1&refId=upEbtGa7xK51Du%2Fwf9DgPQ%3D%3D&trackingId=ZsaKBwVsp%2B60g1eFwQrcIQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/frontend-software-developer-at-vois-4463985786?position=3&pageNum=1&refId=TBi%2Fc4ZmscM3sDQ4F%2Fhfsg%3D%3D&trackingId=7JtjEVh4%2FxfenmY%2FFsE1Zw%3D%3D",
       "source": "linkedin",
-      "description": ""
+      "description": "Who We Are\nVOIS (Vodafone Intelligent Solutions) is a strategic arm of Vodafone Group Plc, creating value for customers by delivering intelligent solutions through Talent, Technology & Transformation.\nAs the largest shared services organisation in the global telco industry with 30,000 FTE, our portfolio of next-generation solutions and services are designed in partnership with customers across Vodafone Group, local markets, and partner markets to simplify and drive growth. With our strategic partner Accenture, we work alongside our Vodafone customers, other Telco and tech companies to drive transformation, meet the challenges of our industry and ensure we stay relevant and resilient. This partnership is a unique, industry-first model which brings together the best of in-house and 3rd party capability.\nWe work with customers across 28 countries from 10 VOIS locations: Albania, Egypt, Hungary, India, Romania, Spain, Turkey, UK, Germany, Ireland, and with a network of teams in Czech Republic, Italy, Greece, and Portugal.\n#VOIS #BeUnrivalled #CreateTheFuture\nAbout This Role\nWe are seeking a Frontend Software Developer to join our Infrastructure Engineering team within Software & Product Infrastructure. This role is responsible for designing, developing and maintaining modern, scalable and user-centric web applications using contemporary front-end frameworks, with a particular focus on React and Angular. The successful candidate will work across multiple applications built on different technology stacks, collaborating closely with designers, backend engineers, product teams and clients to deliver high-quality digital experiences.\nIn addition to software development responsibilities, the role provides technical consultancy and guidance to stakeholders, helping them make informed decisions regarding technologies, solution design and product roadmaps while ensuring high standards of usability, accessibility, performance and maintainability.\nWhat You’ll Do\nDevelop responsive, accessible and high-quality user interfaces using modern front-end frameworks, including React and Angular\nCreate clean, maintainable and efficient code that aligns with business requirements and design specifications\nWork across multiple applications and adapt to different front-end frameworks, architectures and development standards\nCollaborate with designers to transform wireframes and design concepts into engaging, user-friendly web experiences\nEnsure consistent functionality and user experience across devices, browsers and screen sizes\nPartner with backend developers to integrate front-end components with APIs and server-side services\nWork closely with product managers and stakeholders to deliver solutions aligned with project objectives and timelines\nParticipate throughout the software development lifecycle, including planning, design, development, testing, deployment and maintenance\nConduct peer code reviews and support quality assurance activities to maintain development standards\nTroubleshoot, debug and resolve technical issues efficiently\nImplement front-end optimisation techniques, including lazy loading, caching and performance improvements\nPromote engineering best practices including version control, continuous integration and code review processes\nCreate and maintain technical documentation, component libraries, development guides and user-facing documentation\nExplore emerging technologies, frameworks and tools, sharing knowledge with colleagues to support innovation and continuous improvement\nProvide technical consultancy to clients on technology choices, development methodologies and solution roadmaps\nBuild strong stakeholder relationships through proactive communication, problem solving and delivery excellence\nGather client feedback, provide project updates and support alignment between technical delivery and business objectives\nContribute to onboarding activities and knowledge-transfer sessions for new team members\nPromote knowledge sharing through documentation, mentoring and collaborative working practices\nContribute to departmental initiatives, strategic projects, process improvements and cross-functional activities\nWho You Are\nMinimum 3 years of experience in front-end development using modern JavaScript frameworks\nProven hands-on experience working with both React and Angular in production environments\nStrong proficiency in HTML5, CSS3, JavaScript (ES6+) and TypeScript\nExperience working with front-end build tools and package management solutions\nFamiliarity with RESTful APIs and/or GraphQL integrations\nStrong understanding of responsive design, cross-browser compatibility and web accessibility principles\nExperience with version control systems and software build tools\nKnowledge of Agile and Scrum methodologies within collaborative delivery environments\nStrong problem-solving skills with excellent attention to detail\nAbility to manage multiple priorities and projects within a fast-paced environment\nExcellent communication and stakeholder management skills, including the ability to explain technical concepts to non-technical audiences\nCommitment to continuous learning and professional development\nExperience with state management libraries would be beneficial\nKnowledge of server-side rendering frameworks would be advantageous\nFamiliarity with front-end testing frameworks is desirable\nBasic understanding of UI/UX principles and usability best practices\nExperience with CSS preprocessors such as SASS or LESS, or CSS-in-JS approaches, would be beneficial\nExposure to CI/CD pipelines and cloud platforms such as AWS or Azure would be advantageous\nNot a perfect fit?\nConcerned you may not meet every requirement? Vodafone is committed to creating an inclusive workplace where everyone can thrive. If you are excited about this role but your experience does not align exactly with every aspect of the job description, you are encouraged to apply. You may be the right candidate for this or another opportunity, and the recruitment team will support you in exploring where your skills fit best.\nWhat's In It For You\nHybrid way of working\nMedical and dental services\nLife and hospitalization insurance\nDedicated employee phone subscription\nTake control of your benefits and choose any of the below options: MEAL TICKETS/ PRIVATE PENSION/ VACATION VOUCHERS/ CULTURAL VOUCHERS within the budget\nSpecial discounts for gyms and retailers\nAnnual Company Bonus\nLoyalty Programme\nOngoing Education – we continuously invest in you to ensure you have everything needed to excel on the job and enhance your skills\nYou get to work with tried and trusted web-technology\nGetting in on the ground floor of a technology changing company\nWe let you write your own story by planning vacations: go for a trip, experience new things, have fun and enjoy your 23 days off\nSpecial Paternal Program - 4 months of paid paternity leave\nWhat Skills You Will Learn\nAdvanced frontend architecture and design patterns across React and Angular ecosystems\nEnterprise-scale application development and integration practices\nPerformance optimisation, accessibility and responsive design techniques\nAPI integration and collaboration within microservices-based environments\nTechnical consultancy, stakeholder engagement and client advisory skills\nModern DevOps, CI/CD and cloud-enabled development practices\nKnowledge-sharing, mentoring and technical leadership capabilities\nVOIS Equal Opportunity Employer Commitment\nVodafone recognises and celebrates the value of diversity in building a workforce that reflects the customers and communities it serves. No form of discrimination is tolerated. This includes, but is not limited to, discrimination based on race, colour, age, veteran status, gender identity, gender expression, sexual orientation, pregnancy, maternity or parental status, ethnicity, disability, religion or belief, political affiliation, trade union membership, nationality, citizenship, indigenous status, medical condition, HIV status, neurodiversity, social origin, cultural background, marital or civil partnership status, or socio-economic background.\nJoin Us\nAt Vodafone, we’re working hard to build a better future. A more connected, inclusive and sustainable world. As a dynamic global community, it's our human spirit, together with technology, that empowers us to achieve this.\nWe challenge and innovate in order to connect people, businesses, and communities across the world. Delighting our customers and earning their loyalty drive us, and we experiment, learn fast and get it done, together.\nWith us, you can truly be yourself and belong, share inspiration, embrace new opportunities, thrive, and make a real difference.\nAlert\nApply for Vodafone jobs only through the official Vodafone Careers website to avoid job scams and fraud.\n#JDEnhancedByTARA\nFollow us on social media and #StayConnected\nLinkedIn: https://www.linkedin.com/company/vois/\nFacebook: https://www.facebook.com/voisglobal\nInstagram: https://www.instagram.com/voisglobal/"
     },
     {
       "id": "4473774035",
       "company": "Swissquote",
       "title": "Frontend Software Engineer",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/frontend-software-engineer-at-swissquote-4473774035?position=7&pageNum=10&refId=acFWWivR%2FQp3VYiTVUWoXA%3D%3D&trackingId=psxpOSh6uLpKJqh9C54qwA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/frontend-software-engineer-at-swissquote-4473774035?position=3&pageNum=10&refId=K0Rq9eX9CZI0q21ykJTKLg%3D%3D&trackingId=OLYuEmX0xpC%2FjLsEXPzG%2Fw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2971,7 +130,25 @@
       "company": "Worldline",
       "title": "Full Stack Angular Developer",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/full-stack-angular-developer-at-worldline-4482063056?position=7&pageNum=1&refId=upEbtGa7xK51Du%2Fwf9DgPQ%3D%3D&trackingId=iVgjdZHnmYh6eK8AARNOvQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/full-stack-angular-developer-at-worldline-4482063056?position=6&pageNum=1&refId=TBi%2Fc4ZmscM3sDQ4F%2Fhfsg%3D%3D&trackingId=o%2BeDXbNdCVYtyNjodAVbyw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4487280373",
+      "company": "Luxoft",
+      "title": "Full Stack Developer (Java, Spring Boot, Angular)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/full-stack-developer-java-spring-boot-angular-at-luxoft-4487280373?position=8&pageNum=17&refId=J%2BxtXyeXevNQgwn6PiDaew%3D%3D&trackingId=ehSXIUkDV7rWq2ByiCZ9zQ%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4359381137",
+      "company": "Luxoft",
+      "title": "Full Stack Engineer (Java & Angular)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/full-stack-engineer-java-angular-at-luxoft-4359381137?position=9&pageNum=17&refId=J%2BxtXyeXevNQgwn6PiDaew%3D%3D&trackingId=a2o2NrZcaGYdtrC9LDCRIw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2980,7 +157,43 @@
       "company": "Global Payments Inc.",
       "title": "Full Stack Software Engineer - Node.js, Typescript, AWS",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/full-stack-software-engineer-node-js-typescript-aws-at-global-payments-inc-4477164981?position=1&pageNum=13&refId=edTdtw2ywlfARDF6l49pIQ%3D%3D&trackingId=TBRGcI5Z3YG0tKogSWMhVQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/full-stack-software-engineer-node-js-typescript-aws-at-global-payments-inc-4477164981?position=6&pageNum=12&refId=EaKvt7VuHHmxpm2354c1%2Bg%3D%3D&trackingId=Vx4wZ6eoju%2BXkAJ8%2BoNDGQ%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4483828557",
+      "company": "Undelucram.ro",
+      "title": "Full Stack Software Engineer - Node.js, Typescript, AWS",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/full-stack-software-engineer-node-js-typescript-aws-at-undelucram-ro-4483828557?position=8&pageNum=21&refId=hxhIzHFTrQFwhW9sGBsMrQ%3D%3D&trackingId=pl0GuFnHT9uOkVME9IFhrQ%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4487234941",
+      "company": "Luxoft",
+      "title": "Full-Stack Developer (Java & Angular)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/full-stack-developer-java-angular-at-luxoft-4487234941?position=6&pageNum=17&refId=J%2BxtXyeXevNQgwn6PiDaew%3D%3D&trackingId=hPm%2B3iq6l0h%2FF9sbpFOIhQ%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4487234944",
+      "company": "Luxoft",
+      "title": "Full-Stack Developer (Java & Angular)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/full-stack-developer-java-angular-at-luxoft-4487234944?position=5&pageNum=17&refId=J%2BxtXyeXevNQgwn6PiDaew%3D%3D&trackingId=hVJeZh4acgMLs6OHmHXJow%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4482536883",
+      "company": "NTT DATA Europe & Latam",
+      "title": "Full-Stack Developer - Java & Angular",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/full-stack-developer-java-angular-at-ntt-data-europe-latam-4482536883?position=5&pageNum=16&refId=%2FcFmFfa9cACE1h1%2FmE7s1w%3D%3D&trackingId=Pxy4cNKHltPOKcWPq4ImFQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2989,7 +202,7 @@
       "company": "BNP Paribas",
       "title": "Full-stack Technical Lead (Angular & Java API) Germany team",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/full-stack-technical-lead-angular-java-api-germany-team-at-bnp-paribas-4486147013?position=3&pageNum=3&refId=%2BsuashN8rFWxvcORqTexKw%3D%3D&trackingId=1iDqI8Bx7vMVtBv7LnYHjw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/full-stack-technical-lead-angular-java-api-germany-team-at-bnp-paribas-4486147013?position=3&pageNum=3&refId=xlS2LKvPemYTF%2Fsn9lkOuw%3D%3D&trackingId=10Sw3%2FzqmvHZURBwu1NoLg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -2998,7 +211,16 @@
       "company": "BNP Paribas Personal Finance",
       "title": "Full-stack Technical Lead (Angular & Java API) | Germany team",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/full-stack-technical-lead-angular-java-api-germany-team-at-bnp-paribas-personal-finance-4486143052?position=1&pageNum=3&refId=%2BsuashN8rFWxvcORqTexKw%3D%3D&trackingId=bNGLkhgYIwizAPoKtGIP2A%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/full-stack-technical-lead-angular-java-api-germany-team-at-bnp-paribas-personal-finance-4486143052?position=1&pageNum=3&refId=xlS2LKvPemYTF%2Fsn9lkOuw%3D%3D&trackingId=3e951Svzs4FkHdTtRtjtDA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4487235376",
+      "company": "Luxoft Romania",
+      "title": "Fullstack Developer (Java & Angular)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/fullstack-developer-java-angular-at-luxoft-romania-4487235376?position=2&pageNum=17&refId=J%2BxtXyeXevNQgwn6PiDaew%3D%3D&trackingId=Pfki9xc2xQ4JoNrZHuQ9wQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3007,7 +229,7 @@
       "company": "Criteo",
       "title": "Fullstack Software Engineer (C#, Angular) - VIE",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/fullstack-software-engineer-c%23-angular-vie-at-criteo-4421697937?position=8&pageNum=2&refId=kCBw8UnHUwL2KO54R3V%2BNg%3D%3D&trackingId=9lgLZEEUTQyv6ynqAP4wCw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/fullstack-software-engineer-c%23-angular-vie-at-criteo-4421697937?position=8&pageNum=2&refId=3ZyFW4a%2B9GKoB%2FRzxKd0GQ%3D%3D&trackingId=rDVZZCwBJgRSlsbrcFvqdg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3016,7 +238,7 @@
       "company": "Thales",
       "title": "Junior Fullstack Software Developer with French (Java & Angular)",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/junior-fullstack-software-developer-with-french-java-angular-at-thales-4486417548?position=9&pageNum=2&refId=kCBw8UnHUwL2KO54R3V%2BNg%3D%3D&trackingId=FAgfWq%2BASj6HDcveOzTR%2Fw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/junior-fullstack-software-developer-with-french-java-angular-at-thales-4486417548?position=9&pageNum=2&refId=3ZyFW4a%2B9GKoB%2FRzxKd0GQ%3D%3D&trackingId=x%2FqytntngfObLEUMloufWg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3025,7 +247,7 @@
       "company": "Thales",
       "title": "MID FullStack Java & Angular (B1 French) – Shape Global Innovation",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/mid-fullstack-java-angular-b1-french-%E2%80%93-shape-global-innovation-at-thales-4433884518?position=2&pageNum=2&refId=kCBw8UnHUwL2KO54R3V%2BNg%3D%3D&trackingId=Q6hl9UBmw%2BJ%2FNGYW6%2BEiNg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/mid-fullstack-java-angular-b1-french-%E2%80%93-shape-global-innovation-at-thales-4433884518?position=1&pageNum=2&refId=3ZyFW4a%2B9GKoB%2FRzxKd0GQ%3D%3D&trackingId=laUU1dKUGrlyM3VOSssFgQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3034,7 +256,7 @@
       "company": "Luxoft",
       "title": "Middle Front End Developer (Angular & Node.Js)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/middle-front-end-developer-angular-node-js-at-luxoft-4478787221?position=4&pageNum=15&refId=29PYgzuY5tqu6wU4bPNjVw%3D%3D&trackingId=oHEyqFYohSrs29kwcDTdXQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/middle-front-end-developer-angular-node-js-at-luxoft-4478787221?position=6&pageNum=15&refId=6fShY%2B%2B0gm0fRjZ8EHo9uw%3D%3D&trackingId=2E6eLMtDhsyUXefmFhoaWA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3043,7 +265,16 @@
       "company": "Luxoft",
       "title": "Regular Front End Developer (Angular+Node.Js)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/regular-front-end-developer-angular%2Bnode-js-at-luxoft-4479097937?position=7&pageNum=15&refId=29PYgzuY5tqu6wU4bPNjVw%3D%3D&trackingId=Cc0Lyxx6j4zRLujEUBOnrw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/regular-front-end-developer-angular%2Bnode-js-at-luxoft-4479097937?position=9&pageNum=15&refId=6fShY%2B%2B0gm0fRjZ8EHo9uw%3D%3D&trackingId=OJtb83%2F78JaEmNX3SL1azQ%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478774878",
+      "company": "Luxoft",
+      "title": "Regular Front End Developer (Angular/Node.Js)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/regular-front-end-developer-angular-node-js-at-luxoft-4478774878?position=1&pageNum=15&refId=6fShY%2B%2B0gm0fRjZ8EHo9uw%3D%3D&trackingId=QA2045GkyARwt9zQI5aFhA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3052,7 +283,25 @@
       "company": "Luxoft",
       "title": "Regular Front End Developer (Angular/Node.Js)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/regular-front-end-developer-angular-node-js-at-luxoft-4478776243?position=6&pageNum=15&refId=29PYgzuY5tqu6wU4bPNjVw%3D%3D&trackingId=UptxNDazmr%2Br%2FRi%2BDHQvPQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/regular-front-end-developer-angular-node-js-at-luxoft-4478776243?position=8&pageNum=15&refId=6fShY%2B%2B0gm0fRjZ8EHo9uw%3D%3D&trackingId=x1jeMa0lFuawb6D1dfM2zg%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478783560",
+      "company": "Luxoft",
+      "title": "Regular Front End Developer (Angular/Node.Js)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/regular-front-end-developer-angular-node-js-at-luxoft-4478783560?position=2&pageNum=15&refId=6fShY%2B%2B0gm0fRjZ8EHo9uw%3D%3D&trackingId=po7PaqhSagzqBD60YH%2Fg%2Fw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478784562",
+      "company": "Luxoft",
+      "title": "Regular Front End Developer (Angular/Node.js)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/regular-front-end-developer-angular-node-js-at-luxoft-4478784562?position=10&pageNum=14&refId=2hCa6vxYq%2BL5Qals0HKLfg%3D%3D&trackingId=3K5vfM2ZXevW0sztw2orfQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3061,7 +310,16 @@
       "company": "Luxoft",
       "title": "Regular Front End Developer (Angular/Node.Js)",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/regular-front-end-developer-angular-node-js-at-luxoft-4478787163?position=3&pageNum=15&refId=29PYgzuY5tqu6wU4bPNjVw%3D%3D&trackingId=BzQj9%2FsnEE7C95SAtJbjLA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/regular-front-end-developer-angular-node-js-at-luxoft-4478787163?position=5&pageNum=15&refId=6fShY%2B%2B0gm0fRjZ8EHo9uw%3D%3D&trackingId=i3a%2BylzsHJkQ%2BBh8PLYrgw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478774535",
+      "company": "Luxoft Romania",
+      "title": "Regular Front End Developer (Angular/Node.Js)",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/regular-front-end-developer-angular-node-js-at-luxoft-romania-4478774535?position=9&pageNum=14&refId=2hCa6vxYq%2BL5Qals0HKLfg%3D%3D&trackingId=yVccQ5U4wW4szamx%2F7mIUw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3070,7 +328,7 @@
       "company": "Luxoft Romania",
       "title": "Regular Front End Developer (Angular/Node.Js)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/regular-front-end-developer-angular-node-js-at-luxoft-romania-4479001002?position=2&pageNum=15&refId=29PYgzuY5tqu6wU4bPNjVw%3D%3D&trackingId=mTPBHuZo8Qq%2BCwV6q3WVgQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/regular-front-end-developer-angular-node-js-at-luxoft-romania-4479001002?position=4&pageNum=15&refId=6fShY%2B%2B0gm0fRjZ8EHo9uw%3D%3D&trackingId=jrZ5XYUvAVgX7xadwKKB5g%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3079,7 +337,16 @@
       "company": "Luxoft",
       "title": "Senior Angular Developer",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/senior-angular-developer-at-luxoft-4476597426?position=1&pageNum=0&refId=Uxdczmi8UImJdBE5u1mPbw%3D%3D&trackingId=38Pd4Qkmb%2B9PP%2FV4lTKS1A%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-angular-developer-at-luxoft-4476597426?position=1&pageNum=0&refId=6GsnPpoW9MaTTqoM0py7vg%3D%3D&trackingId=%2Bk1023JNKREcQy5KNrJvaQ%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4479219228",
+      "company": "Luxoft",
+      "title": "Senior Angular Developer",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/senior-angular-developer-at-luxoft-4479219228?position=3&pageNum=22&refId=1KagUGQxW4W5FQwwIguUPg%3D%3D&trackingId=rlHvjnieK8Hsl2dDEq6m9A%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3088,7 +355,16 @@
       "company": "Luxoft",
       "title": "Senior Angular Developer",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-angular-developer-at-luxoft-4479781655?position=2&pageNum=0&refId=Uxdczmi8UImJdBE5u1mPbw%3D%3D&trackingId=RkNdhlMkga4uhB7Ny%2BxTmg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-angular-developer-at-luxoft-4479781655?position=2&pageNum=0&refId=6GsnPpoW9MaTTqoM0py7vg%3D%3D&trackingId=1Z4L1xRyxsWMwXYO79eURg%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4482062232",
+      "company": "Luxoft",
+      "title": "Senior Angular Developer",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-angular-developer-at-luxoft-4482062232?position=2&pageNum=22&refId=1KagUGQxW4W5FQwwIguUPg%3D%3D&trackingId=WZOCAQMec0Sb6qwRY5%2F8gQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3097,7 +373,7 @@
       "company": "In The Pocket",
       "title": "Senior Angular Front-End Engineer",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/senior-angular-front-end-engineer-at-in-the-pocket-4404724599?position=3&pageNum=0&refId=Uxdczmi8UImJdBE5u1mPbw%3D%3D&trackingId=jZM%2Be4OwpByBTSscs9h6RA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-angular-front-end-engineer-at-in-the-pocket-4404724599?position=3&pageNum=0&refId=6GsnPpoW9MaTTqoM0py7vg%3D%3D&trackingId=Io5IBvbC1bA3YyzUKtrQJA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3106,7 +382,34 @@
       "company": "Deutsche Bank",
       "title": "Senior Engineer, Frontend (f/m/x)",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-engineer-frontend-f-m-x-at-deutsche-bank-4371402543?position=2&pageNum=1&refId=upEbtGa7xK51Du%2Fwf9DgPQ%3D%3D&trackingId=HRLYESTdx0ADpJU8mJ3ATA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-engineer-frontend-f-m-x-at-deutsche-bank-4371402543?position=1&pageNum=1&refId=TBi%2Fc4ZmscM3sDQ4F%2Fhfsg%3D%3D&trackingId=urhrcLQ1qtt7GjKEaJOKfw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4476197802",
+      "company": "Luxoft",
+      "title": "Senior Front End Developer (Angular)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-front-end-developer-angular-at-luxoft-4476197802?position=5&pageNum=14&refId=2hCa6vxYq%2BL5Qals0HKLfg%3D%3D&trackingId=nQ0O7bfrbRM5KxRXYKrnSw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4476300634",
+      "company": "Luxoft",
+      "title": "Senior Front End Developer (Angular)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-front-end-developer-angular-at-luxoft-4476300634?position=4&pageNum=14&refId=2hCa6vxYq%2BL5Qals0HKLfg%3D%3D&trackingId=oLU4uKFNtPz6n2vZIPcnyA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4480940575",
+      "company": "Luxoft",
+      "title": "Senior Front End Developer (Angular)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-front-end-developer-angular-at-luxoft-4480940575?position=3&pageNum=14&refId=2hCa6vxYq%2BL5Qals0HKLfg%3D%3D&trackingId=v25Q1ZVfNVDRmSOT%2BcWcmQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3115,7 +418,7 @@
       "company": "Luxoft",
       "title": "Senior Frontend Angular Developer",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-angular-developer-at-luxoft-4477126459?position=9&pageNum=14&refId=dH0XWcw90Jm%2Bhh0UQij7dg%3D%3D&trackingId=CdBxWtxGOaG3180WuzgrOw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-angular-developer-at-luxoft-4477126459?position=1&pageNum=14&refId=2hCa6vxYq%2BL5Qals0HKLfg%3D%3D&trackingId=6lKrPe%2BWqlXWqOVJddUNhg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3124,7 +427,7 @@
       "company": "AD/01",
       "title": "Senior Frontend Developer",
       "location": "Bucharest Metropolitan Area",
-      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-developer-at-ad-01-4481577578?position=3&pageNum=14&refId=dH0XWcw90Jm%2Bhh0UQij7dg%3D%3D&trackingId=PG24o8nkKKXdSLPIy7%2BpCg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-developer-at-ad-01-4481577578?position=6&pageNum=13&refId=zsw1ixnayZMu3h7f2bTOTg%3D%3D&trackingId=Pwvl32w0fBMrJNyqcm%2FJKQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3133,7 +436,25 @@
       "company": "Luxoft",
       "title": "Senior Frontend Developer (Angular)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-developer-angular-at-luxoft-4477177735?position=10&pageNum=14&refId=dH0XWcw90Jm%2Bhh0UQij7dg%3D%3D&trackingId=uZmq6D9VbrPK50tfRpKaMQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-developer-angular-at-luxoft-4477177735?position=2&pageNum=14&refId=2hCa6vxYq%2BL5Qals0HKLfg%3D%3D&trackingId=syGjS4isADBLITsXHfJYTw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4477178771",
+      "company": "Luxoft",
+      "title": "Senior Frontend Developer (Angular)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-developer-angular-at-luxoft-4477178771?position=6&pageNum=14&refId=2hCa6vxYq%2BL5Qals0HKLfg%3D%3D&trackingId=RoyBcD2BYjAPrLB01ptfkw%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4441816437",
+      "company": "Legion Technologies",
+      "title": "Senior Frontend Engineer",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-engineer-at-legion-technologies-4441816437?position=4&pageNum=22&refId=1KagUGQxW4W5FQwwIguUPg%3D%3D&trackingId=yueKIjvf72JOQ4heC29jjA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3142,7 +463,7 @@
       "company": "Legion Technologies",
       "title": "Senior Frontend Engineer",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-engineer-at-legion-technologies-4472633444?position=6&pageNum=1&refId=upEbtGa7xK51Du%2Fwf9DgPQ%3D%3D&trackingId=ABGr8dM9Jnr8gUl4a2vy5w%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-engineer-at-legion-technologies-4472633444?position=5&pageNum=1&refId=TBi%2Fc4ZmscM3sDQ4F%2Fhfsg%3D%3D&trackingId=eJjDNaTTG%2FbvE%2B1myytpdQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3151,7 +472,16 @@
       "company": "LSEG",
       "title": "Senior Frontend Engineer",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-engineer-at-lseg-4478471796?position=6&pageNum=10&refId=acFWWivR%2FQp3VYiTVUWoXA%3D%3D&trackingId=GiH9kPHcV41d4cKwB%2B5OfQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-engineer-at-lseg-4478471796?position=2&pageNum=10&refId=K0Rq9eX9CZI0q21ykJTKLg%3D%3D&trackingId=gpMad2AO4z7o3RRbqZH62g%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478477536",
+      "company": "LSEG",
+      "title": "Senior Frontend Engineer",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-engineer-at-lseg-4478477536?position=7&pageNum=22&refId=1KagUGQxW4W5FQwwIguUPg%3D%3D&trackingId=5nOfCRxE%2B5h95RLo7krBrQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3160,7 +490,7 @@
       "company": "Postis",
       "title": "Senior Frontend Engineer",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-engineer-at-postis-4450795698?position=9&pageNum=0&refId=Uxdczmi8UImJdBE5u1mPbw%3D%3D&trackingId=7z6iUckF0baKcL4UPOfGuA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-engineer-at-postis-4450795698?position=8&pageNum=0&refId=6GsnPpoW9MaTTqoM0py7vg%3D%3D&trackingId=9gA5%2FTuDd6fs9J4elnSk1w%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3169,7 +499,7 @@
       "company": "Qualysoft",
       "title": "Senior Frontend Engineer",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-engineer-at-qualysoft-4481700301?position=3&pageNum=1&refId=upEbtGa7xK51Du%2Fwf9DgPQ%3D%3D&trackingId=%2BwEdFYpnlPrRPWZuFvBLlg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-frontend-engineer-at-qualysoft-4481700301?position=2&pageNum=1&refId=TBi%2Fc4ZmscM3sDQ4F%2Fhfsg%3D%3D&trackingId=GDcYYB62rd4yP2nxnGSqeA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3178,7 +508,16 @@
       "company": "GlobalLogic",
       "title": "Senior Full Stack (.Net/Angular) engineer IRC303606",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-net-angular-engineer-irc303606-at-globallogic-4483660938?position=10&pageNum=1&refId=upEbtGa7xK51Du%2Fwf9DgPQ%3D%3D&trackingId=blwDG%2B9dDSx2HkjPbtsyQQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-net-angular-engineer-irc303606-at-globallogic-4483660938?position=9&pageNum=1&refId=TBi%2Fc4ZmscM3sDQ4F%2Fhfsg%3D%3D&trackingId=OI4X1bp70lfBwPIrFmuQgg%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4469309354",
+      "company": "NTT DATA Europe & Latam",
+      "title": "Senior Full Stack Software Engineer with AI Expertise (Angular/Spring Boot)",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-software-engineer-with-ai-expertise-angular-spring-boot-at-ntt-data-europe-latam-4469309354?position=5&pageNum=2&refId=3ZyFW4a%2B9GKoB%2FRzxKd0GQ%3D%3D&trackingId=%2Ftd0suKHr7rEW%2FUgeNe4Yg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3187,7 +526,7 @@
       "company": "Luxoft",
       "title": "Senior Full-Stack Developer (Angular+Node.Js)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-developer-angular%2Bnode-js-at-luxoft-4478782288?position=10&pageNum=15&refId=29PYgzuY5tqu6wU4bPNjVw%3D%3D&trackingId=fRQf3V1W7aDyb93QvjB7SA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-developer-angular%2Bnode-js-at-luxoft-4478782288?position=2&pageNum=16&refId=%2FcFmFfa9cACE1h1%2FmE7s1w%3D%3D&trackingId=e4j7OpD2%2FJKDkdMlXf3EEw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3196,7 +535,7 @@
       "company": "Luxoft",
       "title": "Senior Full-Stack Developer (Angular+Node.Js)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-developer-angular%2Bnode-js-at-luxoft-4478786389?position=9&pageNum=15&refId=29PYgzuY5tqu6wU4bPNjVw%3D%3D&trackingId=SvoJ%2F5iAfdDizv1fEOGjUA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-developer-angular%2Bnode-js-at-luxoft-4478786389?position=1&pageNum=16&refId=%2FcFmFfa9cACE1h1%2FmE7s1w%3D%3D&trackingId=JZfFz7IX7qQQTZ23otuXdQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3205,16 +544,61 @@
       "company": "Luxoft",
       "title": "Senior Full-Stack Developer (Angular+Node.Js)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-developer-angular%2Bnode-js-at-luxoft-4478790207?position=8&pageNum=15&refId=29PYgzuY5tqu6wU4bPNjVw%3D%3D&trackingId=b7878qtfS68TKcd4nzWHjg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-developer-angular%2Bnode-js-at-luxoft-4478790207?position=10&pageNum=15&refId=6fShY%2B%2B0gm0fRjZ8EHo9uw%3D%3D&trackingId=Ftv1KYNDS2Rw3gRoyiqPNQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
     {
-      "id": "4474246940",
-      "company": "Talent Spotter",
-      "title": "Senior Full-Stack Developer – Java & React/Angular",
+      "id": "4470151712",
+      "company": "NTT DATA Europe & Latam",
+      "title": "Senior Full-Stack Engineer (ReactJS or Angular)",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-engineer-reactjs-or-angular-at-ntt-data-europe-latam-4470151712?position=1&pageNum=17&refId=J%2BxtXyeXevNQgwn6PiDaew%3D%3D&trackingId=DLZ6e8S9OUbvST7hKDVd%2FA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4448864079",
+      "company": "Luxoft",
+      "title": "Senior Fullstack Developer (Java & Angular)",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/senior-fullstack-developer-java-angular-at-luxoft-4448864079?position=3&pageNum=16&refId=%2FcFmFfa9cACE1h1%2FmE7s1w%3D%3D&trackingId=pEtfM9MzCTBavCgA01FygQ%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4465077320",
+      "company": "Luxoft",
+      "title": "Senior Fullstack Developer (Java & Angular)",
+      "location": "Bucharest Metropolitan Area",
+      "href": "https://ro.linkedin.com/jobs/view/senior-fullstack-developer-java-angular-at-luxoft-4465077320?position=4&pageNum=16&refId=%2FcFmFfa9cACE1h1%2FmE7s1w%3D%3D&trackingId=GH7zrRn3df7ChXpZk8W4IQ%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478768996",
+      "company": "Luxoft",
+      "title": "Senior Fullstack Developer (Java & Angular)",
       "location": "Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-developer-%E2%80%93-java-react-angular-at-talent-spotter-4474246940?position=6&pageNum=4&refId=Fx04S05OI40wbnEOtrI6Fw%3D%3D&trackingId=74xnQODjwLgoXhwWsOgynA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-fullstack-developer-java-angular-at-luxoft-4478768996?position=10&pageNum=16&refId=%2FcFmFfa9cACE1h1%2FmE7s1w%3D%3D&trackingId=haMsKbLYGxBmXV5xJfK7tA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4478787147",
+      "company": "Luxoft",
+      "title": "Senior Fullstack Developer (Java & Angular)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-fullstack-developer-java-angular-at-luxoft-4478787147?position=8&pageNum=16&refId=%2FcFmFfa9cACE1h1%2FmE7s1w%3D%3D&trackingId=S8EVkGaKydM3ncDfStiVWQ%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4480943515",
+      "company": "Luxoft",
+      "title": "Senior Fullstack Developer (Java & Angular)",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-fullstack-developer-java-angular-at-luxoft-4480943515?position=9&pageNum=16&refId=%2FcFmFfa9cACE1h1%2FmE7s1w%3D%3D&trackingId=kuphkQ38giN%2FHgCCXAHZFg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3223,7 +607,16 @@
       "company": "HN Services Romania",
       "title": "Senior FullStack Engineer (Java & Angular)",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-fullstack-engineer-java-angular-at-hn-services-romania-4479402343?position=6&pageNum=2&refId=kCBw8UnHUwL2KO54R3V%2BNg%3D%3D&trackingId=77k0O%2B9m7MoVLZ8lTvQtFQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-fullstack-engineer-java-angular-at-hn-services-romania-4479402343?position=6&pageNum=2&refId=3ZyFW4a%2B9GKoB%2FRzxKd0GQ%3D%3D&trackingId=hjOCTHqZ%2FyrqVex3zYBi9A%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4487241072",
+      "company": "Luxoft",
+      "title": "Senior Java Full Stack Engineer | Angular, Spring Boot & Workflow Engine",
+      "location": "Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-java-full-stack-engineer-angular-spring-boot-workflow-engine-at-luxoft-4487241072?position=7&pageNum=16&refId=%2FcFmFfa9cACE1h1%2FmE7s1w%3D%3D&trackingId=MNea7%2Fo0KSuPBdHbYoKsCA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3232,7 +625,7 @@
       "company": "Elastic Serve Private Limited",
       "title": "Senior Software Developer (.NET + Angular)",
       "location": "Sector 1, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-software-developer-net-%2B-angular-at-elastic-serve-private-limited-4432372107?position=1&pageNum=2&refId=kCBw8UnHUwL2KO54R3V%2BNg%3D%3D&trackingId=jTB49ry33g8KYT8YpyUjAQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-software-developer-net-%2B-angular-at-elastic-serve-private-limited-4432372107?position=10&pageNum=1&refId=TBi%2Fc4ZmscM3sDQ4F%2Fhfsg%3D%3D&trackingId=4V6IH8KozjLQPLpSmv%2BR0w%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -3241,12 +634,30 @@
       "company": "AdsWizz",
       "title": "Staff Software Engineer (Frontend)",
       "location": "Bucharest, Bucharest, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/staff-software-engineer-frontend-at-adswizz-4450127251?position=7&pageNum=2&refId=kCBw8UnHUwL2KO54R3V%2BNg%3D%3D&trackingId=vQ822msIU1WQN1Wam%2FoqRQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/staff-software-engineer-frontend-at-adswizz-4450127251?position=7&pageNum=2&refId=3ZyFW4a%2B9GKoB%2FRzxKd0GQ%3D%3D&trackingId=0WcUVFe7ooUcd2bRZ2FCpQ%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4481488079",
+      "company": "NTT DATA Europe & Latam",
+      "title": "Team Lead (Node.JS&Angular)",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/team-lead-node-js-angular-at-ntt-data-europe-latam-4481488079?position=10&pageNum=18&refId=mkbk1IXVGelfevd1AnIocw%3D%3D&trackingId=1PB27M%2FvUiTz74%2FV2AzvoA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4481488072",
+      "company": "NTT DATA Europe & Latam",
+      "title": "Technical Manager (NodeJS & Angular)",
+      "location": "Bucharest, Bucharest, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/technical-manager-nodejs-angular-at-ntt-data-europe-latam-4481488072?position=8&pageNum=19&refId=Qc5%2Fqt6xouxK4I7RUS4Ufw%3D%3D&trackingId=CDde9ZCr%2BhvpP4EhKjIWxA%3D%3D",
       "source": "linkedin",
       "description": ""
     }
   ],
-  "scraped_at": "2026-11-03T10:54:47+00:00",
+  "scraped_at": "2026-11-05T10:58:18+00:00",
   "query": {
     "title": "Angular developer",
     "city": "Bucharest"

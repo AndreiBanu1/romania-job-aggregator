@@ -1,47 +1,71 @@
 {
-  "generated": "2026-11-03T10:54:47+00:00",
+  "generated": "2026-11-05T10:58:18+00:00",
   "queries": [
     {
       "title": "Angular developer",
       "city": "Bucharest",
       "slug": "angular-developer-bucharest",
-      "total": 360,
-      "scrapedAt": "2026-11-03T10:54:47+00:00"
+      "total": 72,
+      "scrapedAt": "2026-11-05T10:58:18+00:00",
+      "failedSources": [
+        "bestjobs",
+        "ejobs"
+      ]
     },
     {
       "title": "React developer",
       "city": "Bucharest",
       "slug": "react-developer-bucharest",
-      "total": 254,
-      "scrapedAt": "2026-11-03T10:54:47+00:00"
+      "total": 36,
+      "scrapedAt": "2026-11-05T10:58:18+00:00",
+      "failedSources": [
+        "bestjobs",
+        "ejobs"
+      ]
     },
     {
       "title": "Java developer",
       "city": "Cluj-Napoca",
       "slug": "java-developer-cluj-napoca",
-      "total": 180,
-      "scrapedAt": "2026-11-03T10:54:47+00:00"
+      "total": 28,
+      "scrapedAt": "2026-11-05T10:58:18+00:00",
+      "failedSources": [
+        "bestjobs",
+        "ejobs"
+      ]
     },
     {
       "title": "Python developer",
       "city": "Bucharest",
       "slug": "python-developer-bucharest",
-      "total": 396,
-      "scrapedAt": "2026-11-03T10:54:47+00:00"
+      "total": 71,
+      "scrapedAt": "2026-11-05T10:58:18+00:00",
+      "failedSources": [
+        "bestjobs",
+        "ejobs"
+      ]
     },
     {
       "title": "QA engineer",
       "city": "Iasi",
       "slug": "qa-engineer-iasi",
-      "total": 51,
-      "scrapedAt": "2026-11-03T10:54:47+00:00"
+      "total": 6,
+      "scrapedAt": "2026-11-05T10:58:18+00:00",
+      "failedSources": [
+        "bestjobs",
+        "ejobs"
+      ]
     },
     {
       "title": "DevOps engineer",
       "city": "Timisoara",
       "slug": "devops-engineer-timisoara",
-      "total": 221,
-      "scrapedAt": "2026-11-03T10:54:47+00:00"
+      "total": 6,
+      "scrapedAt": "2026-11-05T10:58:18+00:00",
+      "failedSources": [
+        "bestjobs",
+        "ejobs"
+      ]
     }
   ]
 }
