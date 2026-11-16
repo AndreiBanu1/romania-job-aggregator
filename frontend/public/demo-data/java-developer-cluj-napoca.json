@@ -1,8 +1,8 @@
 {
-  "total_jobs_found": 55,
+  "total_jobs_found": 57,
   "sources_summary": {
     "bestjobs": 25,
-    "linkedin": 30
+    "linkedin": 32
   },
   "failed_sources": [
     "ejobs"
@@ -238,34 +238,43 @@
       "company": "NTT DATA Europe & Latam",
       "title": "Backend Engineer (Spring Security)",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/backend-engineer-spring-security-at-ntt-data-europe-latam-4486226812?position=8&pageNum=0&refId=Tfe1HFAPMO58l53VizBXQA%3D%3D&trackingId=MBQ7hE%2FjcTWzcklSg2qClw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/backend-engineer-spring-security-at-ntt-data-europe-latam-4486226812?position=8&pageNum=0&refId=kueNi0JJN38f8gmoknIY6w%3D%3D&trackingId=SlWcpkgK7bufazM%2F3yXU%2Fw%3D%3D",
       "source": "linkedin",
       "description": "Who We Are\nDB Global Technology, Deutsche Bank's technology center in Central and Eastern Europe, opened its Bucharest office in January 2014 and is continuously expanding. The team comprises enthusiastic professionals working in an international environment, dedicated to learning new technologies and fundamentally changing how Deutsche Bank operates.\nWe're looking for a talented and motivated Backend Engineer with Spring Security hands on experience.\nWhat You’ll Be Doing\nWork together with our highly skilled international development teams to build and maintain features of our Applications and Systems\nEnsure proper performance and quality of the written code and continuously participate in code reviews\nWrite unit tests for robustness, edge cases and general reliability\nWrite code in compliance with our coding standards and security mechanisms\nContinuously collaborate with cross-functional teams, product owners, designers and QA team in an agile environment\nParticipate in developer guilds and enjoy learning/sharing knowledge with the team\nTake on the role of a technical forward thinker and take part in the support and training of junior developer\nWhat We’re Looking For\nBachelor’s degree in Computer Science, Engineering, or related field\nMinimum of 5 years of professional experience in enterprise software development\nExtensive Java and Spring Framework (Spring Boot, Spring Data JPA, Spring Security, and Spring Cloud, ...) experience\nSpring Security hands on experience\nDeep JPA & Hibernate expertise with strong SQL knowledge\nProven hands-on experience with GCP (Cloud Run, GKE, Cloud SQL, Pub/Sub, etc.)\nExperience with building and consuming RESTful APIs\nSolid understanding of software design patterns and architectural principles"
+    },
+    {
+      "id": "4474063465",
+      "company": "meteocontrol",
+      "title": "Backend Software Developer (all genders)",
+      "location": "Cluj-Napoca, Cluj, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/backend-software-developer-all-genders-at-meteocontrol-4474063465?position=2&pageNum=5&refId=72H%2FHWkNuNy9dfw1g8S%2Fnw%3D%3D&trackingId=l3zHYe0JXrguF8koIyRn7Q%3D%3D",
+      "source": "linkedin",
+      "description": "Your mission:\nDevelop backend services for the SCADA system\nImplement data acquisition and data processing solutions\nDevelop secure update and device management mechanisms\nEnsure scalability, performance and reliability\nDesign and implement APIs and communication services\nCollaborate closely with Frontend, DevOps and Test engineers\nDevelop and maintain automated backend tests\nContribute to the overall architecture and technical decisions\nYour profile:\n3+ years in software development\nStrong software development skills (Rust/Kotlin)\nBackend development (MQTT, REST API, IPC)\nIndustrial communication protocols (OPC UA, IEC 60870/61850, Modbus)\nTime-series data processing\nLinux and container technologies\nSoftware architecture and design principles\nExperience in agile software development\nHands-on in industrial cybersecurity\nGood communication skills\nBonus: Experience with SCADA or comparable industrial systems\nWhat We Offer You\nWorking for a better future: with us, you'll create a better future for us and all the generations after us\nFlexibility: With our home office and working time model\nTeam events: Be part of a team not just at work, our summer and Christmas parties await\nA wide range of benefits to make your employee experience worthwhile: Meal vouchers, medical insurance, and much more.\nYour Contact Person\nAndreea Giurgi\nSenior Business Partner People & Culture\nEmail: a.giurgi@meteocontrol.com\nAbout Us\nAt meteocontrol, we have been dedicated to renewable energies since 1998 and are one of the world's leading developers of independent energy management systems. With our holistic solutions, we accompany the entire life cycle of energy systems. From planning to commissioning, we support our customers as independent technical consultants. For this we need a team of highly qualified and motivated employees.\nDo you want to become part of our diverse team from different departments and drive the future of renewable energies together?\nWith energy into the future. We are looking forward to you!"
+    },
+    {
+      "id": "4482534932",
+      "company": "NTT DATA Europe & Latam",
+      "title": "Full-Stack Developer - Java & Angular",
+      "location": "Cluj-Napoca, Cluj, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/full-stack-developer-java-angular-at-ntt-data-europe-latam-4482534932?position=3&pageNum=8&refId=zGmSgvy3HQGO1LOjLWpNhg%3D%3D&trackingId=9dxq7ZD9pnYTbqvEmZPV%2FQ%3D%3D",
+      "source": "linkedin",
+      "description": "Who We Are\nWe’re looking for a talented Full‑Stack Developer with strong expertise in Java and Angular to join our growing engineering team. In this role, you’ll build scalable, high‑quality applications across the entire stack—designing robust backend services in Java while crafting intuitive, responsive user interfaces with Angular. If you enjoy solving complex problems, collaborating in an agile environment, and delivering clean, maintainable code, this opportunity is a great fit.\nWhat You’ll Be Doing\nDevelop and maintain backend services using Java, Spring Boot, and RESTful APIsBuild responsive, user‑friendly frontend applications using Angular\nCollaborate with product owners, designers, and other engineers to translate requirements into technical solutions\nWrite clean, maintainable, and well‑tested code across the full stack\nOptimize application performance, scalability, and security\nParticipate in code reviews and contribute to continuous improvement of development practices\nIntegrate third‑party services, APIs, and internal systems\nTroubleshoot, debug, and resolve issues across frontend and backend components\nContribute to architectural decisions and propose technical enhancements\nWork within an agile environment, participating in sprint planning, stand‑ups, and retrospectives\nWhat you’ll bring along\nBachelor’s degree in Computer Science, Engineering, or a related field\nMinimum 5–7 years of professional software development experience\nStrong hands‑on experience with Java 17 or Java 21, including modern language features\nSolid expertise in Spring Boot, including experience with migrations and commonly used Spring starters/frameworks\nProficiency in building responsive, modular front‑end applications using Angular\nGood understanding of SQL and relational database concepts\nFamiliarity with testing methodologies, including unit, integration, and end‑to‑end testing\nExperience working with Azure cloud services and Git for version control\nAbility to design, develop, and maintain full‑stack solutions in an agile environment\nStrong problem‑solving skills and a focus on writing clean, maintainable code"
     },
     {
       "id": "4479342835",
       "company": "N-iX",
       "title": "Full-stack Technical Lead (Java+React)",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/full-stack-technical-lead-java%2Breact-at-n-ix-4479342835?position=4&pageNum=2&refId=02GK1vFBY9BUyEVPBN7Rjg%3D%3D&trackingId=R3LzDeTW9rF4dUWR38Vg8Q%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/full-stack-technical-lead-java%2Breact-at-n-ix-4479342835?position=4&pageNum=2&refId=qktoAG6h8%2B7zhiXX2ztrUQ%3D%3D&trackingId=Kylvs51xBGfnkra8u3cXBQ%3D%3D",
       "source": "linkedin",
       "description": "N-iX is a global software development service company that helps businesses across the globe create next-generation software products. Founded in 2002, we unite 2,400+ tech-savvy professionals across 40+ countries, working on impactful projects for industry leaders and Fortune 500 companies. Our expertise spans cloud, data, AI/ML, embedded software, IoT, and more, driving digital transformation across finance, manufacturing, telecom, healthcare, and other industries. Join N-iX and become part of a team where your ideas make a real impact.\nNowadays, finding a long-term job with an interesting project can feel like a real challenge.\nBut hey — if you're an experienced\nTechnical Lead / Full Stack Engineer (Java + React)\n, look no further!\nYes, it's real. You're not dreaming. Miracles do exist!\nWhen it comes to our customer – a strategic partner of ours in the integrated Shipping Services. They have set themselves apart as an independent carrier with a fresh, unique approach. Their strategy as a global niche carrier offers distinctive advantages to customers worldwide. We have created a smart, efficient network that ensures stable, reliable services; and we have made it our mission to focus on the needs of our customers, which stand at the heart of all our decisions. The main idea of our product operates in select trades, where it has a competitive advantage and where it can provide superior service. We maintain a flexible partnership approach with other major carriers, and our new line structure is a much-needed alternative to customers concerned about the current alliance-dominated market.\nResponsibilities:\nGuide, mentor, and foster the growth of full-stack engineers within the team, championing engineering excellence and XP practices.\nLead the architectural design and technical direction of innovative full-stack applications, ensuring scalability, security, and alignment with business goals.\nEstablish and champion high standards of code quality, testing (TDD/BDD), CI/CD pipelines, and robust DevOps practices.\nAct as a key technical point of contact, collaborating closely with product owners and stakeholders to translate complex requirements into actionable technical strategies.\nDirect full-stack development of innovative applications, remaining actively involved in writing code and remote pairing.\nOwn the entire development cycle, including design, architecture, development, testing, and DevOps deployment.\nFoster a highly collaborative Extreme Programming (XP) environment featuring remote pairing and rapid feedback loops.\nRequirements:\nBS degree\nin Computer Science or an equivalent combination of education and experience.\nExperience\nin technical leadership is a must.\n6+ years\nof full-stack development experience.\n6+ years\nof experience in the following technologies: Java, Spring.\nProven experience with Functional Programming and Java Streams.\n2+ years\nof experience in front-end development with React.\nExperience with developing a reactive UI (Reactive JS).\n2+ years\nof experience in TDD/BDD development in the following frameworks: JUnit, Jasmine, Mockito, Protractor/Selenium.\n2+ years\nof experience in microservices-based architecture and tools (Spring Boot/Cloud).\nAI experience\nExperience in DevOps development and Jenkins (must).\nExperience in development in Kotlin – an advantage.\nExperience in designing, developing, and deploying cloud/hybrid-based solutions.\nExperience in developing and deploying in Container-based environments (Kubernetes, Cloud Foundry).\nDeep familiarity with the following design concepts: microservices, service discovery, circuit breakers.\nStrong leadership abilities\nwith the capacity to appropriately prioritize, plan, and delegate complex work in a rapidly changing environment.\nVersatility and capability to switch easily between different tasks and technologies.\nExperience in assessing a broad range of information solutions and products.\nStrong critical thinker with an exceptional problem-solving aptitude.\nExcellent English\nskills - both verbal and written.\nWe offer*:\nFlexible working format - remote, office-based or flexible\nA competitive salary and good compensation package\nPersonalized career growth\nProfessional development tools (mentorship program, tech talks and trainings, centers of excellence, and more)\nActive tech communities with regular knowledge sharing\nEducation reimbursement\nMemorable anniversary presents\nCorporate events and team buildings\nOther location-specific benefits\nnot applicable for freelancers"
-    },
-    {
-      "id": "4478265881",
-      "company": "NTT DATA Europe & Latam",
-      "title": "Java Architect with German",
-      "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/java-architect-with-german-at-ntt-data-europe-latam-4478265881?position=9&pageNum=8&refId=XKgqdkhltr6eaxIo7Yciqw%3D%3D&trackingId=0MKq4XKMcoVbKCxh1keuzg%3D%3D",
-      "source": "linkedin",
-      "description": "Who We Are\nWe don't have the fame, but we've got the flame. We are a distributed group of specialists within NTT DATA Romania, who make the best out of JVM-based technologies, creativity and business solutions. Referred to as Java Competence Center, we co-create and co-accelerate with key players in any field. Without being limited to any business unit, we demonstrated our deep Java development expertise by delivering SaaS platforms in various domains: Web Applications in e-Commerce, Automotive, Telco, Insurance, Banking and Public sector, even Big Data and scientific applications.\nWe’re looking for a Java Software Architect to join a well-established player in the financial and accounting software space, operating under a model where profits are reinvested into technology, platform evolution, and long-term stability. In this role, you will: design and evolve scalable and resilient distributed systems; guide system integrations across complex environments and act as a bridge between business stakeholders and engineering teams, translating requirements into robust architectural solutions. You will operate at the intersection of technology, business, and regulation, shaping architectures that must be both flexible and audit-ready in a highly regulated environment. If you’re motivated by complex systems, real trade-offs, and high-impact decisions—we should talk.\nWhat You'll Be Doing\nArchitecture Development: Define and evolve the target software and solution architecture, ensuring alignment with business goals and seamless integration with existing systems\nCloud & IT Architecture: Design and guide cloud architecture and overall IT system architecture, ensuring scalability, security, and reliability\nBridging Role (Brückenkopf): Act as a link between business stakeholders, Product Owners, and development teams to translate requirements into architectural solutions\nMicroservices Architecture: Design and govern microservices architectures to improve scalability, flexibility, and maintainability\nCollaboration: Work closely with client architects and teams to align on architectural standards and decisions\nDocumentation: Maintain clear architectural documentation, including design decisions and system landscapes\nQuality & Governance: Establish best practices for architecture, code quality, testing, and deployment across the lifecycle\nWhat You'll Bring Along\nA degree in Computer Science, Software Engineering, or equivalent experience\nAround 10 years of experience in software engineering, with a strong focus on architecture and system design\nProven expertise in software, cloud, IT system, microservices, and solution architecture\nStrong understanding of cloud-native and distributed systems design principles\nExperience with containerization (Docker, Kubernetes) and modern deployment practices\nKnowledge of messaging technologies (e.g., Kafka, RabbitMQ)\nExperience with build and CI/CD tools (e.g., Maven, automation pipelines)\nSolid experience with databases (Oracle, PostgreSQL)\nFamiliarity with testing strategies and automation\nStrong communication skills in English and German, with the ability to act as a bridge between teams\nAbility to work independently and manage complex architectural challenges efficiently"
     },
     {
       "id": "4485827098",
       "company": "Publicis Sapient",
       "title": "Java Developer- Senior Associate- Financial Services",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/java-developer-senior-associate-financial-services-at-publicis-sapient-4485827098?position=3&pageNum=0&refId=Tfe1HFAPMO58l53VizBXQA%3D%3D&trackingId=WyiSnXWaffwym%2F0GV0CW4w%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/java-developer-senior-associate-financial-services-at-publicis-sapient-4485827098?position=3&pageNum=0&refId=kueNi0JJN38f8gmoknIY6w%3D%3D&trackingId=4OqNuydWqwjDX6D8a8GVbQ%3D%3D",
       "source": "linkedin",
       "description": "Job Description\nWhy This Role Matters\nPublicis Sapient is looking for a Senior Java Developer to join our team of bright thinkers and doers. In this role, you will leverage your technical expertise, creativity, and problem-solving skills to design and deliver innovative solutions for complex business challenges across multiple industries.\nAs part of our engineering team, you will contribute to building modern, scalable, and high-performing applications while collaborating with talented professionals in a fast-paced and agile environment. You will play a key role in shaping technical solutions and driving engineering excellence.\nThis role is an excellent opportunity for someone who would like to join an international global organization with a start-up mentality. We highly value Openness, Collaboration, Learning Mindset and partner with our clients to drive positive outcomes.\nWhere You’ll Make an Impact\nDesign, develop, test, and maintain Java-based applications and services.\nBuild scalable, secure, and highly available systems using modern Java frameworks and technologies.\nLead technical design discussions and contribute to architecture decisions.\nPresent technical solutions and effectively interact with stakeholders at different levels.\nWrite clean, maintainable, and well-tested code, including unit, integration, and automated tests.\nOptimize application performance, reliability, scalability, and security.\nPerform code reviews and mentor junior and mid-level engineers.\nCollaborate closely with Product Managers, QA Engineers, DevOps teams, and other stakeholders.\nParticipate in Agile ceremonies, including sprint planning, daily stand-ups, reviews, and retrospectives.\nInvestigate and provide root cause analysis for complex production issues.\nPromote engineering best practices and contribute to continuous improvement initiatives.\nWhat You’ll Bring To The Team\nStrong experience developing enterprise applications using Java.\nSolid hands-on experience with Spring Framework, Spring Boot, and building reusable Spring Boot starters and libraries.\nStrong understanding of microservices architecture, including service discovery, circuit breakers, centralized logging, and containerization.\nExperience developing and integrating REST and SOAP web services.\nExperience with persistence frameworks such as Hibernate and JPA.\nProficiency with relational databases such as Oracle, PostgreSQL, or MySQL.\nKnowledge of NoSQL databases such as MongoDB or Cassandra.\nExperience with cloud platforms such as GCP, Azure or AWS knowledge is considered a nice-to-have.\nExperience with CI/CD and build tools including Maven, Gradle, Jenkins, GitLab, and Docker.\nExperience with messaging technologies such as Kafka, RabbitMQ, or JMS.\nStrong understanding of RESTful APIs and distributed systems.\nExperience with automated testing using JUnit, Mockito, Testcontainers, integration testing, and end-to-end testing.\nExcellent communication and stakeholder management skills.\nProfessional proficiency in English.\nAdditional Experience We Value\nKnowledge of modern JavaScript frameworks such as Angular, React, or Vue.js.\nExperience with Kubernetes (K8s) and container orchestration.\nContract testing and Test-Driven Development (TDD).\nFamiliarity with modern CI/CD practices and tools such as GitHub Actions, Jenkins, and GitLab CI.\nExperience with Infrastructure as Code tools such as Terraform or CloudFormation.\nExposure to cloud-native application design and deployment patterns.\nAdditional Information\nWhat You’ll Get in Return\nA fast-paced tech environment\nContinuous growth & learning\nOpen feedback culture\nRoom for own initiative & ideas\nTransparency about results & strategy\nRecognition & reward for hard work\nWorking with a flexible schedule\nMedical subscription\nMeal tickets\n25 vacation days\nMany others perks\nCompany Description\nAbout Publicis Sapient\nMost companies in the AI era do one of two things: they advise, or they sell you a tool. We do both. Publicis Sapient is a technology company that provides enterprise AI platforms and services, which means we build our own AI platforms\nand\nbring the strategists, product thinkers, designers and engineers who make them work inside the world s most complex businesses. It is where people and products shape the future of enterprise, and where your ideas actually reach the organizations that run the world. If you want to question how things are done, learn continuously and do the best work of your career alongside 20,000 people across 28 countries, you re in the right place. Come build with us.\nOur Commitment to Inclusive Hiring\nWe are committed to fostering and encouraging an inclusive and welcoming environment for everyone and we believe great talent comes from many different backgrounds, experiences, and perspectives. That is why we are committed to creating a hiring process where everyone has an equal opportunity to succeed and feel safe. We welcome applications from all backgrounds and identities including: race, ethnicity, nationality, gender, disability, sexual orientation, gender identity, or religion and value the diverse experiences, perspectives, and strengths they bring to our teams.\nIf there is anything we can do to make our recruitment process more accessible or comfortable for you, please let us know. We are happy to provide reasonable adjustments throughout the application and interview process. You can contact us anytime at emeahiringteam@publicissapient.com\nYour Safety Matters To Us\nAt Publicis Sapient, we are committed to protecting candidates throughout every step of their journey with us. To help you stay safe from recruitment scams, please remember that our recruiters will only ever contact you from a Publicis Sapient email address. In some cases, we may partner with trusted, vetted recruitment agencies who will clearly identify themselves as working on behalf of Publicis Sapient. If you receive communication from any other domain claiming to represent us, please treat it with caution and contact us at emeahiringteam@publicissapient.com"
     },
@@ -274,7 +283,7 @@
       "company": "NTT DATA Europe & Latam",
       "title": "Java Engineering Lead with German",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/java-engineering-lead-with-german-at-ntt-data-europe-latam-4478274483?position=7&pageNum=8&refId=XKgqdkhltr6eaxIo7Yciqw%3D%3D&trackingId=yv0xDThiXABOk69%2BbS%2Be5A%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/java-engineering-lead-with-german-at-ntt-data-europe-latam-4478274483?position=10&pageNum=8&refId=zGmSgvy3HQGO1LOjLWpNhg%3D%3D&trackingId=3qqk%2FyHoI8Ca0DxNcs8LGw%3D%3D",
       "source": "linkedin",
       "description": "Who We Are\nWe don't have the fame, but we've got the flame. We are a distributed group of specialists within NTT DATA Romania, who make the best out of JVM-based technologies, creativity and business solutions. Referred to as Java Competence Center, we co-create and co-accelerate with key players in any field. Without being limited to any business unit, we demonstrated our deep Java development expertise by delivering SaaS platforms in various domains: Web Applications in e-Commerce, Automotive, Telco, Insurance, Banking and Public sector, even Big Data and scientific applications.\nWe’re looking for a Java Software Architect to join a well-established player in the financial and accounting software space, operating under a model where profits are reinvested into technology, platform evolution, and long-term stability. In this role, you will: design and evolve scalable and resilient distributed systems; guide system integrations across complex environments and act as a bridge between business stakeholders and engineering teams, translating requirements into robust architectural solutions. You will operate at the intersection of technology, business, and regulation, shaping architectures that must be both flexible and audit-ready in a highly regulated environment. If you’re motivated by complex systems, real trade-offs, and high-impact decisions—we should talk.\nWhat You'll Be Doing\nArchitecture Development: Define and evolve the target software and solution architecture, ensuring alignment with business goals and seamless integration with existing systems\nCloud & IT Architecture: Design and guide cloud architecture and overall IT system architecture, ensuring scalability, security, and reliability\nBridging Role (Brückenkopf): Act as a link between business stakeholders, Product Owners, and development teams to translate requirements into architectural solutions\nMicroservices Architecture: Design and govern microservices architectures to improve scalability, flexibility, and maintainability\nCollaboration: Work closely with client architects and teams to align on architectural standards and decisions\nDocumentation: Maintain clear architectural documentation, including design decisions and system landscapes\nQuality & Governance: Establish best practices for architecture, code quality, testing, and deployment across the lifecycle\nWhat You'll Bring Along\nA degree in Computer Science, Software Engineering, or equivalent experience\nAround 10 years of experience in software engineering, with a strong focus on architecture and system design\nProven expertise in software, cloud, IT system, microservices, and solution architecture\nStrong understanding of cloud-native and distributed systems design principles\nExperience with containerization (Docker, Kubernetes) and modern deployment practices\nKnowledge of messaging technologies (e.g., Kafka, RabbitMQ)\nExperience with build and CI/CD tools (e.g., Maven, automation pipelines)\nSolid experience with databases (Oracle, PostgreSQL)\nFamiliarity with testing strategies and automation\nStrong communication skills in English and German, with the ability to act as a bridge between teams\nAbility to work independently and manage complex architectural challenges efficiently"
     },
@@ -283,16 +292,16 @@
       "company": "NTT DATA Europe & Latam",
       "title": "Java Software Developer (strong Delphi and German)",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/java-software-developer-strong-delphi-and-german-at-ntt-data-europe-latam-4474827863?position=10&pageNum=7&refId=SCEU5b%2FGh2xtUxVbOKTU1Q%3D%3D&trackingId=IOUBu%2BX5s6nVyVlp1BQ%2Fnw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/java-software-developer-strong-delphi-and-german-at-ntt-data-europe-latam-4474827863?position=9&pageNum=7&refId=v6AEgSmrjMRpdlEXb1a87Q%3D%3D&trackingId=bqzhK5XxlDL%2BY%2BuWGAJO2g%3D%3D",
       "source": "linkedin",
-      "description": "Who We Are\nFor one of our clients, we are looking for an experienced Software Developer with strong Delphi knowledge and Java 17 skills to join a team responsible for the development and modernization of applications in the area of Dienstreisemanagement (Business Travel Management).\nThe position is part of the broader EMS – Employer and Employee Services organization, which develops applications and services for employers and employees, with a strong focus on HR-related processes.\nWhat You’ll Be Doing\nDevelop, maintain and enhance existing applications written in Delphi\nContribute to the modernization and migration of legacy functionality towards Java 17\nAnalyze existing legacy code and business logic\nDesign and implement new application features\nSupport the replacement of the legacy application\nParticipate in implementation and integration projects\nCollaborate closely with developers, architects, product owners and business stakeholders\nTroubleshoot and resolve technical issues in existing applications\nEnsure code quality, maintainability and technical documentation\nContribute to technical discussions regarding the future application architecture\nWhat We’re Looking For\nBachelor's degree in computer science, Information Systems, or related field\nAt least 4y+ of experience in working with Java 17\nStrong professional experience with Delphi\nAbility to understand and work with existing / legacy application architectures\nExperience in software development, maintenance and application modernization\nGerman language skills – required for communication within the project and team\nNice To Have\nExperience with migration or modernization of legacy applications\nExperience working in enterprise application environments\nKnowledge of HR, payroll, travel management or related business processes\nExperience with application integration and APIs\nFamiliarity with modern Java frameworks and development practices"
+      "description": ""
     },
     {
       "id": "4484199345",
       "company": "Perficient",
       "title": "Java Software Engineer",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/java-software-engineer-at-perficient-4484199345?position=6&pageNum=0&refId=Tfe1HFAPMO58l53VizBXQA%3D%3D&trackingId=aBpOzoAprEusa65WHIp1nA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/java-software-engineer-at-perficient-4484199345?position=6&pageNum=0&refId=kueNi0JJN38f8gmoknIY6w%3D%3D&trackingId=npmfGbaISgfCz5LN7%2FgX7A%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -301,7 +310,7 @@
       "company": "Garmin Cluj",
       "title": "Java Software Engineer | Garmin Connect Team",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/java-software-engineer-garmin-connect-team-at-garmin-cluj-4489464903?position=1&pageNum=0&refId=Tfe1HFAPMO58l53VizBXQA%3D%3D&trackingId=pIMcAdRyxqSO5RqKLRMN0g%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/java-software-engineer-garmin-connect-team-at-garmin-cluj-4489464903?position=1&pageNum=0&refId=kueNi0JJN38f8gmoknIY6w%3D%3D&trackingId=8wvi1BX7YfvDDivYULbziQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -310,7 +319,7 @@
       "company": "Garmin Cluj",
       "title": "Java Software Engineer | Marine Cloud",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/java-software-engineer-marine-cloud-at-garmin-cluj-4471872927?position=8&pageNum=7&refId=SCEU5b%2FGh2xtUxVbOKTU1Q%3D%3D&trackingId=1aWMXIRjHdUhc7xiI2%2BmYQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/java-software-engineer-marine-cloud-at-garmin-cluj-4471872927?position=7&pageNum=7&refId=v6AEgSmrjMRpdlEXb1a87Q%3D%3D&trackingId=a5T1ZbfH%2Fe2KpMD2b%2FAvRQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -319,7 +328,7 @@
       "company": "Garmin Cluj",
       "title": "Java Software Engineer | Product Data and Services Team",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/java-software-engineer-product-data-and-services-team-at-garmin-cluj-4482047506?position=2&pageNum=0&refId=Tfe1HFAPMO58l53VizBXQA%3D%3D&trackingId=4yT2jQCsAVHpcXbqC2O9dw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/java-software-engineer-product-data-and-services-team-at-garmin-cluj-4482047506?position=2&pageNum=0&refId=kueNi0JJN38f8gmoknIY6w%3D%3D&trackingId=fCqQtm10%2BPxnBonZDHoEIw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -328,7 +337,7 @@
       "company": "Mindera",
       "title": "Java Technical Lead/Staff Engineer - with Azure",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/java-technical-lead-staff-engineer-with-azure-at-mindera-4464979985?position=7&pageNum=1&refId=AoTIgS54yNV70sUx0XR7IA%3D%3D&trackingId=uHKJeuV6z%2BLZy14rfpwQrA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/java-technical-lead-staff-engineer-with-azure-at-mindera-4464979985?position=7&pageNum=1&refId=7vsIrC5cTeYktpbh7v3H2w%3D%3D&trackingId=mhEdYXryJ5JK2AcJJ%2Fqgqg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -337,7 +346,7 @@
       "company": "Broadridge",
       "title": "Lead Full Stack Java Developer",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/lead-full-stack-java-developer-at-broadridge-4481731508?position=5&pageNum=1&refId=AoTIgS54yNV70sUx0XR7IA%3D%3D&trackingId=tiDyuKhu2BfwkZlrpQY8sw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/lead-full-stack-java-developer-at-broadridge-4481731508?position=5&pageNum=1&refId=7vsIrC5cTeYktpbh7v3H2w%3D%3D&trackingId=PGTFgS%2Fm%2BG4Entj2ZiJ7sQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -346,7 +355,7 @@
       "company": "Capgemini Engineering",
       "title": "Python Backend Developer",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/python-backend-developer-at-capgemini-engineering-4461893467?position=2&pageNum=5&refId=GDu2kvYV4tZyjVBuTWBlTA%3D%3D&trackingId=0rgQOdgTEhqafhNgdKwbVQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/python-backend-developer-at-capgemini-engineering-4461893467?position=5&pageNum=5&refId=72H%2FHWkNuNy9dfw1g8S%2Fnw%3D%3D&trackingId=NY7EJGmCzj2aHe8aAxTLOQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -355,7 +364,7 @@
       "company": "Undelucram.ro",
       "title": "Python Backend Developer",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/python-backend-developer-at-undelucram-ro-4482948219?position=3&pageNum=11&refId=UllqcxoP2GfiH5IqV6qkPQ%3D%3D&trackingId=fxTIn%2F8zZcTHEBcPrdCEkw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/python-backend-developer-at-undelucram-ro-4482948219?position=6&pageNum=11&refId=8446if%2FUVtWyMNcMiR2xvA%3D%3D&trackingId=JHW%2BHU2VRgUsoMd8%2BaPQuA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -364,7 +373,7 @@
       "company": "Impower GmbH",
       "title": "Senior Backend Engineer (m/f/d) - Cluj",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-backend-engineer-m-f-d-cluj-at-impower-gmbh-4481860724?position=3&pageNum=1&refId=AoTIgS54yNV70sUx0XR7IA%3D%3D&trackingId=U%2FsxT3IzDI2L14uk5Hw7%2Bw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-backend-engineer-m-f-d-cluj-at-impower-gmbh-4481860724?position=3&pageNum=1&refId=7vsIrC5cTeYktpbh7v3H2w%3D%3D&trackingId=Jsl0zqpszWVqgsbWFRdC%2Fw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -373,7 +382,7 @@
       "company": "QIAGEN",
       "title": "Senior Backend Software Engineer (Java)",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-backend-software-engineer-java-at-qiagen-4477860146?position=9&pageNum=0&refId=Tfe1HFAPMO58l53VizBXQA%3D%3D&trackingId=WaTMYWedfrHQXIRdqTn4jw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-backend-software-engineer-java-at-qiagen-4477860146?position=9&pageNum=0&refId=kueNi0JJN38f8gmoknIY6w%3D%3D&trackingId=8aE9riu3cmmJhfHidWCpAQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -382,7 +391,7 @@
       "company": "NTT DATA Europe & Latam",
       "title": "Senior Backend Software Engineer with Kotlin",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-backend-software-engineer-with-kotlin-at-ntt-data-europe-latam-4465222836?position=4&pageNum=8&refId=XKgqdkhltr6eaxIo7Yciqw%3D%3D&trackingId=cNrqPxGSiFtO%2BG3etB3EFA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-backend-software-engineer-with-kotlin-at-ntt-data-europe-latam-4465222836?position=7&pageNum=8&refId=zGmSgvy3HQGO1LOjLWpNhg%3D%3D&trackingId=FooJHJ85gnfGkpB0u8bAcQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -391,7 +400,7 @@
       "company": "Computacenter",
       "title": "Senior Full Stack Engineer (Java | Angular | Spring Boot | Azure)",
       "location": "Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-engineer-java-angular-spring-boot-azure-at-computacenter-4480967780?position=4&pageNum=1&refId=AoTIgS54yNV70sUx0XR7IA%3D%3D&trackingId=RmZVY%2B%2B07P8NajLMbnMTrA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-engineer-java-angular-spring-boot-azure-at-computacenter-4480967780?position=4&pageNum=1&refId=7vsIrC5cTeYktpbh7v3H2w%3D%3D&trackingId=%2FppfHPdB4MK%2FnFiDcfbRFQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -400,7 +409,7 @@
       "company": "Garmin Cluj",
       "title": "Senior Full Stack Software Engineer (TypeScript & Java) | Core Team",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-software-engineer-typescript-java-core-team-at-garmin-cluj-4488133223?position=5&pageNum=8&refId=XKgqdkhltr6eaxIo7Yciqw%3D%3D&trackingId=GWV%2Fh%2BELLE1VthLP9AQCnA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-software-engineer-typescript-java-core-team-at-garmin-cluj-4488133223?position=8&pageNum=8&refId=zGmSgvy3HQGO1LOjLWpNhg%3D%3D&trackingId=F%2Fqx7nKFKVz0AlYeJN9oBQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -409,7 +418,7 @@
       "company": "NTT DATA Europe & Latam",
       "title": "Senior Full Stack Software Engineer with AI Expertise (Angular/Spring Boot)",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-software-engineer-with-ai-expertise-angular-spring-boot-at-ntt-data-europe-latam-4468989999?position=3&pageNum=8&refId=XKgqdkhltr6eaxIo7Yciqw%3D%3D&trackingId=0GoiznblBqzORWqOr4ONtw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-full-stack-software-engineer-with-ai-expertise-angular-spring-boot-at-ntt-data-europe-latam-4468989999?position=6&pageNum=8&refId=zGmSgvy3HQGO1LOjLWpNhg%3D%3D&trackingId=gASxrl7u4P0x%2Foz%2FD10h5g%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -418,7 +427,7 @@
       "company": "NTT DATA Europe & Latam",
       "title": "Senior Java Backend Engineer | Kafka & AWS",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-java-backend-engineer-kafka-aws-at-ntt-data-europe-latam-4477390301?position=9&pageNum=7&refId=SCEU5b%2FGh2xtUxVbOKTU1Q%3D%3D&trackingId=Xhman4gEWp0VGOyPSA7rvg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-java-backend-engineer-kafka-aws-at-ntt-data-europe-latam-4477390301?position=8&pageNum=7&refId=v6AEgSmrjMRpdlEXb1a87Q%3D%3D&trackingId=sWQ7SY%2BBJd8d%2FB0u%2BXD0tg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -427,7 +436,7 @@
       "company": "NTT DATA Europe & Latam",
       "title": "Senior Java Cloud Engineer (AWS)",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-java-cloud-engineer-aws-at-ntt-data-europe-latam-4482543605?position=2&pageNum=8&refId=XKgqdkhltr6eaxIo7Yciqw%3D%3D&trackingId=HS01Q0RlmlSK8m8l9ifE%2BQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-java-cloud-engineer-aws-at-ntt-data-europe-latam-4482543605?position=5&pageNum=8&refId=zGmSgvy3HQGO1LOjLWpNhg%3D%3D&trackingId=t1fb1l9k%2F0jVQTn0wr39Jg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -436,7 +445,7 @@
       "company": "BMW TechWorks Romania",
       "title": "Senior Java Developer",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-at-bmw-techworks-romania-4486580835?position=7&pageNum=0&refId=Tfe1HFAPMO58l53VizBXQA%3D%3D&trackingId=mDhWfGrkUn7UScr8Veg%2BVw%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-at-bmw-techworks-romania-4486580835?position=7&pageNum=0&refId=kueNi0JJN38f8gmoknIY6w%3D%3D&trackingId=5KX9sEbOvsGE5KVfpfhaJg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -445,7 +454,16 @@
       "company": "NTT DATA Europe & Latam",
       "title": "Senior Java Developer",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-at-ntt-data-europe-latam-4485829199?position=4&pageNum=0&refId=Tfe1HFAPMO58l53VizBXQA%3D%3D&trackingId=IZKfcrxswsl9dkRKn7ZHXg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-java-developer-at-ntt-data-europe-latam-4485829199?position=4&pageNum=0&refId=kueNi0JJN38f8gmoknIY6w%3D%3D&trackingId=InISBnp55tXwzB571glHZA%3D%3D",
+      "source": "linkedin",
+      "description": ""
+    },
+    {
+      "id": "4488541605",
+      "company": "NTT DATA Europe & Latam",
+      "title": "Senior Java Full Stack Developer - Spring Boot, Angular & GenAI",
+      "location": "Cluj-Napoca, Cluj, Romania",
+      "href": "https://ro.linkedin.com/jobs/view/senior-java-full-stack-developer-spring-boot-angular-genai-at-ntt-data-europe-latam-4488541605?position=10&pageNum=7&refId=v6AEgSmrjMRpdlEXb1a87Q%3D%3D&trackingId=hCWxgu6EjJ6iwLJnacxnXw%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -454,7 +472,7 @@
       "company": "RIA Solutions Group",
       "title": "Senior Java Software Engineer",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-java-software-engineer-at-ria-solutions-group-4489424601?position=5&pageNum=0&refId=Tfe1HFAPMO58l53VizBXQA%3D%3D&trackingId=IUN3PYvky%2F9HXGqKwehOgQ%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-java-software-engineer-at-ria-solutions-group-4489424601?position=5&pageNum=0&refId=kueNi0JJN38f8gmoknIY6w%3D%3D&trackingId=V6bwCY79GnMkXc4w21fMNg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -463,7 +481,7 @@
       "company": "LSEG",
       "title": "Senior Software Developer (Java, network programming)",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-software-developer-java-network-programming-at-lseg-4416541542?position=3&pageNum=2&refId=02GK1vFBY9BUyEVPBN7Rjg%3D%3D&trackingId=BCR7qhkfs%2B89Szyi89pQfA%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-software-developer-java-network-programming-at-lseg-4416541542?position=3&pageNum=2&refId=qktoAG6h8%2B7zhiXX2ztrUQ%3D%3D&trackingId=GePxZbHveYaJloFMjCRczA%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -472,7 +490,7 @@
       "company": "QIAGEN",
       "title": "Senior Software Engineer (Java/Scala)",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/senior-software-engineer-java-scala-at-qiagen-4480459790?position=9&pageNum=1&refId=AoTIgS54yNV70sUx0XR7IA%3D%3D&trackingId=49w5%2BIMcIF7hl4ZZTZfpgg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/senior-software-engineer-java-scala-at-qiagen-4480459790?position=9&pageNum=1&refId=7vsIrC5cTeYktpbh7v3H2w%3D%3D&trackingId=BPotW%2BwWylVNKaM8W6LKTQ%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -481,7 +499,7 @@
       "company": "Broadridge",
       "title": "Sr Full Stack Java Developer",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/sr-full-stack-java-developer-at-broadridge-4481738370?position=10&pageNum=0&refId=Tfe1HFAPMO58l53VizBXQA%3D%3D&trackingId=6nMjXyHHzg2Se9HA88Q6qg%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/sr-full-stack-java-developer-at-broadridge-4481738370?position=10&pageNum=0&refId=kueNi0JJN38f8gmoknIY6w%3D%3D&trackingId=jRHwZwu9qI%2BXnNfd0CreNg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -490,7 +508,7 @@
       "company": "Garmin Cluj",
       "title": "Team Lead Software Engineering (TypeScript & Java) | Core Team",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/team-lead-software-engineering-typescript-java-core-team-at-garmin-cluj-4488129495?position=7&pageNum=9&refId=b2YeLyTsc8nLGnRIchqKGw%3D%3D&trackingId=gO1W%2BiM4S4di8Fa9nxRD4w%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/team-lead-software-engineering-typescript-java-core-team-at-garmin-cluj-4488129495?position=8&pageNum=9&refId=yh%2BWoK%2Fibtvs19TMsGT1zw%3D%3D&trackingId=SnYKsr9CvrUzG79Ats%2BZjg%3D%3D",
       "source": "linkedin",
       "description": ""
     },
@@ -499,12 +517,12 @@
       "company": "Garmin Cluj",
       "title": "Technical/Team Lead Software Engineer | Java | Marine Cloud",
       "location": "Cluj-Napoca, Cluj, Romania",
-      "href": "https://ro.linkedin.com/jobs/view/technical-team-lead-software-engineer-java-marine-cloud-at-garmin-cluj-4477131238?position=6&pageNum=8&refId=XKgqdkhltr6eaxIo7Yciqw%3D%3D&trackingId=w1Y1r76MngEDrKVHWxFJ5A%3D%3D",
+      "href": "https://ro.linkedin.com/jobs/view/technical-team-lead-software-engineer-java-marine-cloud-at-garmin-cluj-4477131238?position=9&pageNum=8&refId=zGmSgvy3HQGO1LOjLWpNhg%3D%3D&trackingId=lGhrchmlnz67t2ot1Xdmhw%3D%3D",
       "source": "linkedin",
       "description": ""
     }
   ],
-  "scraped_at": "2026-11-15T10:56:58+00:00",
+  "scraped_at": "2026-11-16T11:23:08+00:00",
   "query": {
     "title": "Java developer",
     "city": "Cluj-Napoca"
