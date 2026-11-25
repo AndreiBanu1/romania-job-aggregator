@@ -1,13 +1,14 @@
 {
-  "generated": "2026-11-24T13:45:45+00:00",
+  "generated": "2026-11-25T12:58:44+00:00",
   "queries": [
     {
       "title": "Angular developer",
       "city": "Bucharest",
       "slug": "angular-developer-bucharest",
-      "total": 84,
-      "scrapedAt": "2026-11-24T13:45:45+00:00",
+      "total": 49,
+      "scrapedAt": "2026-11-25T12:58:44+00:00",
       "failedSources": [
+        "bestjobs",
         "ejobs"
       ]
     },
@@ -15,9 +16,10 @@
       "title": "React developer",
       "city": "Bucharest",
       "slug": "react-developer-bucharest",
-      "total": 69,
-      "scrapedAt": "2026-11-24T13:45:45+00:00",
+      "total": 40,
+      "scrapedAt": "2026-11-25T12:58:44+00:00",
       "failedSources": [
+        "bestjobs",
         "ejobs"
       ]
     },
@@ -25,9 +27,10 @@
       "title": "Java developer",
       "city": "Cluj-Napoca",
       "slug": "java-developer-cluj-napoca",
-      "total": 54,
-      "scrapedAt": "2026-11-24T13:45:45+00:00",
+      "total": 29,
+      "scrapedAt": "2026-11-25T12:58:44+00:00",
       "failedSources": [
+        "bestjobs",
         "ejobs"
       ]
     },
@@ -35,9 +38,10 @@
       "title": "Python developer",
       "city": "Bucharest",
       "slug": "python-developer-bucharest",
-      "total": 79,
-      "scrapedAt": "2026-11-24T13:45:45+00:00",
+      "total": 51,
+      "scrapedAt": "2026-11-25T12:58:44+00:00",
       "failedSources": [
+        "bestjobs",
         "ejobs"
       ]
     },
@@ -45,9 +49,10 @@
       "title": "QA engineer",
       "city": "Iasi",
       "slug": "qa-engineer-iasi",
-      "total": 28,
-      "scrapedAt": "2026-11-24T13:45:45+00:00",
+      "total": 7,
+      "scrapedAt": "2026-11-25T12:58:44+00:00",
       "failedSources": [
+        "bestjobs",
         "ejobs"
       ]
     },
@@ -55,9 +60,10 @@
       "title": "DevOps engineer",
       "city": "Timisoara",
       "slug": "devops-engineer-timisoara",
-      "total": 31,
-      "scrapedAt": "2026-11-24T13:45:45+00:00",
+      "total": 8,
+      "scrapedAt": "2026-11-25T12:58:44+00:00",
       "failedSources": [
+        "bestjobs",
         "ejobs"
       ]
     }
