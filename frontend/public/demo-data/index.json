@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-27T12:24:53+00:00",
+  "generated": "2026-11-28T11:49:35+00:00",
   "queries": [
     {
       "title": "Angular developer",
       "city": "Bucharest",
       "slug": "angular-developer-bucharest",
-      "total": 77,
-      "scrapedAt": "2026-11-27T12:24:53+00:00",
+      "total": 82,
+      "scrapedAt": "2026-11-28T11:49:35+00:00",
       "failedSources": [
         "ejobs"
       ]
@@ -15,8 +15,8 @@
       "title": "React developer",
       "city": "Bucharest",
       "slug": "react-developer-bucharest",
-      "total": 89,
-      "scrapedAt": "2026-11-27T12:24:53+00:00",
+      "total": 76,
+      "scrapedAt": "2026-11-28T11:49:35+00:00",
       "failedSources": [
         "ejobs"
       ]
@@ -26,7 +26,7 @@
       "city": "Cluj-Napoca",
       "slug": "java-developer-cluj-napoca",
       "total": 48,
-      "scrapedAt": "2026-11-27T12:24:53+00:00",
+      "scrapedAt": "2026-11-28T11:49:35+00:00",
       "failedSources": [
         "ejobs"
       ]
@@ -35,8 +35,8 @@
       "title": "Python developer",
       "city": "Bucharest",
       "slug": "python-developer-bucharest",
-      "total": 96,
-      "scrapedAt": "2026-11-27T12:24:53+00:00",
+      "total": 87,
+      "scrapedAt": "2026-11-28T11:49:35+00:00",
       "failedSources": [
         "ejobs"
       ]
@@ -46,7 +46,7 @@
       "city": "Iasi",
       "slug": "qa-engineer-iasi",
       "total": 27,
-      "scrapedAt": "2026-11-27T12:24:53+00:00",
+      "scrapedAt": "2026-11-28T11:49:35+00:00",
       "failedSources": [
         "ejobs"
       ]
@@ -56,7 +56,7 @@
       "city": "Timisoara",
       "slug": "devops-engineer-timisoara",
       "total": 27,
-      "scrapedAt": "2026-11-27T12:24:53+00:00",
+      "scrapedAt": "2026-11-28T11:49:35+00:00",
       "failedSources": [
         "ejobs"
       ]
